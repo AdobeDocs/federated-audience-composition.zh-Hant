@@ -2,7 +2,7 @@
 user-guide-title: 聯合對象構成
 title: Adobe同盟對象構成檔案
 breadcrumb-title: 聯合對象構成
-source-git-commit: 4ba1a869f6519929133af566f1471a640f58f0b6
+source-git-commit: 430b856b1c5ab9c52e572c7a3a789567f3c90a04
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 44%
@@ -23,7 +23,7 @@ ht-degree: 44%
    + [配合對象](customer/audiences.md)
 + 組合 {#compositions}
    + [開始使用組合](compositions/gs-compositions.md)
-   + [建立構成](compositions/create-compositions.md)
+   + [建立構成](compositions/create-composition.md)
    + [存取及管理組合](compositions/manage-compositions.md)
    + 使用活動 {#activities}
       + [活動清單](compositions/activities/about-activities.md)
