@@ -2,10 +2,10 @@
 title: 新增檔案
 description: 說明
 keywords: 新檔案，新增檔案，檔案
-source-git-commit: 8f4242b02f2cd135bf4adc3a69db08fe1f812e4e
+source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 64%
+source-wordcount: '81'
+ht-degree: 39%
 
 ---
 
@@ -16,11 +16,6 @@ ht-degree: 64%
 
 <!-- Workflow + Workflow activities-->
 
-
->[!CONTEXTUALHELP]
->id="dc_workflow_creation_properties"
->title="工作流程屬性"
->abstract="在此畫面中，選擇用於建立工作流程的範本並指定標籤。展開「其他選項」區段以設定更多設定，例如工作流程內部名稱、其資料夾、時區和主管群組。強烈建議選取一個主管群組，以便在發生錯誤時警告操作者。"
 
 
 >[!CONTEXTUALHELP]
