@@ -2,9 +2,9 @@
 audience: end-user
 title: 開始使用組合
 description: 瞭解如何開始使用組合
-source-git-commit: 71b3a93b7ac85605b008f7b1ec1da25a1dc84f24
+source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '262'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Adobe資料構成可讓您建立構成，其中您可以使用各種活動（分
 
 若要精簡清單並輕鬆找到您要尋找的組合，您可以搜尋清單，並依組合的狀態或最後處理日期篩選組合。
 
-您也可以透過新增或移除欄來自訂清單。 要執行此操作，請按一下設定欄按鈕並管理
+您也可以透過新增或移除欄來自訂清單。 若要這麼做，請按一下 **設定欄** s按鈕並新增或移除所需的輸出欄。
 
 ![](assets/compositions-columns.png)
 
