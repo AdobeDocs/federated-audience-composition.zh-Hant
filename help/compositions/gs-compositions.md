@@ -2,7 +2,7 @@
 audience: end-user
 title: 開始使用組合
 description: 瞭解如何開始使用組合
-source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
+source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Adobe資料構成可讓您建立構成，其中您可以使用各種活動（分
 ## 存取組合 {#access}
 
 >[!CONTEXTUALHELP]
->id="dc_workflow_list"
+>id="dc_composition_list"
 >title="構成"
 >abstract="在此畫面中，您可以存取組成專案的完整清單、檢查其目前狀態、上次/下次執行日期，以及建立新組成。"
 
