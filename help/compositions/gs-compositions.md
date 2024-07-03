@@ -2,26 +2,48 @@
 audience: end-user
 title: 開始使用組合
 description: 瞭解如何開始使用組合
-source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
+source-git-commit: 71b3a93b7ac85605b008f7b1ec1da25a1dc84f24
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 2%
+source-wordcount: '255'
+ht-degree: 1%
 
 ---
 
 # 開始使用組合 {#compositions}
 
+## 什麼是構成？ {#what}
 
+Adobe資料構成可讓您建立構成，其中您可以使用各種活動（分割、排除……）在視覺畫布中建立對象。 完成後，產生的受眾會與現有受眾一併儲存至Adobe Experience Platform中，並可在Journey Optimizer等目的地運用於鎖定客戶。
 
+![](assets/composition-example.png)
 
-
-
-## 什麼是組合？ {#compositions-start}
-
+## 存取組合 {#access}
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_list"
 >title="構成"
 >abstract="在此畫面中，您可以存取組成專案的完整清單、檢查其目前狀態、上次/下次執行日期，以及建立新組成。"
 
+可從Adobe Experience Platform存取組合 **[!UICONTROL 受眾]** 功能表，在 **同盟組合** 標籤。
 
+![](assets/compositions-list.png)
+
+從這個畫面，您可以建立新組合併存取現有組合。
+
+若要精簡清單並輕鬆找到您要尋找的組合，您可以搜尋清單，並依組合的狀態或最後處理日期篩選組合。
+
+您也可以透過新增或移除欄來自訂清單。 要執行此操作，請按一下設定欄按鈕並管理
+
+![](assets/compositions-columns.png)
+
+若要複製或刪除現有構成，請按一下其名稱旁邊的省略符號按鈕，然後選取所要的操作。
+
+## 組合的狀態 {#status}
+
+組合可以有多種狀態：
+
+* **[!UICONTROL 草稿]**：構成已建立並儲存。
+* **[!UICONTROL 進行中]**：構成已執行且目前正在執行。
+* **[!UICONTROL 已停止]**：構成執行已停止。
+* **[!UICONTROL 已暫停]**：構成執行已暫停。
+* **[!UICONTROL 錯誤]**：構成執行發生錯誤。 開啟構成並存取日誌和工作以識別錯誤並加以解決。
