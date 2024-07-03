@@ -2,10 +2,10 @@
 audience: end-user
 title: 建立組合
 description: 瞭解如何建立組合
-source-git-commit: 4b5173a2a0549d6535bccd07c94e521ecde8330b
+source-git-commit: fd92c280094989cb64ff5151fb00b4a8b0e650f7
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 2%
+source-wordcount: '1034'
+ht-degree: 1%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 2%
 
 ### 初始化指令碼
 
-此 **初始化指令碼** 可讓您初始化變數或修改活動屬性。 按一下 **編輯程式碼** 按鈕，並輸入要執行的程式碼片段。 當活動執行時，會呼叫指令碼。 請參閱相關的區段 [事件變數](../workflows/event-variables.md).
+此 **初始化指令碼** 可讓您初始化變數或修改活動屬性。 按一下 **編輯程式碼** 按鈕，並輸入要執行的程式碼片段。 當活動執行時，會呼叫指令碼。
 
 ## 範例 {#example}
 
@@ -108,4 +108,4 @@ ht-degree: 2%
 
 完成工作流程後，請新增 **[!UICONTROL 結束]** 活動在圖表結尾。 此活動可讓您以視覺化方式標示工作流程的結尾，而不會對功能造成影響。
 
-成功設計工作流程圖表後，您可以執行工作流程並追蹤其各種任務的進度。 [了解如何啟動工作流程並監視其執行](start-monitor-workflows.md)
+成功設計工作流程圖表後，您可以執行工作流程並追蹤其各種任務的進度。
