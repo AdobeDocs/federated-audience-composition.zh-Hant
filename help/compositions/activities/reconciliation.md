@@ -2,12 +2,13 @@
 audience: end-user
 title: 使用調解活動
 description: 瞭解如何使用調解活動
-source-git-commit: 92d4a7cf1414ae74b2684619d295eca065a92ce2
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 38%
 
 ---
+
 
 # 調和 {#reconciliation}
 

@@ -2,7 +2,7 @@
 audience: end-user
 title: 使用等待活動
 description: 瞭解如何使用等待活動
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 60%
@@ -27,4 +27,5 @@ ht-degree: 60%
 1. 指定傳入和傳出轉變之間等待的&#x200B;**持續時間**。
 
 1. 選擇時間單位 **週期** 欄位：秒、分鐘、小時、天。
+
 

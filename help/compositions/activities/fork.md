@@ -2,7 +2,7 @@
 audience: end-user
 title: 使用「分支」活動
 description: 瞭解如何使用分叉活動
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 81%
@@ -32,4 +32,5 @@ ht-degree: 81%
 1. 新增 **分支** 活動至您的構成。
 1. 若要新增傳出轉變，請按一下「**新增轉變**」。預設情況下，會定義兩種轉變。
 1. 對每種轉變新增標籤。
+
 

@@ -2,12 +2,13 @@
 audience: end-user
 title: 使用建立對象活動
 description: 瞭解如何使用建立對象活動
-source-git-commit: 33a1eb9d4c0c7b847e04ac3f0f9f1881317a2f83
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 37%
 
 ---
+
 
 # 建置對象 {#build-audience}
 
@@ -24,10 +25,7 @@ ht-degree: 37%
 * 選取 Adobe Experience Platform 對象。
 * 定義並結合篩選條件，以使用查詢建模器建立器建立新對象。
 
-
-
 此 **建立對象** 活動可放置在構成的開頭或任何其他活動之後。 任何活動都可以放在 **建立對象**.
-
 
 ## 設定建置對象活動 {#build-audience-configuration}
 

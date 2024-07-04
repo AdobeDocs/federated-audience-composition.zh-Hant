@@ -2,12 +2,13 @@
 audience: end-user
 title: 使用重複資料刪除活動
 description: 瞭解如何使用重複資料刪除活動
-source-git-commit: 92d4a7cf1414ae74b2684619d295eca065a92ce2
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 60%
 
 ---
+
 
 # 去重複化 {#deduplication}
 
