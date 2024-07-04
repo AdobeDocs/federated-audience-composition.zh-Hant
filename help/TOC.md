@@ -2,10 +2,10 @@
 user-guide-title: 聯合對象構成
 title: Adobe同盟對象構成檔案
 breadcrumb-title: 聯合對象構成
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+source-git-commit: ff942b86019345f39eeaadab60054f2e4fd9c037
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 37%
+source-wordcount: '117'
+ht-degree: 36%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 37%
       + [去重複化](compositions/activities/deduplication.md)
       + [擴充](compositions/activities/enrichment.md)
       + [分支](compositions/activities/fork.md)
-      + [增量查詢](compositions/activities/incremental-query.md)
       + [調和](compositions/activities/reconciliation.md)
       + [儲存對象](compositions/activities/save-audience.md)
+      + [排程器](compositions/activities/scheduler.md)
       + [Split](compositions/activities/split.md)
       + [等待](compositions/activities/wait.md)
 + 查詢資料庫 {#query-database}
