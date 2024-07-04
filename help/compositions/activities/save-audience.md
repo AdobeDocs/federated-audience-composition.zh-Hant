@@ -1,13 +1,14 @@
 ---
 audience: end-user
 title: 使用儲存對象活動
-description: 瞭解如何使用分叉活動
-source-git-commit: 05a023a7f7aab719f3771030a7ac8bba57e5bee3
+description: 瞭解如何使用「儲存對象」活動
+source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '358'
 ht-degree: 12%
 
 ---
+
 
 # 儲存對象 {#save-audience}
 
@@ -27,14 +28,11 @@ ht-degree: 12%
 >abstract="選取要用於設定檔的主要身分。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="在Experience Platform檔案中瞭解更多"
 
-
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="身分命名空間"
 >abstract="選取要用於設定檔的名稱空間。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces" text="在Experience Platform檔案中瞭解更多"
-
-
 
 此 **儲存對象** 活動可讓您更新現有的對象，或是從構成中的母體運算上游建立新的對象。 建立的對象會新增至應用程式對象清單，並可透過 **受眾** 功能表。
 
@@ -46,21 +44,23 @@ ht-degree: 12%
 
 1. 新增 **儲存對象** 活動至您的構成。
 
-1. 在 **模式** 在下拉式清單中，選取您要執行的動作：
+   ![](../assets/save-audience.png)
 
-   * **建立或更新現有對象**：定義 **對象標籤**. 如果對象已存在，則會更新，否則將建立新對象。
+1. 指定要建立的對象標籤。
 
-   * **更新現有的對象**：選擇 **對象** 您要在現有對象清單中進行更新。
+1. 按一下 **新增對象對應** 然後選擇來源和目標受眾欄位：
 
-1. 選取 **更新模式** 將套用至現有受眾：
+   * **Source對象欄位**：
+   * **目標對象欄位**：
 
-   * **以新資料取代受眾內容**：所有對象內容都會被取代。 遺失舊資料。僅保留儲存對象活動之入站轉變的資料。 此選項會清除更新對象的對象型別和目標定位維度。
+   重複此作業，視需要儘量新增對象對應。
 
-   * **使用新資料完成對象**：保留舊的對象內容，並新增儲存對象活動入站轉變的資料。
+1. 選取主要身分和名稱空間，以用於識別資料庫中的目標設定檔：
 
-1. 檢查 **產生出站轉變** 選項(如果您想要在 **儲存對象** 活動。
+   * **主要身分欄位**：選取要用來識別設定檔的欄位。 例如，其電子郵件地址或電話號碼。
+   * **身分名稱空間**：選取用來識別設定檔的名稱空間，也就是要用來作為識別索引鍵的資料型別。 例如，如果已選取電子郵件地址作為主要身分欄位，則身分名稱空間 **電子郵件** 應選取。 如果唯一識別碼是電話號碼，則為身分名稱空間 **電話** 應選取。
 
-之後著，儲存的對象內容便可在對象的詳細資料檢視中使用，您可從以下位置存取： **受眾** 功能表。 此檢視中可用的欄會與的入站轉變的欄相對應 **儲存對象** 活動。
+執行構成後，產生的對象會儲存在Adobe Experience Platform中，並可在中存取 **受眾** 功能表。
 
 <!--
 
