@@ -25,13 +25,13 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience_primary_identity"
 >title="主要身分欄位"
->abstract="選取要用於輪廓的主要身分。"
+>abstract="選取要設定檔要用的主要身分。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="進一步瞭解 Experience Platform 文件"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="身分命名空間"
->abstract="選取要用於輪廓的命名空間。"
+>abstract="選取設定檔要用的命名空間。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces" text="進一步瞭解 Experience Platform 文件"
 
 此 **儲存對象** 活動可讓您更新現有的對象，或是從構成中的母體運算上游建立新的對象。 建立的對象會新增至應用程式對象清單，並可透過 **受眾** 功能表。

@@ -20,7 +20,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
 >title="擴充活動"
->abstract="將擴充資料加入組合後，可以在&#x200B;**擴充**&#x200B;活動之後新增的活動中使用，根據輪廓的行為、偏好和選擇將其劃分為不同的群組。"
+>abstract="將擴充資料加入組合後，可以在&#x200B;**擴充**&#x200B;活動之後新增的活動中使用，根據區段設定檔的行為、偏好和選擇將其劃分為不同的群組。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_simplejoin"
