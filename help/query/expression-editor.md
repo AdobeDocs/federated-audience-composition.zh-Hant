@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在查詢建模器中建置您的第一個查詢。
-source-git-commit: 96b578cab1ce328b7db5043539e3b58fa238ebfd
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '2096'
-ht-degree: 53%
+source-wordcount: '2100'
+ht-degree: 52%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 53%
 運算式編輯器提供：
 
 * 一個 **輸入欄位(1)** 在其中定義運算式。
-* 可用清單 **欄位(2)** 可用於運算式中，且與查詢的目標維度對應的維度。
+* 可用清單 **欄位(2)** 可用於運算式中，並與查詢的結構描述（也稱為目標維度）相對應的維度。
 * **輔助函式(3)**，依類別排序。
 
 直接在輸入欄位中輸入運算式以編輯運算式。 若要新增欄位或協助程式函式，請將游標置於要新增的運算式中，然後按一下+按鈕。

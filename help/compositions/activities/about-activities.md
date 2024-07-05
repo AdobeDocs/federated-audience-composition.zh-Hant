@@ -2,9 +2,9 @@
 audience: end-user
 title: 使用活動
 description: 瞭解如何使用活動
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '278'
 ht-degree: 16%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 16%
 ## 目標定位活動
 
 * [建立對象活動](build-audience.md)：定義目標母體。 您可以選取現有對象，或使用查詢建模器來定義您自己的查詢。
-* [變更維度](change-dimension.md)：在建立構成時變更目標維度。
+* [變更維度](change-dimension.md)：在建立構成時變更結構（也稱為目標維度）。
 * [合併](combine.md)：對傳入母體執行分段。 您可以使用聯合、交集或排除。
 * [重複資料刪除](deduplication.md)：刪除入站活動結果中的重複專案。
 * [擴充](enrichment.md)：定義要在構成中處理的其他資料。 透過此活動，您可以利用傳入轉變並設定活動，以使用其他資料完成傳出轉變。
