@@ -5,7 +5,7 @@ description: 瞭解如何使用建立對象活動
 source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 37%
+ht-degree: 50%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience"
 >title="建置對象活動"
->abstract="此 **建立對象** 活動可讓您定義將進入構成的對象。"
+>abstract="「**建置對象**」活動可讓您定義會進入組合的對象。"
 
-此 **建立對象** 活動可讓您定義將進入構成的對象。
+「**建置對象**」活動可讓您定義會進入組合的對象。
 
 若要定義對象族群，您可以：
 

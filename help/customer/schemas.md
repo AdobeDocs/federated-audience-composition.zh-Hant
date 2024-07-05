@@ -5,7 +5,7 @@ description: 瞭解如何開始使用結構描述
 source-git-commit: 407de5e35fae1b38a4f1c2819d684fbd87285970
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 9%
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_key"
 >title="索引鍵"
->abstract="選取資料調解的金鑰。"
+>abstract="選取資料調和的索引鍵。"
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_schema_name"
@@ -31,11 +31,11 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"
 >title="結構描述說明"
->abstract="結構描述會列出欄、型別和標籤。 您也可以檢查綱要的調解金鑰。 若要更新結構描述定義，請按一下鉛筆圖示。"
+>abstract="結構描述說明列出了資料欄、類型和標籤。您也可以檢查結構描述的調和索引鍵。若要更新結構描述定義，請按一下鉛筆圖示。"
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="選取要篩選的來源資料庫"
->abstract="您可以根據結構描述的來源來篩選結構描述。 選取一或多個同盟資料庫以顯示其綱要。"
+>abstract="您可以根據其來源來篩選結構描述。選取一個或多個同盟資料庫以顯示其結構描述。"
 
 

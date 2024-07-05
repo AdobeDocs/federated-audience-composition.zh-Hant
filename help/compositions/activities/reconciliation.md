@@ -5,7 +5,7 @@ description: 瞭解如何使用調解活動
 source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '534'
-ht-degree: 38%
+ht-degree: 44%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
 >title="調和活動"
->abstract="此 **調解** 活動可讓您定義資料庫中的資料與工作表中的資料之間的連結。"
+>abstract="**調和**&#x200B;活動可讓您定義資料庫資料與工作表資料之間的連結。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_field"
@@ -68,7 +68,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="調和屬性"
->abstract="選取要用來調解資料的屬性，然後確認。"
+>abstract="選取用於調和資料的屬性，然後選取「確認」。"
 
 請依照下列步驟設定 **調解** 活動：
 

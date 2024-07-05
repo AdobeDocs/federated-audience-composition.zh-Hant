@@ -24,8 +24,8 @@ ht-degree: 60%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"
->title="產生補充集"
->abstract="您可以使用剩餘族群 (其已因重複而排除) 產生額外的出站轉變。若要這樣做，請開啟「**產生補充集**」選項"
+>title="產生補集"
+>abstract="您可以使用剩餘族群 (其已因重複而排除) 產生額外的出站轉變。若要這樣做，請開啟「**產生補集**」選項"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"

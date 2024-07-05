@@ -5,7 +5,7 @@ description: 瞭解如何使用擴充活動
 source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '1123'
-ht-degree: 40%
+ht-degree: 47%
 
 ---
 
@@ -15,27 +15,27 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="擴充活動"
->abstract="「**擴充活動**」可讓您使用資料庫中的其他資訊來增強目標資料。它通常用於細分活動後的構成。"
+>abstract="「**擴充活動**」可讓您使用資料庫中的其他資訊來增強目標資料。這通常會用於分段活動之後的組合。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
 >title="擴充活動"
->abstract="擴充資料新增至構成後，即可用於之後新增的活動。 **擴充** 活動根據設定檔的行為、偏好和選擇將其劃分為不同的群組。"
+>abstract="將擴充資料加入組合後，可以在&#x200B;**擴充**&#x200B;活動之後新增的活動中使用，根據輪廓的行為、偏好和選擇將其劃分為不同的群組。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_simplejoin"
 >title="連結定義"
->abstract="在工作表格資料與同盟資料庫之間建立連結。"
+>abstract="在工作表資料和同盟資料庫之間建立連結。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_reconciliation"
 >title="擴充調和"
->abstract="設定調解引數。"
+>abstract="設定調和參數。"
 
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="擴充資料"
->abstract="選取要用來豐富組成的資料。 您可以選取兩種類型的擴充資料：目標維度中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
+>abstract="選取用於擴充組合的資料。您可以選取兩種類型的擴充資料：目標維度中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
 
 此 **擴充** 活動可讓您使用同盟資料庫的其他資訊來增強目標資料。 它通常用於細分活動後的組合。
 

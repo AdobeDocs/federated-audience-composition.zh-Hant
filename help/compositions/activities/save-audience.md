@@ -5,7 +5,7 @@ description: 瞭解如何使用「儲存對象」活動
 source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 12%
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="儲存一個對象"
->abstract="使用此活動可更新現有的對象，或是從構成中的母體運算上游建立新的對象。 建立的對象將新增至對象清單中，並可透過「**對象**」選單使用。"
+>abstract="使用此活動來更新現有的對象，或是從組合中的族群運算上游建立新的對象。建立的對象將新增至對象清單中，並可透過「**對象**」選單使用。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -25,14 +25,14 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience_primary_identity"
 >title="主要身分欄位"
->abstract="選取要用於設定檔的主要身分。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="在Experience Platform檔案中瞭解更多"
+>abstract="選取要用於輪廓的主要身分。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="進一步瞭解 Experience Platform 文件"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="身分命名空間"
->abstract="選取要用於設定檔的名稱空間。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces" text="在Experience Platform檔案中瞭解更多"
+>abstract="選取要用於輪廓的命名空間。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces" text="進一步瞭解 Experience Platform 文件"
 
 此 **儲存對象** 活動可讓您更新現有的對象，或是從構成中的母體運算上游建立新的對象。 建立的對象會新增至應用程式對象清單，並可透過 **受眾** 功能表。
 

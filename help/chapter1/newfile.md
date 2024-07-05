@@ -5,7 +5,7 @@ keywords: 新檔案，新增檔案，檔案
 source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 39%
+ht-degree: 88%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"
 >title="活動不可編輯"
->abstract="當 **查詢** 或 **擴充** 活動在主控台中使用其他資料進行設定，擴充資料會納入考量並傳遞至出站轉變，但無法編輯。"
+>abstract="當在主控台利用其他資料設定&#x200B;**查詢**&#x200B;或&#x200B;**擴充**&#x200B;活動時，會將擴充資料納入考量，並傳遞至出站轉變，但無法編輯。"
 
 <!-- Create a link -->
 

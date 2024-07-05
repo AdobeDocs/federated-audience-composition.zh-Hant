@@ -5,7 +5,7 @@ description: 瞭解如何使用AND — 加入活動
 source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 44%
+ht-degree: 57%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
 >title="AND-join 活動"
->abstract="此 **合併連結** 活動可讓您同步撰寫的多個執行分支。 一旦所有前面的活動完成，就會觸發此活動。這可讓您在繼續執行構成之前，先確定某些活動已完成。"
+>abstract="**合併連結**&#x200B;活動可讓您同步處理組合的多個執行分支。一旦所有前面的活動完成，就會觸發此活動。這讓您可以在確保特定活動已完成後再繼續執行組合。"
 
 此 **合併連結** 活動可讓您同步撰寫的多個執行分支。
 

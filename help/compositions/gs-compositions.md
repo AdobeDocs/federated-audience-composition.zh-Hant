@@ -5,7 +5,7 @@ description: 瞭解如何開始使用組合
 source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -21,8 +21,8 @@ Adobe資料構成可讓您建立構成，其中您可以使用各種活動（分
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
->title="構成"
->abstract="在此畫面中，您可以存取組成專案的完整清單、檢查其目前狀態、上次/下次執行日期，以及建立新組成。"
+>title="組合"
+>abstract="在此畫面中，您可以存取組合的完整清單、檢查其目前狀態、上次/下次執行日期並建立新的組合。"
 
 可從Adobe Experience Platform存取組合 **[!UICONTROL 受眾]** 功能表，在 **同盟組合** 標籤。
 

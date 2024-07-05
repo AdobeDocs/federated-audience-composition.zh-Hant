@@ -5,7 +5,7 @@ description: 瞭解如何開始使用資料模型
 source-git-commit: e37229f46b865526f209da5831ba31b3acc8a784
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 4%
+ht-degree: 83%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
 >title="使用模型"
->abstract="此畫面中列出結構和資料模型。 您可以從以下位置建立方案和資料模型： **建立** 按鈕。"
+>abstract="此畫面中列出了結構描述和資料模型。您可以透過&#x200B;**建立**&#x200B;按鈕建立結構描述和資料模型。"
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_schema"

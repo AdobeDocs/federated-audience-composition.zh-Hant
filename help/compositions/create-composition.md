@@ -5,7 +5,7 @@ description: 瞭解如何建立組合
 source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 1%
+ht-degree: 21%
 
 ---
 
@@ -29,22 +29,22 @@ ht-degree: 1%
    * [瞭解如何協調活動](#action-activities)
    * [瞭解如何開始和監視構成](#save)
 
-## 設定構成設定 {#settings}
+## 進行組合設定 {#settings}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_properties"
 >title="組合屬性"
->abstract="本節提供建立構成時也可以存取的一般構成屬性。"
+>abstract="本區段提供一般組合屬性，在建立組合時也可以存取這些屬性。"
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_segmentation"
 >title="組合分段"
->abstract="依預設，僅保留構成的最後一次執行的工作表。 您可以啟用此選項來保留工作表格以進行測試。 必須使用 **僅限** 在開發或中繼環境中。 在生產環境中絕對不可將其存回。"
+>abstract="依預設，只保留最後一次執行組合的工作表。您可以啟用此選項以保留工作表格用於測試目的。它必須&#x200B;**僅**&#x200B;在開發或中繼環境中使用。絕不能在生產環境中進行檢查。"
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_error"
 >title="錯誤管理設定"
->abstract="您可以在此段落中定義如何管理執行期間的錯誤。 您可以選擇暫停程式、忽略特定數目的錯誤，或停止構成執行。"
+>abstract="在此區段中，您可以定義執行期間應如何管理錯誤。您可以選擇暫停流程、忽略一定數量的錯誤，或是停止組合執行。"
 
 存取構成時，您可以存取進階設定，以讓您定義構成在發生錯誤時的行為方式。
 

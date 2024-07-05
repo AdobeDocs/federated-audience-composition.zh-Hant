@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalquery"
 >title="增量查詢"
->abstract="此 **增量查詢** 活動可讓您使用查詢建模器查詢資料庫。 每次執行此活動時，都會排除先前執行的結果。這可讓您只鎖定新元素。"
+>abstract=" **增量查詢**&#x200B;活動可讓您使用查詢建模工具查詢資料庫。每次執行此活動時，都會排除先前執行的結果。這可讓您只鎖定新元素。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalquery_history"

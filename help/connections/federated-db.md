@@ -5,7 +5,7 @@ description: 瞭解如何建立和管理您的同盟資料庫
 source-git-commit: 847da9a5eeb28199010f8491f7eebba4a60a83f1
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="同盟資料庫"
->abstract="此畫面中列出現有的同盟資料庫連線。 若要建立新連線，請按一下 **新增同盟資料庫** 按鈕。"
+>abstract="此畫面中列出了與同盟資料庫的現有連接。若要建立新連接，請按一下&#x200B;**新增同盟資料庫**&#x200B;按鈕。"
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="同盟資料庫屬性"
->abstract="輸入新同盟資料庫的名稱，並選取其型別。"
+>abstract="輸入新同盟資料庫的名稱，然後選取其類型。"
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="同盟資料庫詳細資料"
->abstract="輸入設定以連線到新的同盟資料庫。 使用 **測試連線** 按鈕以驗證您的設定。"
+>abstract="輸入連接到新同盟資料庫的設定。使用&#x200B;**測試連接**&#x200B;按鈕驗證您的設定。"
 
 建立、設定、測試並儲存外部資料庫的連線。
 
