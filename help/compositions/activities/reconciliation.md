@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用調解活動
 description: 瞭解如何使用調解活動
-source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 32%
+source-wordcount: '518'
+ht-degree: 29%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="綱要"
->abstract="選取要套用至資料的新結構描述。 結構描述（也稱為「目標維度」）可讓您定義目標母體：收件者、應用程式訂閱者、操作者、訂閱者等。 依預設，會選取構成目前的目標維度。"
+>abstract="選取要套用至資料的新結構描述。 結構描述（也稱為目標維度）可讓您定義目標母體：收件者、應用程式訂閱者、操作者、訂閱者等。 依預設，會選取構成目前的綱要。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -53,7 +53,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="選取目標定位維度"
->abstract="選取要調和之輸入資料的目標定位維度。"
+>abstract="選取要調解之入站資料的結構描述（也稱為目標維度）。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -69,7 +69,7 @@ ht-degree: 32%
 
 1. 新增 **調解** 活動放入構成。
 
-1. 選取 **新結構描述**. 結構描述（也稱為「目標維度」）可讓您定義目標母體：收件者、應用程式訂閱者、操作者、訂閱者等。
+1. 選取 **新結構描述**. 結構描述（也稱為目標維度）可讓您定義目標母體：收件者、應用程式訂閱者、操作者、訂閱者等。
 
 1. 選取要用於調解的欄位。 您可以使用一個或多個調和標準。
 

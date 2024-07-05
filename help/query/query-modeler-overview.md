@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用查詢建模工具
 description: 瞭解如何使用查詢建模器。
-source-git-commit: f6730819712ffcbe815517a4406dac7e8fb9779c
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 11%
+source-wordcount: '380'
+ht-degree: 8%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="查詢建模工具"
->abstract="為收件者或資料庫中的任何其他目標定位維度定義篩選條件。"
+>abstract="從資料庫中定義收件者或任何其他結構（也稱為目標維度）的篩選准則。"
 
 查詢模組化工具可簡化根據各種條件篩選資料庫的程式。 此外，查詢模型工具還能有效率地管理非常複雜和冗長的查詢，提供增強的彈性和精確度。 此外，它支援條件內的預先定義篩選器，使您可輕鬆調整查詢，同時利用進階運算式和運運算元實現全面的受眾目標定位和細分策略。
 

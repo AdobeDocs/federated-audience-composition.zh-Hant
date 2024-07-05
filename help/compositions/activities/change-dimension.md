@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用變更維度活動
 description: 瞭解如何使用變更維度活動
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 32%
+source-wordcount: '187'
+ht-degree: 18%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="變更維度活動"
->abstract="此活動可讓您在建立對象時變更目標維度，即結構描述。 其會根據資料範本和輸入維度來移動軸。例如，您可以從「合約」維度切換到「客戶」維度。"
+>abstract="此活動可讓您在建立對象時變更結構（也稱為目標維度）。 它會根據資料範本和輸入結構描述來移動軸。 例如，您可以從「contracts」結構描述切換至「clients」結構描述。"
 
-此 **變更維度** 活動可讓您在建立對象時變更目標維度，即結構。 它會根據資料範本和輸入維度來移動軸。 <!--[Learn more on targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
+此 **變更維度** 活動可讓您在建立對象時變更結構（也稱為目標維度）。 它會根據資料範本和輸入結構描述來移動軸。
 
 ## 設定變更維度活動 {#configure}
 
@@ -34,7 +34,7 @@ ht-degree: 32%
 
 1. 定義 **新結構描述**. 在方案變更期間，會保留所有記錄。
 
-1. 執行構成以檢視結果。 比較變更維度活動前後表格中的資料，並比較構成表格的結構。
+1. 執行構成以檢視結果。 比較表格之前和之後的資料 **變更維度** 活動，並比較構成表格的結構。
 
 <!--
 ## Example {#example}

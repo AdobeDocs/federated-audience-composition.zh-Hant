@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用擴充活動
 description: 瞭解如何使用擴充活動
-source-git-commit: 5180a92c24b08aa24506bd09a992c9e1573b33bc
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '395'
+ht-degree: 44%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="擴充資料"
->abstract="選取用於擴充組合的資料。您可以選取兩種類型的擴充資料：目標維度中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
+>abstract="選取用於擴充組合的資料。您可以選取兩種擴充資料：從綱要中選取單一擴充屬性（也稱為目標維度），或選取集合連結（在表格之間具有1-N基數的連結）。"
 
 此 **擴充** 活動可讓您使用同盟資料庫的其他資訊來增強目標資料。 它通常用於細分活動後的組合。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 在這裡，我們只新增單一擴充屬性，例如出生日期。請按照以下步驟操作：
 
 1. 按一下「**屬性**」欄位內部。
-1. 在目標定位維度中選取一個簡單的欄位，在範例中是出生日期。
+1. 從結構描述中選取簡單欄位（也稱為目標維度），在我們的範例中是出生日期。
 1. 按一下「**確認**」。
 
 <!--### Collection link {#collection-link}
