@@ -2,10 +2,10 @@
 user-guide-title: 聯合對象構成
 title: Adobe同盟對象構成檔案
 breadcrumb-title: 聯合對象構成
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+source-git-commit: 467f93490c33d9e7994315a658a8c5d230696870
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 36%
+source-wordcount: '121'
+ht-degree: 35%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 36%
 + 設定步驟 {#config}
    + [連線AEP與同盟對象構成](connections/destinations.md)
    + [設定您的同盟資料庫](connections/federated-db.md)
+   + [建立和管理連線](connections/connections.md)
    + 資料模型和結構描述{#datamodel}
       + [設定您的資料模型](data-management/gs-models.md)
       + [建立和設定方案](customer/schemas.md)
