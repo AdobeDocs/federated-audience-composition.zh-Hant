@@ -2,7 +2,7 @@
 audience: end-user
 title: 開始使用資料模型
 description: 瞭解如何開始使用資料模型
-source-git-commit: 315dd7b40f9a0a6bb7e66f584a4727dc86b97616
+source-git-commit: 11abbb900e44d8588bff9d197fbe31a92621cf6c
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 37%
@@ -38,9 +38,9 @@ ht-degree: 37%
 
 資料模型是一組結構描述、對象及其之間的連結。
 
-進一步瞭解 [結構描述](customer/schemas.md).
+進一步瞭解 [結構描述](../customer/schemas.md).
 
-進一步瞭解 [對象](customer/audiences.md).
+進一步瞭解 [對象](../customer/audiences.md).
 
 ## 如何建立資料模型？ {#data-model-create}
 
