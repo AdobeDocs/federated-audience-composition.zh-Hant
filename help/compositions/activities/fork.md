@@ -2,7 +2,7 @@
 audience: end-user
 title: 使用「分支」活動
 description: 瞭解如何使用分叉活動
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 984ea7f59f3099f9f08af24d9468e4dc559da0a5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 81%
@@ -16,7 +16,6 @@ ht-degree: 81%
 >id="dc_orchestration_fork"
 >title="分支活動"
 >abstract="**分支**&#x200B;活動可讓您建立傳出轉變，以同時啟動多個活動。"
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
@@ -33,4 +32,4 @@ ht-degree: 81%
 1. 若要新增傳出轉變，請按一下「**新增轉變**」。預設情況下，會定義兩種轉變。
 1. 對每種轉變新增標籤。
 
-
+   ![](../assets/fork.png)
