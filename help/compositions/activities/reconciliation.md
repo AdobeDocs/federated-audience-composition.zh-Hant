@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用調解活動
 description: 瞭解如何使用調解活動
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 44%
+source-wordcount: '515'
+ht-degree: 32%
 
 ---
 
@@ -36,19 +36,14 @@ ht-degree: 44%
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-## 最佳作法 {#reconciliation-best-practices}
-
-當 **擴充** 活動可讓您定義要在構成中處理的其他資料(您可以使用 **擴充** 活動以合併來自多組資料，或建立臨時資源的連結)， **調解** 活動可讓您將未識別的資料連結至現有資源。
-
->[!NOTE]
->調解作業表示連結維度的資料已在資料庫中。  例如，如果您匯入購買檔案，顯示何時購買了哪些產品、哪個客戶等，則產品和客戶必須已存在於資料庫中。
+此 **調解** 活動可讓您將未識別的資料連結至現有資源。 調解作業表示您要加入的資料已在資料庫中。 例如，如果您想要調節顯示購買哪個產品、購買時間、購買者等等，產品和客戶必須已存在於資料庫中。
 
 ## 設定調和活動 {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
->title="目標定位維度"
->abstract="選取新的目標定位維度。維度可讓您定義目標族群：收件者、應用程式訂閱者、操作者、訂閱者等。預設會選取目前的目標定位維度。"
+>title="綱要"
+>abstract="選取要套用至資料的新結構描述。 結構描述（也稱為「目標維度」）可讓您定義目標母體：收件者、應用程式訂閱者、操作者、訂閱者等。 依預設，會選取構成目前的目標維度。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -72,21 +67,26 @@ ht-degree: 44%
 
 請依照下列步驟設定 **調解** 活動：
 
-1. 新增 **調解** 活動放入構成。 <!--This activity should be added following a transition containing a population whose targeting dimension does not directly come from Adobe Campaign. -->
+1. 新增 **調解** 活動放入構成。
 
-1. 選取新的目標定位維度。維度可讓您定義目標母體：收件者、應用程式訂閱者、操作者、訂閱者等。 <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions).-->
+1. 選取 **新結構描述**. 結構描述（也稱為「目標維度」）可讓您定義目標母體：收件者、應用程式訂閱者、操作者、訂閱者等。
 
 1. 選取要用於調解的欄位。 您可以使用一個或多個調和標準。
 
-   1. 若要使用屬性來調解資料，請選取 **簡單屬性** 選項。 此 **Source** 欄位列出輸入轉變中可用的欄位，這些欄位要協調。 此 **目的地** 欄位與所選目標維度的欄位相對應。 當來源和目的地相等時，資料就會進行協調。 例如，選取 **電子郵件** 根據設定檔的電子郵件地址進行重複資料刪除的欄位。
+   1. 若要使用屬性來調解資料，請選取 **簡單屬性** 選項，然後按一下 **新增規則** 按鈕。
+   1. 選取 **Source** 和 **目的地** 調解的欄位。 此 **Source** 欄位。 此 **目的地** 欄位與所選結構描述的欄位相對應。
+
+      當來源和目的地相等時，資料就會進行協調。 例如，選取 **電子郵件** 根據設定檔的電子郵件地址進行重複資料刪除的欄位。
 
       若要新增其他調解條件，請按一下 **新增規則** 按鈕。 如果指定了多個連線條件，則必須全部驗證這些條件，才能將資料連結在一起。
 
-   <!--     ![](../assets/workflow-reconciliation-criteria.png)-->
+      ![](../assets/reconciliation-rules.png)
 
-   1. 若要使用其他屬性來調解資料，請選取 **進階調解條件** 選項。 然後，您可以使用查詢建模器建立自己的調解條件。 <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md).-->
+   1. 若要使用其他屬性來調解資料，請選取 **進階調解條件** 選項，然後按一下 **建立條件** 按鈕。 然後，您可以使用查詢建模器建立自己的調解條件。
 
-1. 您可以使用來篩選要調解的資料 **建立篩選器** 按鈕。 這可讓您使用查詢建模器建立自訂條件。 <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+      ![](../assets/reconciliation-advanced.png)
+
+1. 您可以使用來篩選要調解的資料 **建立篩選器** 按鈕。 這可讓您使用查詢建模器建立自訂條件。
 
 依預設，未調解的資料會保留在出站轉變中，並可在工作表中供未來使用。 若要移除未調和的資料，請停用「**保留未調和的資料**」選項。
 
