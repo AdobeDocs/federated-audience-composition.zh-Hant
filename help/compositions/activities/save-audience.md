@@ -2,7 +2,7 @@
 audience: end-user
 title: 使用儲存對象活動
 description: 瞭解如何使用「儲存對象」活動
-source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
+source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 26%
@@ -60,7 +60,7 @@ ht-degree: 26%
    * **主要身分欄位**：選取要用來識別設定檔的欄位。 例如，其電子郵件地址或電話號碼。
    * **身分名稱空間**：選取用來識別設定檔的名稱空間，也就是要用來作為識別索引鍵的資料型別。 例如，如果已選取電子郵件地址作為主要身分欄位，則身分名稱空間 **電子郵件** 應選取。 如果唯一識別碼是電話號碼，則為身分名稱空間 **電話** 應選取。
 
-執行構成後，產生的對象會儲存在Adobe Experience Platform中，並可在中存取 **受眾** 功能表。
+執行構成後，產生的對象會儲存在Adobe Experience Platform中 <!-- to check-->，並設定為可在中存取 **受眾** 功能表。
 
 <!--
 
