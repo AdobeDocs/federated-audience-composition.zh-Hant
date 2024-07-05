@@ -2,10 +2,10 @@
 audience: end-user
 title: 開始使用資料模型
 description: 瞭解如何開始使用資料模型
-source-git-commit: e37229f46b865526f209da5831ba31b3acc8a784
+source-git-commit: 315dd7b40f9a0a6bb7e66f584a4727dc86b97616
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 83%
+source-wordcount: '163'
+ht-degree: 37%
 
 ---
 
@@ -35,4 +35,26 @@ ht-degree: 83%
 
 
 ## 什麼是資料模型？ {#data-model-start}
+
+資料模型是一組結構描述、對象及其之間的連結。
+
+進一步瞭解 [結構描述](customer/schemas.md).
+
+進一步瞭解 [對象](customer/audiences.md).
+
+## 如何建立資料模型？ {#data-model-create}
+
+在 **[!UICONTROL 同盟資料]** 區段，前往 **[!UICONTROL 模型]** 連結。 您會在該處找到 **[!UICONTROL 資料模型]** 標籤。
+
+![](assets/datamodel_create.png){zoomable="yes"}
+
+按一下 **[!UICONTROL 建立資料模型]** 按鈕，您可以為資料模型命名，然後按一下 **[!UICONTROL 建立]** 按鈕。
+
+![](assets/datamodel_name.png){zoomable="yes"}
+
+您將存取可新增結構、對象和資料模型連結的視窗。
+
+![](assets/datamodel_created.png){zoomable="yes"}
+
+![](assets/datamodel_schemas.png){zoomable="yes"}
 
