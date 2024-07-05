@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用分割活動
 description: 瞭解如何使用分割活動
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: c4c9eba1dcb3adff3028175a389ff6e4eaf12bc0
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 73%
+source-wordcount: '919'
+ht-degree: 62%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="分割活動的區段"
->abstract="依需求新增任意數量的子集，將傳入的族群進行細分。<br/></br>執行&#x200B;**分割** 活動時，系統會依照子集新增至活動的順序，將族群細分成不同的子集。開始撰寫之前，請使用箭頭按鈕，確定已依您需要的順序排序子集。"
+>abstract="依需求新增任意數量的子集，將傳入的族群進行細分。<br/></br>執行&#x200B;**分割** 活動時，系統會依照子集新增至活動的順序，將族群細分成不同的子集。在開始組合之前，請確保已使用箭頭按鈕按照符合您需求的順序排列子集。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"
@@ -44,7 +44,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_complement"
 >title="分割產生補充"
->abstract="設定完所有子集後，您可以選擇與任何子集都不相符的剩餘族群，並將其包含在額外的輸出轉變中。若要這樣做，請開啟「**產生補充集**」選項。"
+>abstract="設定完所有子集後，您可以選擇與任何子集都不相符的剩餘族群，並將其包含在額外的輸出轉變中。若要這樣做，請開啟「**產生補集**」選項。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_generatesubsets"
@@ -58,8 +58,8 @@ ht-degree: 73%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
->title="啟用輸出母體的重疊"
->abstract="啟用輸出母體的重疊"
+>title="啟用輸出族群的重疊"
+>abstract="此 **[!UICONTROL 啟用輸出母體的重疊]** 選項可讓您管理屬於數個子集的母體。 如果未核取此方塊，分割活動會確定收件者無法出現在數個輸出轉變中，即使它符合數個子集的條件亦然。 它們會位於具有相符條件的第一個標籤的目標中。 核取此方塊後，如果收件者符合篩選條件，則可在數個子集中找到收件者。 Adobe Campaign建議使用專屬條件。"
 
 請按照以下步驟設定&#x200B;**分割**&#x200B;活動：
 
@@ -75,9 +75,13 @@ ht-degree: 73%
 
 1. 新增子集後，活動將顯示與子集一樣多的輸出轉變。我們強烈建議變更每個子集的標籤，以便在構成畫布中輕鬆識別它們。
 
+   ![](../assets/split.png)
+
 1. 設定每個子集應如何篩選傳入母體。要執行此操作，請依照下列步驟執行：
 
-   1. 開啟子集以顯示其屬性。
+   1. 展開子集以顯示其屬性。
+
+      ![](../assets/split-subset.png)
 
    1. 若要將篩選條件套用到子集，請按一下「**[!UICONTROL 建立篩選器]**」並使用查詢建模工具設定所需的篩選規則。例如，將傳入母體的設定檔包含在資料庫中存在其電子郵件地址。 <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
 
@@ -89,11 +93,16 @@ ht-degree: 73%
    >
    >為子集設定族群限制時，您可以根據特定設定檔屬性按升序或降序順序來排列所選設定檔。為此，請開啟「**[!UICONTROL 啟用排序]**」選項。例如，您可以限制子集僅包含購買金額最高的前 50 個設定檔。
 
-1. 設定完所有子集後，您可以選擇與任何子集都不相符的剩餘族群，並將其包含在額外的輸出轉變中。若要這樣做，請開啟「**[!UICONTROL 產生補充集]**」選項。
+1. 設定完所有子集後，您可以選擇與任何子集都不相符的剩餘族群，並將其包含在額外的輸出轉變中。若要這樣做，請開啟「**[!UICONTROL 產生補集]**」選項。
 
    >[!NOTE]
    >
    >此 **[!UICONTROL 在相同表格中產生所有子集]** 選項可讓您將所有子集群組為單一輸出轉變。
+
+1. 此 **[!UICONTROL 啟用輸出母體的重疊]** 選項可讓您管理屬於數個子集的母體：
+
+   * 如果未核取此方塊，分割活動會確定收件者無法出現在數個輸出轉變中，即使它符合數個子集的條件亦然。 它們會位於具有相符條件的第一個標籤的目標中。
+   * 核取此方塊後，如果收件者符合篩選條件，則可在數個子集中找到收件者。 Adobe Campaign建議使用專屬條件。
 
 該活動現已完成設定。在執行時，母體將依照其加入活動的順序，分割成不同的子集。
 
