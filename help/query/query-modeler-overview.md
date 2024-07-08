@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: 使用查詢建模工具
-description: 瞭解如何使用查詢建模器。
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+description: 了解如何使用 查詢 建模器。
+source-git-commit: 5d4bdbbb9c903e839b21d22455d870396ac1df7d
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 8%
+source-wordcount: '336'
+ht-degree: 9%
 
 ---
 
@@ -14,39 +14,37 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="查詢建模工具"
->abstract="從資料庫中定義收件者或任何其他結構（也稱為目標維度）的篩選准則。"
+>abstract="定義資料庫中的收件者或任何其他綱要 （也稱為目標維度） 的篩選條件。"
 
-查詢模組化工具可簡化根據各種條件篩選資料庫的程式。 此外，查詢模型工具還能有效率地管理非常複雜和冗長的查詢，提供增強的彈性和精確度。 此外，它支援條件內的預先定義篩選器，使您可輕鬆調整查詢，同時利用進階運算式和運運算元實現全面的受眾目標定位和細分策略。
+查詢建模器簡化了根據各種條件篩選資料庫的過程。 此外，查詢建模器可以有效地管理非常複雜和冗長的查詢，從而提供增強的靈活性和精度。 此外，它還支持在條件內預先定義的篩選器，使您能夠輕鬆優化查詢，同時利用高級表達式和運算符進行全面的對象 目標定位和細分策略。
 
-## 存取查詢模型工具
+## 訪問 查詢 建模器
 
 查詢建模工具適用於每個您需要定義篩選資料的規則的環境。
 
 | 使用方式 | 範例 |
 |  ---  |  ---  |
-| **定義對象**：指定您要在構成中鎖定的母體，並根據您的需求輕鬆建立新對象。 | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **自訂工作流程活動**：在工作流程活動中套用規則，例如 **Split** 和 **調解**，以符合您的特定需求。 [進一步瞭解工作流程活動](../compositions/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **預先定義的篩選器**：建立預先定義的篩選器，以做為各種篩選作業期間的捷徑，無論您是使用資料清單或形成傳送的對象。 | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **自訂清單**：建立自訂規則，以篩選清單中顯示的資料，例如收件者、傳遞清單等。 | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **定義受眾**：指定要在合成中目標的人口，並毫不費力地創建適合您需求的新受眾。 | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **自定義工作流程活動**：在組合活動中應用規則，例如 **拆分** 和 **對帳**，以符合您的特定要求。 [瞭解有關作曲活動的更多資訊](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-## 查詢模組化介面 {#interface}
+## 查詢建模器介面 {#interface}
 
-查詢模型工具會提供一個中央畫布，您可在其中建立查詢，以及一個右窗格，提供查詢的相關資訊。
+查詢建模器提供了一個中央画布，您可以在其中版本編號查詢，右窗格提供有關查詢的信息。
 
 ![](assets/query-interface.png){zoomable="yes"}
 
 ### 中央畫布 {#canvas}
 
-查詢建模器中央畫布是您新增和組合不同元件以建立查詢的位置。 [瞭解如何建立查詢](build-query.md)
+在查詢建模器中央畫布中，您可以添加和組合構建查詢的不同元件。 [了解如何版本編號查詢](build-query.md)
 
-位於畫布右上角的工具列提供可輕鬆操控查詢元件並在畫布中導覽的選項：
+位於畫布右上角的工具列提供了一些選項，用於輕鬆操作查詢元件並在畫布中導航：
 
-* **多重選擇模式**：選取多個篩選元件，以將它們複製並貼到您選擇的位置。
+* **多個選擇模式**：選擇多個過濾元件以將其複製並粘貼到所選位置。
 * **旋轉**：垂直切換畫布。
-* **符合熒幕大小**：調整畫布縮放等級以符合熒幕。
-* **縮小顯示** / **放大顯示**：縮小或拉近畫布。
-* **顯示地圖**：開啟畫布的快照，顯示您所在的位置。
+* **適合螢幕**&#x200B;大小：根據螢幕調整畫布縮放級別。
+* **縮放出** / **縮放入**：縮放出或在畫布中。
+* **顯示地圖**：打開畫布的快照，顯示您的位置。
 
 ### 規則屬性窗格 {#rule-properties}
 
-在右側， **[!UICONTROL 規則屬性]** 窗格提供有關查詢的資訊。 它可讓您執行各種作業來檢查查詢，並確保查詢符合您的需求。 [瞭解如何檢查及驗證您的查詢](build-query.md#check-and-validate-your-query)
+在右側，“ **[!UICONTROL 規則屬性]** ”窗格提供有關查詢的信息。 它允許您執行各種操作來檢查查詢並確保它適合您的需求。 [了解如何檢查和驗證您的查詢](build-query.md#check-and-validate-your-query)
