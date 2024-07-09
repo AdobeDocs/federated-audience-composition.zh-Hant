@@ -4,9 +4,9 @@ title: 使用增量查詢活動
 description: 瞭解如何使用增量查詢活動
 hide: true
 hidefromtoc: true
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '598'
 ht-degree: 21%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 21%
 
    目標定位維度可讓您定義作業的目標族群：收件者、合約受益人、操作者、訂閱者等依預設，會從收件者中選取目標。 <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 
-1. 使用查詢建模器來定義您的查詢，就像在設計新電子郵件時建立對象一樣。 <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+1. 使用查詢建模器來定義您的查詢，就像在設計新電子郵件時建立對象一樣。 [瞭解如何使用查詢建模器](../../query/query-modeler-overview.md)
 
 1. 在 **[!UICONTROL 已處理的資料]** 區段，選取要使用的增量模式：
 

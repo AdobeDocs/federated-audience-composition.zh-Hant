@@ -1,11 +1,11 @@
 ---
-user-guide-title: 聯合對象構成
+user-guide-title: 聯合客群構成
 title: Adobe同盟對象構成檔案
-breadcrumb-title: 聯合對象構成
-source-git-commit: 467f93490c33d9e7994315a658a8c5d230696870
+breadcrumb-title: 聯合客群構成
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 35%
+source-wordcount: '119'
+ht-degree: 38%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 35%
 + 組合 {#compositions}
    + [開始使用組合](compositions/gs-compositions.md)
    + 建立並執行您的第一個構成 {#create-composition}
-      + [構成建立的主要原則](compositions/gs-composition-creation.md)
+      + [用於建立組合的主要原則](compositions/gs-composition-creation.md)
       + [建立及設定構成](compositions/create-composition.md)
       + [協調活動](compositions/orchestrate-activities.md)
       + [開始並監視您的構成](compositions/start-monitor-composition.md)
@@ -47,6 +47,5 @@ ht-degree: 35%
    + [使用查詢建模工具](query/query-modeler-overview.md)
    + [建置您的第一個查詢](query/build-query.md)
    + [編輯運算式](query/expression-editor.md)
-   + [篩選清單](query/filter.md)
 + 稽核軌跡 {#audit-trail}
    + [監視資料庫](admin/audit-trail.md)

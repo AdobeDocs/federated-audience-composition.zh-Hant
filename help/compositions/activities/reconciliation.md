@@ -2,9 +2,9 @@
 audience: end-user
 title: 使用調解活動
 description: 瞭解如何使用調解活動
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '526'
 ht-degree: 29%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 29%
 
       ![](../assets/reconciliation-rules.png)
 
-   1. 若要使用其他屬性來調解資料，請選取 **進階調解條件** 選項，然後按一下 **建立條件** 按鈕。 然後，您可以使用查詢建模器建立自己的調解條件。
+   1. 若要使用其他屬性來調解資料，請選取 **進階調解條件** 選項，然後按一下 **建立條件** 按鈕。 然後，您可以使用查詢建模器建立自己的調解條件。 [瞭解如何使用查詢建模器](../../query/query-modeler-overview.md)
 
       ![](../assets/reconciliation-advanced.png)
 

@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用建立對象活動
 description: 瞭解如何使用建立對象活動
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 50%
+source-wordcount: '237'
+ht-degree: 39%
 
 ---
 
@@ -38,19 +38,19 @@ ht-degree: 50%
 
 1. 新增「**建置對象**」活動。
 1. 定義標籤。
-1. 定義對象類型：「**建立您自己的**」或是「**讀取對象**」。
+1. 指定是否要建立對象或選取現有對象。
 1. 請依照下列標籤中詳述的步驟設定您的對象。
 
 >[!BEGINTABS]
 
->[!TAB 建立您自己的（查詢）]
+>[!TAB 建立對象]
 
-若要建立自己的查詢，請依照下列步驟進行：
+若要建立您自己的對象，請依照下列步驟進行：
 
-1. 選取「**建立您自己的 (查詢)**」。
-1. 選擇「**目標定位維度**」。目標定位維度可讓您定義作業的目標族群：收件者、合約受益人、操作者、訂閱者等依預設，會從收件者中選取目標。<!-- [Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
+1. 選取 **建立對象**.
+1. 選擇 **結構描述**，也稱為目標維度。 結構描述可讓您定義作業的目標母體：收件者、合約受益者、操作者、訂閱者等。 依預設，會從收件者中選取結構。
 1. 按一下&#x200B;**繼續**。
-1. 使用查詢建模器來定義您的查詢，就像在設計新電子郵件時建立對象一樣。 <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+1. 使用查詢建模器來定義您的查詢。 [瞭解如何使用查詢建模器](../../query/query-modeler-overview.md)
 
 >[!TAB 讀取閱聽眾]
 
@@ -58,7 +58,7 @@ ht-degree: 50%
 
 1. 選取「**讀取對象**」。
 1. 按一下&#x200B;**繼續**。
-1. 選取您的對象，就像在設計新傳送時使用對象一樣。 <!--Refer to this [section](../../audience/add-audience.md).-->
+1. 選取您的對象。
 
 >[!ENDTABS]
 
