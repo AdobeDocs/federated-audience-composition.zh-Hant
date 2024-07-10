@@ -5,7 +5,7 @@ description: 瞭解如何開始使用組合
 source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe資料構成可讓您建立構成，其中您可以使用各種活動（分
 
 ![](assets/composition-example.png)
 
-## 存取及管理組合 {#access}
+## 存取和管理組合 {#access}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"

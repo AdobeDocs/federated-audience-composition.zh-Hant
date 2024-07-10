@@ -5,17 +5,17 @@ description: 瞭解如何建立組合
 source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 41%
+ht-degree: 59%
 
 ---
 
 
-# 構成建立的主要原則 {#gs-composition-creation}
+# 用於建立組合的主要原則 {#gs-composition-creation}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_creation_properties"
 >title="組合屬性"
->abstract="在此畫面中，選擇用來建立構成並指定標籤的範本。 展開「其他OPTIONS」區段來設定更多設定，例如構成內部名稱、資料夾、時區和主管群組。 強烈建議選取一個主管群組，以便在發生錯誤時警告操作者。"
+>abstract="在此畫面中，選擇用於建立組合的範本並指定標籤。展開「其他選項」區段以設定更多設定，例如組合內部名稱、其資料夾、時區和主管群組。強烈建議選取一個主管群組，以便在發生錯誤時警告操作者。"
 
 ## 構成內有什麼？ {#gs-composition-inside}
 
