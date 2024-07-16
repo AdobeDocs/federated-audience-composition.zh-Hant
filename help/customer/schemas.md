@@ -15,7 +15,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
 >title="選取表格"
->abstract="選取要為資料模型新增的表格。"
+>abstract="選取要為資料模式新增的表格。"
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_key"

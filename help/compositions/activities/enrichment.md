@@ -5,7 +5,7 @@ description: 瞭解如何使用擴充活動
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 44%
+ht-degree: 52%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="擴充活動"
->abstract="「**擴充活動**」可讓您使用資料庫中的其他資訊來增強目標資料。這通常會用於分段活動之後的組合。"
+>abstract="「**擴充活動**」可讓您使用資料庫中的其他資訊來增強目標資料。這通常會用於分段活動之後的構成。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
 >title="擴充活動"
->abstract="將擴充資料加入組合後，可以在&#x200B;**擴充**&#x200B;活動之後新增的活動中使用，根據區段設定檔的行為、偏好和選擇將其劃分為不同的群組。"
+>abstract="將擴充資料加入構成後，可以在&#x200B;**擴充**&#x200B;活動之後新增的活動中使用，根據區段設定檔的行為、偏好和選擇將其劃分為不同的群組。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_simplejoin"
@@ -35,21 +35,21 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="擴充資料"
->abstract="選取用於擴充組合的資料。您可以選取兩種擴充資料：從綱要中選取單一擴充屬性（也稱為目標維度），或選取集合連結（在表格之間具有1-N基數的連結）。"
+>abstract="選取用於擴充構成的資料。您可以選取兩種類型的擴充資料：結構描述 (又名目標市場選擇維度) 中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
 
-此 **擴充** 活動可讓您使用同盟資料庫的其他資訊來增強目標資料。 它通常用於細分活動後的組合。
+**擴充**&#x200B;活動可讓您使用同盟資料庫的額外資訊來增強目標資料。 它通常用於細分活動後的組合。
 
 擴充資料可以：
 
-* **從相同工作表** 作為構成中鎖定的對象：
+* **來自與構成目標相同的資料表**：
 
-  *鎖定一組客戶，並將「出生日期」欄位新增至目前工作表*.
+  *鎖定一組客戶，並將[出生日期]欄位新增至目前的工作表*。
 
 * **來自另一個工作表**：
 
   *以一組客戶為目標，並新增來自「購買」表格的「數量」和「產品類型」欄位*。
 
-擴充資料新增至構成後，即可用於之後新增的活動。 **擴充** 根據客戶行為、偏好和選擇將客戶劃分為不同群組的活動。
+擴充資料新增至構成後，即可用於&#x200B;**擴充**&#x200B;活動後新增的活動，以根據客戶的行為、偏好和選擇，將客戶劃分至不同的群組。
 
 <!--For instance, you can add to the working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.-->
 
@@ -62,15 +62,15 @@ ht-degree: 44%
 
    ![](../assets/enrichment.png)
 
-1. 如果構成中已設定多個轉變，您可以使用 **[!UICONTROL 主要集]** 定義哪一個轉變應作為主要集以擴充資料的欄位。
+1. 如果您的構成中已設定多個轉變，您可以使用&#x200B;**[!UICONTROL 主要集]**&#x200B;欄位來定義應該使用哪個轉變作為主要集以擴充資料。
 
-1. 按一下 **新增擴充資料** 並選取要用來擴充資料的屬性。
+1. 按一下&#x200B;**新增擴充資料**，並選取要用來擴充資料的屬性。
 
    ![](../assets/enrichment-add.png)
 
    >[!NOTE]
    >
-   >此 **編輯運算式按鈕** 在「屬性選取」畫面中，您可以建置進階運算式來選取屬性。
+   >屬性選取畫面中的&#x200B;**編輯運算式按鈕**&#x200B;可讓您建置進階運算式以選取屬性。
 
 <!--PAS VU SUR INSTANCE: You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
 
