@@ -2,7 +2,7 @@
 user-guide-title: 聯合客群構成
 title: Adobe同盟對象構成檔案
 breadcrumb-title: 聯合客群構成
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 38%
@@ -13,23 +13,23 @@ ht-degree: 38%
 # 同盟對象構成檔案 {#using}
 
 + [同盟對象構成檔案](home.md)
-+ [快速入門](chapter1/newfile.md)
-+ 設定步驟 {#config}
++ [快速入門](start/get-started.md)
++ 設定步驟{#config}
    + [連線AEP與同盟對象構成](connections/destinations.md)
    + [設定您的同盟資料庫](connections/federated-db.md)
    + [建立和管理連線](connections/connections.md)
-   + 資料模型和結構描述{#datamodel}
+   + 資料模型與結構描述{#datamodel}
       + [設定您的資料模型](data-management/gs-models.md)
       + [建立和設定方案](customer/schemas.md)
    + [配合對象](customer/audiences.md)
-+ 組合 {#compositions}
++ 組合{#compositions}
    + [開始使用組合](compositions/gs-compositions.md)
-   + 建立並執行您的第一個構成 {#create-composition}
-      + [用於建立組合的主要原則](compositions/gs-composition-creation.md)
+   + 建立並執行您的第一個組合{#create-composition}
+      + [用於建立構成的主要原則](compositions/gs-composition-creation.md)
       + [建立及設定構成](compositions/create-composition.md)
       + [協調活動](compositions/orchestrate-activities.md)
       + [開始並監視您的構成](compositions/start-monitor-composition.md)
-   + 使用活動 {#activities}
+   + 使用活動{#activities}
       + [活動清單](compositions/activities/about-activities.md)
       + [合併連結](compositions/activities/and-join.md)
       + [建置對象](compositions/activities/build-audience.md)
@@ -47,5 +47,5 @@ ht-degree: 38%
    + [使用查詢建模工具](query/query-modeler-overview.md)
    + [建置您的第一個查詢](query/build-query.md)
    + [編輯運算式](query/expression-editor.md)
-+ 稽核軌跡 {#audit-trail}
++ 稽核軌跡{#audit-trail}
    + [監視資料庫](admin/audit-trail.md)
