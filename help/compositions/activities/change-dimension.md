@@ -2,9 +2,10 @@
 audience: end-user
 title: 使用變更維度活動
 description: 瞭解如何使用變更維度活動
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="可用性限制" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '189'
 ht-degree: 42%
 
 ---
@@ -15,12 +16,12 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="產生補集"
->abstract="您可以使用剩餘族群 (其已因重複而排除) 產生額外的出站轉變。若要這樣做，請開啟「**產生補集**」選項"
+>abstract="您可以使用剩餘族群 (其已因重複而排除) 產生額外的出站轉變。若要這樣做，請開啟「**[!UICONTROL 產生補集]**」選項"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="變更維度活動"
->abstract="此活動可讓您在建立對象時變更結構描述 (又名目標市場選擇維度)。其會根據資料範本和輸入結構描述來移動軸。例如，您可以從「合約」結構描述切換到「用戶端」結構描述。"
+>abstract="此活動可讓您在建立對象時變更結構描述 (又名目標市場選擇維度)。此活動會根據資料範本和輸入結構描述來移動軸。例如，您可以從「合約」結構描述切換到「用戶端」結構描述。"
 
 **變更維度**&#x200B;活動可讓您在建立對象時變更結構描述（也稱為目標維度）。 它會根據資料範本和輸入結構描述來移動軸。
 

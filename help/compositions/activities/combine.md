@@ -2,9 +2,10 @@
 audience: end-user
 title: 使用組合活動
 description: 瞭解如何使用組合活動
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="可用性限制" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '767'
 ht-degree: 71%
 
 ---
@@ -87,7 +88,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="排除規則"
->abstract="如有必要，您可以操控傳入表格。事實上，若要從另一個結構描述 (目標市場選擇維度) 排除目標，必須將此目標傳回主要目標的同一結構描述。為了進行此步驟，請按一下「**排除規則**」一節中的「**新增規則**」，並指定結構描述變更條件。資料調和會透過屬性或加入執行。"
+>abstract="如有必要，您可以操控傳入表格。事實上，若要從另一個結構描述 (目標市場選擇維度) 排除目標，必須將此目標傳回到與主要目標相同的結構描述。為了進行此步驟，請按一下「**排除規則**」一節中的「**新增規則**」，並指定結構描述變更條件。資料調和會透過屬性或加入執行。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -97,7 +98,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="排除規則"
->abstract="如有必要，您可以操控傳入表格。事實上，若要從另一個結構描述 (目標市場選擇維度) 排除目標，必須將此目標傳回主要目標的同一結構描述。為了進行此步驟，請按一下「**排除規則**」一節中的「**新增規則**」，並指定結構描述變更條件。資料調和會透過屬性或加入執行。"
+>abstract="如有必要，您可以操控傳入表格。事實上，若要從另一個結構描述 (目標市場選擇維度) 排除目標，必須將此目標傳回到與主要目標相同的結構描述。為了進行此步驟，請按一下「**排除規則**」一節中的「**新增規則**」，並指定結構描述變更條件。資料調和會透過屬性或加入執行。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"

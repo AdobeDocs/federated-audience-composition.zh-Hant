@@ -2,9 +2,10 @@
 audience: end-user
 title: 使用調解活動
 description: 瞭解如何使用調解活動
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+badge: label="可用性限制" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '528'
 ht-degree: 39%
 
 ---
@@ -53,7 +54,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="選取目標市場選擇維度"
->abstract="選取要調和之輸入資料的結構描述 (又名目標市場選擇維度)。"
+>abstract="選取要調和的輸入資料結構描述 (又名目標市場選擇維度)。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"

@@ -2,9 +2,10 @@
 audience: end-user
 title: 建立組合
 description: 瞭解如何建立組合
-source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
+badge: label="可用性限制" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 59%
 
 ---
@@ -27,9 +28,9 @@ ht-degree: 59%
 
 每個構成都包含：
 
-* **活動**：活動指要執行的任務。各種活動在圖表中會以圖示表示。每種活動都有特定屬性和所有活動共有的其他屬性。
-* **轉變**：轉變會將來源活動連結到目標活動並定義其序列。
-* **工作表**：工作表包含轉變攜帶的所有資訊。每個構成都使用數個工作表。 這些表格中傳送的資料可在構成生命週期中使用。
+* **[!UICONTROL 活動]**：活動指要執行的任務。各種活動在圖表中會以圖示表示。每種活動都有特定屬性和所有活動共有的其他屬性。
+* **[!UICONTROL 轉變]**：轉變會將來源活動連結到目標活動並定義其序列。
+* **[!UICONTROL 工作表]**：工作表包含轉變攜帶的所有資訊。每個構成都使用數個工作表。 這些表格中傳送的資料可在構成生命週期中使用。
 
 ## 建立組合的關鍵步驟 {#gs-composition-steps}
 

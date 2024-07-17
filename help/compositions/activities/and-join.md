@@ -2,9 +2,10 @@
 audience: end-user
 title: 使用AND — 聯結活動
 description: 瞭解如何使用AND — 加入活動
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+badge: label="可用性限制" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '226'
 ht-degree: 57%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join_merging"
 >title="設定 AND-join 活動"
->abstract="選取您要參加的活動。在「**主要集合**」下拉選單中，選擇您要保留的傳入轉變族群。"
+>abstract="選取您要參加的活動。在「**[!UICONTROL 主要集合]**」下拉選單中，選擇您要保留的傳入轉變族群。"
 
 請按照以下步驟設定「**合併連結**」活動：
 
@@ -34,5 +35,5 @@ ht-degree: 57%
 
    ![](../assets/and-join.png)
 
-1. 在&#x200B;**合併選項**&#x200B;區段中，檢查您要同步處理的所有先前活動。
-1. 在「**主要集合**」下拉選單中，選擇您要保留的傳入轉變母體。出站轉變只能包含其中一個入站轉變母體。 如果未設定活動，出站轉變將會隨機選取其中一個入站母體。
+1. 在&#x200B;**[!UICONTROL 合併選項]**&#x200B;區段中，檢查您要同步處理的所有先前活動。
+1. 在「**[!UICONTROL 主要集合]**」下拉選單中，選擇您要保留的傳入轉變母體。出站轉變只能包含其中一個入站轉變母體。 如果未設定活動，出站轉變將會隨機選取其中一個入站母體。

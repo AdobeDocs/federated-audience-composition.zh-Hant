@@ -2,9 +2,10 @@
 audience: end-user
 title: 開始使用組合
 description: 瞭解如何開始使用組合
-source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
+badge: label="可用性限制" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '278'
 ht-degree: 10%
 
 ---
@@ -24,7 +25,7 @@ Adobe資料構成可讓您建立構成，其中您可以使用各種活動（分
 >title="構成"
 >abstract="在此畫面中，您可以存取構成的完整清單、檢查其目前狀態、上次/下次執行日期並建立新的構成。"
 
-可透過&#x200B;**Federated Compositions**&#x200B;索引標籤中的Adobe Experience Platform **[!UICONTROL Audiences]**&#x200B;功能表存取組合。
+可透過&#x200B;**[!UICONTROL Federated Compositions]**&#x200B;索引標籤中的Adobe Experience Platform **[!UICONTROL Audiences]**&#x200B;功能表存取組合。
 
 從這個畫面，您可以建立新組合併存取現有組合。 您也可以按一下現有構成名稱旁的省略符號按鈕，以複製或刪除現有構成。
 
@@ -32,7 +33,7 @@ Adobe資料構成可讓您建立構成，其中您可以使用各種活動（分
 
 若要精簡清單並輕鬆找到您要尋找的組合，您可以搜尋清單，並依組合的狀態或最後處理日期篩選組合。
 
-您也可以透過新增或移除欄來自訂清單。 若要這麼做，請按一下&#x200B;**設定資料行**&#x200B;按鈕，然後新增或移除所需的輸出資料行。
+您也可以透過新增或移除欄來自訂清單。 若要這麼做，請按一下**[!UICONTROL 設定資料行]**按鈕，然後新增或移除所需的輸出資料行。
 
 ![](assets/compositions-columns.png)
 

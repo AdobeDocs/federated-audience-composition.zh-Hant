@@ -1,11 +1,12 @@
 ---
 audience: end-user
 title: 使用查詢建模工具
-description: 瞭解如何使用查詢建模器。
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+description: 瞭解如何使用查詢建模器
+badge: label="可用性限制" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 13%
+source-wordcount: '348'
+ht-degree: 14%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 13%
 | 使用方式 | 範例 |
 |  ---  |  ---  |
 | **定義對象**：指定您要在組成中鎖定的母體，並輕鬆建立根據您的需求量身打造的新對象。 | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **自訂工作流程活動**：在構成活動中套用規則，例如&#x200B;**分割**&#x200B;和&#x200B;**調解**，以符合您的特定需求。 [進一步瞭解組合活動](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **自訂活動**：在構成活動中套用規則，例如&#x200B;**分割**&#x200B;和&#x200B;**調解**，以符合您的特定需求。 [進一步瞭解組合活動](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## 查詢模組化介面 {#interface}
 
@@ -39,11 +40,11 @@ ht-degree: 13%
 
 位於畫布右上角的工具列提供可輕鬆操控查詢元件並在畫布中導覽的選項：
 
-* **多重選取模式**：選取多個篩選元件，以複製並貼至您選擇的位置。
-* **旋轉**：垂直切換畫布。
-* **符合熒幕大小**：調整畫布縮放等級以符合熒幕。
-* **縮小** / **放大**：縮小或進入畫布。
-* **顯示地圖**：開啟顯示您所在位置的畫布快照。
+* **[!UICONTROL 多重選取模式]**：選取多個篩選元件，以複製並貼至您選擇的位置。
+* **[!UICONTROL 旋轉]**：垂直切換畫布。
+* **[!UICONTROL 符合熒幕大小]**：調整畫布縮放等級以符合熒幕。
+* **[!UICONTROL 縮小]** / **[!UICONTROL 放大]**：縮小或進入畫布。
+* **[!UICONTROL 顯示地圖]**：開啟顯示您所在位置的畫布快照。
 
 ### 規則屬性窗格 {#rule-properties}
 

@@ -2,9 +2,10 @@
 audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在查詢建模器中建置您的第一個查詢
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+badge: label="可用性限制" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '2066'
+source-wordcount: '2068'
 ht-degree: 10%
 
 ---
@@ -45,13 +46,13 @@ ht-degree: 10%
 
 1. 按一下所需節點上的&#x200B;**+**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 自訂條件]**。 自訂條件屬性窗格會在右側開啟。
 
-1. 在&#x200B;**Attribute**&#x200B;欄位中，從資料庫中選取要用來建立條件的屬性。 屬性清單包含資料庫中的所有屬性，包括連結表格的屬性。
+1. 在&#x200B;**[!UICONTROL Attribute]**&#x200B;欄位中，從資料庫中選取要用來建立條件的屬性。 屬性清單包含資料庫中的所有屬性，包括連結表格的屬性。
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >**編輯運算式**&#x200B;按鈕可讓您利用運算式編輯器，使用資料庫和協助程式函式的欄位來手動定義運算式。 [瞭解如何編輯運算式](expression-editor.md)
+   >**[!UICONTROL 編輯運算式]**&#x200B;按鈕可讓您利用運算式編輯器，使用資料庫和協助程式函式的欄位來手動定義運算式。 [瞭解如何編輯運算式](expression-editor.md)
 
 1. 從下拉式清單中選取要套用的運運算元。 可以使用各種運運算元。 請注意，下拉式清單中可用的運運算元取決於屬性的資料型別。
 
@@ -78,7 +79,7 @@ ht-degree: 10%
 
 +++
 
-1. 在&#x200B;**值**&#x200B;欄位中，定義預期的值。 您也可以利用運算式編輯器，使用資料庫和協助程式函式的欄位，手動定義運算式。 若要這麼做，請按一下&#x200B;**編輯運算式**&#x200B;按鈕。 [瞭解如何編輯運算式](expression-editor.md)
+1. 在&#x200B;**[!UICONTROL 值]**&#x200B;欄位中，定義預期的值。 您也可以利用運算式編輯器，使用資料庫和協助程式函式的欄位，手動定義運算式。 若要這麼做，請按一下&#x200B;**[!UICONTROL 編輯運算式]**&#x200B;按鈕。 [瞭解如何編輯運算式](expression-editor.md)
 
    *傳回21歲或以上所有設定檔的查詢範例：*
 
@@ -90,13 +91,13 @@ ht-degree: 10%
 
 若為&#x200B;**1-1連結**，請瀏覽至連結的資料表，選取所需的屬性並定義預期值。
 
-您也可以直接選取&#x200B;**值**&#x200B;選擇器中的資料表連結並進行確認。 在此情況下，必須使用專用的選擇器來選取可用於所選表格的值，如以下範例所示。
+您也可以直接選取&#x200B;**[!UICONTROL 值]**&#x200B;選擇器中的資料表連結並進行確認。 在此情況下，必須使用專用的選擇器來選取可用於所選表格的值，如以下範例所示。
 
 +++查詢範例
 
 在此，查詢會鎖定其標籤為「執行中」的品牌。
 
-1. 在&#x200B;**Brand**&#x200B;資料表中導覽，並選取&#x200B;**標籤**&#x200B;屬性。
+1. 在&#x200B;**[!UICONTROL Brand]**&#x200B;資料表中導覽，並選取&#x200B;**[!UICONTROL 標籤]**&#x200B;屬性。
 
    ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -116,7 +117,7 @@ ht-degree: 10%
 
 在此，查詢會鎖定進行與BrewMaster產品相關購買的總金額至少為100$的收件者。
 
-1. 選取&#x200B;**Purchases**&#x200B;資料表並確認。
+1. 選取&#x200B;**[!UICONTROL Purchases]**&#x200B;資料表並確認。
 
    ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
@@ -124,7 +125,7 @@ ht-degree: 10%
 
    ![](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
-1. 選取&#x200B;**價格**&#x200B;屬性，並且目標購買為1000$或更多
+1. 選取&#x200B;**[!UICONTROL 價格]**&#x200B;屬性，並且目標購買為1000$或更多
 
    ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -142,7 +143,7 @@ ht-degree: 10%
 
    ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
-1. 在屬性窗格中，開啟&#x200B;**彙總資料**&#x200B;選項並選取所需的彙總函式。
+1. 在屬性窗格中，開啟&#x200B;**[!UICONTROL 彙總資料]**&#x200B;選項並選取所需的彙總函式。
 
    ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -151,13 +152,13 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_selectaudience"
 >title="選取對象"
->abstract="透過使用「**選取對象**」選項，您可以選擇要用來篩選查詢的對象。"
+>abstract="透過使用「**[!UICONTROL 選取對象]**」選項，您可以選擇要用來篩選查詢的對象。"
 
 若要使用現有對象篩選查詢，請執行下列步驟：
 
 1. 按一下所需節點上的&#x200B;**+**&#x200B;按鈕，然後選擇&#x200B;**[!UICONTROL 選取對象]**。
 
-1. **選取對象**&#x200B;屬性窗格會在右側開啟。 選擇您要用來篩選查詢的對象。
+1. **[!UICONTROL 選取對象]**&#x200B;屬性窗格會在右側開啟。 選擇您要用來篩選查詢的對象。
 
    *查詢範例，傳回所有屬於「節日出席者」對象的設定檔：*
 
@@ -168,13 +169,13 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_predefinedfilter"
 >title="預先定義的篩選器"
->abstract="透過使用「**預先定義的篩選器**」選項，您可以從自訂篩選器清單或常用篩選器中選取預先定義的篩選器。"
+>abstract="透過使用「**[!UICONTROL 預先定義的篩選器]**」選項，您可以從自訂篩選器清單或常用篩選器中選取預先定義的篩選器。"
 
 若要使用預先定義的篩選器來篩選查詢，請執行下列步驟：
 
 1. 按一下所需節點上的&#x200B;**+**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 預先定義的篩選器]**。
 
-1. **預先定義的篩選器**&#x200B;屬性窗格會在右側開啟。 從自訂篩選器清單或我的最愛選取預先定義的篩選器。
+1. **[!UICONTROL 預先定義的篩選器]**&#x200B;屬性窗格會在右側開啟。 從自訂篩選器清單或我的最愛選取預先定義的篩選器。
 
    *查詢範例，傳回與「非使用中客戶」預先定義篩選器對應的所有設定檔：*
 
@@ -198,7 +199,7 @@ ht-degree: 10%
    |  ---  |  ---  |
    | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-1. 若要貼上元件，請按一下所需轉變結尾的+按鈕，並選取&#x200B;**貼上專案**。
+1. 若要貼上元件，請按一下所需轉變結尾的+按鈕，並選取&#x200B;**[!UICONTROL 貼上專案]**。
 
    ![](assets/copy-paste.png){zoomable="yes"}
 
@@ -215,7 +216,7 @@ ht-degree: 10%
 
 ![](assets/query-operator.png){zoomable="yes"}
 
-若要變更用來連結篩選條件的運運算元，請按一下該運運算元，然後在右側開啟的&#x200B;**群組**&#x200B;窗格中選取所需的運運算元。
+若要變更用來連結篩選條件的運運算元，請按一下該運運算元，然後在右側開啟的&#x200B;**[!UICONTROL 群組]**&#x200B;窗格中選取所需的運運算元。
 
 可用的運運算元包括：
 
@@ -236,14 +237,14 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="規則屬性"
->abstract="在畫布中建立查詢後，您可以使用右側的&#x200B;**規則屬性**&#x200B;窗格進行檢查。<br/>此窗格可讓您顯示結果資料、擷取查詢的 SQL 程式碼版本，以及檢查目標記錄的數量。<br/>使用「**選取或儲存篩選器**」按鈕，將您的查詢儲存為預先定義篩選器，或將畫布內容更換為現有換的篩選器。"
+>abstract="在畫布中建立查詢後，您可以使用右側的&#x200B;**[!UICONTROL 規則屬性]**&#x200B;窗格進行檢查。<br/>此窗格可讓您顯示結果資料、擷取查詢的 SQL 程式碼版本，以及檢查目標記錄的數量。<br/>使用「**[!UICONTROL 選取或儲存篩選器]**」按鈕，將您的查詢儲存為預先定義篩選器，或將畫布內容更換為現有換的篩選器。"
 
-在畫布中建立查詢後，您可以使用右側的&#x200B;**規則屬性**&#x200B;窗格來檢查查詢。 建立查詢以建立對象時，會顯示此窗格。 可用的操作包括：
+在畫布中建立查詢後，您可以使用右側的&#x200B;**[!UICONTROL 規則屬性]**&#x200B;窗格來檢查查詢。 建立查詢以建立對象時，會顯示此窗格。 可用的操作包括：
 
-* **檢視結果：**&#x200B;顯示查詢產生的資料。
-* **程式碼檢視**：顯示SQL查詢的程式碼型版本。
-* **計算**：更新並顯示查詢所定位的記錄數目。
-* **選取或儲存篩選器**：選擇現有的預先定義篩選器以用於畫布中，或將您的查詢儲存為預先定義的篩選器，以供日後重複使用。
+* **[!UICONTROL 檢視結果]：**&#x200B;顯示查詢產生的資料。
+* **[!UICONTROL 程式碼檢視]**：顯示SQL查詢的程式碼型版本。
+* **[!UICONTROL 計算]**：更新並顯示查詢所定位的記錄數目。
+* **[!UICONTROL 選取或儲存篩選器]**：選擇現有的預先定義篩選器以用於畫布中，或將您的查詢儲存為預先定義的篩選器，以供日後重複使用。
 
   >[!IMPORTANT]
   >

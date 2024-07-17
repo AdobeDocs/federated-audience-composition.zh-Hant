@@ -2,9 +2,10 @@
 audience: end-user
 title: 建立組合
 description: 瞭解如何建立組合
-source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
+badge: label="可用性限制" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '484'
 ht-degree: 21%
 
 ---
@@ -48,7 +49,7 @@ ht-degree: 21%
 
 存取構成時，您可以存取進階設定，以讓您定義構成在發生錯誤時的行為方式。
 
-若要存取構成的其他選項，請按一下構成建立畫面上方的&#x200B;**設定**&#x200B;按鈕。
+若要存取構成的其他選項，請按一下構成建立畫面上方的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
 
 ![](assets/composition-create-settings.png)
 

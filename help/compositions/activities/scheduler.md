@@ -2,10 +2,10 @@
 audience: end-user
 title: 使用排程器活動
 description: 瞭解如何使用排程器活動
-source-git-commit: 4dca96ae81d1f70c8f20509fdbd9ec31e05c01dc
+source-git-commit: 7f73f5f81561fabe6f4ef2ff77f13d386a7927b3
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 31%
+source-wordcount: '418'
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="排程器活動"
->abstract="「**排程器**」活動可讓您安排工作流程何時開始。此活動應視為已排程的開始。其只能當作工作流程的第一個活動。"
+>abstract="**排程器**&#x200B;活動可讓您排程對象組合何時開始。 此活動應視為已排程的開始。它只能用作組成的第一個活動。"
 
 **排程器**&#x200B;活動是&#x200B;**流程控制**&#x200B;活動。 它可讓您排程構成何時開始。 此活動應視為已排程的開始。它只能用作構成的第一個活動。
 
@@ -33,7 +33,7 @@ ht-degree: 31%
 
 請依照下列步驟設定&#x200B;**排程器**&#x200B;活動：
 
-1. 將&#x200B;**排程器**&#x200B;活動新增至工作流程。
+1. 將&#x200B;**排程器**&#x200B;活動新增至您的組合。
 
 1. 設定&#x200B;**執行頻率**：
 
