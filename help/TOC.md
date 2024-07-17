@@ -2,10 +2,10 @@
 user-guide-title: 聯合客群構成
 title: Adobe同盟對象構成檔案
 breadcrumb-title: 聯合客群構成
-source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
+source-git-commit: bea3c176701dd256255f222713d3c10284f97210
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 38%
+source-wordcount: '134'
+ht-degree: 35%
 
 ---
 
@@ -13,7 +13,9 @@ ht-degree: 38%
 # 同盟對象構成檔案 {#using}
 
 + [同盟對象構成檔案](home.md)
-+ [快速入門](start/get-started.md)
++ 開始使用同盟對象構成{#start}
+   + [快速入門](start/get-started.md)
+   + [發行說明](start/release-notes.md)
 + 設定步驟{#config}
    + [連線AEP與同盟對象構成](connections/destinations.md)
    + [設定您的同盟資料庫](connections/federated-db.md)
@@ -49,3 +51,4 @@ ht-degree: 38%
    + [編輯運算式](query/expression-editor.md)
 + 稽核軌跡{#audit-trail}
    + [監視資料庫](admin/audit-trail.md)
++ [&lt;返回Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
