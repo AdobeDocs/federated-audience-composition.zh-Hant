@@ -2,9 +2,9 @@
 title: 同盟對象構成的新增功能
 description: 最新更新和發行說明
 badge: label="可用性限制" type="Informative"
-source-git-commit: 082bdccd7bc53d6c7520a778b65b2127a62e28a4
+source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '253'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
 >
 >同盟對象構成目前僅適用於一組組織（可用性限制）。 若要取得存取權，請和您的 Adobe 代表聯絡。
 >
->目前，此功能無法供已購買Adobe **Healthcare Shield**&#x200B;和&#x200B;**Privacy and Security Shield**&#x200B;附加產品的客戶使用。
+>目前，此功能不適用於已購買Adobe **Healthcare Shield**&#x200B;附加產品的客戶。
 
 
 ## 先決條件和護欄 {#rn-guardrails}
