@@ -3,27 +3,24 @@ audience: end-user
 title: 開始使用同盟資料庫
 description: 瞭解如何建立和管理您的同盟資料庫
 badge: label="可用性限制" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 3d4d8cee37dd95928ab25952baadf51f1caf9d34
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 10%
+source-wordcount: '1419'
+ht-degree: 6%
 
 ---
 
 # 開始使用同盟資料庫 {#federated-db}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="同盟資料庫"
 >abstract="此畫面中列出了與同盟資料庫的現有連接。若要建立新連接，請按一下&#x200B;**[!UICONTROL 新增同盟資料庫]**&#x200B;按鈕。"
 
-
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="同盟資料庫屬性"
 >abstract="輸入新同盟資料庫的名稱，然後選取其類型。"
-
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
@@ -42,20 +39,43 @@ ht-degree: 10%
 
 ## Snowflake {#snowflake}
 
-* **[!UICONTROL 伺服器]**：
+使用同盟資料庫來處理儲存在外部資料庫中的資訊。 請依照下列步驟設定對Snowflake的存取權。
 
-* **[!UICONTROL 使用者]**：使用者的名稱。
+1. 在&#x200B;**[!UICONTROL 同盟資料]**&#x200B;功能表下，選取&#x200B;**[!UICONTROL 同盟資料庫]**。
 
-* **[!UICONTROL 密碼]**：使用者帳戶密碼。
+1. 按一下&#x200B;**[!UICONTROL 新增同盟資料庫]**。
 
-* **[!UICONTROL 資料庫]**：
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL 工作結構描述]**：
+1. 輸入同盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
-* **[!UICONTROL 私密金鑰]**：
-僅接受.pem檔案
+1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式清單中，選取Snowflake。
 
-* **[!UICONTROL 選項]**：聯結器支援下表詳述的選項。
+   ![](assets/federated_database_2.png)
+
+1. 設定Snowflake驗證設定：
+
+   * **[!UICONTROL 伺服器]**：輸入您的伺服器名稱。
+
+   * **[!UICONTROL 使用者]**：輸入您的使用者名稱。
+
+   * **[!UICONTROL 密碼]**：輸入您的帳戶密碼。
+
+   * **[!UICONTROL 資料庫]** （選擇性）：如果未在DSN中指定，請輸入資料庫名稱。
+
+   * **[!UICONTROL 工作結構描述]** （選擇性）：輸入工作結構描述的名稱。
+
+   * **[!UICONTROL 私密金鑰]**：按一下&#x200B;**[!UICONTROL 私密金鑰]**&#x200B;欄位，從地區設定資料夾中選取您的.pem檔案。
+
+   * **[!UICONTROL 選項]**：聯結器支援下表詳述的選項。
+
+1. 選取&#x200B;**[!UICONTROL 測試連線]**&#x200B;選項以驗證您的組態。
+
+1. 按一下&#x200B;**[!UICONTROL 部署函式]**&#x200B;按鈕以建立函式。
+
+1. 完成設定後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以建立同盟資料庫。
+
+聯結器支援下列選項：
 
 | 選項 | 說明 |
 |---|---|
@@ -70,15 +90,37 @@ ht-degree: 10%
 
 ## Google Big Query {#google-big-query}
 
-* **[!UICONTROL 服務帳戶]**：您&#x200B;**[!UICONTROL 服務帳戶]**&#x200B;的電子郵件。 如需詳細資訊，請參閱[Google Cloud檔案](https://cloud.google.com/iam/docs/creating-managing-service-accounts)。
+使用同盟資料庫來處理儲存在外部資料庫中的資訊。 請依照下列步驟設定對Google Big Query的存取權。
 
-* **[!UICONTROL 專案]**： **[!UICONTROL 專案]**&#x200B;的名稱。 如需詳細資訊，請參閱[Google Cloud檔案](https://cloud.google.com/resource-manager/docs/creating-managing-projects)。
+1. 在&#x200B;**[!UICONTROL 同盟資料]**&#x200B;功能表下，選取&#x200B;**[!UICONTROL 同盟資料庫]**。
 
-* **[!UICONTROL 資料集]**： **[!UICONTROL 資料集]**&#x200B;的名稱。 如需詳細資訊，請參閱[Google Cloud檔案](https://cloud.google.com/bigquery/docs/datasets-intro)。
+1. 按一下&#x200B;**[!UICONTROL 新增同盟資料庫]**。
 
-* **[!UICONTROL 金鑰檔案路徑]**：將您的金鑰檔案上傳至伺服器。 僅接受.json檔案。
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL 選項]**：聯結器支援下表詳述的選項。
+1. 輸入同盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
+
+1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式清單中，選取Google Big Query。
+
+   ![](assets/federated_database_3.png)
+
+1. 設定Google Big Query驗證設定：
+
+   * **[!UICONTROL 服務帳戶]**：輸入您&#x200B;**[!UICONTROL 服務帳戶]**&#x200B;的電子郵件。 如需詳細資訊，請參閱[Google Cloud檔案](https://cloud.google.com/iam/docs/creating-managing-service-accounts)。
+
+   * **[!UICONTROL 專案]**：輸入您&#x200B;**[!UICONTROL 專案]**&#x200B;的名稱。 如需詳細資訊，請參閱[Google Cloud檔案](https://cloud.google.com/resource-manager/docs/creating-managing-projects)。
+
+   * **[!UICONTROL 資料集]**：輸入&#x200B;**[!UICONTROL 資料集]**&#x200B;的名稱。 如需詳細資訊，請參閱[Google Cloud檔案](https://cloud.google.com/bigquery/docs/datasets-intro)。
+
+   * **[!UICONTROL 金鑰檔案路徑]**：將您的金鑰檔案上傳至伺服器。 僅接受.json檔案。
+
+   * **[!UICONTROL 選項]**：聯結器支援下表詳述的選項。
+
+1. 選取&#x200B;**[!UICONTROL 測試連線]**&#x200B;選項以驗證您的組態。
+
+1. 按一下&#x200B;**[!UICONTROL 部署函式]**&#x200B;按鈕以建立函式。
+
+1. 完成設定後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以建立同盟資料庫。
 
 | 選項 | 說明 |
 |:-:|:-:|
@@ -94,29 +136,77 @@ ht-degree: 10%
 
 ## azure synapseRedshift {#azure-synapse-redshift}
 
-* **[!UICONTROL 伺服器]**：Azure synapse伺服器的URL
+使用同盟資料庫來處理儲存在外部資料庫中的資訊。 請依照下列步驟設定對Azure synapseRedshift的存取權。
 
-* **[!UICONTROL 帳戶]**：使用者的名稱
+1. 在&#x200B;**[!UICONTROL 同盟資料]**&#x200B;功能表下，選取&#x200B;**[!UICONTROL 同盟資料庫]**。
 
-* **[!UICONTROL 密碼]**：使用者帳戶密碼
+1. 按一下&#x200B;**[!UICONTROL 新增同盟資料庫]**。
 
-* **[!UICONTROL 資料庫]**：資料庫名稱
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL 選項]**
+1. 輸入同盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
+
+1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式清單中，選取Azure synapseRedshift。
+
+   ![](assets/federated_database_4.png)
+
+1. 設定Azure synapseRedshift驗證設定：
+
+   * **[!UICONTROL 伺服器]**：輸入Azure synapse伺服器的URL。
+
+   * **[!UICONTROL 帳戶]**：輸入使用者名稱。
+
+   * **[!UICONTROL 密碼]**：輸入帳戶密碼。
+
+   * **[!UICONTROL 資料庫]** （選擇性）：如果未在DSN中指定，請輸入資料庫名稱。
+
+   * **[!UICONTROL 選項]**：聯結器支援下表詳述的選項。
+
+1. 選取&#x200B;**[!UICONTROL 測試連線]**&#x200B;選項以驗證您的組態。
+
+1. 按一下&#x200B;**[!UICONTROL 部署函式]**&#x200B;按鈕以建立函式。
+
+1. 完成設定後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以建立同盟資料庫。
+
+| 選項 | 說明 |
+|:-:|:-:|
+| 驗證 | 聯結器支援的驗證型別。 目前支援的值： ActiveDirectoryMSI。 如需詳細資訊，請參閱[SQL檔案](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) （連線字串n°8範例） |
 
 ## Vertica Analytics {#vertica-analytics}
 
-* **[!UICONTROL 伺服器]**： [!DNL Vertica Analytics]伺服器的URL
+使用同盟資料庫來處理儲存在外部資料庫中的資訊。 請依照下列步驟設定對Vertica analytics的存取權。
 
-* **[!UICONTROL 帳戶]**：使用者的名稱
+1. 在&#x200B;**[!UICONTROL 同盟資料]**&#x200B;功能表下，選取&#x200B;**[!UICONTROL 同盟資料庫]**。
 
-* **[!UICONTROL 密碼]**：使用者帳戶密碼
+1. 按一下&#x200B;**[!UICONTROL 新增同盟資料庫]**。
 
-* **[!UICONTROL 資料庫]**：資料庫名稱
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL 工作結構描述]**：工作結構描述的名稱。
+1. 輸入同盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
-* **[!UICONTROL 選項]**：聯結器支援下表詳述的選項。
+1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式清單中，選取Vertica analytics。
+
+   ![](assets/federated_database_5.png)
+
+1. 設定Vertica Analytics驗證設定：
+
+   * **[!UICONTROL 伺服器]**：新增[!DNL Vertica Analytics]伺服器的URL。
+
+   * **[!UICONTROL 帳戶]**：新增使用者名稱。
+
+   * **[!UICONTROL 密碼]**：新增帳戶密碼。
+
+   * **[!UICONTROL 資料庫]** （選擇性）：如果未在DSN中指定，請輸入資料庫名稱。
+
+   * **[!UICONTROL 工作結構描述]** （選擇性）：輸入工作結構描述的名稱。
+
+   * **[!UICONTROL 選項]**：聯結器支援下表詳述的選項。
+
+1. 選取&#x200B;**[!UICONTROL 測試連線]**&#x200B;選項以驗證您的組態。
+
+1. 按一下&#x200B;**[!UICONTROL 部署函式]**&#x200B;按鈕以建立函式。
+
+1. 完成設定後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以建立同盟資料庫。
 
 聯結器支援下列選項：
 
@@ -124,16 +214,36 @@ ht-degree: 10%
 |---|---|
 | 時區名稱 | 預設為空白，這表示會使用Campaign Classic應用程式伺服器的系統時區。 選項可用來強制TIMEZONE工作階段引數。 |
 
-
 ## Amazon Redshift {#amazon-redshift}
 
-* **[!UICONTROL 伺服器]**： DNS的名稱
+使用同盟資料庫來處理儲存在外部資料庫中的資訊。 請依照下列步驟設定Amazon Redshift的存取權。
 
-* **[!UICONTROL 帳戶]**：使用者的名稱
+1. 在&#x200B;**[!UICONTROL 同盟資料]**&#x200B;功能表下，選取&#x200B;**[!UICONTROL 同盟資料庫]**。
 
-* **[!UICONTROL 密碼]**：使用者帳戶密碼
+1. 按一下&#x200B;**[!UICONTROL 新增同盟資料庫]**。
 
-* **[!UICONTROL 資料庫]**：如果未在DSN中指定資料庫名稱。 若在DSN中指定，可保留空白
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL 工作結構描述]**：工作結構描述的名稱。 [了解更多](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+1. 輸入同盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
+1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式清單中，選取Amazon Redshift。
+
+   ![](assets/federated_database_6.png)
+
+1. 設定Amazon Redshift驗證設定：
+
+   * **[!UICONTROL 伺服器]**：新增DNS的名稱。
+
+   * **[!UICONTROL 帳戶]**：新增使用者名稱。
+
+   * **[!UICONTROL 密碼]**：新增帳戶密碼。
+
+   * **[!UICONTROL 資料庫]**：如果未在DSN中指定資料庫名稱。 若在DSN中指定，可保留空白
+
+   * **[!UICONTROL 工作結構描述]**：工作結構描述的名稱。 [了解更多](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+1. 選取&#x200B;**[!UICONTROL 測試連線]**&#x200B;選項以驗證您的組態。
+
+1. 按一下&#x200B;**[!UICONTROL 部署函式]**&#x200B;按鈕以建立函式。
+
+1. 完成設定後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以建立同盟資料庫。
