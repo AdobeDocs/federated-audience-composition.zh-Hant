@@ -2,17 +2,17 @@
 title: 同盟對象構成的新增功能
 description: 最新更新和發行說明
 badge: label="可用性限制" type="Informative"
-source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
+source-git-commit: 5d399539705559a7c7f583376815a55e665fc813
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 4%
+source-wordcount: '326'
+ht-degree: 3%
 
 ---
 
 
 # 發行說明 {#rn-new}
 
-## 同盟對象構成(LA) {#rn-la}
+## 同盟對象構成(LA) {#fac-la}
 
 同盟對象構成是一種附加元件，可提供彈性的存取，並延伸至企業資料倉儲的範圍，以強化個人化使用案例。
 
@@ -20,6 +20,7 @@ ht-degree: 4%
 
 現在，您可以透過將特定對象和屬性提取出某些細分或啟用使用案例所需的倉儲，來使用同盟對象構成來減少從您的資料倉儲複製到Adobe Experience Platform的資料量，並確保敏感資料不會儲存在倉儲之外，無需將資料集和/或對象擷取到Adobe Experience Platform。
 
+在[此頁面](get-started.md)和[常見問題](get-started.md#faq)中進一步瞭解同盟對象構成功能。
 
 >[!AVAILABILITY]
 >
@@ -27,8 +28,16 @@ ht-degree: 4%
 >
 >目前，此功能不適用於已購買Adobe **Healthcare Shield**&#x200B;附加產品的客戶。
 
+## 存取同盟對象構成 {#fac-access}
 
-## 先決條件和護欄 {#rn-guardrails}
+同盟對象構成沒有特定許可權。 存取此功能的唯一先決條件，就是已購買同盟對象構成附加元件。
+
+>[!AVAILABILITY]
+>
+>收到Adobe的歡迎電子郵件通知後，您可能需要幾個小時才能更新介面以及您可以使用的功能。
+>
+
+## 先決條件和護欄 {#fac-guardrails}
 
 * 您的IP位址必須新增至允許清單，才能啟用對資料倉儲的存取權並使用同盟對象構成。 若要將您的IP位址新增至允許清單，請聯絡您的Adobe代表。
 
