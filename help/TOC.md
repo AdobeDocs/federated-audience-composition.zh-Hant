@@ -2,10 +2,10 @@
 user-guide-title: 聯合客群構成
 title: Adobe同盟對象構成檔案
 breadcrumb-title: 聯合客群構成
-source-git-commit: bea3c176701dd256255f222713d3c10284f97210
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 35%
+source-wordcount: '133'
+ht-degree: 36%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 35%
    + [快速入門](start/get-started.md)
    + [發行說明](start/release-notes.md)
 + 設定步驟{#config}
-   + [連線AEP與同盟對象構成](connections/destinations.md)
    + [設定您的同盟資料庫](connections/federated-db.md)
    + [建立和管理連線](connections/connections.md)
    + 資料模型與結構描述{#datamodel}
       + [設定您的資料模型](data-management/gs-models.md)
       + [建立和設定方案](customer/schemas.md)
    + [配合對象](customer/audiences.md)
+   + [將您的對象匯入AEP](connections/destinations.md)
 + 組合{#compositions}
    + [開始使用組合](compositions/gs-compositions.md)
    + 建立並執行您的第一個組合{#create-composition}
