@@ -2,9 +2,9 @@
 title: 開始使用同盟對象構成
 description: 瞭解什麼是Adobe同盟對象構成以及如何在Adobe Experience Platform中使用
 badge: label="可用性限制" type="Informative"
-source-git-commit: 63192ea583aca7bc4a30b4a9d2071b83d0a46406
+source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1284'
 ht-degree: 7%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 Adobe Experience Platform同盟對象構成提供簡單而強大的解決方案，直接在Adobe Real-time Customer Data Platform及/或Adobe Journey Optimizer中連線您的企業資料倉儲，並對資料倉儲的表格執行查詢。
 
-Adobe同盟對象構成可協助Adobe Experience Platform應用程式使用者存取儲存在企業資料倉儲中的客戶資料。 客戶資料可存放在多個資料倉儲中，現在無需複製即可立即存取。
+Adobe同盟對象構成可協助Adobe Experience Platform應用程式使用者存取其儲存在資料倉儲和雲端儲存平台(例如Amazon Redshift、Azure synapse Analytics、Google BigQuery、Snowflake)中的客戶資料。 客戶資料可存放在多個資料倉儲中，現在無需複製即可立即存取。
 
 
 ## 使用案例 {#rn-uc}

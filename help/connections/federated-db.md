@@ -3,7 +3,7 @@ audience: end-user
 title: 開始使用同盟資料庫
 description: 瞭解如何建立和管理您的同盟資料庫
 badge: label="可用性限制" type="Informative"
-source-git-commit: 3d4d8cee37dd95928ab25952baadf51f1caf9d34
+source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 6%
@@ -31,11 +31,11 @@ ht-degree: 6%
 
 支援的外部資料庫：
 
-* Snowflake
-* Google Big Query
-* azure synapse
-* Vertica Analytics
 * Amazon Redshift
+* azure synapse
+* Google Big Query
+* Snowflake
+* Vertica Analytics
 
 ## Snowflake {#snowflake}
 
