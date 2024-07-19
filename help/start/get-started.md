@@ -2,9 +2,9 @@
 title: 開始使用同盟對象構成
 description: 瞭解什麼是Adobe同盟對象構成以及如何在Adobe Experience Platform中使用
 badge: label="可用性限制" type="Informative"
-source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
+source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1328'
 ht-degree: 6%
 
 ---
@@ -67,10 +67,11 @@ Adobe同盟對象構成可讓您直接從資料庫建立和更新Adobe Experienc
 
 在此版本中，同盟對象構成相容於：
 
-* Snowflake
-* Google Big Query
-* azure synapse
 * Amazon Redshift
+* azure synapse
+* Google Big Query
+* Snowflake
+* Vertica Analytics
 
 +++
 
