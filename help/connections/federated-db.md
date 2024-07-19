@@ -3,9 +3,9 @@ audience: end-user
 title: 開始使用同盟資料庫
 description: 瞭解如何建立和管理您的同盟資料庫
 badge: label="可用性限制" type="Informative"
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1458'
 ht-degree: 6%
 
 ---
@@ -27,11 +27,13 @@ ht-degree: 6%
 >title="同盟資料庫詳細資料"
 >abstract="輸入連接到新同盟資料庫的設定。使用&#x200B;**[!UICONTROL 測試連接]**&#x200B;按鈕驗證您的設定。"
 
-建立、設定、測試並儲存外部資料庫的連線。
+同盟對象構成可讓客戶從協力廠商資料倉儲建立並豐富對象，並將對象匯入至Adobe Experience Platform。
 
+在此頁面瞭解如何建立、設定、測試及儲存外部資料庫的連線。
 
+## 支援的資料庫 {#supported-db}
 
-支援的外部資料庫：
+透過同盟對象構成，您可以連線至下列資料庫：
 
 * Amazon Redshift
 * azure synapse
