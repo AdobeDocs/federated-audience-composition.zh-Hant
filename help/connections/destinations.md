@@ -3,9 +3,9 @@ audience: end-user
 title: 將受眾傳送至Adobe同盟受眾構成
 description: 瞭解如何將Adobe Experience Platform對象傳送至同盟對象構成
 badge: label="可用性限制" type="Informative"
-source-git-commit: 553db3ad6d318e7bddcede352178427255d41781
+source-git-commit: 1e400d98040cdbcc6f13f84faa00e8efa6cfbd4a
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '472'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,7 @@ Adobe Experience Platform可讓您從受眾入口網站傳送受眾，以Adobe�
 
    ![](assets/destination-configure.png)
 
-   **[!UICONTROL 警示]**&#x200B;區段可讓您啟用警示，以接收有關您目的地之資料流狀態的通知。 如需警示的詳細資訊，請參閱[使用UI訂閱目的地警示](../../ui/alerts.md)的指南。
+   **[!UICONTROL 警示]**&#x200B;區段可讓您啟用警示，以接收有關您目的地之資料流狀態的通知。 如需警示的詳細資訊，請參閱[使用UI訂閱目的地警示](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts)的指南。
 
 1. **[!UICONTROL 治理原則與執行動作]**&#x200B;步驟，您可以定義您的資料治理原則，並確保在傳送和啟用對象時，所使用的資料是合規的。
 
