@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用資料模式
 description: 瞭解如何開始使用資料模型
 badge: label="可用性限制" type="Informative"
-source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
+source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 39%
+source-wordcount: '220'
+ht-degree: 29%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 39%
 
 資料模型是一組結構描述、對象及其之間的連結。
 
-深入瞭解[結構描述](../customer/schemas.md)。
+深入瞭解[結構描述](../customer/schemas.md#schema-start)。
 
 深入瞭解[對象](../customer/audiences.md)。
 
@@ -61,3 +61,16 @@ ht-degree: 39%
 
 ### 建立連結 {#data-model-links}
 
+在資料模型的表格之間建立連結有兩個方法：
+- 直接按一下其中一個表格的&#x200B;**[!UICONTROL 建立連結]**&#x200B;功能表
+- 按一下&#x200B;**[!UICONTROL 建立連結]**&#x200B;按鈕，然後選擇2個資料表
+
+![](assets/datamodel_createlinks.png){zoomable="yes"}
+
+填寫指定表單以定義連結：
+
+![](assets/datamodel_link.png){zoomable="yes"}
+
+為您的資料模型定義的所有連結將列示如下：
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
