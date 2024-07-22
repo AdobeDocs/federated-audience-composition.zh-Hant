@@ -2,10 +2,10 @@
 title: 開始使用同盟對象構成
 description: 瞭解什麼是Adobe同盟對象構成以及如何在Adobe Experience Platform中使用
 badge: label="可用性限制" type="Informative"
-source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
+source-git-commit: 431fe95afe2297a8fd6c3821c7fbbeaf38807aaf
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 6%
+source-wordcount: '1381'
+ht-degree: 5%
 
 ---
 
@@ -35,22 +35,14 @@ Adobe同盟對象構成可讓您直接從資料庫建立和更新Adobe Experienc
 
 關鍵步驟：
 
-* **設定**
+1. **資料整合**：將各種來源的資料彙整在一起，並將它們合併到統一的資料集中。 在[本節](../connections/federated-db.md)中詳細瞭解如何連結Adobe Experience Platform應用程式和您的企業資料倉儲、支援的資料庫，以及如何設定它們。
 
-   1. 連線Adobe Experience Platform與您的企業資料倉儲。
-支援下列資料庫：Snowflake、Google Big Query、Azure synapse、Redshift。
-在[本頁](../connections/federated-db.md)中進一步瞭解
-   1. 建立結構以選取應該可從使用者介面存取哪些資料。
-在[本頁](../customer/schemas.md)中進一步瞭解
-   1. 為您的資料模型建立連結。
-在[本頁](../data-management/gs-models.md)中進一步瞭解
+2. **資料模型**：設計和建立定義資料結構、關係和限制的資料模型和結構描述。 在[此頁面](../customer/schemas.md)中進一步瞭解結構描述。 在[此頁面](../data-management/gs-models.md)中瞭解如何建立資料模型的連結。
 
-* **撰寫對象**
+3. **資料轉換**：套用資料操作技術來修改資料元素的格式、結構或值，使其相容或適用於特定的分析或應用程式。
 
-   1. 設計和執行組合以建立對象。
-在[本頁](../compositions/gs-compositions.md)中進一步瞭解
-   1. 透過Adobe Experience Platform對象入口網站和目的地更新或重複使用現有對象。
-在[本頁](../connections/destinations.md)中進一步瞭解
+4. **資料使用**：建立、協調和建立對象。 瞭解如何在[此頁面](../compositions/gs-compositions.md)中撰寫對象。 您也可以透過Adobe Experience Platform對象入口網站和目標，更新或重複使用現有的對象。 在[本頁](../connections/destinations.md)中進一步瞭解
+
 
 ## 常見問答 {#faq}
 
