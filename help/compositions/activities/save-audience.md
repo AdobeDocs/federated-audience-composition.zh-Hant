@@ -3,10 +3,10 @@ audience: end-user
 title: 使用儲存對象活動
 description: 瞭解如何使用「儲存對象」活動
 badge: label="可用性限制" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 6e04c42bf4b83448673851b97227faf953638d1e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 26%
+source-wordcount: '380'
+ht-degree: 25%
 
 ---
 
@@ -48,6 +48,10 @@ ht-degree: 26%
    ![](../assets/save-audience.png)
 
 1. 指定要建立的對象標籤。
+
+   >[!IMPORTANT]
+   >
+   >對象標籤在目前沙箱中必須是唯一的。 其標籤不得與任何現有對象相同。
 
 1. 按一下&#x200B;**新增對象對應**，然後選擇來源和目標對象欄位：
 
