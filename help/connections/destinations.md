@@ -1,25 +1,27 @@
 ---
 audience: end-user
-title: 將受眾傳送至Adobe同盟受眾構成
-description: 瞭解如何將Adobe Experience Platform對象傳送至同盟對象構成
+title: 利用外部資料豐富Adobe Experience Platform受眾
+description: 瞭解如何使用同盟受眾構成目的地，以同盟資料庫中的資料精進及豐富Adobe Experience Platform受眾。
 badge: label="可用性限制" type="Informative"
-source-git-commit: 1e400d98040cdbcc6f13f84faa00e8efa6cfbd4a
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 5%
+source-wordcount: '557'
+ht-degree: 4%
 
 ---
 
-# 傳送Adobe Experience Platform至Adobe同盟對象構成 {#connect-aep-fac}
+# 利用外部資料豐富Adobe Experience Platform受眾 {#connect-aep-fac}
 
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="建立目的地"
 >abstract="輸入連接到新同盟資料庫的設定。使用&#x200B;**[!UICONTROL 連結到目的地]**&#x200B;按鈕驗證您的設定。"
 
-Adobe Experience Platform可讓您從受眾入口網站傳送受眾，以Adobe同盟受眾構成。 如此一來，您就可以將現有的對象運用到組合中，並將其與外部資料庫的資料結合，以建立新對象或更新現有的對象。
+Adobe Experience Platform可透過Adobe同盟對象構成目的地，將對象從對象入口網站無縫整合到您的外部資料庫。 如此一來，您就可以將現有的對象運用在構成中，並使用外部資料庫的資料加以豐富或改良，以建立新對象或更新現有對象。
 
-若要這麼做，您需要在Adobe Experience Platform中設定與Adobe同盟對象構成目的地的新連線。 您可以使用排程器以固定頻率傳送特定對象，選擇要與對象一起傳送的欄位，例如ID以調解資料。 如果您已將治理和隱私權政策套用至對象，則會在對象更新後保留並傳回對象入口網站。
+若要這麼做，您需要在Adobe Experience Platform中設定與Adobe同盟對象構成目的地的新連線。 您可以使用排程器定期傳送特定對象，並選取要包含的特定屬性，例如用於資料協調的ID。 如果您已將治理和隱私權政策套用至對象，則會在對象更新後保留並傳回對象入口網站。
+
+例如，如果您將客戶信用分數儲存在資料倉儲中，且已有Adobe Experience Platform對象在過去兩個月內將目標鎖定於對特定產品感興趣的客戶，則您可以使用同盟對象構成目的地，根據信用分數調整此對象。 此程式可讓您篩選對象，以僅包含具有高信用分數的設定檔，而不需從您的資料倉儲傳輸敏感的信用分數資料。
 
 將Adobe Experience Platform對象傳送至Adobe同盟對象構成的主要步驟如下：
 

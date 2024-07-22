@@ -3,7 +3,7 @@ audience: end-user
 title: 開始使用資料模式
 description: 瞭解如何開始使用資料模型
 badge: label="可用性限制" type="Informative"
-source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 29%
@@ -41,7 +41,7 @@ ht-degree: 29%
 
 深入瞭解[結構描述](../customer/schemas.md#schema-start)。
 
-深入瞭解[對象](../customer/audiences.md)。
+深入瞭解[對象](../start/audiences.md)。
 
 ## 建立資料模型 {#data-model-create}
 
