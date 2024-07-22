@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用資料模式
 description: 瞭解如何開始使用資料模型
 badge: label="可用性限制" type="Informative"
-source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
+source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 38%
+source-wordcount: '165'
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 38%
 
 深入瞭解[對象](../customer/audiences.md)。
 
-## 如何建立資料模型？ {#data-model-create}
+## 建立資料模型 {#data-model-create}
 
 在&#x200B;**[!UICONTROL 同盟資料]**&#x200B;區段中，進入&#x200B;**[!UICONTROL 模型]**&#x200B;連結。 您會在該處找到&#x200B;**[!UICONTROL 資料模型]**&#x200B;標籤。
 

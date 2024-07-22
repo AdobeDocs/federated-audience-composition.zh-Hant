@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用結構描述
 description: 瞭解如何開始使用結構描述
 badge: label="可用性限制" type="Informative"
-source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
+source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 31%
+source-wordcount: '281'
+ht-degree: 34%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 31%
 綱要是應用程式內的物件，定義資料與資料庫表格的連結方式。
 結構描述會參考表格。
 
-## 如何建立結構描述？ {#schema-create}
+## 建立結構描述 {#schema-create}
 
 在&#x200B;**[!UICONTROL 同盟資料]**&#x200B;區段中，進入&#x200B;**[!UICONTROL 模型]**&#x200B;連結。 您會在該處找到&#x200B;**[!UICONTROL 結構描述]**索引標籤。
 按一下**[!UICONTROL 建立結構描述]**&#x200B;按鈕。
@@ -62,14 +62,14 @@ ht-degree: 31%
 
 ![](assets/schema_fields.png){zoomable="yes"}
 
-## 如何編輯結構？ {#schema-edit}
+## 編輯結構 {#schema-edit}
 
 若要編輯方案，請在「方案」資料夾中按一下方案的名稱。 您將可存取以下頁面。
 按一下**[!UICONTROL 編輯]**&#x200B;按鈕。
 
 ![](assets/schema_edit.png){zoomable="yes"}
 
-## 如何預覽結構描述中的資料？ {#schema-preview}
+## 在結構描述中預覽資料 {#schema-preview}
 
 若要預覽結構描述所代表之表格中的資料，請移至&#x200B;**[!UICONTROL 資料]**&#x200B;標籤，如下所示。
 
@@ -79,7 +79,7 @@ ht-degree: 31%
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
-## 如何刪除結構描述？ {#schema-delete}
+## 刪除結構描述 {#schema-delete}
 
 若要刪除結構描述，請按一下&#x200B;**[!UICONTROL 更多]**&#x200B;按鈕，然後按&#x200B;**[!UICONTROL 刪除]**。
 
