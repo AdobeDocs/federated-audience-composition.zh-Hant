@@ -3,10 +3,10 @@ audience: end-user
 title: 使用建立對象活動
 description: 瞭解如何使用建立對象活動
 badge: label="可用性限制" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+source-git-commit: 71936c3fb6946ce9d4928499c96da39aaef49231
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 35%
+source-wordcount: '246'
+ht-degree: 30%
 
 ---
 
@@ -45,8 +45,11 @@ ht-degree: 35%
 
 1. 選取&#x200B;**建立對象**。
 1. 選擇&#x200B;**結構描述**，也稱為目標維度。 結構描述可讓您定義作業的目標母體：收件者、合約受益者、操作者、訂閱者等。 依預設，會從收件者中選取結構。
+
+   ![](../assets/build-audience-create.png)
+
 1. 按一下&#x200B;**繼續**。
-1. 使用查詢建模器來定義您的查詢。 [瞭解如何使用查詢模型工具](../../query/query-modeler-overview.md)
+1. 使用查詢建模器定義您的查詢，然後確認。 [瞭解如何使用查詢模型工具](../../query/query-modeler-overview.md)
 
 >[!TAB 讀取閱聽眾]
 
@@ -54,9 +57,16 @@ ht-degree: 35%
 
 1. 選取「**讀取對象**」。
 1. 按一下&#x200B;**繼續**。
+
+   ![](../assets/build-audience-read.png)
+
 1. 選取您的對象。
 
 >[!ENDTABS]
+
+>[!NOTE]
+>
+>**產生出站轉變**&#x200B;選項可讓您新增出站轉變，如果對象母體空白，該轉變將在活動執行結束時啟動。
 
 <!--
 ## Examples{#build-audience-examples}
