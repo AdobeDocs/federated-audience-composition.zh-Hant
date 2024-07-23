@@ -3,18 +3,18 @@ audience: end-user
 title: 開始使用組合
 description: 瞭解如何開始使用組合
 badge: label="可用性限制" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '287'
 ht-degree: 10%
 
 ---
 
 # 開始使用組合 {#compositions}
 
-## 什麼是構成？ {#what}
+## 什麼是構成 {#what}
 
-Adobe資料構成可讓您建立構成，其中您可以使用各種活動（分割、排除……）在視覺畫布中建立對象。 完成後，產生的受眾會與現有受眾一併儲存至Adobe Experience Platform中，並可在Journey Optimizer等目的地運用於鎖定客戶。
+「Adobe對象構成」可讓您建立構成，其中您可以使用各種活動（分割、排除……）到視覺畫布中建立對象。 完成後，產生的受眾會與現有受眾一併儲存至Adobe Experience Platform中，並可在Journey Optimizer等目的地運用於鎖定客戶。 [瞭解如何使用對象](../start/audiences.md)
 
 ![](assets/composition-example.png)
 
@@ -43,7 +43,7 @@ Adobe資料構成可讓您建立構成，其中您可以使用各種活動（分
 
 * **[!UICONTROL 草稿]**：已建立並儲存構成。
 * **[!UICONTROL 進行中]**：構成已經執行，目前正在執行。
-* **[!UICONTROL 已停止]**：構成執行已停止。
+* **[!UICONTROL 已停止]**：構成執行已完成並已停止。
 * **[!UICONTROL 已暫停]**：構成執行已暫停。
 * **[!UICONTROL 錯誤]**：構成執行發生錯誤。 開啟構成並存取日誌和工作以識別錯誤並加以解決。
 

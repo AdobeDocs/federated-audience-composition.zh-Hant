@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用稽核軌跡
 description: 瞭解如何使用稽核軌跡監視資料庫
 badge: label="可用性限制" type="Informative"
-source-git-commit: bdef7049ee78c512857adcf7d587066eaf80046e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 12%
+source-wordcount: '367'
+ht-degree: 11%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 12%
 
 稽核軌跡功能會針對您的環境即時提供所有動作和事件的詳細時間順序記錄
 
-**[!UICONTROL 稽核軌跡]**&#x200B;功能會持續即時記錄Adobe資料構成執行個體內發生的動作和事件的詳細記錄。 它提供一種便利的方法，可存取按時間順序排列的資料記錄，並解決以下查詢：工作流程的狀態、要修改它們的最新個人，或使用者在執行個體內執行的活動。
+**[!UICONTROL 稽核軌跡]**&#x200B;功能會持續即時記錄Adobe同盟組合執行個體中發生的動作和事件的詳細記錄。 它提供一種便利的方法，可存取按時間順序排列的資料記錄，並解決以下查詢：工作流程的狀態、要修改它們的最新個人，或使用者在執行個體內執行的活動。
 
 +++ 深入瞭解稽核軌跡可用實體
 
-* **Source結構描述稽核軌跡**&#x200B;可讓您監視Adobe資料構成執行個體中的活動以及最近對結構描述所做的修改。
+* **Source結構描述稽核軌跡**&#x200B;可讓您監視Adobe同盟對象構成執行個體中的活動以及最近對結構描述所做的修改。
 
   如需結構描述的詳細資訊，請參閱此[頁面](../customer/schemas.md)。
 
@@ -40,7 +40,7 @@ ht-degree: 12%
 
   如需工作流程的詳細資訊，請參閱此[頁面](../compositions/gs-compositions.md)。
 
-* **外部帳戶**&#x200B;可讓您檢查對Adobe資料構成執行個體中的外部帳戶所做的修改。
+* **外部帳戶**&#x200B;可讓您檢查對Adobe對象組合執行個體中的外部帳戶所做的修改。
 
   如需外部帳戶的詳細資訊，請參閱此[頁面](../connections/federated-db.md)。
 

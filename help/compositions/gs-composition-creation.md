@@ -3,7 +3,7 @@ audience: end-user
 title: 建立組合
 description: 瞭解如何建立組合
 badge: label="可用性限制" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 59%
@@ -20,7 +20,7 @@ ht-degree: 59%
 
 ## 構成內有什麼？ {#gs-composition-inside}
 
-同盟資料構成提供視覺畫布，可讓您運用各種活動（分割、擴充等）來建立對象。
+同盟對象構成提供視覺畫布，可讓您運用各種活動（分割、擴充等）來建立對象。
 
 構成圖是應該發生的表示法。 它會說明要執行的各種任務以及任務如何連結在一起。
 

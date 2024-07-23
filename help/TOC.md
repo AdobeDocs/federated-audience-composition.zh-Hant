@@ -2,10 +2,10 @@
 user-guide-title: 聯合客群構成
 title: Adobe同盟對象構成檔案
 breadcrumb-title: 聯合客群構成
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 35%
+source-wordcount: '133'
+ht-degree: 36%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 35%
 # 同盟對象構成檔案 {#using}
 
 + [同盟對象構成檔案](home.md)
++ [發行說明](start/release-notes.md)
 + 開始使用同盟對象構成{#start}
-   + [快速入門](start/get-started.md)
-   + [發行說明](start/release-notes.md)
+   + [什麼是同盟對象構成](start/get-started.md)
    + [配合對象](start/audiences.md)
 + 設定步驟{#config}
    + [建立和管理連線](connections/connections.md)
@@ -24,7 +24,7 @@ ht-degree: 35%
       + [建立和設定方案](customer/schemas.md)
       + [設定您的資料模型](data-management/gs-models.md)
    + [利用外部資料豐富Adobe Experience Platform受眾](connections/destinations.md)
-+ 組合{#compositions}
++ 撰寫對象 {#compositions}
    + [開始使用組合](compositions/gs-compositions.md)
    + 建立並執行您的第一個組合{#create-composition}
       + [用於建立構成的主要原則](compositions/gs-composition-creation.md)
@@ -51,4 +51,3 @@ ht-degree: 35%
    + [編輯運算式](query/expression-editor.md)
 + 稽核軌跡{#audit-trail}
    + [監視資料庫](admin/audit-trail.md)
-+ [&lt;返回Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
