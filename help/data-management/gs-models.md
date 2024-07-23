@@ -3,7 +3,7 @@ audience: end-user
 title: 開始使用資料模式
 description: 瞭解如何開始使用資料模型
 badge: label="可用性限制" type="Informative"
-source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 29%
@@ -62,6 +62,7 @@ ht-degree: 29%
 ### 建立連結 {#data-model-links}
 
 在資料模型的表格之間建立連結有兩個方法：
+
 - 直接按一下其中一個表格的&#x200B;**[!UICONTROL 建立連結]**&#x200B;功能表
 - 按一下&#x200B;**[!UICONTROL 建立連結]**&#x200B;按鈕，然後選擇2個資料表
 

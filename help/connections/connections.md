@@ -3,7 +3,7 @@ audience: end-user
 title: 建立和管理與同盟資料庫的連線
 description: 瞭解如何建立和管理與同盟資料庫的連線
 badge: label="可用性限制" type="Informative"
-source-git-commit: 98689f24fc7eeffa4cdfa5418c160c13abba7527
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 5%
@@ -27,6 +27,7 @@ ht-degree: 5%
 ![](assets/connections_details.png){zoomable="yes"}
 
 根據您資料庫的型別，在下列連結中瞭解設定連線所需的資訊：
+
 * [Amazon Redshift](federated-db.md#amazon-redshift)
 * [azure synapse](federated-db.md#azure-synapse-redshift)
 * [Google Big Query](federated-db.md#google-big-query)
