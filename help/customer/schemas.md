@@ -3,9 +3,9 @@ audience: end-user
 title: 開始使用結構描述
 description: 瞭解如何開始使用結構描述
 badge: label="可用性限制" type="Informative"
-source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
+source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '470'
 ht-degree: 20%
 
 ---
@@ -44,7 +44,8 @@ ht-degree: 20%
 
 綱要代表資料庫的表格。 它是應用程式內的物件，定義資料與資料庫表格的連結方式。
 
-透過建立結構描述，您將可以在FAC中操作您的表格：
+透過建立結構描述，您將有可能在FAC中操作表格的表示法：
+
 - 提供易記的名稱和說明，以簡化使用者的理解
 - 根據每個欄位的實際使用情形來決定其可見性
 - 請選取其主要索引鍵，以便根據[資料模型](../data-management/gs-models.md#data-model-start)的需要連結它們之間的結構描述
@@ -70,6 +71,7 @@ ht-degree: 20%
 ![](assets/schema_fields.png){zoomable="yes"}
 
 對於每個表格，您可以：
+
 - 重新命名指定的結構描述標籤
 - 新增說明
 - 重新命名所有欄位，並決定其可見性。
@@ -91,6 +93,7 @@ ht-degree: 20%
 ![](assets/schema_edit.png){zoomable="yes"}
 
 您將可存取與建立結構描述時相同的可能性：
+
 - 重新命名指定的結構描述標籤
 - 新增說明
 - 重新命名所有欄位，並決定其可見性。
