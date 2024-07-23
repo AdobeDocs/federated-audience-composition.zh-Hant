@@ -3,9 +3,9 @@ audience: end-user
 title: 建立組合
 description: 瞭解如何建立組合
 badge: label="可用性限制" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '482'
 ht-degree: 21%
 
 ---
@@ -47,9 +47,7 @@ ht-degree: 21%
 >title="錯誤管理設定"
 >abstract="在此區段中，您可以定義執行期間應如何管理錯誤。您可以選擇暫停流程、忽略一定數量的錯誤，或是停止構成執行。"
 
-存取構成時，您可以存取進階設定，以讓您定義構成在發生錯誤時的行為方式。
-
-若要存取構成的其他選項，請按一下構成建立畫面上方的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
+存取構成時，您可以存取進階設定，以讓您定義構成在發生錯誤時的行為方式。 若要存取這些其他選項，請按一下構成建立畫面上方的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
 
 ![](assets/composition-create-settings.png)
 

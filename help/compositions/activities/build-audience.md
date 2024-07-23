@@ -3,10 +3,10 @@ audience: end-user
 title: 使用建立對象活動
 description: 瞭解如何使用建立對象活動
 badge: label="可用性限制" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 40%
+source-wordcount: '212'
+ht-degree: 35%
 
 ---
 
@@ -18,15 +18,10 @@ ht-degree: 40%
 >title="建置對象活動"
 >abstract="「**建置對象**」活動可讓您定義會進入構成對象。"
 
-「**建置對象**」活動可讓您定義會進入構成對象。
+**建立對象**&#x200B;活動可讓您定義將進入構成的對象。 若要定義對象族群，您可以：
 
-若要定義對象族群，您可以：
-
-<!--* Select an existing audience, created as a list in the client console.-->
-* 選取 Adobe Experience Platform 對象。
-* 定義並結合篩選條件，以使用查詢建模器建立器建立新對象。
-
-**建置對象**&#x200B;活動可放置在構成開頭或任何其他活動之後。 任何活動都可以放在&#x200B;**組建對象**&#x200B;之後。
+* 選取現有的Adobe Experience Platform對象。
+* 定義並結合篩選條件，使用查詢塑模器建立新對象。
 
 ## 設定建置對象活動 {#build-audience-configuration}
 

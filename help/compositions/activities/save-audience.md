@@ -3,10 +3,10 @@ audience: end-user
 title: 使用儲存對象活動
 description: 瞭解如何使用「儲存對象」活動
 badge: label="可用性限制" type="Informative"
-source-git-commit: 6e04c42bf4b83448673851b97227faf953638d1e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 25%
+source-wordcount: '420'
+ht-degree: 18%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="儲存一個對象"
->abstract="使用此活動來更新現有的對象，或是從構成中的族群運算上游建立新的對象。建立的對象將新增至對象清單中，並可透過「**對象**」選單使用。"
+>abstract="使用此活動，從構成中的母體運算上游建立新的對象。 建立的對象將新增至對象清單中，並可透過「**對象**」選單使用。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -35,7 +35,7 @@ ht-degree: 25%
 >abstract="選取設定檔要用的命名空間。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces" text="進一步瞭解 Experience Platform 文件"
 
-**儲存對象**&#x200B;活動可讓您更新現有的對象，或是從構成中的母體運算上游建立新的對象。 建立的對象會新增至應用程式對象清單，並可透過&#x200B;**對象**&#x200B;功能表使用。
+**儲存對象**&#x200B;活動可讓您從構成中的母體運算上游建立新的對象。 建立的對象會新增至Adobe Experience Platform對象清單，並可透過&#x200B;**對象**&#x200B;功能表使用。 [瞭解如何使用對象](../../start/audiences.md)
 
 此活動主要用於將母體族群轉換為可重複使用的對象，讓母體族群可繼續在相同構成中運算。 將其連線到其他目標定位活動，例如&#x200B;**建立對象**&#x200B;或&#x200B;**合併**&#x200B;活動。
 
@@ -53,10 +53,7 @@ ht-degree: 25%
    >
    >對象標籤在目前沙箱中必須是唯一的。 其標籤不得與任何現有對象相同。
 
-1. 按一下&#x200B;**新增對象對應**，然後選擇來源和目標對象欄位：
-
-   * **Source對象欄位**：
-   * **目標對象欄位**：
+1. 使用「對象對應」區段來選取您要與新建立的對象一起帶入的欄位。 若要這麼做，請按一下&#x200B;**新增對象對應**，然後選擇來源和目標對象欄位。
 
    重複此作業，視需要儘量新增對象對應。
 
@@ -65,7 +62,7 @@ ht-degree: 25%
    * **主要身分欄位**：選取要用來識別設定檔的欄位。 例如，其電子郵件地址或電話號碼。
    * **識別名稱空間**：選取要用來識別設定檔的名稱空間，也就是要做為識別金鑰的資料型別。 例如，如果已選取電子郵件地址作為主要身分欄位，則應選取身分名稱空間&#x200B;**電子郵件**。 如果唯一識別碼是電話號碼，則應該選取識別名稱空間&#x200B;**電話**。
 
-執行構成後，產生的對象會儲存在Adobe Experience Platform <!-- to check-->中，並可在&#x200B;**對象**&#x200B;功能表中存取。
+執行構成後，產生的對象會儲存在Adobe Experience Platform中，並可在&#x200B;**對象**&#x200B;功能表中存取。 建立的對象包含「對象對應」區段中選取的所有欄位。 您可以對Adobe Experience Platform支援的任何目的地啟用對象。
 
 <!--
 
