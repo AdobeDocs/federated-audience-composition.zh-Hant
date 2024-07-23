@@ -2,10 +2,10 @@
 user-guide-title: 聯合客群構成
 title: Adobe同盟對象構成檔案
 breadcrumb-title: 聯合客群構成
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 36%
+source-wordcount: '136'
+ht-degree: 37%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 36%
 + 開始使用同盟對象構成{#start}
    + [什麼是同盟對象構成](start/get-started.md)
    + [配合對象](start/audiences.md)
+   + [常見問答](start/faq.md)
 + 設定步驟{#config}
    + [建立和管理連線](connections/connections.md)
    + [設定您的同盟資料庫](connections/federated-db.md)
