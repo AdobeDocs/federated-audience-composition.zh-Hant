@@ -3,13 +3,13 @@ audience: end-user
 title: 使用擴充活動
 description: 瞭解如何使用擴充活動
 badge: label="可用性限制" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
+source-git-commit: 1b9e4f23403e830a3cd4b12df5268d852f549ffe
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 52%
+source-wordcount: '391'
+ht-degree: 48%
 
 ---
-
 
 # 擴充 {#enrichment}
 
@@ -38,7 +38,9 @@ ht-degree: 52%
 >title="擴充資料"
 >abstract="選取用於擴充構成的資料。您可以選取兩種類型的擴充資料：結構描述 (又名目標市場選擇維度) 中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
 
-**擴充**&#x200B;活動可讓您使用同盟資料庫的額外資訊來增強目標資料。 它通常用於細分活動後的組合。
+**擴充**&#x200B;活動可讓您使用同盟資料庫的額外資訊來增強目標資料。 這通常會用於分段活動之後的構成。
+
+如果您已設定連線至同盟資料構成目的地，則可使用擴充活動，以外部資料庫的屬性擴充來自Adobe Experience Platform的資料。 [瞭解如何使用外部資料擴充Adobe Experience Platform對象](../../connections/destinations.md)
 
 擴充資料可以：
 
@@ -78,16 +80,17 @@ ht-degree: 52%
     * [Single enrichment attribute](#single-attribute)
     * [Collection lnk](#collection-link)-->
 
-## 範例 {#example}
+<!--
+## Examples {#example}
 
-### 單一擴充屬性 {#single-attribute}
+### Single enrichment attribute {#single-attribute}
 
-在這裡，我們只新增單一擴充屬性，例如出生日期。請按照以下步驟操作：
+Here, we are just adding a single enrichment attribute, for example, the date of birth. Follow these steps:
 
-1. 按一下「**屬性**」欄位內部。
-1. 從結構描述中選取簡單欄位（也稱為目標維度），在我們的範例中是出生日期。
-1. 按一下「**確認**」。
-
+1. Click inside the **Attribute** field.
+1. Select a simple field from the schema, also known as targeting dimension, the date of birth in our example. 
+1. Click **Confirm**.
+-->
 <!--### Collection link {#collection-link}
 
 In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
