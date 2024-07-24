@@ -3,7 +3,8 @@ audience: end-user
 title: 利用外部資料豐富Adobe Experience Platform受眾
 description: 瞭解如何使用同盟受眾構成目的地，以同盟資料庫中的資料精進及豐富Adobe Experience Platform受眾。
 badge: label="可用性限制" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
+source-git-commit: f2ea9a368b4409f0b38b12508ce310d49e3d84f8
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 4%
@@ -17,7 +18,7 @@ ht-degree: 4%
 >title="建立目的地"
 >abstract="輸入連接到新同盟資料庫的設定。使用&#x200B;**[!UICONTROL 連結到目的地]**&#x200B;按鈕驗證您的設定。"
 
-Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象構成**&#x200B;目的地，將對象從對象入口網站順暢整合到您的外部資料庫。 如此一來，您就可以將現有的對象運用到構成中，並使用外部資料庫的資料加以豐富或改良，以建立新的對象。
+Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地**，將對象入口網站中的對象與外部資料庫緊密整合。 透過這項整合，您可以將現有的對象運用在構成中，並使用外部資料庫的資料來豐富或改良對象，以建立新的對象。
 
 若要這麼做，您需要在Adobe Experience Platform中設定與Adobe同盟對象構成目的地的新連線。 您可以使用排程器定期傳送特定對象，並選取要包含的特定屬性，例如用於資料協調的ID。 如果您已將治理和隱私權政策套用至對象，則會在對象更新後保留並傳回對象入口網站。
 
