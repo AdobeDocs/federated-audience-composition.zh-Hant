@@ -3,13 +3,13 @@ audience: end-user
 title: 使用調解活動
 description: 瞭解如何使用調解活動
 badge: label="可用性限制" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '526'
 ht-degree: 39%
 
 ---
-
 
 # 調和 {#reconciliation}
 
@@ -37,7 +37,7 @@ ht-degree: 39%
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-**調解**&#x200B;活動可讓您將未識別的資料連結到現有資源。 調解作業表示您要加入的資料已在資料庫中。 例如，如果您想要調節顯示購買哪個產品、購買時間、購買者等等，產品和客戶必須已存在於資料庫中。
+它可讓您將未識別的資料連結至現有資源。 調解作業表示您要加入的資料已在資料庫中。 例如，如果您想要調節顯示購買哪個產品、購買時間、購買者等等，產品和客戶必須已存在於資料庫中。
 
 ## 設定調和活動 {#reconciliation-configuration}
 

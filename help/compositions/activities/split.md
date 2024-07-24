@@ -3,13 +3,13 @@ audience: end-user
 title: 使用分割活動
 description: 瞭解如何使用分割活動
 badge: label="可用性限制" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 76%
 
 ---
-
 
 # Split {#split}
 
@@ -96,9 +96,7 @@ ht-degree: 76%
 
 1. 設定完所有子集後，您可以選擇與任何子集都不相符的剩餘族群，並將其包含在額外的輸出轉變中。若要這樣做，請開啟「**[!UICONTROL 產生補集]**」選項。
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL 在相同資料表中產生所有子集]**&#x200B;選項可讓您將所有子集群組成單一輸出轉換。
+1. **[!UICONTROL 在相同資料表中產生所有子集]**&#x200B;選項可讓您將所有子集群組成單一輸出轉換。
 
 1. **[!UICONTROL 啟用輸出母體重疊]**&#x200B;選項可讓您管理屬於數個子集的母體：
 
