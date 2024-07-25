@@ -2,13 +2,13 @@
 title: 常見問答
 description: 常見問題
 badge: label="可用性限制" type="Informative"
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
+source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 2%
 
 ---
-
 
 # 常見問答 {#faq}
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 例如：
 
-* 若是對象細分，對象會建立於您的倉儲中，而您可以先使用同盟對象構成進行其他構成任務和資料操作，然後再透過Adobe Experience Platform對象入口網站發佈產生的對象和相關屬性。 受眾定義和相關屬性會移至Adobe Experience Platform。
+* 建立對象時，會在您的倉儲建立對象，而您可以先使用同盟對象構成來執行其他構成任務和資料操作，然後再透過Adobe Experience Platform對象入口網站發佈產生的對象和相關屬性。 受眾定義和相關屬性會移至Adobe Experience Platform。
 請注意，外部產生的對象目前的資料到期日為30天。 此資料到期日可減少組織內儲存的過多資料量。 在資料有效期限過後，關聯的資料集仍會顯示在資料集詳細目錄內，但您無法啟用對象，且設定檔計數會顯示為零。 進一步瞭解[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}。
 
 * 在對象擴充的案例中，起點是現有的Adobe Experience Platform對象。 您可以在此檢視兩種情境：
@@ -79,7 +79,7 @@ ht-degree: 2%
    1. 根據您的Data Warehouse中存在的其他屬性調整現有的Adobe Experience Platform對象。 例如，您的受眾是過去兩個月在網站上對特定產品表現出興趣的客戶。 您現在想要取用這個對象，並使用同盟對象構成來進一步區隔它，以僅包含具有高信用分數的客戶。 這些信用分數會被視為敏感，且不會從資料倉儲複製個別信用分數資料點。
 +++
 
-+++如果對象細分和對象擴充使用案例模式的資料沒有持續存在，如何暫時儲存？
++++如果對象建立和對象擴充使用案例模式的資料沒有持續存在，如何暫時儲存？
 
 產生的對象資料不會無限期保留在Adobe Experience Platform或同盟對象構成中。 保留時間不會超過使用案例所需的時間。 在對象裝載中隨附的對象屬性只會當作對象定義的一部分而持續存在。 持續性持續時間會根據任何對象的TTL而定，預設為30天。
 
