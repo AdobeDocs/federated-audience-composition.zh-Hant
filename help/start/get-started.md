@@ -3,7 +3,7 @@ title: 開始使用同盟對象構成
 description: 瞭解什麼是Adobe同盟對象構成以及如何在Adobe Experience Platform中使用
 badge: label="可用性限制" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 6a4e50c4d2958504a266297dffc125b00e1294e4
+source-git-commit: 3b4f5284cd65cd5cd30c4223fe2df3ffff7c0905
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 11%
@@ -22,13 +22,13 @@ Adobe同盟對象構成可協助Adobe Experience Platform應用程式使用者�
 
 此版本提供兩種使用案例：對象建立和對象擴充。
 
-![圖表](assets/fac-use-cases.png){zoomable="yes"}
+![圖表](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 ## 主要步驟 {#gs-steps}
 
 Adobe同盟對象構成可讓您直接從資料庫建立和更新Adobe Experience Platform對象，無需任何擷取程式。
 
-![圖表](assets/steps-diagram.png){zoomable="yes"}
+![圖表](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}
 
 關鍵步驟：
 
