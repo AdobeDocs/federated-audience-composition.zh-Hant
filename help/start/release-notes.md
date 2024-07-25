@@ -2,13 +2,13 @@
 title: 同盟對象構成的新增功能
 description: 最新更新和發行說明
 badge: label="可用性限制" type="Informative"
-source-git-commit: f5b7fa76719861761b423f61c5e3bba3d4d24c9b
+exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
+source-git-commit: 00287147cfc84bbec9bc1982d83c12c951949dd5
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '344'
 ht-degree: 4%
 
 ---
-
 
 # 發行說明 {#rn-new}
 
@@ -29,6 +29,8 @@ ht-degree: 4%
 在[此頁面](get-started.md)和[常見問題](get-started.md#faq)中進一步瞭解同盟對象構成功能。
 
 ## 存取同盟對象構成 {#fac-access}
+
+同盟對象構成需要Adobe Real-time Customer Data Platform和Adobe Journey Optimizer Prime或Ultimate套件。
 
 同盟對象構成沒有特定許可權。 存取此功能的唯一先決條件，就是已購買同盟對象構成附加元件。
 
