@@ -3,10 +3,11 @@ audience: end-user
 title: 開始使用結構描述
 description: 瞭解如何開始使用結構描述
 badge: label="可用性限制" type="Informative"
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
+source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 20%
+source-wordcount: '438'
+ht-degree: 22%
 
 ---
 
@@ -44,76 +45,75 @@ ht-degree: 20%
 
 綱要代表資料庫的表格。 它是應用程式內的物件，定義資料與資料庫表格的連結方式。
 
-透過建立結構描述，您將有可能在FAC中操作表格的表示法：
+透過建立結構，您可以在Experience Platform同盟對象構成中定義表格的表示法：
 
-- 提供易記的名稱和說明，以簡化使用者的理解
-- 根據每個欄位的實際使用情形來決定其可見性
-- 請選取其主要索引鍵，以便根據[資料模型](../data-management/gs-models.md#data-model-start)的需要連結它們之間的結構描述
+* 提供易記的名稱和說明，以簡化使用者的理解
+* 根據每個欄位的實際使用情況決定其可見性
+* 請選取其主要索引鍵，以便根據[資料模型](../data-management/gs-models.md#data-model-start)的需要連結它們之間的結構描述
 
 ## 建立結構描述 {#schema-create}
 
-若要在FAC中建立方案，請遵循下列步驟：
-在**[!UICONTROL 同盟資料]**&#x200B;區段中，進入&#x200B;**[!UICONTROL 模型]**&#x200B;連結。 您會在該處找到&#x200B;**[!UICONTROL 結構描述]**索引標籤。
-按一下**[!UICONTROL 建立結構描述]**&#x200B;按鈕。
+若要在Federated Audience Composition中建立方案，請遵循下列步驟：
 
-![](assets/schema_create.png){zoomable="yes"}
+1. 在&#x200B;**[!UICONTROL 同盟資料]**&#x200B;區段中，進入&#x200B;**[!UICONTROL 模型]**&#x200B;連結。 瀏覽至&#x200B;**[!UICONTROL 結構描述]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 建立結構描述]**&#x200B;按鈕。
 
-您將能存取新介面，其中包含您將會找到的下拉式清單
-所有連線至您應用程式的資料庫。 深入瞭解[資料庫連線](../connections/connections.md#connections-fdb)。
-在清單中選取您的來源資料庫，然後按一下**[!UICONTROL 新增表格]**&#x200B;索引標籤
+   ![](assets/schema_create.png){zoomable="yes"}
 
-![](assets/schema_tables.png){zoomable="yes"}
+   此步驟可讓您透過下拉式清單存取新畫面，您可以在其中找到連線到您環境的資料庫。 在[本節](../connections/connections.md#connections-fdb)中進一步瞭解資料庫連線。
 
-您可以存取資料庫中所有表格的清單。
+1. 在清單中選取您的來源資料庫，然後按一下&#x200B;**[!UICONTROL 新增表格]**&#x200B;索引標籤。
 
-新增您要建立綱要的表格後，您就可以存取其欄位，如下所示。
+   ![](assets/schema_tables.png){zoomable="yes"}
 
-![](assets/schema_fields.png){zoomable="yes"}
+   然後您可以檢視資料庫中所有表格的清單。
 
-對於每個表格，您可以：
+1. 透過新增您要建立綱要的表格，您可以存取其欄位，如下所示：
 
-- 重新命名指定的結構描述標籤
-- 新增說明
-- 重新命名所有欄位，並決定其可見性。
-- 選取結構描述主索引鍵
+   ![](assets/schema_fields.png){zoomable="yes"}
 
-例如，以下是匯入的表格，緊接在新增之後：
+   對於每個表格，您可以：
 
-![](assets/schema_lumaorder.png){zoomable="yes"}
+   * 變更結構描述的標籤
+   * 新增說明
+   * 重新命名所有欄位，並設定其可見度
+   * 選取結構描述主索引鍵
 
-結構描述可以像這樣定義：
+   例如，針對匯入的下清單格：
 
-![](assets/schema_lumaorders.png){zoomable="yes"}
+   ![](assets/schema_lumaorder.png){zoomable="yes"}
+
+   結構描述可以定義如下：
+
+   ![](assets/schema_lumaorders.png){zoomable="yes"}
 
 ## 編輯結構 {#schema-edit}
 
-若要編輯方案，請在「方案」資料夾中按一下方案的名稱。 您將可存取以下頁面。
-按一下**[!UICONTROL 編輯]**&#x200B;按鈕。
+若要編輯綱要：
 
-![](assets/schema_edit.png){zoomable="yes"}
+1. 按一下結構描述資料夾中結構描述的名稱。
 
-您將可存取與建立結構描述時相同的可能性：
+1. 按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕。
 
-- 重新命名指定的結構描述標籤
-- 新增說明
-- 重新命名所有欄位，並決定其可見性。
-- 選取結構描述主索引鍵
+   ![](assets/schema_edit.png){zoomable="yes"}
 
-![](assets/schema_edit_orders.png){zoomable="yes"}
+   您可以存取與[建立結構描述](#schema-create)時相同的選項。
+
+   ![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## 在結構描述中預覽資料 {#schema-preview}
 
-若要預覽結構描述所代表之表格中的資料，請移至&#x200B;**[!UICONTROL 資料]**標籤，如下所示。
-按一下**[!UICONTROL 計算]**&#x200B;連結，即可取得錄製總數。
+若要預覽結構描述所代表之表格中的資料，請瀏覽至&#x200B;**[!UICONTROL 資料]**&#x200B;標籤，如下所示。
+
+按一下&#x200B;**[!UICONTROL 計算]**&#x200B;連結以預覽錄製總數。
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-您可以按一下&#x200B;**[!UICONTROL 設定資料行]**&#x200B;按鈕來變更資料概觀。
+按一下&#x200B;**[!UICONTROL 設定資料行]**&#x200B;按鈕以變更資料顯示。
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## 刪除結構描述 {#schema-delete}
 
-若要刪除結構描述，請按一下&#x200B;**[!UICONTROL 更多]**&#x200B;按鈕，然後按&#x200B;**[!UICONTROL 刪除]**。
+若要刪除結構描述，請按一下&#x200B;**[!UICONTROL 更多]**&#x200B;按鈕，然後選擇&#x200B;**[!UICONTROL 刪除]**。
 
 ![](assets/schema_delete.png){zoomable="yes"}
