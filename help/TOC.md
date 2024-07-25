@@ -2,15 +2,15 @@
 user-guide-title: Experience Platform同盟對象構成
 title: Experience Platform同盟對象構成檔案
 breadcrumb-title: Experience Platform同盟對象構成
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: a56ae63a7f8da28dce0ba4f1be8d0d650477ec2f
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '143'
 ht-degree: 31%
 
 ---
 
 
-# 同盟對象構成檔案 {#using}
+# Experience Platform同盟對象構成檔案 {#using}
 
 + [同盟對象構成檔案](home.md)
 + [發行說明](start/release-notes.md)
