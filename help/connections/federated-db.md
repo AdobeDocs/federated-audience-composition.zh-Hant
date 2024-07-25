@@ -4,7 +4,7 @@ title: 開始使用同盟資料庫
 description: 瞭解如何建立和管理您的同盟資料庫
 badge: label="可用性限制" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: 866dbeb39f2d3cc73d21edea170a3861f91a4802
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 6%
@@ -111,7 +111,7 @@ Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建�
 1. 完成設定後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以建立同盟資料庫。
 
 | 選項 | 說明 |
-|:-:|:-:|
+|---|---|
 | 驗證 | 聯結器支援的驗證型別。 目前支援的值： ActiveDirectoryMSI。 如需詳細資訊，請參閱[SQL檔案](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) （連線字串n°8範例） |
 
 
@@ -150,7 +150,7 @@ Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建�
 1. 完成設定後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以建立同盟資料庫。
 
 | 選項 | 說明 |
-|:-:|:-:|
+|---|---|
 | ProxyType | 用來透過ODBC和SDK聯結器連線至BigQuery的Proxy型別。 目前支援</br>HTTP （預設）、http_no_tunnel、socks4和socks5。 |
 | ProxyHost | 可連線到Proxy的主機名稱或IP位址。 |
 | ProxyPort | 執行Proxy的連線埠號碼，例如8080 |
