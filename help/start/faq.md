@@ -3,9 +3,9 @@ title: 常見問答
 description: 常見問題
 badge: label="可用性限制" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
+source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '826'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 +++存取同盟對象構成需要哪些許可權？
 
-同盟對象構成沒有特定許可權。 存取此功能的唯一先決條件，就是已購買同盟對象構成附加元件。
+同盟對象構成需要Adobe Real-time Customer Data Platform和Adobe Journey Optimizer Prime或Ultimate套件。 同盟對象構成沒有特定許可權。 存取此功能的唯一先決條件，就是已購買同盟對象構成附加元件。
 
 +++
 
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 +++同盟對象構成中是否有任何暫存空間？
 
-否，同盟對象構成僅儲存中繼資料（結構描述）。 沒有正在傳輸的客戶資料。 直接從Adobe Experience Platform對象入口網站（透過[目的地](../connections/destinations.md)）到客戶資料庫完成對象匯出流程。 建立和更新流程可直接從您的資料倉儲資料庫執行至Adobe Experience Platform對象入口網站。
+否，同盟對象構成僅儲存中繼資料（結構描述）。 沒有正在傳輸的客戶資料。<!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
@@ -76,7 +76,7 @@ ht-degree: 2%
 
 * 在對象擴充的案例中，起點是現有的Adobe Experience Platform對象。 您可以在此檢視兩種情境：
    1. 從Federated Data Warehouse帶來其他受眾裝載屬性：在此情況下，新增的其他屬性將隨此受眾定義一起提供。 外部產生對象的資料有效期限與上述相同，即30天。
-   1. 根據您的Data Warehouse中存在的其他屬性調整現有的Adobe Experience Platform對象。 例如，您的受眾是過去兩個月在網站上對特定產品表現出興趣的客戶。 您現在想要取用這個對象，並使用同盟對象構成來進一步區隔它，以僅包含具有高信用分數的客戶。 這些信用分數會被視為敏感，且不會從資料倉儲複製個別信用分數資料點。
+   1. 根據您的Data Warehouse中存在的其他屬性調整現有的Adobe Experience Platform對象。<!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 +++如果對象建立和對象擴充使用案例模式的資料沒有持續存在，如何暫時儲存？
