@@ -1,11 +1,11 @@
 ---
-user-guide-title: 聯合客群構成
-title: Adobe同盟對象構成檔案
-breadcrumb-title: 聯合客群構成
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+user-guide-title: Experience Platform同盟對象構成
+title: Experience Platform同盟對象構成檔案
+breadcrumb-title: Experience Platform同盟對象構成
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 37%
+source-wordcount: '141'
+ht-degree: 31%
 
 ---
 

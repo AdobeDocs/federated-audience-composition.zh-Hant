@@ -1,26 +1,42 @@
 ---
-title: 開始使用同盟對象構成
+title: 開始使用Experience Platform同盟對象構成
 description: 瞭解什麼是Adobe同盟對象構成以及如何在Adobe Experience Platform中使用
 badge: label="可用性限制" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 3b4f5284cd65cd5cd30c4223fe2df3ffff7c0905
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 11%
+source-wordcount: '708'
+ht-degree: 8%
 
 ---
 
 # 開始使用同盟對象構成 {#gs-fac}
 
-同盟對象構成是Adobe Real-time Customer Data Platform和Adobe Journey Optimizer的附加元件，可讓您從協力廠商資料倉儲建立並擴充對象，並將對象匯入至Adobe Experience Platform。 同盟對象構成提供簡單而強大的解決方案，可直接在Adobe Real-time Customer Data Platform及/或Adobe Journey Optimizer中連線您的企業資料倉儲，並在Data Warehouse的表格上執行查詢。
+同盟對象構成是[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"}和[Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}的附加功能，可讓您從協力廠商資料倉儲建立並擴充對象，並將對象匯入至Adobe Experience Platform。 同盟對象構成提供簡單而強大的解決方案，可直接在Adobe Real-time Customer Data Platform及/或Adobe Journey Optimizer中連線您的企業資料倉儲，並在Data Warehouse的表格上執行查詢。
 
 Adobe同盟對象構成可協助Adobe Experience Platform應用程式使用者存取其儲存在資料倉儲和雲端儲存平台(例如Amazon Redshift、Azure synapse Analytics等)的客戶資料。 客戶資料可存放在多個資料倉儲中，現在無需複製即可立即存取。 支援的平台列於[此頁面](../connections/federated-db.md#supported-db)。
+
+## 功能 {#rn-capabilities}
+
+同盟受眾構成透過全面性的受眾策劃和啟用方法，進一步延伸Real-Time CDP和Journey Optimizer的價值：
+
+* 擴充對關鍵倉儲型資料集的存取權，以建立高價值受眾：運用現有的資料倉儲作為主要記錄系統，同時運用同級最佳的應用程式來強化絕佳的客戶體驗。
+
+* 全面支援強力參與使用案例：同盟受眾構成、搭配Real-Time CDP或Journey Optimizer支援品牌啟動的個人化體驗與同盟受眾，並提供即時事件觸發的即時體驗，加上人員屬性，以滿足跨團隊的使用案例需求。
+
+* 將資料移動和複製最小化：從位於企業資料倉儲中的資料集建立對象，無需複製基礎資料即可管理可操作的行銷設定檔和對象。
+
+* 針對體驗導向工作流程利用單一系統：在Adobe Experience Platform中組織內嵌和同盟對象，並協調所有管道的對外體驗。
 
 ## 使用案例 {#rn-uc}
 
 透過方便行銷的UI，建立區段規則來查詢您的資料倉儲，以取得符合行銷活動所需特定區段資格的使用者清單、存取倉儲中的現有對象以進行啟用，或利用倉儲中存在的其他資料點來擴充Adobe Experience Platform對象。
 
-此版本提供兩種使用案例：對象建立和對象擴充。
+此版本提供兩種使用案例：
+
+1. 對象建立：從企業資料集建立新對象，而不複製基礎資料，並使用預先建立的目的地啟用這些對象&#x200B;。
+
+1. 對象擴充：利用從企業資料倉儲已同盟的構成對象資料，擴充Adobe Experience Platform中的現有對象。 此資料不會儲存在Adobe Experience Platform客戶設定檔中。
 
 ![圖表](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 

@@ -1,18 +1,18 @@
 ---
 title: 常見問答
-description: 常見問題
+description: 關於Adobe Experience Platform同盟對象構成的常見問題
 badge: label="可用性限制" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '836'
 ht-degree: 2%
 
 ---
 
 # 常見問答 {#faq}
 
-以下是有關同盟對象構成的常見問題清單。 在[此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}中，也有Adobe Experience Platform Segmentation Service適用的全域常見問題集。
+以下是有關Adobe Experience Platform同盟對象構成的常見問題清單。 在[此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}中，也有Adobe Experience Platform Segmentation Service適用的全域常見問題集。
 
 
 +++存取同盟對象構成需要哪些許可權？

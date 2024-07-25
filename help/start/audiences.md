@@ -3,16 +3,17 @@ audience: end-user
 title: 配合對象
 description: 瞭解如何使用受眾
 badge: label="可用性限制" type="Informative"
-source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
+exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 5%
 
 ---
 
 # 配合對象 {#gs-audiences}
 
-Adobe同盟對象構成可讓您[建立構成](../compositions/gs-compositions.md)，您可以在視覺畫布中運用各種活動來建立對象。 使用Adobe同盟資料構成建立的對象會與所有Adobe Experience Platform對象儲存在對象入口網站中。 您可以對Adobe Experience Platform支援的任何目的地啟用這些對象。
+Experience Platform同盟對象構成可讓您[建立構成](../compositions/gs-compositions.md)，您可以在視覺畫布中運用各種活動來建立對象。 使用Adobe同盟資料構成建立的對象會與所有Adobe Experience Platform對象儲存在對象入口網站中。 您可以對Adobe Experience Platform支援的任何目的地啟用這些對象。
 
 可從&#x200B;**對象**&#x200B;功能表存取對象入口網站。 **[!UICONTROL 瀏覽]**&#x200B;索引標籤會列出儲存至Adobe Experience Platform的所有現有對象。 您可以使用&#x200B;**[!UICONTROL Origin]**&#x200B;欄或左窗格中可用的篩選器，識別清單中的同盟對象構成對象。
 

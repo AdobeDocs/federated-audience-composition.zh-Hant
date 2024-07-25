@@ -1,20 +1,20 @@
 ---
-title: Adobe Experience Platform — 同盟對象構成檔案首頁
+title: Adobe Experience Platform Federated對象構成檔案首頁
 description: 這是文章概述。
 badge: label="可用性限制" type="Informative"
-source-git-commit: bea3c176701dd256255f222713d3c10284f97210
+exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 5%
 
 ---
-
 
 # 同盟對象構成檔案  {#fac-home}
 
 歡迎使用Adobe Experience Platform同盟對象構成檔案。
 
-同盟對象構成為Adobe Real-Time CDP和Adobe Journey Optimizer使用者提供資料管理彈性和效率。 透過同盟受眾構成，您可以使用行銷人員友善的UI存取企業資料倉儲，在Adobe Experience Platform工作流程中建立受眾並運用資料集，而不需保留基礎企業資料。 這可協助您在存取資料倉儲以提供體驗使用案例時減少資料移動。
+Experience Platform同盟對象構成為Adobe Real-Time CDP和Adobe Journey Optimizer使用者提供資料管理的彈性和效率。 透過同盟受眾構成，您可以使用行銷人員友善的UI存取企業資料倉儲，在Adobe Experience Platform工作流程中建立受眾並運用資料集，而不需保留基礎企業資料。 這可協助您在存取資料倉儲以提供體驗使用案例時減少資料移動。
 
 >[!BEGINTABS]
 
@@ -74,5 +74,3 @@ ht-degree: 5%
 ## 其他資源  {#additional-resources}
 
 [Real-time Customer Data Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe對象入口網站檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
-
-

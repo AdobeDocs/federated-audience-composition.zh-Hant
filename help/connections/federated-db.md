@@ -3,9 +3,10 @@ audience: end-user
 title: 開始使用同盟資料庫
 description: 瞭解如何建立和管理您的同盟資料庫
 badge: label="可用性限制" type="Informative"
-source-git-commit: fe425bf6f2773e04948378fa34d82731126774f5
+exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 6%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 6%
 >title="同盟資料庫詳細資料"
 >abstract="輸入連接到新同盟資料庫的設定。使用&#x200B;**[!UICONTROL 測試連接]**&#x200B;按鈕驗證您的設定。"
 
-同盟對象構成可讓客戶從協力廠商資料倉儲建立並豐富對象，並將對象匯入至Adobe Experience Platform。
+Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建立並豐富對象，並將對象匯入至Adobe Experience Platform。
 
 在此頁面瞭解如何建立、設定、測試及儲存外部資料庫的連線。
 
@@ -254,4 +255,3 @@ ht-degree: 6%
 | 選項 | 說明 |
 |---|---|
 | 時區名稱 | 預設為空白，這表示會使用Campaign Classic應用程式伺服器的系統時區。 選項可用來強制TIMEZONE工作階段引數。 |
-

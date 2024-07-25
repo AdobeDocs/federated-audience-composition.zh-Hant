@@ -3,13 +3,13 @@ audience: end-user
 title: 建立組合
 description: 瞭解如何建立組合
 badge: label="可用性限制" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 59%
 
 ---
-
 
 # 用於建立構成的主要原則 {#gs-composition-creation}
 
@@ -20,7 +20,7 @@ ht-degree: 59%
 
 ## 構成內有什麼？ {#gs-composition-inside}
 
-同盟對象構成提供視覺畫布，可讓您運用各種活動（分割、擴充等）來建立對象。
+Experience Platform同盟對象構成提供視覺畫布，可讓您運用各種活動（分割、擴充等）來建立對象。
 
 構成圖是應該發生的表示法。 它會說明要執行的各種任務以及任務如何連結在一起。
 
