@@ -4,10 +4,10 @@ title: 使用儲存對象活動
 description: 瞭解如何使用「儲存對象」活動
 badge: label="可用性限制" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: ca5939e02b55419574599a09863bcdd546b8f511
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '451'
+ht-degree: 17%
 
 ---
 
@@ -62,7 +62,13 @@ ht-degree: 0%
    * **主要身分欄位**：選取要用來識別設定檔的欄位。 例如，其電子郵件地址或電話號碼。
    * **識別名稱空間**：選取要用來識別設定檔的名稱空間，也就是要做為識別金鑰的資料型別。 例如，如果已選取電子郵件地址作為主要身分欄位，則應選取身分名稱空間&#x200B;**電子郵件**。 如果唯一識別碼是電話號碼，則應該選取識別名稱空間&#x200B;**電話**。
 
-執行構成後，產生的對象會儲存在Adobe Experience Platform中，並可在&#x200B;**對象**&#x200B;功能表中存取。 建立的對象包含「對象對應」區段中選取的所有欄位。 您可以對Adobe Experience Platform支援的任何目的地啟用對象。
+## 在Adobe Experience Platform中存取您的對象 {#access-audience}
+
+執行構成後，產生的受眾會作為外部受眾儲存在Adobe Experience Platform中，並可供Adobe Real-Time Customer Data Platform和/或Adobe Journey Optimizer使用。 它可在&#x200B;**對象**&#x200B;功能表中存取。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+
+建立的對象包含「對象對應」區段中選取的所有欄位。 您可以對Adobe Experience Platform支援的任何目的地啟用對象。
+
+[了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 
