@@ -1,9 +1,9 @@
 ---
 title: Adobe Experience Platform Federated對象構成檔案首頁
-description: 這是文章概述。
+description: Federated對象構成附加元件檔案
 badge: label="可用性限制" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: a56ae63a7f8da28dce0ba4f1be8d0d650477ec2f
+source-git-commit: 01ecc3abb201f241c68ee2a0ce9c0f4f0a50fad7
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 5%
