@@ -4,9 +4,9 @@ title: 利用外部資料豐富Adobe Experience Platform受眾
 description: 瞭解如何使用同盟受眾構成目的地，以同盟資料庫中的資料精進及豐富Adobe Experience Platform受眾。
 badge: label="可用性限制" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f2ea9a368b4409f0b38b12508ce310d49e3d84f8
+source-git-commit: 2547f1ae8b22a4fb25c259172b8c052b279fae10
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '566'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,10 @@ Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地*
 
 若要這麼做，您需要在Adobe Experience Platform中設定與Adobe同盟對象構成目的地的新連線。 您可以使用排程器定期傳送特定對象，並選取要包含的特定屬性，例如用於資料協調的ID。 如果您已將治理和隱私權政策套用至對象，則會在對象更新後保留並傳回對象入口網站。
 
-例如，如果您將客戶信用分數儲存在資料倉儲中，且已有Adobe Experience Platform對象在過去兩個月內將目標鎖定於對特定產品感興趣的客戶，則您可以使用同盟對象構成目的地，根據信用分數調整此對象。 此程式可讓您篩選對象，以僅包含具有高信用分數的設定檔，而不需從您的資料倉儲傳輸敏感的信用分數資料。
+例如，假設您要將購買資訊儲存在Data Warehouse，且已有Adobe Experience Platform受眾鎖定最近兩個月對特定產品感興趣的客戶。 使用同盟對象構成目的地，您可以：
+
+* 根據購買資訊調整對象。 例如，您可以篩選受眾，將目標鎖定於僅購買超過150$的客戶。
+* 使用與購買相關的欄位豐富對象，例如產品名稱和購買數量。
 
 將Adobe Experience Platform對象傳送至Adobe同盟對象構成的主要步驟如下：
 
