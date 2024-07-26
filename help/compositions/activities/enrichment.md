@@ -4,7 +4,7 @@ title: 使用擴充活動
 description: 瞭解如何使用擴充活動
 badge: label="可用性限制" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
-source-git-commit: 1b9e4f23403e830a3cd4b12df5268d852f549ffe
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 48%
@@ -40,7 +40,7 @@ ht-degree: 48%
 
 **擴充**&#x200B;活動可讓您使用同盟資料庫的額外資訊來增強目標資料。 這通常會用於分段活動之後的構成。
 
-如果您已設定連線至同盟資料構成目的地，則可使用擴充活動，以外部資料庫的屬性擴充來自Adobe Experience Platform的資料。 [瞭解如何使用外部資料擴充Adobe Experience Platform對象](../../connections/destinations.md)
+如果您已設定同盟對象構成目標的連線，則可使用擴充活動，以外部資料庫的屬性擴充來自Adobe Experience Platform的資料。 [瞭解如何使用外部資料擴充Adobe Experience Platform對象](../../connections/destinations.md)
 
 擴充資料可以：
 

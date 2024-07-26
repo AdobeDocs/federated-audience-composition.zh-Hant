@@ -3,7 +3,7 @@ audience: end-user
 title: 使用排程器活動
 description: 瞭解如何使用排程器活動
 exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 23%
@@ -19,7 +19,7 @@ ht-degree: 23%
 
 **排程器**&#x200B;活動是&#x200B;**流程控制**&#x200B;活動。 它可讓您排程構成何時開始。 此活動應視為已排程的開始。它只能用作構成的第一個活動。
 
-如果您已設定連線至同盟資料構成目的地，可以使用此活動以定期頻率透過Adobe Experience Platform傳送對象。 [瞭解如何使用外部資料擴充Adobe Experience Platform對象](../../connections/destinations.md)
+如果您已設定同盟對象構成目標的連線，可以使用此活動以定期頻率透過Adobe Experience Platform傳送對象。 [瞭解如何使用外部資料擴充Adobe Experience Platform對象](../../connections/destinations.md)
 
 ![](../assets/scheduler.png)
 
