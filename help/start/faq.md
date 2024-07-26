@@ -3,9 +3,9 @@ title: 常見問答
 description: 關於Adobe Experience Platform同盟對象構成的常見問題
 badge: label="可用性限制" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '816'
 ht-degree: 2%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 2%
 
 +++我可以刪除自訂上傳的對象嗎？
 
-您可以直接在Audience Portal中刪除未用於下游啟動的受眾，只需從動作功能表中選取刪除即可。 進一步瞭解[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}。
+否，在目前版本中，您無法刪除自訂上傳的對象。<!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
 
 +++
 

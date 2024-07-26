@@ -3,13 +3,13 @@ audience: end-user
 title: 建立組合
 description: 瞭解如何建立組合
 badge: label="可用性限制" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
+source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
-
 
 # 開始並監視您的構成 {#start-monitor}
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 在組合中，透過轉變從一個活動傳輸到另一個活動的資料會儲存在臨時工作表中。 此資料可針對每個轉變顯示。 要執行此操作，請選取轉變以在熒幕右側開啟其屬性。
 
 * 按一下&#x200B;**[!UICONTROL 預覽結構描述]**&#x200B;以顯示工作表的結構描述。
-* 按一下&#x200B;**[!UICONTROL 預覽結果]**，以視覺化方式呈現所選轉變中傳輸的資料。
+* 按一下&#x200B;**[!UICONTROL 預覽結果]**，以視覺化方式呈現所選轉變中傳輸的資料。 只有在啟用&#x200B;**[!UICONTROL 保留兩個執行之間的中期母體結果]**&#x200B;選項時，此選項才可用。 [了解更多](create-composition.md#settings)。
 
 ![](assets/transition-preview.png)
 
