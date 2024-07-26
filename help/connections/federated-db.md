@@ -4,9 +4,9 @@ title: 開始使用同盟資料庫
 description: 瞭解如何建立和管理您的同盟資料庫
 badge: label="可用性限制" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 866dbeb39f2d3cc73d21edea170a3861f91a4802
+source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1566'
 ht-degree: 6%
 
 ---
@@ -68,7 +68,11 @@ Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建�
 
    * **[!UICONTROL 資料庫]**：如果未在DSN中指定資料庫名稱。 若在DSN中指定，可保留空白
 
-   * **[!UICONTROL 工作結構描述]**：工作結構描述的名稱。 [了解更多](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL 工作結構描述]**：用於工作表的資料庫結構描述名稱。 [了解更多](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+     >[!NOTE]
+     >
+     >只要您擁有連線至此綱要的必要許可權，您就可以使用資料庫的任何綱要，包括用於暫時資料處理的綱要。
 
 1. 選取&#x200B;**[!UICONTROL 測試連線]**&#x200B;選項以驗證您的組態。
 
@@ -188,7 +192,11 @@ Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建�
 
    * **[!UICONTROL 資料庫]** （選擇性）：如果未在DSN中指定，請輸入資料庫名稱。
 
-   * **[!UICONTROL 工作結構描述]** （選擇性）：輸入工作結構描述的名稱。
+   * **[!UICONTROL 工作結構描述]** （選擇性）：輸入用於工作表之資料庫結構描述的名稱。
+
+     >[!NOTE]
+     >
+     >只要您擁有連線至此綱要的必要許可權，您就可以使用資料庫的任何綱要，包括用於暫時資料處理的綱要。
 
    * **[!UICONTROL 私密金鑰]**：按一下&#x200B;**[!UICONTROL 私密金鑰]**&#x200B;欄位，從地區設定資料夾中選取您的.pem檔案。
 
@@ -240,7 +248,11 @@ Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建�
 
    * **[!UICONTROL 資料庫]** （選擇性）：如果未在DSN中指定，請輸入資料庫名稱。
 
-   * **[!UICONTROL 工作結構描述]** （選擇性）：輸入工作結構描述的名稱。
+   * **[!UICONTROL 工作結構描述]** （選擇性）：輸入用於工作表之資料庫結構描述的名稱。
+
+     >[!NOTE]
+     >
+     >只要您擁有連線至此綱要的必要許可權，您就可以使用資料庫的任何綱要，包括用於暫時資料處理的綱要。
 
    * **[!UICONTROL 選項]**：聯結器支援下表詳述的選項。
 
