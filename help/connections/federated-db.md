@@ -4,10 +4,10 @@ title: 開始使用同盟資料庫
 description: 瞭解如何建立和管理您的同盟資料庫
 badge: label="可用性限制" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
+source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 6%
+source-wordcount: '1560'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="同盟資料庫"
->abstract="此畫面中列出了與同盟資料庫的現有連接。若要建立新連接，請按一下&#x200B;**[!UICONTROL 新增同盟資料庫]**&#x200B;按鈕。"
+>abstract="此畫面中列出現有的同盟資料庫連線。 若要建立新連接，請按一下&#x200B;**[!UICONTROL 新增同盟資料庫]**&#x200B;按鈕。"
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -214,7 +214,7 @@ Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建�
 |---|---|
 | 工作綱要 | 用於工作表的資料庫綱要 |
 | 倉儲 | 要使用的預設倉儲名稱。 它會覆寫使用者的預設值。 |
-| 時區名稱 | 預設為空白，這表示會使用Campaign Classic應用程式伺服器的系統時區。 選項可用來強制TIMEZONE工作階段引數。 <br>如需詳細資訊，請參閱[此頁面](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)。 |
+| 時區名稱 | 預設為空白，這表示使用系統時區應用程式伺服器。 選項可用來強制TIMEZONE工作階段引數。 <br>如需詳細資訊，請參閱[此頁面](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)。 |
 | weekstart | WEEK_START階段作業引數。 預設為0。 <br>如需詳細資訊，請參閱[此頁面](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)。 |
 | UseCachedResult | USE_CACHED_RESULTS工作階段引數。 預設為TRUE。 此選項可用來停用Snowflake快取結果。 <br>如需詳細資訊，請參閱[此頁面](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)。 |
 | bulkThread | 用於Snowflake大量載入器的執行緒數量，執行緒越多，批次載入量越大，效能就越好。 預設為1。 根據機器執行緒計數，數字可以調整。 |
@@ -266,4 +266,4 @@ Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建�
 
 | 選項 | 說明 |
 |---|---|
-| 時區名稱 | 預設為空白，這表示會使用Campaign Classic應用程式伺服器的系統時區。 選項可用來強制TIMEZONE工作階段引數。 |
+| 時區名稱 | 預設為空白，這表示已使用應用程式伺服器的系統時區。 選項可用來強制TIMEZONE工作階段引數。 |
