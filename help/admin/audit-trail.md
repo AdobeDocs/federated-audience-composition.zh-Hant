@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: 開始使用稽核軌跡
-description: 瞭解如何使用稽核軌跡監視資料庫
+title: 稽核記錄
+description: 瞭解在稽核軌跡中如何記錄及存取動作和事件
 badge: label="限量開放使用" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 12%
+source-wordcount: '369'
+ht-degree: 3%
 
 ---
 
-# 開始使用稽核軌跡 {#audit-trail}
+# 稽核記錄 {#audit-trail}
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="稽核軌跡"
->abstract="稽核軌跡功能會針對您在環境執行的所有動作和事件，即時提供按時間順序排列的詳細記錄。"
+>abstract="稽核軌跡功能會即時提供對Adobe Experience Platform同盟對象構成環境進行的所有動作和事件的詳細時間順序記錄。"
 
 稽核軌跡功能會針對您的環境即時提供所有動作和事件的詳細時間順序記錄
 

@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform同盟對象構成
 title: Experience Platform同盟對象構成檔案
 breadcrumb-title: Experience Platform同盟對象構成
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 81%
+source-wordcount: '145'
+ht-degree: 80%
 
 ---
 
@@ -51,5 +51,4 @@ ht-degree: 81%
    + [使用查詢建模工具](query/query-modeler-overview.md)
    + [建置您的第一個查詢](query/build-query.md)
    + [編輯運算式](query/expression-editor.md)
-+ 稽核軌跡 {#audit-trail}
-   + [監控您的資料庫](admin/audit-trail.md)
++ [稽核記錄](admin/audit-trail.md)
