@@ -4,10 +4,10 @@ title: 開始使用資料模式
 description: 瞭解如何開始使用資料模型
 badge: label="可用性限制" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
+source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 28%
+source-wordcount: '291'
+ht-degree: 22%
 
 ---
 
@@ -37,11 +37,19 @@ ht-degree: 28%
 
 ## 什麼是資料模型？ {#data-model-start}
 
-資料模型是一組結構描述、對象及其之間的連結。
+資料模型是一組結構描述、對象及其之間的連結。 它可用來將對象與資料庫資料建立同盟。
 
 深入瞭解[結構描述](../customer/schemas.md#schema-start)。
 
 深入瞭解[對象](../start/audiences.md)。
+
+例如，您可以在下方看到資料模型的表示法：表格及其名稱和它們之間的連結。
+
+![](assets/datamodel.png){zoomable="yes"}
+
+在Federated Audience Composition中，可以建立許多資料模型。
+
+它們的建立將基於使用案例：您選擇必要的表格，並根據需求連結它們。
 
 ## 建立資料模型 {#data-model-create}
 
