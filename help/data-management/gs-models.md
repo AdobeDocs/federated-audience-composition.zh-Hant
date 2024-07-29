@@ -4,10 +4,10 @@ title: 開始使用資料模式
 description: 瞭解如何開始使用資料模型
 badge: label="可用性限制" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
+source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 22%
+source-wordcount: '380'
+ht-degree: 17%
 
 ---
 
@@ -79,9 +79,17 @@ ht-degree: 22%
 
    ![](assets/datamodel_link.png){zoomable="yes"}
 
-   為您的資料模型定義的所有連結如下所列：
+   **基數**
 
-   ![](assets/datamodel_alllinks.png){zoomable="yes"}
+   * 1-N：來源表格的一個出現次數可以具有多個目標表格的對應出現次數，但目標表格的一個出現次數最多可以具有來源表格的一個對應出現次數。
+
+   * N-1：目標表格的一個出現次數可以具有來源表格的多個對應出現次數，但來源表格的一個出現次數最多可以具有目標表格的一個對應出現次數。
+
+   * 1-1：來源表格的一個執行個體最多可以具有目標表的一個對應執行個體。
+
+為您的資料模型定義的所有連結如下所列：
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
 
 ## 操作說明影片 {#data-model-video}
 
