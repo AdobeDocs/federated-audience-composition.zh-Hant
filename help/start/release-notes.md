@@ -3,9 +3,9 @@ title: Experience Platform同盟對象構成的新增功能
 description: 最新更新和發行說明
 badge: label="可用性限制" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 5d8d0c1195abf6ba28291be2f38a67ef4123964f
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '188'
 ht-degree: 2%
 
 ---
@@ -25,21 +25,5 @@ ht-degree: 2%
 
 在[此頁面](get-started.md)和[常見問題](get-started.md#faq)中進一步瞭解同盟對象構成功能。
 
-## 存取同盟對象構成 {#fac-access}
+有關存取Federated Audience Compositions和目前護欄的先決條件的詳細資訊，請參閱[此頁面](access-prerequisites.md)。
 
-同盟對象構成需要Adobe Real-time Customer Data Platform和Adobe Journey Optimizer Prime或Ultimate套件。
-
-同盟對象構成沒有特定許可權。 存取此功能的唯一先決條件，就是已購買同盟對象構成附加元件。
-
->[!AVAILABILITY]
->
->收到Adobe的歡迎電子郵件通知後，您可能需要幾個小時才能更新介面以及您可以使用的功能。
->
-
-## 先決條件和護欄 {#fac-guardrails}
-
-* 同盟受眾構成與Privacy &amp; Security Shield相容，可用於除醫療保健產業外的所有垂直產業。 目前，同盟對象構成無法授權給想要擷取健康情況資料的客戶。 [了解更多](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
-
-* 您的IP位址必須新增至允許清單，才能啟用對資料倉儲的存取權並使用同盟對象構成。 若要將您的IP位址新增至允許清單，請聯絡您的Adobe代表。
-
-* [Adobe Real-time Customer Data Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"}中列出的權益、產品限制和效能護欄適用於此附加元件。

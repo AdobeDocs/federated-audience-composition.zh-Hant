@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform同盟對象構成
 title: Experience Platform同盟對象構成檔案
 breadcrumb-title: Experience Platform同盟對象構成
-source-git-commit: bfb13da161d966ec82d147c2d4c293b80fcf071d
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 31%
+source-wordcount: '149'
+ht-degree: 30%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 31%
 + [發行說明](start/release-notes.md)
 + 開始使用同盟對象構成{#start}
    + [什麼是同盟對象構成](start/get-started.md)
+   + [存取同盟對象構成](start/access-prerequisites.md)
    + [配合對象](start/audiences.md)
    + [常見問答](start/faq.md)
 + 設定步驟{#config}

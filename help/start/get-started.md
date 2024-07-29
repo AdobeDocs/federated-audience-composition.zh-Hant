@@ -3,7 +3,7 @@ title: 開始使用Experience Platform同盟對象構成
 description: 瞭解什麼是Adobe同盟對象構成以及如何在Adobe Experience Platform中使用
 badge: label="可用性限制" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 8%
@@ -56,13 +56,9 @@ Adobe同盟對象構成可讓您直接從資料庫建立和更新Adobe Experienc
 
 4. **資料使用**：建立、協調和建立對象。 瞭解如何在[此頁面](../compositions/gs-compositions.md)中撰寫對象。 您也可以透過Adobe Experience Platform對象入口網站和目標，更新或重複使用現有的對象。 在[本頁](../connections/destinations.md)中進一步瞭解
 
-
 >[!NOTE]
 >
 >執行構成後，產生的受眾會作為外部受眾儲存在Adobe Experience Platform中，並可供Adobe Real-Time Customer Data Platform和/或Adobe Journey Optimizer使用。 它可在&#x200B;**對象**&#x200B;功能表中存取。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
->
-
-
 
 ## 更多詳情 {#learn}
 
@@ -74,9 +70,6 @@ Adobe同盟對象構成可讓您直接從資料庫建立和更新Adobe Experienc
 >id="dc_workflow_settings_execution"
 >title="執行設定"
 >abstract="您可以在此段落中設定與工作流程執行相關的設定，例如構成歷程記錄的保留天數。"
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"

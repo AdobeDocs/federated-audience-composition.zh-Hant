@@ -3,9 +3,9 @@ title: 常見問答
 description: 關於Adobe Experience Platform同盟對象構成的常見問題
 badge: label="可用性限制" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '834'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,9 @@ ht-degree: 2%
 
 +++存取同盟對象構成需要哪些許可權？
 
-同盟對象構成需要Adobe Real-time Customer Data Platform和Adobe Journey Optimizer Prime或Ultimate套件。 同盟對象構成沒有特定許可權。 存取此功能的唯一先決條件，就是已購買同盟對象構成附加元件。
+同盟對象構成需要Adobe Real-time Customer Data Platform和Adobe Journey Optimizer Prime或Ultimate套件。 您也需要購買同盟對象構成附加元件。
+
+為了使用同盟受眾構成，必須將每個使用者新增到為每個沙箱建立的特定設定檔。 如需詳細資訊，請參閱[Access同盟對象構成](access-prerequisites.md)頁面。
 
 +++
 
