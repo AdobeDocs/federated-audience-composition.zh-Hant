@@ -2,23 +2,23 @@
 audience: end-user
 title: 建立組合
 description: 瞭解如何建立組合
-badge: label="可用性限制" type="Informative"
+badge: label="限量開放使用" type="Informative"
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 59%
 
 ---
 
-# 用於建立構成的主要原則 {#gs-composition-creation}
+# 建立構成的主要原則 {#gs-composition-creation}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_creation_properties"
 >title="構成屬性"
 >abstract="在此畫面中，選擇用於建立構成的範本並指定標籤。展開「其他選項」區段以設定更多設定，例如構成內部名稱、其資料夾、時區和主管群組。強烈建議選取一個主管群組，以便在發生錯誤時警告操作者。"
 
-## 構成內有什麼？ {#gs-composition-inside}
+## 構成內的內容 {#gs-composition-inside}
 
 Experience Platform同盟對象構成提供視覺畫布，可讓您運用各種活動（分割、擴充等）來建立對象。
 

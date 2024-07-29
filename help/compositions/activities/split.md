@@ -2,16 +2,16 @@
 audience: end-user
 title: 使用分割活動
 description: 瞭解如何使用分割活動
-badge: label="可用性限制" type="Informative"
+badge: label="限量開放使用" type="Informative"
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 76%
+source-wordcount: '925'
+ht-degree: 73%
 
 ---
 
-# Split {#split}
+# 分割 {#split}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"
@@ -60,7 +60,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="啟用輸出族群的重疊"
->abstract="「**[!UICONTROL 啟用輸出族群的重疊]**」選項可讓您管理屬於多個子集的族群。當未選取該方塊時，分割活動將確保收件者不能出現在多個輸出轉換中，即使其滿足多個子集的條件也是如此。它們將位於具有符合條件的第一個標籤的目標中。當選取該方塊時，符合篩選條件的收件者，會出現在多個子集中。Adobe Campaign 建議使用排除條件。"
+>abstract="「**[!UICONTROL 啟用輸出族群的重疊]**」選項可讓您管理屬於多個子集的族群。當未選取該方塊時，分割活動將確保收件者不能出現在多個輸出轉換中，即使其滿足多個子集的條件也是如此。它們將位於具有符合條件的第一個標籤的目標中。核取此方塊後，如果收件者符合篩選條件，則可在數個子集中找到收件者。 "
 
 請按照以下步驟設定&#x200B;**分割**&#x200B;活動：
 
@@ -101,7 +101,7 @@ ht-degree: 76%
 1. **[!UICONTROL 啟用輸出母體重疊]**&#x200B;選項可讓您管理屬於數個子集的母體：
 
    * 當未選取該方塊時，分割活動將確保收件者不能出現在多個輸出轉換中，即使其滿足多個子集的條件也是如此。它們會位於具有相符條件的第一個標籤的目標中。
-   * 當選取該方塊時，符合篩選條件的收件者，會出現在多個子集中。Adobe Campaign 建議使用排除條件。
+   * 當選取該方塊時，符合篩選條件的收件者，會出現在多個子集中。最佳實務建議使用專屬條件。
 
 該活動現已完成設定。在執行時，母體將依照其加入活動的順序，分割成不同的子集。
 

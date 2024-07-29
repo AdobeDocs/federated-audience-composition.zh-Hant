@@ -2,9 +2,9 @@
 audience: end-user
 title: 開始使用資料模式
 description: 瞭解如何開始使用資料模型
-badge: label="可用性限制" type="Informative"
+badge: label="限量開放使用" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 17%
@@ -35,7 +35,7 @@ ht-degree: 17%
 >abstract="輸入資料模式的標籤。"
 
 
-## 什麼是資料模型？ {#data-model-start}
+## 什麼是資料模型 {#data-model-start}
 
 資料模型是一組結構描述、對象及其之間的連結。 它可用來將對象與資料庫資料建立同盟。
 

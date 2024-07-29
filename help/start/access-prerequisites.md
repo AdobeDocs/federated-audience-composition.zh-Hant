@@ -1,23 +1,21 @@
 ---
-title: 存取同盟對象構成
-description: 瞭解如何存取同盟對象構成。
-badge: label="可用性限制" type="Informative"
-source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
+title: 同盟對象構成的先決條件和護欄
+description: 瞭解同盟對象構成的先決條件、許可權和護欄
+badge: label="限量開放使用" type="Informative"
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '286'
+ht-degree: 13%
 
 ---
 
-# 存取同盟對象構成 {#fac-access}
+# 先決條件和安全護欄 {#fac-access}
 
-## 套件和附加元件 {#package}
-
-同盟對象構成需要Adobe Real-time Customer Data Platform和Adobe Journey Optimizer Prime或Ultimate套件。 若要存取此功能，您必須已購買Federated Audience Composition附加元件。
+同盟對象構成需要Adobe Real-time Customer Data Platform和/或Adobe Journey Optimizer **Prime**&#x200B;或&#x200B;**Ultimate**&#x200B;套件。 若要存取此功能，您必須已購買Federated Audience Composition附加元件。
 
 >[!AVAILABILITY]
 >
->收到Adobe的歡迎電子郵件通知後，您可能需要幾個小時才能更新介面以及您可以使用的功能。
+>在您收到 Adobe 的歡迎電子郵件通知後，可能還需要等幾個小時，才能看到新版介面並使用相關功能。
 
 ## 權限 {#permissions}
 
@@ -33,6 +31,6 @@ ht-degree: 2%
 
 ## 護欄和限制 {#fac-guardrails}
 
-* 同盟受眾構成與Privacy &amp; Security Shield相容，可用於除醫療保健產業外的所有垂直產業。 目前，同盟對象構成無法授權給想要擷取健康情況資料的客戶。 [了解更多](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
+* 同盟受眾構成與Privacy &amp; Security Shield相容，可用於除醫療保健產業外的所有垂直產業。 目前，同盟對象構成無法授權給想要擷取健康情況資料的客戶。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
 
-* [Adobe Real-time Customer Data Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"}中列出的權益、產品限制和效能護欄適用於此附加元件。
+* [Adobe Real-time Customer Data Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}中列出的權益、產品限制和效能護欄適用於此附加元件。

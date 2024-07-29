@@ -2,12 +2,12 @@
 audience: end-user
 title: 開始使用結構描述
 description: 瞭解如何開始使用結構描述
-badge: label="可用性限制" type="Informative"
+badge: label="限量開放使用" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 22%
 >abstract="您可以根據其來源來篩選結構描述。選取一個或多個同盟資料庫以顯示其結構描述。"
 
 
-## 什麼是結構描述？ {#schema-start}
+## 什麼是結構描述 {#schema-start}
 
 綱要代表資料庫的表格。 它是應用程式內的物件，定義資料與資料庫表格的連結方式。
 

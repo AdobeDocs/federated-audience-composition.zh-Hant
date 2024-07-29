@@ -2,16 +2,16 @@
 audience: end-user
 title: 使用儲存對象活動
 description: 瞭解如何使用「儲存對象」活動
-badge: label="可用性限制" type="Informative"
+badge: label="限量開放使用" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 17%
+source-wordcount: '462'
+ht-degree: 18%
 
 ---
 
-# 儲存對象 {#save-audience}
+# 儲存客群 {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
@@ -35,7 +35,7 @@ ht-degree: 17%
 >abstract="選取設定檔要用的命名空間。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces" text="進一步瞭解 Experience Platform 文件"
 
-**儲存對象**&#x200B;活動可讓您從構成中的母體運算上游建立新的對象。 建立的對象會新增至Adobe Experience Platform對象清單，並可透過&#x200B;**對象**&#x200B;功能表使用。 [瞭解如何使用對象](../../start/audiences.md)
+**儲存對象**&#x200B;活動可讓您從構成中的母體運算上游建立新的對象。 建立的對象會新增至Adobe Experience Platform對象清單，並可透過&#x200B;**對象**&#x200B;功能表使用。 [學習如何使用客群](../../start/audiences.md)
 
 此活動主要用於將母體族群轉換為可重複使用的對象，讓母體族群可繼續在相同構成中運算。 將其連線到其他目標定位活動，例如&#x200B;**建立對象**&#x200B;或&#x200B;**合併**&#x200B;活動。
 
@@ -64,11 +64,11 @@ ht-degree: 17%
 
 ## 在Adobe Experience Platform中存取您的對象 {#access-audience}
 
-執行構成後，產生的受眾會作為外部受眾儲存在Adobe Experience Platform中，並可供Adobe Real-Time Customer Data Platform和/或Adobe Journey Optimizer使用。 它可在&#x200B;**對象**&#x200B;功能表中存取。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+執行構成後，產生的受眾會作為外部受眾儲存在Adobe Experience Platform中，並可供Adobe Real-Time Customer Data Platform和/或Adobe Journey Optimizer使用。 它可在&#x200B;**對象**&#x200B;功能表中存取。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 建立的對象包含「對象對應」區段中選取的所有欄位。 您可以在Journey Optimizer中鎖定此對象，或在Adobe Experience Platform支援的任何目的地啟用它。
 
-[了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 

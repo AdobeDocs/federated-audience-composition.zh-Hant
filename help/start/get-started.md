@@ -1,20 +1,20 @@
 ---
 title: 開始使用Experience Platform同盟對象構成
-description: 瞭解什麼是Adobe同盟對象構成以及如何在Adobe Experience Platform中使用
-badge: label="可用性限制" type="Informative"
+description: 了解什麼是 Adobe 聯合客群組成，以及如何在 Adobe Experience Platform 中使用此功能
+badge: label="限量開放使用" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 8%
+source-wordcount: '722'
+ht-degree: 57%
 
 ---
 
-# 開始使用同盟對象構成 {#gs-fac}
+# 開始使用聯合客群組成 {#gs-fac}
 
-同盟對象構成是[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"}和[Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}的附加功能，可讓您從協力廠商資料倉儲建立並擴充對象，並將對象匯入至Adobe Experience Platform。 同盟對象構成提供簡單而強大的解決方案，可直接在Adobe Real-time Customer Data Platform及/或Adobe Journey Optimizer中連線您的企業資料倉儲，並在Data Warehouse的表格上執行查詢。
+同盟對象構成是[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/home){target="_blank"}和[Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}的附加功能，可讓您從協力廠商資料倉儲建立並擴充對象，並將對象匯入至Adobe Experience Platform。 聯合客群組成提供簡易且強大的解決方案，可讓您直接在 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer 中連接企業資料倉儲，並針對資料倉儲中的表格執行查詢。
 
-Adobe同盟對象構成可協助Adobe Experience Platform應用程式使用者存取其儲存在資料倉儲和雲端儲存平台(例如Amazon Redshift、Azure synapse Analytics等)的客戶資料。 客戶資料可存放在多個資料倉儲中，現在無需複製即可立即存取。 支援的平台列於[此頁面](../connections/federated-db.md#supported-db)。
+有了 Adobe 聯合客群組成協助，Adobe Experience Platform 應用程式使用者就能存取儲存在資料倉儲與雲端儲存平台 (如 Amazon Redshift、Azure Synapse Analytics 等) 中的客戶資料。現在，客戶資料可以存放在多個資料倉儲中，而且無需複寫，就能立即存取。[此頁面](../connections/federated-db.md#supported-db)列出了支援的平台。
 
 ## 功能 {#rn-capabilities}
 
@@ -30,7 +30,7 @@ Adobe同盟對象構成可協助Adobe Experience Platform應用程式使用者�
 
 ## 使用案例 {#rn-uc}
 
-透過方便行銷的UI，建立區段規則來查詢您的資料倉儲，以取得符合行銷活動所需特定區段資格的使用者清單、存取倉儲中的現有對象以進行啟用，或利用倉儲中存在的其他資料點來擴充Adobe Experience Platform對象。
+透過行銷人員一看就懂的使用者介面，建立用來查詢資料倉儲的區段規則，找出符合行銷活動所需特定區段資格的使用者清單；存取倉儲中的現有客群並加以啟用，或使用倉儲中的其他現有資料點擴充 Adobe Experience Platform 客群。
 
 此版本提供兩種使用案例：
 
@@ -42,34 +42,38 @@ Adobe同盟對象構成可協助Adobe Experience Platform應用程式使用者�
 
 ## 主要步驟 {#gs-steps}
 
-Adobe同盟對象構成可讓您直接從資料庫建立和更新Adobe Experience Platform對象，無需任何擷取程式。
+Adobe 聯合客群組成可讓您直接從資料庫建立和更新 Adobe Experience Platform 客群，無需任何擷取程序。
 
 ![圖表](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}
 
-關鍵步驟：
+主要步驟：
 
-1. **資料整合**：將各種來源的資料彙整在一起，並將它們合併到統一的資料集中。 在[本節](../connections/federated-db.md)中詳細瞭解如何連結Adobe Experience Platform應用程式和您的企業資料倉儲、支援的資料庫，以及如何設定它們。
+1. **資料整合**：匯集各種來源的資料，並合併為統一的資料集。若要進一步了解如何連接 Adobe Experience Platform 應用程式和您的企業資料倉儲、支援的資料庫，以及如何設定這些資料庫，請參閱[本節](../connections/federated-db.md)說明。
 
-2. **資料模型**：設計和建立定義資料結構、關係和限制的資料模型和結構描述。 在[此頁面](../customer/schemas.md)中進一步瞭解結構描述。 在[此頁面](../data-management/gs-models.md)中瞭解如何建立資料模型的連結。
+2. **資料模式**：設計並建立資料模型和結構描述，以定義資料的結構、關係和限制。前往[此頁面](../customer/schemas.md)深入了解結構描述。前往[此頁面](../data-management/gs-models.md)學習如何為資料模型建立連結。
 
-3. **資料轉換**：套用資料操作技術來修改資料元素的格式、結構或值，使其相容或適用於特定的分析或應用程式。
+3. **資料轉換**：應用資料處理技術，修改資料元素的格式、結構或值，使其相容或適用於特定的分析或應用程式。
 
-4. **資料使用**：建立、協調和建立對象。 瞭解如何在[此頁面](../compositions/gs-compositions.md)中撰寫對象。 您也可以透過Adobe Experience Platform對象入口網站和目標，更新或重複使用現有的對象。 在[本頁](../connections/destinations.md)中進一步瞭解
+4. **資料使用**：建立、協調及建置客群。前往[此頁面](../compositions/gs-compositions.md)了解如何構成客群。您也可以透過 Adobe Experience Platform Audience Portal 和目標系統，更新或重複使用現有的客群。前往[此頁面](../connections/destinations.md)了解更多
 
 >[!NOTE]
 >
->執行構成後，產生的受眾會作為外部受眾儲存在Adobe Experience Platform中，並可供Adobe Real-Time Customer Data Platform和/或Adobe Journey Optimizer使用。 它可在&#x200B;**對象**&#x200B;功能表中存取。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>執行構成後，產生的受眾會作為外部受眾儲存在Adobe Experience Platform中，並可供Adobe Real-Time Customer Data Platform和/或Adobe Journey Optimizer使用。 它可在&#x200B;**對象**&#x200B;功能表中存取。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
-## 更多詳情 {#learn}
+## 了解更多 {#learn}
 
 <!-- Workflow + Workflow activities-->
 
-請參閱[此頁面](faq.md)中的常見問題。
+
+在[此頁面](access-prerequisites.md)中瞭解如何存取同盟對象構成、護欄和限制。
+
+另請參閱[此頁面](faq.md)中的常見問題。
+
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"
 >title="執行設定"
->abstract="您可以在此段落中設定與工作流程執行相關的設定，例如構成歷程記錄的保留天數。"
+>abstract="在此區段中，您可以設定與工作流程執行相關的設定，例如構成歷史記錄的保留天數。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"

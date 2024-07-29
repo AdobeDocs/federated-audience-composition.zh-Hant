@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 利用外部資料豐富Adobe Experience Platform受眾
+title: 使用外部資料擴充 Adobe Experience Platform 客群
 description: 瞭解如何使用同盟受眾構成目的地，以同盟資料庫中的資料精進及豐富Adobe Experience Platform受眾。
-badge: label="可用性限制" type="Informative"
+badge: label="限量開放使用" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 2547f1ae8b22a4fb25c259172b8c052b279fae10
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 4%
+source-wordcount: '573'
+ht-degree: 7%
 
 ---
 
-# 利用外部資料豐富Adobe Experience Platform受眾 {#connect-aep-fac}
+# 使用外部資料擴充 Adobe Experience Platform 客群 {#connect-aep-fac}
 
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
@@ -39,7 +39,7 @@ Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地*
 
    ![](assets/destination-configure.png)
 
-   **[!UICONTROL 警示]**&#x200B;區段可讓您啟用警示，以接收有關您目的地之資料流狀態的通知。 如需警示的詳細資訊，請參閱[使用UI訂閱目的地警示](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts)的指南。
+   **[!UICONTROL 警示]**&#x200B;區段可讓您啟用警示，以接收有關您目的地之資料流狀態的通知。 如需警示的詳細資訊，請參閱Adobe Experience Platform檔案，瞭解如何使用UI訂閱[目的地警示](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. **[!UICONTROL 治理原則與執行動作]**&#x200B;步驟，您可以定義您的資料治理原則，並確保在傳送和啟用對象時，所使用的資料是合規的。
 
@@ -57,11 +57,12 @@ Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地*
 
    >[!NOTE]
    >
-   >有關如何設定排程和檔案名稱的詳細資訊，請參閱Adobe Experience Platform檔案：
-   >* [排程對象匯出](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling)
-   >* [設定檔案名稱](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names)
+   >如需如何設定排程和檔案名稱的詳細資訊，請參閱Adobe Experience Platform檔案的下列章節：
+   >
+   >* [排程對象匯出](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+   >* [設定檔案名稱](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. 在&#x200B;**[!UICONTROL 對應]**&#x200B;步驟中，選取要為對象匯出的屬性和身分欄位。 如需詳細資訊，請參閱Adobe Experience Platform檔案中的[對應步驟](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping)。
+1. 在&#x200B;**[!UICONTROL 對應]**&#x200B;步驟中，選取要為對象匯出的屬性和身分欄位。 如需詳細資訊，請參閱Adobe Experience Platform檔案中的[對應步驟](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}。
 
    ![](assets/destination-attributes.png)
 

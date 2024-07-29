@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 開始使用同盟資料庫
-description: 瞭解如何建立和管理您的同盟資料庫
-badge: label="可用性限制" type="Informative"
+title: 設定您的同盟資料庫
+description: 瞭解如何設定同盟資料庫
+badge: label="限量開放使用" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 4%
+source-wordcount: '1579'
+ht-degree: 76%
 
 ---
 
-# 開始使用同盟資料庫 {#federated-db}
+# 設定您的同盟資料庫 {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
@@ -30,167 +30,167 @@ ht-degree: 4%
 
 Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建立並豐富對象，並將對象匯入至Adobe Experience Platform。
 
-在此頁面瞭解如何建立、設定、測試及儲存外部資料庫的連線。
+在[此頁面](connections.md)中瞭解如何建立、設定、測試及儲存外部資料庫的連線。 您可以在下方找到支援的資料庫清單，以及為每個資料庫設定的詳細設定。
 
 ## 支援的資料庫 {#supported-db}
 
-透過同盟對象構成，您可以連線至下列資料庫。 每個資料庫的設定詳述如下。
+您可以透過聯合客群組成連接下列資料庫。每個資料庫的設定詳述如下。
 
 * [Amazon Redshift](#amazon-redshift)
-* [azure synapse](#azure-synapse-redshift)
+* [Azure Synapse](#azure-synapse-redshift)
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 
 ## Amazon Redshift {#amazon-redshift}
 
-使用同盟資料庫來處理儲存在外部資料庫中的資訊。 請依照下列步驟設定Amazon Redshift的存取權。
+使用同盟資料庫來處理儲存在外部資料庫中的資訊。 請依照以下步驟，設定 Amazon Redshift 的存取權。
 
-1. 在&#x200B;**[!UICONTROL 同盟資料]**&#x200B;功能表下，選取&#x200B;**[!UICONTROL 同盟資料庫]**。
+1. 在&#x200B;**[!UICONTROL 聯合資料]**&#x200B;選單中，選取&#x200B;**[!UICONTROL 同盟資料庫]**。
 
 1. 按一下&#x200B;**[!UICONTROL 新增同盟資料庫]**。
 
    ![](assets/federated_database_1.png)
 
-1. 輸入同盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
+1. 輸入聯盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
-1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式清單中，選取Amazon Redshift。
+1. 在&#x200B;**[!UICONTROL 類型]**&#x200B;下拉式清單中，選取 Amazon Redshift。
 
    ![](assets/federated_database_6.png)
 
-1. 設定Amazon Redshift驗證設定：
+1. 完成 Amazon Redshift 驗證設定：
 
-   * **[!UICONTROL 伺服器]**：新增DNS的名稱。
+   * **[!UICONTROL 伺服器]**：新增 DNS 的名稱。
 
    * **[!UICONTROL 帳戶]**：新增使用者名稱。
 
    * **[!UICONTROL 密碼]**：新增帳戶密碼。
 
-   * **[!UICONTROL 資料庫]**：如果未在DSN中指定資料庫名稱。 若在DSN中指定，可保留空白
+   * **[!UICONTROL 資料庫]**：資料庫名稱 (如果沒有在 DSN 中指定)。如果已於 DSN 中指定，則可以保留空白
 
-   * **[!UICONTROL 工作結構描述]**：用於工作表的資料庫結構描述名稱。 [了解更多](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL 工作結構描述]**：用於工作表的資料庫結構描述名稱。 進一步瞭解[Amazon檔案](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
 
      >[!NOTE]
      >
      >只要您擁有連線至此綱要的必要許可權，您就可以使用資料庫的任何綱要，包括用於暫時資料處理的綱要。
 
-1. 選取&#x200B;**[!UICONTROL 測試連線]**&#x200B;選項以驗證您的組態。
+1. 選取&#x200B;**[!UICONTROL 測試連接]**&#x200B;選項，以驗證您的設定。
 
-1. 按一下&#x200B;**[!UICONTROL 部署函式]**&#x200B;按鈕以建立函式。
+1. 按一下&#x200B;**[!UICONTROL 部署功能]**&#x200B;按鈕，建立相關功能。
 
-1. 完成設定後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以建立同盟資料庫。
+1. 設定完成後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;建立同盟資料庫。
 
-## azure synapseRedshift {#azure-synapse-redshift}
+## Azure Synapse Redshift {#azure-synapse-redshift}
 
-使用同盟資料庫來處理儲存在外部資料庫中的資訊。 請依照下列步驟設定對Azure synapseRedshift的存取權。
+使用同盟資料庫來處理儲存在外部資料庫中的資訊。 請依照下列步驟，設定 Azure Synapse Redshift 的存取權。
 
-1. 在&#x200B;**[!UICONTROL 同盟資料]**&#x200B;功能表下，選取&#x200B;**[!UICONTROL 同盟資料庫]**。
+1. 在&#x200B;**[!UICONTROL 聯合資料]**&#x200B;選單中，選取&#x200B;**[!UICONTROL 同盟資料庫]**。
 
 1. 按一下&#x200B;**[!UICONTROL 新增同盟資料庫]**。
 
    ![](assets/federated_database_1.png)
 
-1. 輸入同盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
+1. 輸入聯盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
-1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式清單中，選取Azure synapseRedshift。
+1. 在&#x200B;**[!UICONTROL 類型]**&#x200B;下拉式清單中，選取 Azure Synapse Redshift。
 
    ![](assets/federated_database_4.png)
 
-1. 設定Azure synapseRedshift驗證設定：
+1. 完成 Azure Synapse Redshift 驗證設定：
 
-   * **[!UICONTROL 伺服器]**：輸入Azure synapse伺服器的URL。
+   * **[!UICONTROL 伺服器]**：輸入 Azure Synapse 伺服器的 URL。
 
    * **[!UICONTROL 帳戶]**：輸入使用者名稱。
 
    * **[!UICONTROL 密碼]**：輸入帳戶密碼。
 
-   * **[!UICONTROL 資料庫]** （選擇性）：如果未在DSN中指定，請輸入資料庫名稱。
+   * **[!UICONTROL 資料庫]** (選填)：輸入資料庫的名稱 (如果沒有在 DSN 中指定)。
 
-   * **[!UICONTROL 選項]**：聯結器支援下表詳述的選項。
+   * **[!UICONTROL 選項]**：下表詳細說明連接器支援的選項。
 
-1. 選取&#x200B;**[!UICONTROL 測試連線]**&#x200B;選項以驗證您的組態。
+1. 選取&#x200B;**[!UICONTROL 測試連接]**&#x200B;選項，以驗證您的設定。
 
-1. 按一下&#x200B;**[!UICONTROL 部署函式]**&#x200B;按鈕以建立函式。
+1. 按一下&#x200B;**[!UICONTROL 部署功能]**&#x200B;按鈕，建立相關功能。
 
-1. 完成設定後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以建立同盟資料庫。
+1. 設定完成後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;建立同盟資料庫。
 
 | 選項 | 說明 |
 |---|---|
-| 驗證 | 聯結器支援的驗證型別。 目前支援的值： ActiveDirectoryMSI。 如需詳細資訊，請參閱[SQL檔案](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) （連線字串n°8範例） |
+| 驗證 | 連接器支援的驗證類型。目前支援的值：ActiveDirectoryMSI。如需詳細資訊，請參閱[Microsoft SQL檔案](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} （連線字串n°8範例） |
 
 
 ## Google Big Query {#google-big-query}
 
-使用同盟資料庫來處理儲存在外部資料庫中的資訊。 請依照下列步驟設定對Google Big Query的存取權。
+使用同盟資料庫來處理儲存在外部資料庫中的資訊。 請依照下列步驟，設定 Google Big Query 的存取權。
 
-1. 在&#x200B;**[!UICONTROL 同盟資料]**&#x200B;功能表下，選取&#x200B;**[!UICONTROL 同盟資料庫]**。
+1. 在&#x200B;**[!UICONTROL 聯合資料]**&#x200B;選單中，選取&#x200B;**[!UICONTROL 同盟資料庫]**。
 
 1. 按一下&#x200B;**[!UICONTROL 新增同盟資料庫]**。
 
    ![](assets/federated_database_1.png)
 
-1. 輸入同盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
+1. 輸入聯盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
-1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式清單中，選取Google Big Query。
+1. 在&#x200B;**[!UICONTROL 類型]**&#x200B;下拉式清單中，選取 Google Big Query。
 
    ![](assets/federated_database_3.png)
 
-1. 設定Google Big Query驗證設定：
+1. 設定 Google Big Query 的驗證設定：
 
-   * **[!UICONTROL 服務帳戶]**：輸入您&#x200B;**[!UICONTROL 服務帳戶]**&#x200B;的電子郵件。 如需詳細資訊，請參閱[Google Cloud檔案](https://cloud.google.com/iam/docs/creating-managing-service-accounts)。
+   * **[!UICONTROL 服務帳戶]**：輸入&#x200B;**[!UICONTROL 服務帳戶]**&#x200B;的電子郵件地址。如需詳細資訊，請參閱[Google Cloud檔案](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}。
 
-   * **[!UICONTROL 專案]**：輸入您&#x200B;**[!UICONTROL 專案]**&#x200B;的名稱。 如需詳細資訊，請參閱[Google Cloud檔案](https://cloud.google.com/resource-manager/docs/creating-managing-projects)。
+   * **[!UICONTROL 專案]**：輸入&#x200B;**[!UICONTROL 專案]**&#x200B;的名稱。如需詳細資訊，請參閱[Google Cloud檔案](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}。
 
-   * **[!UICONTROL 資料集]**：輸入&#x200B;**[!UICONTROL 資料集]**&#x200B;的名稱。 如需詳細資訊，請參閱[Google Cloud檔案](https://cloud.google.com/bigquery/docs/datasets-intro)。
+   * **[!UICONTROL 資料集]**：輸入&#x200B;**[!UICONTROL 資料集]**&#x200B;的名稱。如需詳細資訊，請參閱[Google Cloud檔案](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}。
 
-   * **[!UICONTROL 金鑰檔案路徑]**：將您的金鑰檔案上傳至伺服器。 僅接受.json檔案。
+   * **[!UICONTROL 金鑰檔案路徑]**：將您的金鑰檔案上傳至伺服器。只接受 .json 檔案。
 
-   * **[!UICONTROL 選項]**：聯結器支援下表詳述的選項。
+   * **[!UICONTROL 選項]**：下表詳細說明連接器支援的選項。
 
-1. 選取&#x200B;**[!UICONTROL 測試連線]**&#x200B;選項以驗證您的組態。
+1. 選取&#x200B;**[!UICONTROL 測試連接]**&#x200B;選項，以驗證您的設定。
 
-1. 按一下&#x200B;**[!UICONTROL 部署函式]**&#x200B;按鈕以建立函式。
+1. 按一下&#x200B;**[!UICONTROL 部署功能]**&#x200B;按鈕，建立相關功能。
 
-1. 完成設定後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以建立同盟資料庫。
+1. 設定完成後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;建立同盟資料庫。
 
 | 選項 | 說明 |
 |---|---|
-| ProxyType | 用來透過ODBC和SDK聯結器連線至BigQuery的Proxy型別。 目前支援</br>HTTP （預設）、http_no_tunnel、socks4和socks5。 |
-| ProxyHost | 可連線到Proxy的主機名稱或IP位址。 |
-| ProxyPort | 執行Proxy的連線埠號碼，例如8080 |
-| ProxyUid | 用於已驗證Proxy的使用者名稱 |
-| proxypwd | ProxyUid密碼 |
-| bqpath | 請注意，這僅適用於大量載入工具(Cloud SDK)。 </br>若要避免使用PATH變數或必須將google-cloud-sdk目錄移至其他位置，您可以使用此選項指定伺服器上cloud sdk bin目錄的精確路徑。 |
-| GCloudConfigName | 請注意，這適用於7.3.4版開始並僅適用於大量載入工具(Cloud SDK)。</br> Google Cloud SDK使用設定將資料載入BigQuery表格。 名為`accfda`的組態儲存用來載入資料的引數。 不過，此選項可讓使用者為組態指定不同的名稱。 |
-| GCloudDefaultConfigName | 請注意，這適用於7.3.4版開始並僅適用於大量載入工具(Cloud SDK)。</br>必須先將作用中的標籤傳輸至新的設定，才能刪除作用中的Google Cloud SDK設定。 此暫時設定是重新建立載入資料的主要設定所必需的。 暫存組態的預設名稱為`default`，如有需要，可以變更此名稱。 |
-| GCloudRecreateConfig | 請注意，這適用於7.3.4版開始並僅適用於大量載入工具(Cloud SDK)。</br>設為`false`時，大量載入機制不會嘗試重新建立、刪除或修改Google Cloud SDK設定。 相反地，它會使用電腦上現有的設定繼續進行資料載入。 當其他作業取決於Google Cloud SDK設定時，此功能很有價值。 </br>如果使用者在沒有適當組態的情況下啟用此引擎選項，大量載入機制將會發出警告訊息： `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`。 為避免進一步的錯誤，它會恢復為使用預設的ODBC陣列插入大量載入機制。 |
+| ProxyType | 透過 ODBC 和 SDK 連接器連接至 BigQuery 所使用的 Proxy 類型。</br>目前支援 HTTP (預設)、http_no_tunnel、socks4 和 socks5。 |
+| ProxyHost | 可連接至 Proxy 的主機名稱或 IP 位址。 |
+| ProxyPort | 用來執行 Proxy 的連接埠號碼，例如 8080 |
+| ProxyUid | 經過驗證的 Proxy 所使用的使用者名稱 |
+| ProxyPwd | ProxyUid 密碼 |
+| bqpath | 請注意，這只適用於大量載入工具 (Cloud SDK)。</br> 為避免使用 PATH 變數，或如果 google-cloud-sdk 目錄必須移到其他位置，您可以使用此選項，指定伺服器上雲端 SDK bin 目錄的確切路徑。 |
+| GCloudConfigName | 請注意，此選項自 7.3.4 版本起適用，且只適用於大量載入工具 (Cloud SDK)。</br> Google Cloud SDK 會使用設定 (configuration)，將資料載入 BigQuery 表格。名為 `accfda` 的設定儲存了用來載入資料的參數。然而，使用者可以使用此選項，為設定指定不同的名稱。 |
+| GCloudDefaultConfigName | 請注意，此選項自 7.3.4 版本起適用，且只適用於大量載入工具 (Cloud SDK)。</br> 將作用中標記轉移至新的設定之前，無法刪除作用中的 Google Cloud SDK 設定。此臨時設定對於重新建立用來載入資料的主要設定來說是必要的。臨時設定的預設名稱是 `default`，如有需要可以更改。 |
+| GCloudRecreateConfig | 請注意，此選項自 7.3.4 版本起適用，且只適用於大量載入工具 (Cloud SDK)。</br> 設定為 `false` 時，大量載入機制會避免嘗試重新建立、刪除或修改 Google Cloud SDK 設定。相反，它會使用機器上的現有設定，執行後續的資料載入作業。當有其他作業仰賴 Google Cloud SDK 設定時，此功能尤為重要。</br> 如果使用者在缺少適當設定的情況下啟用此引擎選項，大量載入機制將會發出警告訊息：`No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`。為了防止進一步的錯誤，系統將會恢復使用預設的 ODBC Array Insert 大量載入機制。 |
 
 
 ## Snowflake {#snowflake}
 
-使用同盟資料庫來處理儲存在外部資料庫中的資訊。 請依照下列步驟設定對Snowflake的存取權。
+使用同盟資料庫來處理儲存在外部資料庫中的資訊。 請按照以下步驟，設定對 Snowflake 的存取權。
 
-1. 在&#x200B;**[!UICONTROL 同盟資料]**&#x200B;功能表下，選取&#x200B;**[!UICONTROL 同盟資料庫]**。
+1. 在&#x200B;**[!UICONTROL 聯合資料]**&#x200B;選單中，選取&#x200B;**[!UICONTROL 同盟資料庫]**。
 
 1. 按一下&#x200B;**[!UICONTROL 新增同盟資料庫]**。
 
    ![](assets/federated_database_1.png)
 
-1. 輸入同盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
+1. 輸入聯盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
-1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式清單中，選取Snowflake。
+1. 在&#x200B;**[!UICONTROL 類型]**&#x200B;下拉式清單中，選取 Snowflake。
 
    ![](assets/federated_database_2.png)
 
-1. 設定Snowflake驗證設定：
+1. 完成 Snowflake 驗證設定：
 
-   * **[!UICONTROL 伺服器]**：輸入您的伺服器名稱。
+   * **[!UICONTROL 伺服器]**：輸入伺服器的名稱。
 
-   * **[!UICONTROL 使用者]**：輸入您的使用者名稱。
+   * **[!UICONTROL 使用者]**：輸入你的使用者名稱。
 
    * **[!UICONTROL 密碼]**：輸入您的帳戶密碼。
 
-   * **[!UICONTROL 資料庫]** （選擇性）：如果未在DSN中指定，請輸入資料庫名稱。
+   * **[!UICONTROL 資料庫]** (選填)：輸入資料庫的名稱 (如果沒有在 DSN 中指定)。
 
    * **[!UICONTROL 工作結構描述]** （選擇性）：輸入用於工作表之資料庫結構描述的名稱。
 
@@ -198,55 +198,55 @@ Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建�
      >
      >只要您擁有連線至此綱要的必要許可權，您就可以使用資料庫的任何綱要，包括用於暫時資料處理的綱要。
 
-   * **[!UICONTROL 私密金鑰]**：按一下&#x200B;**[!UICONTROL 私密金鑰]**&#x200B;欄位，從地區設定資料夾中選取您的.pem檔案。
+   * **[!UICONTROL 私密金鑰]**：按一下&#x200B;**[!UICONTROL 私密金鑰]**&#x200B;欄位，從 locale 資料夾中選取 .pem 檔案。
 
-   * **[!UICONTROL 選項]**：聯結器支援下表詳述的選項。
+   * **[!UICONTROL 選項]**：下表詳細說明連接器支援的選項。
 
-1. 選取&#x200B;**[!UICONTROL 測試連線]**&#x200B;選項以驗證您的組態。
+1. 選取&#x200B;**[!UICONTROL 測試連接]**&#x200B;選項，以驗證您的設定。
 
-1. 按一下&#x200B;**[!UICONTROL 部署函式]**&#x200B;按鈕以建立函式。
+1. 按一下&#x200B;**[!UICONTROL 部署功能]**&#x200B;按鈕，建立相關功能。
 
-1. 完成設定後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以建立同盟資料庫。
+1. 設定完成後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;建立同盟資料庫。
 
-聯結器支援下列選項：
+連接器支援下列選項：
 
 | 選項 | 說明 |
 |---|---|
-| 工作綱要 | 用於工作表的資料庫綱要 |
-| 倉儲 | 要使用的預設倉儲名稱。 它會覆寫使用者的預設值。 |
-| 時區名稱 | 預設為空白，這表示使用系統時區應用程式伺服器。 選項可用來強制TIMEZONE工作階段引數。 <br>如需詳細資訊，請參閱[此頁面](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)。 |
-| weekstart | WEEK_START階段作業引數。 預設為0。 <br>如需詳細資訊，請參閱[此頁面](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)。 |
-| UseCachedResult | USE_CACHED_RESULTS工作階段引數。 預設為TRUE。 此選項可用來停用Snowflake快取結果。 <br>如需詳細資訊，請參閱[此頁面](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)。 |
-| bulkThread | 用於Snowflake大量載入器的執行緒數量，執行緒越多，批次載入量越大，效能就越好。 預設為1。 根據機器執行緒計數，數字可以調整。 |
-| chunkSize | 決定大量載入器區塊的檔案大小。 預設為128MB。 可以修改以獲得最佳效能（當與bulkThreads一起使用時）。 同時作用中的執行緒越多，效能就越好。 <br>如需詳細資訊，請參閱[Snowflake檔案](https://docs.snowflake.net/manuals/sql-reference/sql/put.html)。 |
-| 階段名稱 | 預先布建的內部階段名稱。 它將用於大量載入，而不是建立新的臨時階段。 |
+| workschema | 工作表所使用的資料庫結構描述 |
+| warehouse | 預設倉儲所使用的名稱。此選項將覆寫使用者的預設值。 |
+| TimeZoneName | 預設為空白，這表示使用系統時區應用程式伺服器。 此選項可用於強制執行 TIMEZONE 工作階段參數。<br>如需詳細資訊，請參閱[此頁面](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}。 |
+| WeekStart | WEEK_START 工作階段參數。預設值為 0。<br>如需詳細資訊，請參閱[此頁面](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}。 |
+| UseCachedResult | USE_CACHED_RESULTS 工作階段參數。預設值為 TRUE。此選項可用來停用 Snowflake 快取結果。<br>如需詳細資訊，請參閱[此頁面](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}。 |
+| bulkThreads | Snowflake 大量載入器所使用的執行緒數量，執行緒越多，代表大量載入的效能越好。預設值為 1。此數量可根據機器的執行緒數量調整。 |
+| chunkSize | 決定大量載入器區塊的檔案大小。預設值為 128MB。與 bulkThreads 一起使用時，可以修改此值以進一步提升效能。並行作用中的執行緒越多，效能就越好。<br>如需詳細資訊，請參閱[Snowflake檔案](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}。 |
+| StageName | 預先佈建的內部階段名稱。大量載入時會直接使用此名稱，而非建立新的臨時階段。 |
 
 
 ## Vertica Analytics {#vertica-analytics}
 
-使用同盟資料庫來處理儲存在外部資料庫中的資訊。 請依照下列步驟設定對Vertica analytics的存取權。
+使用同盟資料庫來處理儲存在外部資料庫中的資訊。 請依照以下步驟，設定 Vertica Analytics 的存取權。
 
-1. 在&#x200B;**[!UICONTROL 同盟資料]**&#x200B;功能表下，選取&#x200B;**[!UICONTROL 同盟資料庫]**。
+1. 在&#x200B;**[!UICONTROL 聯合資料]**&#x200B;選單中，選取&#x200B;**[!UICONTROL 同盟資料庫]**。
 
 1. 按一下&#x200B;**[!UICONTROL 新增同盟資料庫]**。
 
    ![](assets/federated_database_1.png)
 
-1. 輸入同盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
+1. 輸入聯盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
-1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式清單中，選取Vertica analytics。
+1. 在&#x200B;**[!UICONTROL 類型]**&#x200B;下拉式清單中，選取 Vertica Analytics。
 
    ![](assets/federated_database_5.png)
 
-1. 設定Vertica Analytics驗證設定：
+1. 完成 Vertica Analytics 驗證設定：
 
-   * **[!UICONTROL 伺服器]**：新增[!DNL Vertica Analytics]伺服器的URL。
+   * **[!UICONTROL 伺服器]**：新增 [!DNL Vertica Analytics] 伺服器的 URL。
 
    * **[!UICONTROL 帳戶]**：新增使用者名稱。
 
    * **[!UICONTROL 密碼]**：新增帳戶密碼。
 
-   * **[!UICONTROL 資料庫]** （選擇性）：如果未在DSN中指定，請輸入資料庫名稱。
+   * **[!UICONTROL 資料庫]** (選填)：輸入資料庫的名稱 (如果沒有在 DSN 中指定)。
 
    * **[!UICONTROL 工作結構描述]** （選擇性）：輸入用於工作表之資料庫結構描述的名稱。
 
@@ -254,16 +254,16 @@ Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建�
      >
      >只要您擁有連線至此綱要的必要許可權，您就可以使用資料庫的任何綱要，包括用於暫時資料處理的綱要。
 
-   * **[!UICONTROL 選項]**：聯結器支援下表詳述的選項。
+   * **[!UICONTROL 選項]**：下表詳細說明連接器支援的選項。
 
-1. 選取&#x200B;**[!UICONTROL 測試連線]**&#x200B;選項以驗證您的組態。
+1. 選取&#x200B;**[!UICONTROL 測試連接]**&#x200B;選項，以驗證您的設定。
 
-1. 按一下&#x200B;**[!UICONTROL 部署函式]**&#x200B;按鈕以建立函式。
+1. 按一下&#x200B;**[!UICONTROL 部署功能]**&#x200B;按鈕，建立相關功能。
 
-1. 完成設定後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以建立同盟資料庫。
+1. 設定完成後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;建立同盟資料庫。
 
-聯結器支援下列選項：
+連接器支援下列選項：
 
 | 選項 | 說明 |
 |---|---|
-| 時區名稱 | 預設為空白，這表示已使用應用程式伺服器的系統時區。 選項可用來強制TIMEZONE工作階段引數。 |
+| TimeZoneName | 預設為空白，這表示已使用應用程式伺服器的系統時區。 此選項可用於強制執行 TIMEZONE 工作階段參數。 |

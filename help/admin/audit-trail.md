@@ -2,11 +2,12 @@
 audience: end-user
 title: 開始使用稽核軌跡
 description: 瞭解如何使用稽核軌跡監視資料庫
-badge: label="可用性限制" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+badge: label="限量開放使用" type="Informative"
+exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 11%
+source-wordcount: '365'
+ht-degree: 12%
 
 ---
 
@@ -52,7 +53,7 @@ ht-degree: 11%
 
 1. 在&#x200B;**[!UICONTROL 同盟資料]**&#x200B;功能表下，選取&#x200B;**[!UICONTROL 稽核軌跡]**。
 
-1. **[!UICONTROL 稽核軌跡]**&#x200B;視窗會開啟，其中包含您實體的清單。 Adobe Campaign Web使用者介面會稽核工作流程、選項、傳送和結構的建立、編輯和刪除動作。
+1. **[!UICONTROL 稽核軌跡]**&#x200B;視窗會開啟，其中包含您實體的清單。 Federated Audience Composition會稽核工作流程、選項、傳遞和結構的建立、編輯和刪除動作。
 
    ![](assets/audit_trail.png)
 

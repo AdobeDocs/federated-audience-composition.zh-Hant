@@ -2,14 +2,14 @@
 audience: end-user
 title: 使用重複資料刪除活動
 description: 瞭解如何使用重複資料刪除活動
-badge: label="可用性限制" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+badge: label="限量開放使用" type="Informative"
+exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 57%
+ht-degree: 43%
 
 ---
-
 
 # 去重複化 {#deduplication}
 
@@ -47,13 +47,13 @@ ht-degree: 57%
 
    ![](../assets/deduplication.png)
 
-1. 在&#x200B;**[!UICONTROL 重複資料刪除設定]**&#x200B;區段中，選取要保留的不重複&#x200B;**[!UICONTROL 重複專案數目]**。 此欄位的預設值為 1。如果值為 0 則可讓您保留所有重複項目。
+1. 在&#x200B;**[!UICONTROL 重複資料刪除設定]**&#x200B;區段中，選取要保留的不重複&#x200B;**[!UICONTROL 重複專案數目]**。 此欄位的預設值為&#x200B;**1**。 值&#x200B;**0**&#x200B;可讓您保留所有重複專案。
 
    例如，如果記錄 A 和 B 被視為記錄 Y 的重複項目，而記錄 C 被視為記錄 Z 的重複項目：
 
-   * 如果該欄位的值為 1：僅保留 Y 和 Z 記錄。
-   * 如果該欄位的值為 0：會保留所有記錄。
-   * 如果該欄位的值為 2：會保留記錄 C 和 Z，並且將保留 A、B 和 Y 中的兩條記錄，這是偶然的或取決於之後所選取的重複資料刪除方法。
+   * 如果欄位的值為&#x200B;**1**：只保留Y和Z記錄。
+   * 如果欄位的值為&#x200B;**0**：會保留所有記錄。
+   * 如果欄位的值為&#x200B;**2**：會保留記錄C和Z，並保留A、B和Y中的兩個記錄，這是偶然的或取決於之後選取的重複資料刪除方法。
 
 1. 選取要使用的&#x200B;**[!UICONTROL 重複資料刪除方法]**：
 
