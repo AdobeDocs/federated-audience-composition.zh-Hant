@@ -3,9 +3,10 @@ audience: end-user
 title: 開始使用組合
 description: 瞭解如何開始使用組合
 badge: label="可用性限制" type="Informative"
-source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
+exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '290'
 ht-degree: 10%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 10%
 
 ## 什麼是構成 {#what}
 
-「Adobe對象構成」可讓您建立構成，其中您可以使用各種活動（分割、排除……）到視覺畫布中建立對象。 完成後，產生的受眾會與現有受眾一併儲存至Adobe Experience Platform中，並可在Journey Optimizer等目的地運用於鎖定客戶。 [瞭解如何使用對象](../start/audiences.md)
+「Adobe對象構成」可讓您建立構成，其中您可以使用各種活動（分割、排除……）到視覺畫布中建立對象。 完成後，產生的受眾會與現有受眾一併儲存至Adobe Experience Platform中，並可在Adobe Experience Platform目標和Adobe Journey Optimizer中運用於鎖定客戶。 [瞭解如何使用對象](../start/audiences.md)
 
 ![](assets/composition-example.png)
 

@@ -4,9 +4,9 @@ title: 配合對象
 description: 瞭解如何使用受眾
 badge: label="可用性限制" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 4b7645e45b68a7316d9ddc09af1a8253b4e4dd62
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '307'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Experience Platform同盟對象構成可讓您[建立構成](../compositions/gs-compositions.md)，您可以在視覺畫布中運用各種活動來建立對象，並將其儲存至Adobe Experience Platform對象入口網站。
 
-然後，您可以對Adobe Experience Platform支援的任何目的地啟用這些對象。
+接著，您可以在Journey Optimizer中鎖定這些對象，或在Adobe Experience Platform支援的任何目的地啟用這些對象。
 
 ## 使用組合建立對象 {#creation}
 
