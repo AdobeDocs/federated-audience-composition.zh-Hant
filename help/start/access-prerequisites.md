@@ -2,9 +2,9 @@
 title: 存取同盟對象構成
 description: 瞭解如何存取同盟對象構成。
 badge: label="可用性限制" type="Informative"
-source-git-commit: 618d1675c28213d7a316f40cd624d282e01297f1
+source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '284'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,9 @@ ht-degree: 2%
 
 ## IP允許清單 {#ip}
 
-您的IP位址必須新增至允許清單，才能啟用對資料倉儲的存取權並使用同盟對象構成。 若要將您的IP位址新增至允許清單，請聯絡您的Adobe代表。
+若要安全地啟用同盟受眾構成以存取您的資料庫，請聯絡您的Adobe代表，以取得將存取這些資料庫的同盟受眾構成伺服器的IP位址。
+
+將這些IP位址新增至您的允許清單，以授與同盟對象構成的存取權。」
 
 ## 護欄和限制 {#fac-guardrails}
 
