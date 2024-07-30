@@ -2,7 +2,7 @@
 title: 同盟對象構成的先決條件和護欄
 description: 瞭解同盟對象構成的先決條件、許可權和護欄
 badge: label="限量開放使用" type="Informative"
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: e6858ecd06e97b952e59738f299afc90fddeafb7
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 13%
@@ -27,7 +27,7 @@ ht-degree: 13%
 
 若要安全地啟用同盟受眾構成以存取您的資料庫，請聯絡您的Adobe代表，以取得將存取這些資料庫的同盟受眾構成伺服器的IP位址。
 
-將這些IP位址新增至您的允許清單，以授與同盟對象構成的存取權。」
+將這些IP位址新增至您的允許清單，以授與同盟對象構成的存取權。
 
 ## 護欄和限制 {#fac-guardrails}
 
