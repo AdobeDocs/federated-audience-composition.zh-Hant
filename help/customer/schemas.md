@@ -4,10 +4,10 @@ title: 開始使用結構描述
 description: 瞭解如何開始使用結構描述
 badge: label="限量開放使用" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
+source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 23%
+source-wordcount: '451'
+ht-degree: 22%
 
 ---
 
@@ -48,6 +48,11 @@ ht-degree: 23%
 * 提供易記的名稱和說明，以簡化使用者的理解
 * 根據每個欄位的實際使用情況決定其可見性
 * 請選取其主要索引鍵，以便根據[資料模型](../data-management/gs-models.md#data-model-start)的需要連結它們之間的結構描述
+
+>[!CAUTION]
+>
+>使用相同的資料庫連線多個沙箱時，必須使用不同的工作結構描述。
+>
 
 ## 建立結構描述 {#schema-create}
 
