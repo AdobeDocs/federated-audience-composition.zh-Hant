@@ -3,9 +3,9 @@ title: 開始使用Experience Platform同盟對象構成
 description: 了解什麼是 Adobe 聯合客群組成，以及如何在 Adobe Experience Platform 中使用此功能
 badge: label="限量開放使用" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 57%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 57%
 
 Adobe 聯合客群組成可讓您直接從資料庫建立和更新 Adobe Experience Platform 客群，無需任何擷取程序。
 
-![圖表](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}
+<!--![diagram](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}-->
 
 主要步驟：
 
