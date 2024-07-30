@@ -2,9 +2,9 @@
 title: 同盟對象構成的先決條件和護欄
 description: 瞭解同盟對象構成的先決條件、許可權和護欄
 badge: label="限量開放使用" type="Informative"
-source-git-commit: 61ad8899f7de601b64c7b42cb873a172fcaea145
+source-git-commit: 75fa26d74931d63c94e138fe29d85088932acd7f
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '266'
 ht-degree: 13%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 13%
 
 ## 護欄和限制 {#fac-guardrails}
 
-* 目前，Healthcare Shield和Privacy and Security Shield無法使用同盟對象構成的對象和屬性。
+* 目前，Healthcare Shield和Privacy and Security Shield無法使用同盟受眾構成。
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
