@@ -1,21 +1,21 @@
 ---
-title: 常見問答
+title: 常見問題
 description: 關於Adobe Experience Platform同盟對象構成的常見問題
-badge: label="可用性限制" type="Informative"
+badge: label="限量開放使用" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 2%
+ht-degree: 78%
 
 ---
 
-# 常見問答 {#faq}
+# 常見問題 {#faq}
 
-以下是有關Adobe Experience Platform同盟對象構成的常見問題清單。 在[此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}中，也有Adobe Experience Platform Segmentation Service適用的全域常見問題集。
+以下是有關Adobe Experience Platform同盟對象構成的常見問題清單。 [此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/faq){target="_blank"}也提供了 Adobe Experience Platform Segmentation Service 的全球常見問題。
 
 
-+++存取同盟對象構成需要哪些許可權？
++++存取聯合客群組成需要哪些權限？
 
 同盟對象構成需要Adobe Real-time Customer Data Platform和Adobe Journey Optimizer Prime或Ultimate套件。 您也需要購買同盟對象構成附加元件。
 
@@ -23,12 +23,12 @@ ht-degree: 2%
 
 +++
 
-+++支援哪些雲端倉庫？
++++目前支援哪些雲端倉儲？
 
-在此版本中，同盟對象構成相容於：
+此版本的聯合客群組成與下列系統相容：
 
 * Amazon Redshift
-* azure synapse
+* Azure Synapse
 * Google Big Query
 * Snowflake
 * Vertica Analytics
@@ -36,66 +36,66 @@ ht-degree: 2%
 +++
 
 
-+++可以在相同組合中查詢多個資料倉儲嗎？
++++是否可以在同一個構成中，查詢多個資料倉儲？
 
-可以，可以在相同構成中查詢多個倉儲，也可以合併來自多個來源的資料。  通常每個[組合活動](../compositions/orchestrate-activities.md) （查詢、擴充、分割等） 根據活動組態、目標資料庫（可能存在多個同盟資料存取的情況）以及一個或多個工作表輸出和執行結果，執行一或多個SQL敘述句。 這些工作表會作為連續活動的輸入。
-
-+++
-
-+++ 我可以使用同盟對象構成存取整個資料庫嗎？
-
-否，您可以自行設定專用或共用資料庫/綱要的存取權。 建議您為同盟對象構成建立專用結構，並僅複製/共用業務案例資料集。
-+++
-
-
-
-+++我是否可以存取專用綱要中的所有表格？
-
-可以，連線之後，同盟對象構成可用於根據定義的初始許可權探索所有表格，然後您可以使用視覺結構編輯器來：
-
-* 從表格中探索欄和主索引鍵
-* 為這些表格建立易記標籤
-* 為每個欄建立易記標籤
-* 隱藏不必要的欄
-* 儲存這些表格說明
-+++
-
-
-+++同盟對象構成中是否有任何暫存空間？
-
-否，同盟對象構成僅儲存中繼資料（結構描述）。 沒有正在傳輸的客戶資料。<!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
+是的，您可以在同一個構成中查詢多個倉儲，並能合併來自多個來源的資料。通常，每個[構成活動](../compositions/orchestrate-activities.md) (查詢、擴充、分割等) 會根據活動設定、目標資料庫 (可能同時存在多種聯合資料存取案例) 以及一或多份工作表的輸出與執行結果，執行一個或多個 SQL 陳述式。這些工作表會用來當做後續活動的輸入資料。
 
 +++
 
-+++同盟對象構成是否會儲存該人員清單的實體復本，以傳送至下游系統？
++++ 我是否可以使用聯邦客群構成存取我的整個資料庫？
 
-同盟對象構成不會維護資料的實體復本。 頻率是在構成中設定，以定義此資料的重新整理頻率。 Adobe Experience Platform不會將產生的對象資料儲存到客戶使用案例或動作所需的時間。
+不可以，但您可以自行設定專用或共用的資料庫/結構描述存取權。建議您為聯合客群組成建立專用結構描述，並僅複製/共用業務案例資料集。
++++
+
+
+
++++我是否可以存取專用結構描述中的所有表格？
+
+可以，連接完成後，您就可以使用聯合客群組成，根據已定義的初始權限探索所有表格，並接著使用視覺化結構描述編輯器執行以下操作：
+
+* 探索表格中的資料欄和主索引鍵
+* 為這些表格建立一目了然的標籤
+* 為每個資料欄建立一目了然的標籤
+* 隱藏不需要的資料欄
+* 儲存這些表格的描述
++++
+
+
++++聯合客群組成中是否有任何暫時儲存區？
+
+沒有，聯合客群組成只會儲存中繼資料 (結構描述)，沒有正在傳輸的客戶資料。<!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
+
++++
+
++++聯合客群組成是否會儲存客群名單的實體副本，以傳送至下游系統？
+
+聯合客群組成不會保留這類資料的實體副本。您可以在構成中設定頻率，以定義這類資料的重新整理頻率。Adobe Experience Platform 儲存生成客群資料的時間，不會超過執行客戶使用案例或動作所需的時間。
 
 例如：
 
-* 建立對象時，會在您的倉儲建立對象，而您可以先使用同盟對象構成來執行其他構成任務和資料操作，然後再透過Adobe Experience Platform對象入口網站發佈產生的對象和相關屬性。 受眾定義和相關屬性會移至Adobe Experience Platform。
-請注意，外部產生的對象目前的資料到期日為30天。 此資料到期日可減少組織內儲存的過多資料量。 在資料有效期限過後，關聯的資料集仍會顯示在資料集詳細目錄內，但您無法啟用對象，且設定檔計數會顯示為零。 進一步瞭解[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}。
+* 建立對象時，會在您的倉儲建立對象，而您可以先使用同盟對象構成來執行其他構成任務和資料操作，然後再透過Adobe Experience Platform對象入口網站發佈產生的對象和相關屬性。 客群定義和相關屬性會轉移到 Adobe Experience Platform。
+請注意，外部產生的客群目前的資料過期時間為 30 天。此資料過期時間有助於減少組織內部儲存的過量資料。資料過期後，關聯的資料集仍會在資料集庫存中顯示，但您無法啟動客群，且用戶輪廓計數會顯示為零。透過 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}了解更多。
 
-* 在對象擴充的案例中，起點是現有的Adobe Experience Platform對象。 您可以在此檢視兩種情境：
-   1. 從Federated Data Warehouse帶來其他受眾裝載屬性：在此情況下，新增的其他屬性將隨此受眾定義一起提供。 外部產生對象的資料有效期限與上述相同，即30天。
+* 客群擴充案例會以現有的 Adobe Experience Platform 客群做為起點。這裡可以考慮兩種情況：
+   1. 從聯合資料倉儲引入額外的客群承載屬性：在此情況下，新增的額外屬性將會成為此客群定義的一部分。外部產生的客群資料過期時間同樣是 30 天，與上述相同。
    1. 根據您的Data Warehouse中存在的其他屬性調整現有的Adobe Experience Platform對象。<!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 +++如果對象建立和對象擴充使用案例模式的資料沒有持續存在，如何暫時儲存？
 
-產生的對象資料不會無限期保留在Adobe Experience Platform或同盟對象構成中。 保留時間不會超過使用案例所需的時間。 在對象裝載中隨附的對象屬性只會當作對象定義的一部分而持續存在。 持續性持續時間會根據任何對象的TTL而定，預設為30天。
+Adobe Experience Platform 或聯合客群組成所產生的客群資料不會長期保存。這些資料只會按照使用案例的需求，保留必要的時間。連同客群承載一併引入的客群屬性，只會做為客群定義的一部分保存。資料保留時間取決於任一客群的存留時間 (TTL)，預設為 30 天。
 
 +++
 
-+++我可以刪除自訂上傳的對象嗎？
++++我是否可以刪除自訂上傳的客群？
 
 否，在目前版本中，您無法刪除自訂上傳的對象。<!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
 
 +++
 
-+++如果我合併來自多個來源的資料，該如何加入資料？ 我們是否使用Identity服務？
++++合併來自多個來源的資料之後，該如何連接這些資料？是否會因此使用身分服務？
 
-否，組合期間並未運用Identity Service 。 構成中使用的各種來源之間的資料透過使用者定義的邏輯（如基礎模型中表示的）連結，例如CRM ID、使用者帳戶號碼等。 您必須選取身分識別，以在資料倉儲中作為選取對象的識別碼。 對於同盟對象構成產生的對象，您必須在產生的資料集中識別身分的身分名稱空間。
+不會，構成期間並不會使用身分服務。構成中所使用的各種來源的資料，是透過使用者定義的邏輯 (如底層模型所述) 相互連接，例如 CRM ID、使用者帳號等。您必須在資料倉儲中，選取要在客群中用來當做識別碼的身分。在聯合客群組成產生的客群中，您需要為結果資料集中的身分指明身分命名空間。
 
 +++
 

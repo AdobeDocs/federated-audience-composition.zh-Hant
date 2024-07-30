@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: 開始使用組合
-description: 瞭解如何開始使用組合
-badge: label="可用性限制" type="Informative"
+title: 開始使用構成
+description: 學習如何開始構成
+badge: label="限量開放使用" type="Informative"
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 10%
+ht-degree: 89%
 
 ---
 
-# 開始使用組合 {#compositions}
+# 開始使用構成 {#compositions}
 
 ## 什麼是構成 {#what}
 
-「Adobe對象構成」可讓您建立構成，其中您可以使用各種活動（分割、排除……）到視覺畫布中建立對象。 完成後，產生的受眾會與現有受眾一併儲存至Adobe Experience Platform中，並可在Adobe Experience Platform目標和Adobe Journey Optimizer中運用於鎖定客戶。 [瞭解如何使用對象](../start/audiences.md)
+Adobe 客群組成允許您建立構成，讓您可以透過視覺化畫布的形式進行各種活動 (分割、排除…)，以建立客群。完成後，產生的受眾會與現有受眾一併儲存至Adobe Experience Platform中，並可在Adobe Experience Platform目標和Adobe Journey Optimizer中運用於鎖定客戶。 [學習如何使用客群](../start/audiences.md)
 
 ![](assets/composition-example.png)
 
@@ -26,26 +26,26 @@ ht-degree: 10%
 >title="構成"
 >abstract="在此畫面中，您可以存取構成的完整清單、檢查其目前狀態、上次/下次執行日期並建立新的構成。"
 
-可透過&#x200B;**[!UICONTROL Federated Compositions]**&#x200B;索引標籤中的Adobe Experience Platform **[!UICONTROL Audiences]**&#x200B;功能表存取組合。
+您可以透過&#x200B;**[!UICONTROL 聯合構成]**&#x200B;索引標籤中的 Adobe Experience Platform **[!UICONTROL 客群]** 選單存取構成。
 
-從這個畫面，您可以建立新組合併存取現有組合。 您也可以按一下現有構成名稱旁的省略符號按鈕，以複製或刪除現有構成。
+在此畫面中，您可以建立新的構成，並存取現有的構成。您也可以按一下現有構成名稱旁邊的省略符號按鈕，以複製或刪除構成。
 
 ![](assets/compositions-list.png)
 
-若要精簡清單並輕鬆找到您要尋找的組合，您可以搜尋清單，並依組合的狀態或最後處理日期篩選組合。
+若要縮小清單範圍，並輕鬆找到您想要的構成，您可以搜尋清單，並依狀態或最後處理日期篩選構成。
 
-您也可以透過新增或移除欄來自訂清單。 若要這麼做，請按一下**[!UICONTROL 設定資料行]**按鈕，然後新增或移除所需的輸出資料行。
+您也可以透過新增或移除資料欄來自訂清單。若要執行此操作，請按一下 **[!UICONTROL 設定資料欄]** 按鈕，並新增或移除所需的輸出資料欄。
 
 ![](assets/compositions-columns.png)
 
-## 組合的狀態 {#status}
+## 構成的狀態 {#status}
 
-組合可以有多種狀態：
+構成可以有多種狀態：
 
-* **[!UICONTROL 草稿]**：已建立並儲存構成。
-* **[!UICONTROL 進行中]**：構成已經執行，目前正在執行。
-* **[!UICONTROL 已停止]**：構成執行已完成並已停止。
-* **[!UICONTROL 已暫停]**：構成執行已暫停。
-* **[!UICONTROL 錯誤]**：構成執行發生錯誤。 開啟構成並存取日誌和工作以識別錯誤並加以解決。
+* **[!UICONTROL 草稿]**：構成已建立並儲存。
+* **[!UICONTROL 進行中]**：構成已執行，且正在執行中。
+* **[!UICONTROL 已停止]**：構成已執行完成並停止。
+* **[!UICONTROL 暫停]**：構成已暫停執行。
+* **[!UICONTROL 錯誤]**：構成執行期間發生錯誤。請開啟構成並存取相關記錄和任務，以找出並解決錯誤。
 
-有關如何啟動和監視組合的詳細資訊，請參閱[本節](../compositions/start-monitor-composition.md)。
+有關如何開始並監控構成的詳細資訊，請參閱本[章節](../compositions/start-monitor-composition.md)。
