@@ -4,15 +4,14 @@ title: 開始使用結構描述
 description: 瞭解如何開始使用結構描述
 badge: label="限量開放使用" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 43e43d2600edc9e8c2aeb5713fba50ff4da8e2eb
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 23%
+source-wordcount: '450'
+ht-degree: 22%
 
 ---
 
 # 開始使用結構描述 {#schemas}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -40,7 +39,6 @@ ht-degree: 23%
 >title="選取要篩選的來源資料庫"
 >abstract="您可以根據其來源來篩選結構描述。選取一個或多個同盟資料庫以顯示其結構描述。"
 
-
 ## 什麼是結構描述 {#schema-start}
 
 綱要代表資料庫的表格。 它是應用程式內的物件，定義資料與資料庫表格的連結方式。
@@ -50,6 +48,10 @@ ht-degree: 23%
 * 提供易記的名稱和說明，以簡化使用者的理解
 * 根據每個欄位的實際使用情況決定其可見性
 * 請選取其主要索引鍵，以便根據[資料模型](../data-management/gs-models.md#data-model-start)的需要連結它們之間的結構描述
+
+>[!IMPORTANT]
+>
+>建議對每個沙箱使用不同的同盟資料庫結構。
 
 ## 建立結構描述 {#schema-create}
 
