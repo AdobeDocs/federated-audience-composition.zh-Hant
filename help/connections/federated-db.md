@@ -4,10 +4,10 @@ title: 設定您的同盟資料庫
 description: 瞭解如何設定同盟資料庫
 badge: label="限量開放使用" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 76%
+source-wordcount: '1621'
+ht-degree: 74%
 
 ---
 
@@ -73,6 +73,8 @@ Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建�
      >[!NOTE]
      >
      >只要您擁有連線至此綱要的必要許可權，您就可以使用資料庫的任何綱要，包括用於暫時資料處理的綱要。
+     >
+     >**使用相同資料庫連線多個沙箱時，必須使用不同的工作結構描述**。
 
 1. 選取&#x200B;**[!UICONTROL 測試連接]**&#x200B;選項，以驗證您的設定。
 
@@ -197,6 +199,8 @@ Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建�
      >[!NOTE]
      >
      >只要您擁有連線至此綱要的必要許可權，您就可以使用資料庫的任何綱要，包括用於暫時資料處理的綱要。
+     >
+     >**使用相同資料庫連線多個沙箱時，必須使用不同的工作結構描述**。
 
    * **[!UICONTROL 私密金鑰]**：按一下&#x200B;**[!UICONTROL 私密金鑰]**&#x200B;欄位，從 locale 資料夾中選取 .pem 檔案。
 
@@ -253,6 +257,8 @@ Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建�
      >[!NOTE]
      >
      >只要您擁有連線至此綱要的必要許可權，您就可以使用資料庫的任何綱要，包括用於暫時資料處理的綱要。
+     >
+     >**使用相同資料庫連線多個沙箱時，必須使用不同的工作結構描述**。
 
    * **[!UICONTROL 選項]**：下表詳細說明連接器支援的選項。
 
