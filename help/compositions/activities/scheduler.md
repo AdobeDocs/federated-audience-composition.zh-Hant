@@ -6,7 +6,7 @@ exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
 source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 23%
+ht-degree: 29%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="排程器活動"
->abstract="**排程器**&#x200B;活動可讓您排程對象組合何時開始。 此活動應視為已排程的開始。它只能用作組成的第一個活動。"
+>abstract="「**排程器**」活動可讓您安排客群組成何時開始。此活動應視為已排程的開始。其只能當作構成的第一個活動。"
 
 **排程器**&#x200B;活動是&#x200B;**流程控制**&#x200B;活動。 它可讓您排程構成何時開始。 此活動應視為已排程的開始。它只能用作構成的第一個活動。
 
