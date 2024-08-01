@@ -2,16 +2,16 @@
 audience: end-user
 title: 使用建立對象活動
 description: 瞭解如何使用建立對象活動
-badge: label="可用性限制" type="Informative"
-source-git-commit: 71936c3fb6946ce9d4928499c96da39aaef49231
+badge: label="限量開放使用" type="Informative"
+exl-id: 6fad3e49-e654-4f68-a125-50056c4ae980
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 30%
 
 ---
 
-
-# 建置對象 {#build-audience}
+# 建置客群 {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience"

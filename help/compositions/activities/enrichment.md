@@ -2,7 +2,7 @@
 audience: end-user
 title: 使用擴充活動
 description: 瞭解如何使用擴充活動
-badge: label="可用性限制" type="Informative"
+badge: label="限量開放使用" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
 source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt

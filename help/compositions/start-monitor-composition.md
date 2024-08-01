@@ -2,16 +2,16 @@
 audience: end-user
 title: 建立組合
 description: 瞭解如何建立組合
-badge: label="可用性限制" type="Informative"
+badge: label="限量開放使用" type="Informative"
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
 source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
 source-wordcount: '635'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 開始並監視您的構成 {#start-monitor}
+# 開始並監控您的構成 {#start-monitor}
 
 建立構成並設計要在畫布中執行的任務後，您就可以啟動它並監視其執行方式。
 

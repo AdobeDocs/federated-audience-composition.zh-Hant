@@ -2,16 +2,16 @@
 audience: end-user
 title: 建立組合
 description: 瞭解如何建立組合
-badge: label="可用性限制" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+badge: label="限量開放使用" type="Informative"
+exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
-
-# 建立及設定構成 {#create}
+# 建立和設定構成 {#create}
 
 建立構成的第一步是定義其標籤，並視需要設定其他設定。
 

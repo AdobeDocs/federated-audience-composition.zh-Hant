@@ -2,16 +2,16 @@
 audience: end-user
 title: 使用組合活動
 description: 瞭解如何使用組合活動
-badge: label="可用性限制" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+badge: label="限量開放使用" type="Informative"
+exl-id: 395e96d1-0af2-4e59-b599-f57a083b68ca
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 71%
 
 ---
 
-
-# 組合 {#combine}
+# 合併 {#combine}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"

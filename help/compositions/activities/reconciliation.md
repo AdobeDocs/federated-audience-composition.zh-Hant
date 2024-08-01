@@ -2,7 +2,7 @@
 audience: end-user
 title: 使用調解活動
 description: 瞭解如何使用調解活動
-badge: label="可用性限制" type="Informative"
+badge: label="限量開放使用" type="Informative"
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
 source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt

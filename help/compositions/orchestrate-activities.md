@@ -2,14 +2,14 @@
 audience: end-user
 title: 建立組合
 description: 瞭解如何建立組合
-badge: label="可用性限制" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+badge: label="限量開放使用" type="Informative"
+exl-id: 7b9acfc0-99b6-4f83-b774-3652c811868c
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 0%
 
 ---
-
 
 # 編排組合活動 {#activities}
 
