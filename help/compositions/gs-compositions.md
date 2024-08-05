@@ -5,9 +5,9 @@ description: 學習如何開始構成
 badge: label="限量開放使用" type="Informative"
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 ## 什麼是構成 {#what}
 
-Adobe 客群組成允許您建立構成，讓您可以透過視覺化畫布的形式進行各種活動 (分割、排除…)，以建立客群。完成後，產生的受眾會與現有受眾一併儲存至Adobe Experience Platform中，並可在Adobe Experience Platform目標和Adobe Journey Optimizer中運用於鎖定客戶。 [學習如何使用客群](../start/audiences.md)
+Adobe 客群構成允許您建立構成，讓您可以透過視覺化畫布的形式進行各種活動 (分割、排除…)，以建立客群。完成後，產生的客群會與現有客群一起儲存到 Adobe Experience Platform 中，並且可以在 Adobe Experience Platform 目的地和 Adobe Journey Optimizer 中用來鎖定客戶。[學習如何使用客群](../start/audiences.md)
 
 ![](assets/composition-example.png)
 

@@ -1,26 +1,26 @@
 ---
-title: Adobe Experience Platform Federated對象構成檔案首頁
-description: Federated對象構成附加元件檔案
+title: Adobe Experience Platform 聯合客群構成文件首頁
+description: 聯合客群構成附加元件文件
 badge: label="限量開放使用" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 369d2407eb2a7d6b90763da0710ce904f6f1fbb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# 聯合客群組成文件  {#fac-home}
+# 聯合客群構成文件  {#fac-home}
 
-歡迎瀏覽 Adobe Experience Platform 聯合客群組成文件。
+歡迎瀏覽 Adobe Experience Platform 聯合客群構成文件。
 
-Experience Platform同盟對象構成為Adobe Real-Time CDP和Adobe Journey Optimizer使用者提供資料管理的彈性和效率。 有了聯合客群組成，您可以使用行銷人員一看就懂的使用者介面存取您的企業資料倉儲，在 Adobe Experience Platform 工作流程中建置客群並使用資料集，且無需長期保存底層企業資料。這有助於您在存取 Adobe Experience 使用案例的資料倉儲時，減少資料搬運量。
+Experience Platform 聯合客群構成可為 Adobe Real-Time CDP 和 Adobe Journey Optimizer 使用者提供兼具彈性與效率的資料管理能力。有了聯合客群構成，您可以使用行銷人員一看就懂的使用者介面存取您的企業資料倉儲，在 Adobe Experience Platform 工作流程中建置客群並使用資料集，且無需長期保存底層企業資料。這有助於您在存取 Adobe Experience 使用案例的資料倉儲時，減少資料搬運量。
 
 >[!BEGINTABS]
 
 >[!TAB 新增功能]
 
-聯合客群組成可使用來自外部資料倉儲的原始資料，運用聯合構成方法建立、細分並擴充客群。
+聯合客群構成可使用來自外部資料倉儲的原始資料，運用聯合構成方法建立、細分並擴充客群。
 
 [![影像](assets/learn-more-button.svg)](start/release-notes.md)
 
@@ -59,7 +59,7 @@ Experience Platform同盟對象構成為Adobe Real-Time CDP和Adobe Journey Opti
     </td>
     <td>
     <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
-    <div><strong>常見問題</strong><br/>有關聯合客群組成的常見問題。</div>
+    <div><strong>常見問題</strong><br/>有關聯合客群構成的常見問題。</div>
     </td>
   </tr>
   <tr style="border: 0;">

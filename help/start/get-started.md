@@ -1,48 +1,48 @@
 ---
-title: 開始使用Experience Platform同盟對象構成
-description: 了解什麼是 Adobe 聯合客群組成，以及如何在 Adobe Experience Platform 中使用此功能
+title: 開始使用 Experience Platform 聯合客群構成
+description: 了解什麼是 Adobe 聯合客群構成，以及如何在 Adobe Experience Platform 中使用此功能
 badge: label="限量開放使用" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
-# 開始使用聯合客群組成 {#gs-fac}
+# 開始使用聯合客群構成 {#gs-fac}
 
-同盟對象構成是[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/home){target="_blank"}和[Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}的附加功能，可讓您從協力廠商資料倉儲建立並擴充對象，並將對象匯入至Adobe Experience Platform。 聯合客群組成提供簡易且強大的解決方案，可讓您直接在 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer 中連接企業資料倉儲，並針對資料倉儲中的表格執行查詢。
+聯合客群構成是 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/home){target="_blank"} 和 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"} 的附加功能，可讓您從第三方資料倉儲建立和擴充客群，並將客群匯入 Adobe Experience Platform。聯合客群構成提供簡易且強大的解決方案，可讓您直接在 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer 中連接企業資料倉儲，並針對資料倉儲中的表格執行查詢。
 
-有了 Adobe 聯合客群組成協助，Adobe Experience Platform 應用程式使用者就能存取儲存在資料倉儲與雲端儲存平台 (如 Amazon Redshift、Azure Synapse Analytics 等) 中的客戶資料。現在，客戶資料可以存放在多個資料倉儲中，而且無需複寫，就能立即存取。[此頁面](../connections/federated-db.md#supported-db)列出了支援的平台。
+有了 Adobe 聯合客群構成協助，Adobe Experience Platform 應用程式使用者就能存取儲存在資料倉儲與雲端儲存平台 (如 Amazon Redshift、Azure Synapse Analytics 等) 中的客戶資料。現在，客戶資料可以存放在多個資料倉儲中，而且無需複寫，就能立即存取。[此頁面](../connections/federated-db.md#supported-db)列出了支援的平台。
 
 ## 功能 {#rn-capabilities}
 
-同盟受眾構成透過全面性的受眾策劃和啟用方法，進一步延伸Real-Time CDP和Journey Optimizer的價值：
+聯合客群構成會透過全面的客群管理和啟用方法來擴充 Real-Time CDP 和 Journey Optimizer 的價值：
 
-* 擴充對關鍵倉儲型資料集的存取權，以建立高價值受眾：運用現有的資料倉儲作為主要記錄系統，同時運用同級最佳的應用程式來強化絕佳的客戶體驗。
+* 擴大對基於倉儲的關鍵資料集的存取以建立高價值客群：利用現有資料倉儲作為主要記錄系統，同時利用同級最佳的應用程式來提升卓越的客戶體驗。
 
-* 全面支援強力參與使用案例：同盟受眾構成、搭配Real-Time CDP或Journey Optimizer支援品牌啟動的個人化體驗與同盟受眾，並提供即時事件觸發的即時體驗，加上人員屬性，以滿足跨團隊的使用案例需求。
+* 對提高參與度使用案例的全面支援：將聯合客群構成與 Real-Time CDP 或 Journey Optimizer 搭配使用，以支援聯合客群的品牌發起的個人化體驗、提供由即時事件觸發的即時體驗，並與人員屬性結合來滿足跨團隊的使用案例要求。
 
-* 將資料移動和複製最小化：從位於企業資料倉儲中的資料集建立對象，無需複製基礎資料即可管理可操作的行銷設定檔和對象。
+* 盡量減少資料移動和複製：從企業資料倉儲的資料集中建立客群，而無需複製基礎資料來管理可操作的行銷輪廓和客群。
 
-* 針對體驗導向工作流程利用單一系統：在Adobe Experience Platform中組織內嵌和同盟對象，並協調所有管道的對外體驗。
+* 利用單一系統來實現體驗驅動的工作流程：在 Adobe Experience Platform 中管理攝取和聯合的客群，並協調所有管道的傳出體驗。
 
 ## 使用案例 {#rn-uc}
 
 透過行銷人員一看就懂的使用者介面，建立用來查詢資料倉儲的區段規則，找出符合行銷活動所需特定區段資格的使用者清單；存取倉儲中的現有客群並加以啟用，或使用倉儲中的其他現有資料點擴充 Adobe Experience Platform 客群。
 
-此版本提供兩種使用案例：
+在此版本中，有兩個可用的使用案例：
 
-1. 對象建立：從企業資料集建立新對象，而不複製基礎資料，並使用預先建立的目的地啟用這些對象&#x200B;。
+1. 客群建立：從企業資料集中建立新客群，而無需複製基礎資料，並透過預先建立的目的地來啟用這些客群。
 
-1. 對象擴充：利用從企業資料倉儲已同盟的構成對象資料，擴充Adobe Experience Platform中的現有對象。 此資料不會儲存在Adobe Experience Platform客戶設定檔中。
+1. 客群擴充：利用從企業資料倉儲聯合的構成客群資料，擴充 Adobe Experience Platform 中的現有客群。此資料將不會長期保存在 Adobe Experience Platform 客戶輪廓中。
 
 ![圖表](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 ## 主要步驟 {#gs-steps}
 
-Adobe 聯合客群組成可讓您直接從資料庫建立和更新 Adobe Experience Platform 客群，無需任何擷取程序。
+Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experience Platform 客群，無需任何擷取程序。
 
 <!--![diagram](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}-->
 
@@ -58,16 +58,16 @@ Adobe 聯合客群組成可讓您直接從資料庫建立和更新 Adobe Experie
 
 >[!NOTE]
 >
->執行構成後，產生的受眾會作為外部受眾儲存在Adobe Experience Platform中，並可供Adobe Real-Time Customer Data Platform和/或Adobe Journey Optimizer使用。 它可在&#x200B;**對象**&#x200B;功能表中存取。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>在執行構成後，產生的客群將作為外部客群儲存在 Adobe Experience Platform 中，並可用於 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer。該客群可透過「**客群**」選單進行存取。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## 了解更多 {#learn}
 
 <!-- Workflow + Workflow activities-->
 
 
-在[此頁面](access-prerequisites.md)中瞭解如何存取同盟對象構成、護欄和限制。
+若要了解如何存取聯合客群構成、護欄和限制，請參閱[此頁面](access-prerequisites.md)。
 
-另請參閱[此頁面](faq.md)中的常見問題。
+另請參閱[此頁面](faq.md)的常見問題。
 
 
 >[!CONTEXTUALHELP]

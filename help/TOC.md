@@ -1,27 +1,27 @@
 ---
-user-guide-title: Experience Platform同盟對象構成
-title: Experience Platform同盟對象構成檔案
-breadcrumb-title: Experience Platform同盟對象構成
+user-guide-title: Experience Platform 聯合客群構成
+title: Experience Platform 聯合客群構成文件
+breadcrumb-title: Experience Platform 聯合客群構成
 source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
-# Experience Platform同盟對象構成檔案 {#using}
+# Experience Platform 聯合客群構成文件 {#using}
 
-+ [Experience Platform同盟對象構成檔案](home.md)
++ [Experience Platform 聯合客群構成文件](home.md)
 + [發行說明](start/release-notes.md)
-+ 開始使用聯合客群組成 {#start}
-   + [什麼是聯合客群組成](start/get-started.md)
-   + [先決條件和安全護欄](start/access-prerequisites.md)
++ 開始使用聯合客群構成 {#start}
+   + [什麼是聯合客群構成](start/get-started.md)
+   + [先決條件和護欄](start/access-prerequisites.md)
    + [使用客群](start/audiences.md)
    + [常見問題](start/faq.md)
 + 設定步驟 {#config}
    + [建立和管理連接](connections/connections.md)
-   + [設定您的同盟資料庫](connections/federated-db.md)
+   + [設定您的聯合資料庫](connections/federated-db.md)
    + 資料模型與結構描述{#datamodel}
       + [建立及設定結構描述](customer/schemas.md)
       + [設定您的資料模型](data-management/gs-models.md)
@@ -51,4 +51,4 @@ ht-degree: 80%
    + [使用查詢建模工具](query/query-modeler-overview.md)
    + [建置您的第一個查詢](query/build-query.md)
    + [編輯運算式](query/expression-editor.md)
-+ [稽核記錄](admin/audit-trail.md)
++ [稽核軌跡](admin/audit-trail.md)
