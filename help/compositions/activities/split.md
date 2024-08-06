@@ -7,7 +7,7 @@ exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="啟用輸出族群的重疊"
->abstract="「**[!UICONTROL 啟用輸出族群的重疊]**」選項可讓您管理屬於多個子集的族群。當未選取該方塊時，分割活動將確保收件者不能出現在多個輸出轉換中，即使其滿足多個子集的條件也是如此。它們將位於具有符合條件的第一個標籤的目標中。核取此方塊後，如果收件者符合篩選條件，則可在數個子集中找到收件者。 "
+>abstract="「**[!UICONTROL 啟用輸出族群的重疊]**」選項可讓您管理屬於多個子集的族群。當未選取該方塊時，分割活動將確保收件者不能出現在多個輸出轉換中，即使其滿足多個子集的條件也是如此。它們將位於具有符合條件的第一個標籤的目標中。當選取該方塊時，符合篩選條件的收件者，會出現在多個子集中。 "
 
 請按照以下步驟設定&#x200B;**分割**&#x200B;活動：
 
