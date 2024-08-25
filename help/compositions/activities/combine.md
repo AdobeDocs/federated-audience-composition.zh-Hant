@@ -37,7 +37,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
 >title="選取分段類型"
->abstract="選取組合對象的方式：聯合、交集或排除。"
+>abstract="選取組合客群的方式：聯合、交集或排除。"
 
 請按照以下常見步驟開始設定「**組合**」活動：
 

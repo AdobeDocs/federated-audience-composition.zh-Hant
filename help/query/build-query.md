@@ -148,12 +148,12 @@ ht-degree: 10%
 
    ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
-### 選取對象 {#audiences}
+### 選取客群 {#audiences}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_selectaudience"
->title="選取對象"
->abstract="透過使用「**[!UICONTROL 選取對象]**」選項，您可以選擇要用來篩選查詢的對象。"
+>title="選取客群"
+>abstract="透過使用「**[!UICONTROL 選取客群]**」選項，您可以選擇要用來篩選查詢的客群。"
 
 若要使用現有對象篩選查詢，請執行下列步驟：
 

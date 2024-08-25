@@ -7,7 +7,7 @@ exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 22%
+ht-degree: 31%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
->title="儲存一個對象"
->abstract="使用此活動從構成中的族群運算上游建立新的對象。建立的對象將新增至對象清單中，並可透過「**對象**」選單使用。"
+>title="儲存一個客群"
+>abstract="使用此活動從構成中的族群運算上游建立新的客群。建立的客群將新增至客群清單中，並可透過「**客群**」選單使用。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
 >title="產生傳出轉變"
->abstract="如果您想在「**儲存對象**」活動之後新增轉變，請使用此選項。"
+>abstract="如果您想在「**儲存客群**」活動之後新增轉變，請使用此選項。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience_primary_identity"
@@ -62,9 +62,9 @@ ht-degree: 22%
    * **主要身分欄位**：選取要用來識別設定檔的欄位。 例如，其電子郵件地址或電話號碼。
    * **識別名稱空間**：選取要用來識別設定檔的名稱空間，也就是要做為識別金鑰的資料型別。 例如，如果已選取電子郵件地址作為主要身分欄位，則應選取身分名稱空間&#x200B;**電子郵件**。 如果唯一識別碼是電話號碼，則應該選取識別名稱空間&#x200B;**電話**。
 
-## 在Adobe Experience Platform中存取您的對象 {#access-audience}
+## 在 Adobe Experience Platform 中存取客群 {#access-audience}
 
-執行構成後，產生的受眾會作為外部受眾儲存在Adobe Experience Platform中，並可供Adobe Real-Time Customer Data Platform和/或Adobe Journey Optimizer使用。 它可在&#x200B;**對象**&#x200B;功能表中存取。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+在執行構成後，產生的客群將作為外部客群儲存在 Adobe Experience Platform 中，並可用於 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer。該客群可透過「**客群**」選單進行存取。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 建立的對象包含「對象對應」區段中選取的所有欄位。 您可以在Journey Optimizer中鎖定此對象，或在Adobe Experience Platform支援的任何目的地啟用它。
 

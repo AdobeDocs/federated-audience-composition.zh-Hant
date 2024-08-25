@@ -15,24 +15,24 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience"
->title="建置對象活動"
->abstract="「**建置對象**」活動可讓您定義會進入構成對象。"
+>title="建置客群活動"
+>abstract="「**建置客群**」活動可讓您定義會進入構成客群。"
 
-**建立對象**&#x200B;活動可讓您定義將進入構成的對象。 若要定義對象族群，您可以：
+**建立對象**&#x200B;活動可讓您定義將進入構成的對象。 若要定義客群族群，您可以：
 
 * 選取現有的Adobe Experience Platform對象。
 * 定義並結合篩選條件，使用查詢塑模器建立新對象。
 
-## 設定建置對象活動 {#build-audience-configuration}
+## 設定建置客群活動 {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
->title="對象"
->abstract="選取您的對象。"
+>title="客群"
+>abstract="選取您的客群。"
 
-請按照以下步驟設定「**建置對象**」活動：
+請按照以下步驟設定「**建置客群**」活動：
 
-1. 新增「**建置對象**」活動。
+1. 新增「**建置客群**」活動。
 1. 定義標籤。
 1. 指定是否要建立對象或選取現有對象。
 1. 請依照下列標籤中詳述的步驟設定您的對象。
@@ -51,16 +51,16 @@ ht-degree: 30%
 1. 按一下&#x200B;**繼續**。
 1. 使用查詢建模器定義您的查詢，然後確認。 [瞭解如何使用查詢模型工具](../../query/query-modeler-overview.md)
 
->[!TAB 讀取閱聽眾]
+>[!TAB 讀取客群]
 
-若要選取現有對象，請依照以下步驟進行：
+若要選取現有客群，請依照以下步驟進行：
 
-1. 選取「**讀取對象**」。
+1. 選取「**讀取客群**」。
 1. 按一下&#x200B;**繼續**。
 
    ![](../assets/build-audience-read.png)
 
-1. 選取您的對象。
+1. 選取您的客群。
 
 >[!ENDTABS]
 

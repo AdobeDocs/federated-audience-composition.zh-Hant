@@ -26,8 +26,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_audience"
->title="選取對象"
->abstract="選取資料模式的對象。"
+>title="選取客群"
+>abstract="選取資料模式的客群。"
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_properties"
