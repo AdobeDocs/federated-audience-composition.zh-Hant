@@ -4,7 +4,7 @@ title: 建立組合
 description: 瞭解如何建立組合
 badge: label="限量開放使用" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 22%
@@ -23,7 +23,7 @@ ht-degree: 22%
 
    ![](assets/composition-create.png)
 
-1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，指定您撰寫的標籤，然後按一下&#x200B;**[!UICONTROL 建立]**。
+1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，為您的組合指定標籤，然後按一下&#x200B;**[!UICONTROL 建立]**。
 
 1. 組合畫布隨即顯示。 您現在可以在執行構成之前，視需要新增任意數量的活動以符合您的需求，以設定構成：
 
