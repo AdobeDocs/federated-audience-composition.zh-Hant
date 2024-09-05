@@ -7,7 +7,7 @@ exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
 source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="綱要"
->abstract="選取要適用於資料的新結構描述。結構描述 (又名為目標市場選擇維度) 可讓您定義目標族群：收件者、應用程式訂閱者、操作者、訂閱者等。預設會選取構成現有的結構描述。"
+>abstract="選取要適用於資料的新結構描述。結構描述 (又名為目標市場選擇維度) 可讓您定義目標群體：收件者、應用程式訂閱者、操作者、訂閱者等。預設會選取構成現有的結構描述。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -64,7 +64,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="調和屬性"
->abstract="選取要用來調解資料的屬性，然後確認。"
+>abstract="選取用於調和資料的屬性，然後選取「確認」。"
 
 請依照下列步驟設定&#x200B;**調解**&#x200B;活動：
 
