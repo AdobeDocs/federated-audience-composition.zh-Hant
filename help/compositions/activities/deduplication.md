@@ -6,8 +6,8 @@ badge: label="限量開放使用" type="Informative"
 exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 43%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 43%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
->title="用於識別重複項目的欄位"
->abstract="在&#x200B;**[!UICONTROL 用於識別重複項目的欄位]**&#x200B;區段，按一下&#x200B;**[!UICONTROL 新增屬性]**&#x200B;按鈕以指定可允許識別重複之相同值的欄位，例如：電子郵件地址、名字、姓氏等。欄位的順序可讓您指定首要處理的條件。"
+>title="用於識別重複資料的欄位"
+>abstract="在&#x200B;**[!UICONTROL &#x200B;用於識別重複資料的欄位&#x200B;]**&#x200B;區段，按一下&#x200B;**[!UICONTROL &#x200B;新增屬性]**&#x200B;按鈕以指定可允許識別重複資料之相同值的欄位，例如：電子郵件地址、名字、姓氏等。欄位的順序可讓您指定首要處理的條件。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
 >title="重複項目刪除活動"
->abstract="「**重複項目刪除**」活動可讓您刪除入站活動結果中的重複項目。其主要在目標市場選擇活動之後和允許使用目標資料的活動之前使用。"
+>abstract="「**重複資料刪除**」活動可讓您刪除傳入活動結果中的重複資料。其主要在目標市場選擇活動之後和允許使用目標資料的活動之前使用。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"
 >title="產生補集"
->abstract="您可以使用剩餘族群 (其已因重複而排除) 產生額外的出站轉變。若要這樣做，請開啟「**[!UICONTROL 產生補集]**」選項"
+>abstract="您可以使用剩餘族群 (其已因重複而排除) 產生額外的傳出轉變。若要這樣做，請開啟「**[!UICONTROL 產生補集]**」選項"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
@@ -43,7 +43,7 @@ ht-degree: 43%
 
 1. 如果活動有數個入站轉變，請從&#x200B;**[!UICONTROL 主要集]**&#x200B;下拉式清單中選取要用來執行重複資料刪除的轉變
 
-1. 在&#x200B;**[!UICONTROL 用於識別重複項目的欄位]**&#x200B;區段，按一下&#x200B;**[!UICONTROL 新增屬性]**&#x200B;按鈕以指定可允許識別重複之相同值的欄位，例如：電子郵件地址、名字、姓氏等。欄位的順序可讓您指定首要處理的條件。
+1. 在&#x200B;**[!UICONTROL &#x200B;用於識別重複資料的欄位&#x200B;]**&#x200B;區段，按一下&#x200B;**[!UICONTROL &#x200B;新增屬性]**&#x200B;按鈕以指定可允許識別重複資料之相同值的欄位，例如：電子郵件地址、名字、姓氏等。欄位的順序可讓您指定首要處理的條件。
 
    ![](../assets/deduplication.png)
 

@@ -6,8 +6,8 @@ badge: label="限量開放使用" type="Informative"
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
 source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
-source-wordcount: '2068'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -238,7 +238,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="規則屬性"
->abstract="在畫布中建立查詢後，您可以使用右側的&#x200B;**[!UICONTROL 規則屬性]**&#x200B;窗格進行檢查。<br/>此窗格可讓您顯示結果資料、擷取查詢的 SQL 程式碼版本，以及檢查目標記錄的數量。<br/>使用「**[!UICONTROL 選取或儲存篩選器]**」按鈕，將您的查詢儲存為預先定義篩選器，或將畫布內容更換為現有換的篩選器。"
+>abstract="在畫布中建立查詢後，您可以使用右側的&#x200B;**[!UICONTROL 規則屬性]**&#x200B;窗格進行檢查。<br/>此窗格可讓您顯示結果資料、擷取查詢的 SQL 程式碼版本，以及檢查目標記錄的數量。<br/>使用「**[!UICONTROL 選取或儲存篩選器]**」按鈕，將您的查詢儲存為預先定義篩選器，或將畫布內容更換為現有的篩選器。"
 
 在畫布中建立查詢後，您可以使用右側的&#x200B;**[!UICONTROL 規則屬性]**&#x200B;窗格來檢查查詢。 建立查詢以建立對象時，會顯示此窗格。 可用的操作包括：
 

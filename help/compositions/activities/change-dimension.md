@@ -6,8 +6,8 @@ badge: label="限量開放使用" type="Informative"
 exl-id: e71017bd-6d2f-4ace-b2d9-cbfbb537d127
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 42%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="產生補集"
->abstract="您可以使用剩餘族群 (其已因重複而排除) 產生額外的出站轉變。若要這樣做，請開啟「**[!UICONTROL 產生補集]**」選項"
+>abstract="您可以使用剩餘族群 (其已因重複而排除) 產生額外的傳出轉變。若要這樣做，請開啟「**[!UICONTROL 產生補集]**」選項"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
