@@ -4,10 +4,10 @@ title: 設定您的聯合資料庫
 description: 了解如何設定您的聯合資料庫
 badge: label="限量開放使用" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
+source-git-commit: 4b219827212351fd0cb0d604251014ab74a4d94b
 workflow-type: tm+mt
 source-wordcount: '1621'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -141,7 +141,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
    * **[!UICONTROL 服務帳戶]**：輸入&#x200B;**[!UICONTROL 服務帳戶]**&#x200B;的電子郵件地址。如需相關詳細資訊，請參閱 [Google Cloud 文件](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}。
 
-   * **[!UICONTROL 專案]**：輸入&#x200B;**[!UICONTROL 專案]**&#x200B;的名稱。如需相關詳細資訊，請參閱 [Google Cloud 文件](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}。
+   * **[!UICONTROL 專案]**：輸入您的&#x200B;**[!UICONTROL 專案]**&#x200B;識別碼。 如需相關詳細資訊，請參閱 [Google Cloud 文件](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}。
 
    * **[!UICONTROL 資料集]**：輸入&#x200B;**[!UICONTROL 資料集]**&#x200B;的名稱。如需相關詳細資訊，請參閱 [Google Cloud 文件](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}。
 
