@@ -3,10 +3,10 @@ title: 開始使用 Experience Platform 聯合客群構成
 description: 了解什麼是 Adobe 聯合客群構成，以及如何在 Adobe Experience Platform 中使用此功能
 badge: label="限量開放使用" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
-workflow-type: ht
+source-git-commit: 59b1bf080e06cfc33ea54cd914479f8ec2e182a7
+workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -34,11 +34,11 @@ ht-degree: 100%
 
 在此版本中，有兩個可用的使用案例：
 
-1. 客群建立：從企業資料集中建立新客群，而無需複製基礎資料，並透過預先建立的目的地來啟用這些客群。
+1. 對象建立：從企業資料集建立新對象，而不複製基礎資料，並使用預先建立的目的地啟用這些對象。
 
 1. 客群擴充：利用從企業資料倉儲聯合的構成客群資料，擴充 Adobe Experience Platform 中的現有客群。此資料將不會長期保存在 Adobe Experience Platform 客戶輪廓中。
 
-![圖表](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+![圖表](assets/fac-use-cases-1.png){zoomable="yes"}{width="75%" align="center"}
 
 ## 主要步驟 {#gs-steps}
 
@@ -50,11 +50,11 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 
 1. **資料整合**：匯集各種來源的資料，並合併為統一的資料集。若要進一步了解如何連接 Adobe Experience Platform 應用程式和您的企業資料倉儲、支援的資料庫，以及如何設定這些資料庫，請參閱[本節](../connections/federated-db.md)說明。
 
-2. **資料模式**：設計並建立資料模型和結構描述，以定義資料的結構、關係和限制。前往[此頁面](../customer/schemas.md)深入了解結構描述。前往[此頁面](../data-management/gs-models.md)學習如何為資料模型建立連結。
+1. **資料模式**：設計並建立資料模型和結構描述，以定義資料的結構、關係和限制。前往[此頁面](../customer/schemas.md)深入了解結構描述。前往[此頁面](../data-management/gs-models.md)學習如何為資料模型建立連結。
 
-3. **資料轉換**：應用資料處理技術，修改資料元素的格式、結構或值，使其相容或適用於特定的分析或應用程式。
+1. **資料轉換**：應用資料處理技術，修改資料元素的格式、結構或值，使其相容或適用於特定的分析或應用程式。
 
-4. **資料使用**：建立、協調及建置客群。前往[此頁面](../compositions/gs-compositions.md)了解如何構成客群。您也可以透過 Adobe Experience Platform Audience Portal 和目標系統，更新或重複使用現有的客群。前往[此頁面](../connections/destinations.md)了解更多
+1. **資料使用**：建立、協調及建置客群。前往[此頁面](../compositions/gs-compositions.md)了解如何構成客群。您也可以透過 Adobe Experience Platform Audience Portal 和目標系統，更新或重複使用現有的客群。前往[此頁面](../connections/destinations.md)了解更多
 
 >[!NOTE]
 >
