@@ -4,10 +4,10 @@ title: 設定您的聯合資料庫
 description: 了解如何設定您的聯合資料庫
 badge: label="限量開放使用" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 4b219827212351fd0cb0d604251014ab74a4d94b
+source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 99%
+source-wordcount: '1622'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 您可以透過聯合客群構成連接下列資料庫。每個資料庫的設定詳述如下。
 
 * [Amazon Redshift](#amazon-redshift)
-* [Azure Synapse](#azure-synapse-redshift)
+* [Azure Synapse Analytics](#azure-synapse)
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
@@ -82,9 +82,9 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
 1. 設定完成後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;建立聯合資料庫。
 
-## Azure Synapse Redshift {#azure-synapse-redshift}
+## Azure Synapse Analytics {#azure-synapse}
 
-使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照下列步驟，設定 Azure Synapse Redshift 的存取權。
+使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照下列步驟設定對Azure synapse Analytics的存取權。
 
 1. 在&#x200B;**[!UICONTROL 聯合資料]**&#x200B;選單中，選取&#x200B;**[!UICONTROL 聯合資料庫]**。
 
@@ -94,11 +94,11 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
 1. 輸入聯盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
-1. 在&#x200B;**[!UICONTROL 類型]**&#x200B;下拉式清單中，選取 Azure Synapse Redshift。
+1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式清單中，選取Azure synapse分析。
 
    ![](assets/federated_database_4.png)
 
-1. 完成 Azure Synapse Redshift 驗證設定：
+1. 設定Azure synapse Analytics驗證設定：
 
    * **[!UICONTROL 伺服器]**：輸入 Azure Synapse 伺服器的 URL。
 
