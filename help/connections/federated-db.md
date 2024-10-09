@@ -5,9 +5,9 @@ description: 了解如何設定您的聯合資料庫
 badge: label="限量開放使用" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1622'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
 ## Azure Synapse Analytics {#azure-synapse}
 
-使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照下列步驟設定對Azure synapse Analytics的存取權。
+使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照下列步驟，設定 Azure Synapse Analytics 的存取權。
 
 1. 在&#x200B;**[!UICONTROL 聯合資料]**&#x200B;選單中，選取&#x200B;**[!UICONTROL 聯合資料庫]**。
 
@@ -94,11 +94,11 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
 1. 輸入聯盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
-1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式清單中，選取Azure synapse分析。
+1. 在「**[!UICONTROL 類型]**」下拉式清單中，選取 Azure Synapse Analytics。
 
    ![](assets/federated_database_4.png)
 
-1. 設定Azure synapse Analytics驗證設定：
+1. 完成 Azure Synapse Analytics 驗證設定：
 
    * **[!UICONTROL 伺服器]**：輸入 Azure Synapse 伺服器的 URL。
 
@@ -141,7 +141,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
    * **[!UICONTROL 服務帳戶]**：輸入&#x200B;**[!UICONTROL 服務帳戶]**&#x200B;的電子郵件地址。如需相關詳細資訊，請參閱 [Google Cloud 文件](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}。
 
-   * **[!UICONTROL 專案]**：輸入您的&#x200B;**[!UICONTROL 專案]**&#x200B;識別碼。 如需相關詳細資訊，請參閱 [Google Cloud 文件](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}。
+   * **[!UICONTROL 專案]**：輸入&#x200B;**[!UICONTROL 專案]**&#x200B;的 ID。如需相關詳細資訊，請參閱 [Google Cloud 文件](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}。
 
    * **[!UICONTROL 資料集]**：輸入&#x200B;**[!UICONTROL 資料集]**&#x200B;的名稱。如需相關詳細資訊，請參閱 [Google Cloud 文件](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}。
 

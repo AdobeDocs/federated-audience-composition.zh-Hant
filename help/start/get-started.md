@@ -4,9 +4,9 @@ description: 了解什麼是 Adobe 聯合客群構成，以及如何在 Adobe Ex
 badge: label="限量開放使用" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 97%
 
 在此版本中，有兩個可用的使用案例：
 
-1. 對象建立：從企業資料集建立新對象，而不複製基礎資料，並使用預先建立的目的地啟用這些對象。
+1. 客群建立：從企業資料集中建立新客群，而無需複製基礎資料，並透過預先建立的目的地來啟用這些客群。
 
 1. 客群擴充：利用從企業資料倉儲聯合的構成客群資料，擴充 Adobe Experience Platform 中的現有客群。此資料將不會長期保存在 Adobe Experience Platform 客戶輪廓中。
 
