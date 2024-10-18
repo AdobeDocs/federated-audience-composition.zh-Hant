@@ -2,7 +2,7 @@
 audience: end-user
 title: 使用擴充活動
 description: 瞭解如何使用擴充活動
-badge: label="限量開放使用" type="Informative"
+badge: label="可用性限制" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
 source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
@@ -21,7 +21,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
 >title="擴充活動"
->abstract="將擴充資料加入構成後，可以在&#x200B;**擴充**&#x200B;活動之後新增的活動中使用，根據區段設定檔的行為、偏好和選擇將其劃分為不同的群組。"
+>abstract="將擴充資料加入構成後，可以在&#x200B;**擴充**&#x200B;活動之後新增的活動中使用，根據行為、偏好和選擇對輪廓執行細分。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_simplejoin"
@@ -60,7 +60,7 @@ ht-degree: 48%
 
 請按照以下步驟設定&#x200B;**擴充**&#x200B;活動：
 
-1. 新增活動，例如「**建置對象**」和「**組合**」活動。
+1. 新增活動，例如「**建置客群**」和「**組合**」活動。
 1. 新增「**擴充**」活動。
 
    ![](../assets/enrichment.png)

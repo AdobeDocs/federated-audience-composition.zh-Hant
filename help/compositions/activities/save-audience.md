@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用儲存對象活動
 description: 瞭解如何使用「儲存對象」活動
-badge: label="限量開放使用" type="Informative"
+badge: label="可用性限制" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '462'
+ht-degree: 31%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience_primary_identity"
 >title="主要身分欄位"
->abstract="選取要設定檔要用的主要身分。"
+>abstract="選取輪廓要用的主要身分。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="進一步瞭解 Experience Platform 文件"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="身分命名空間"
->abstract="選取設定檔要用的命名空間。"
+>abstract="選取輪廓要用的命名空間。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces" text="進一步瞭解 Experience Platform 文件"
 
 **儲存對象**&#x200B;活動可讓您從構成中的母體運算上游建立新的對象。 建立的對象會新增至Adobe Experience Platform對象清單，並可透過&#x200B;**對象**&#x200B;功能表使用。 [學習如何使用客群](../../start/audiences.md)

@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用分割活動
 description: 瞭解如何使用分割活動
-badge: label="限量開放使用" type="Informative"
+badge: label="可用性限制" type="Informative"
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '925'
+ht-degree: 75%
 
 ---
 
