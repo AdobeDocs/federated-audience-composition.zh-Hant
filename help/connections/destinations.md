@@ -2,12 +2,12 @@
 audience: end-user
 title: 使用外部資料擴充 Adobe Experience Platform 客群
 description: 瞭解如何使用同盟受眾構成目的地，以同盟資料庫中的資料精進及豐富Adobe Experience Platform受眾。
-badge: label="限量開放使用" type="Informative"
+badge: label="可用性限制" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="建立目的地"
->abstract="輸入連接到新同盟資料庫的設定。使用&#x200B;**[!UICONTROL 連結到目的地]**&#x200B;按鈕驗證您的設定。"
+>abstract="輸入設定以連線到新的同盟資料庫。 使用&#x200B;**[!UICONTROL 連結到目的地]**&#x200B;按鈕驗證您的設定。"
 
 Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地**，將對象入口網站中的對象與外部資料庫緊密整合。 透過這項整合，您可以將現有的對象運用在構成中，並使用外部資料庫的資料來豐富或改良對象，以建立新的對象。
 
