@@ -4,35 +4,22 @@ title: 使用增量查詢活動
 description: 瞭解如何使用增量查詢活動
 hide: true
 hidefromtoc: true
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 21%
+source-wordcount: '546'
+ht-degree: 13%
 
 ---
 
 # 增量查詢 {#incremental-query}
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery"
->title="增量查詢"
->abstract=" **增量查詢**&#x200B;活動可讓您使用查詢建模工具查詢資料庫。每次執行此活動時，都會排除先前執行的結果。這可讓您只鎖定新元素。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_history"
->title="增量查詢歷史記錄"
->abstract="增量查詢歷史記錄"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_processeddata"
->title="增量查詢處理的資料"
->abstract="增量查詢處理的資料"
+<!-- Warning : contextual help IDs are declared in /start/get-started.md-->
 
 **增量查詢**&#x200B;活動可讓您依排程查詢資料庫。 每次執行此活動時，都會排除先前執行的結果。這可讓您只鎖定新元素。
 
 **[!UICONTROL 增量查詢]**&#x200B;活動可用於各種型別的使用：
 
-* 將個人分段以定義訊息、對象等的目標。
+* 細分個體以定義訊息、客群等的目標。
 * 匯出資料。 例如，您可以使用活動定期匯出檔案中的新記錄檔。 如果您想要在外部報告或BI工具中使用記錄檔資料，則此功能會很有用。
 
 先前執行已定位的母體會儲存在構成中。 這表示從相同範本開始的兩個構成不共用相同記錄。 但是，在相同的構成中，以相同的增量查詢為基礎的兩個工作使用相同的記錄。
@@ -47,7 +34,7 @@ ht-degree: 21%
 
 1. 在&#x200B;**[!UICONTROL 對象]**&#x200B;區段中，選擇&#x200B;**目標維度**，然後按一下&#x200B;**[!UICONTROL 繼續]**。
 
-   目標市場選擇維度可讓您定義作業的目標族群：收件者、合約受益人、操作者、訂閱者等依預設，會從收件者中選取目標。<!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
+   目標市場選擇維度可讓您定義作業的目標群體：收件者、合約受益人、操作者、訂閱者等依預設，會從收件者中選取目標。<!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 
 1. 使用查詢建模器來定義您的查詢，就像在設計新電子郵件時建立對象一樣。 [瞭解如何使用查詢模型工具](../../query/query-modeler-overview.md)
 

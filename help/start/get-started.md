@@ -3,10 +3,10 @@ title: 開始使用 Experience Platform 聯合客群構成
 description: 了解什麼是 Adobe 聯合客群構成，以及如何在 Adobe Experience Platform 中使用此功能
 badge: label="限量開放使用" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
-workflow-type: ht
-source-wordcount: '721'
-ht-degree: 100%
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
+workflow-type: tm+mt
+source-wordcount: '887'
+ht-degree: 92%
 
 ---
 
@@ -86,3 +86,36 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 >id="dc_federated_database_create_link"
 >title="建立連結"
 >abstract="定義連結設定。"
+
+
+<!-- incremental query IDs -->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery"
+>title="增量查詢"
+>abstract=" **增量查詢**&#x200B;活動可讓您使用查詢建模工具查詢資料庫。每次執行此活動時，都會排除先前執行的結果。這可讓您只鎖定新元素。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery_history"
+>title="增量查詢歷史記錄"
+>abstract="增量查詢歷史記錄"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery_processeddata"
+>title="增量查詢處理的資料"
+>abstract="增量查詢處理的資料"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalmode_standard"
+>title="增量查詢模式"
+>abstract="增量查詢可讓您透過排除每個新執行的先前執行結果，來多次執行相同的查詢。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalmode_custom"
+>title="增量查詢模式"
+>abstract="增量查詢可讓您僅考慮日期欄位晚於或等於增量查詢活動的最後執行日期的結果，以多次執行相同的查詢。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_build_audience_dimension"
+>title="選取目標市場選擇維度"
+>abstract="目標市場選擇維度可讓您定義作業的目標群體：收件者、合約受益人、操作者、訂閱者等對於電子郵件和簡訊，依預設，目標是從收件者內建表格中選取。對於推播通知，預設目標市場選擇維度是訂閱者應用程式。"
