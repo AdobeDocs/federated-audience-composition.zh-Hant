@@ -7,7 +7,7 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="選取要篩選的來源資料庫"
->abstract="您可以根據其來源來篩選結構描述。選取一或多個同盟資料庫以顯示其綱要。"
+>abstract="您可以根據其來源來篩選結構描述。選取一個或多個聯合資料庫以顯示其結構描述。"
 
 ## 什麼是結構描述 {#schema-start}
 

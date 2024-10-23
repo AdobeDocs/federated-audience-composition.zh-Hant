@@ -7,7 +7,7 @@ exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
->title="同盟資料庫屬性"
->abstract="輸入新同盟資料庫的名稱，並選取其型別。"
+>title="聯合資料庫屬性"
+>abstract="輸入新聯合資料庫的名稱，然後選取其類型。"
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
->title="同盟資料庫詳細資料"
->abstract="輸入設定以連線到新的同盟資料庫。 使用&#x200B;**[!UICONTROL 測試連接]**&#x200B;按鈕驗證您的設定。"
+>title="聯合資料庫詳細資料"
+>abstract="輸入連接到新聯合資料庫的設定。使用&#x200B;**[!UICONTROL 測試連接]**&#x200B;按鈕驗證您的設定。"
 
 Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建立和擴充客群，並將客群匯入 Adobe Experience Platform。
 
