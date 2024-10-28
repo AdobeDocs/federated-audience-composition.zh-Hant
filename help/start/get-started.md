@@ -6,7 +6,7 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -108,12 +108,12 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_standard"
 >title="增量查詢模式"
->abstract="增量查詢可讓您透過排除每個新執行的先前執行結果，來多次執行相同的查詢。"
+>abstract="增量查詢可讓您多次執行相同的查詢，方式是每次新執行時排除先前執行的結果。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_custom"
 >title="增量查詢模式"
->abstract="增量查詢可讓您僅考慮日期欄位晚於或等於增量查詢活動的最後執行日期的結果，以多次執行相同的查詢。"
+>abstract="增量查詢可讓您多次執行相同的查詢，方式是每次執行時只考慮日期欄位晚於或等於增量查詢活動上次執行日期的結果。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
@@ -125,25 +125,25 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile"
->title="儲存設定檔"
->abstract="儲存設定檔"
+>title="儲存輪廓"
+>abstract="儲存輪廓"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="儲存設定檔選取AEP結構描述"
->abstract="儲存設定檔選取AEP結構描述"
+>title="儲存輪廓選取 AEP 結構描述"
+>abstract="儲存輪廓選取 AEP 結構描述"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="儲存設定檔AEP結構描述清單"
->abstract="儲存設定檔AEP結構描述清單"
+>title="儲存輪廓 AEP 結構描述清單"
+>abstract="儲存輪廓 AEP 結構描述清單"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepattribute"
->title="儲存設定檔AEP結構描述屬性"
->abstract="儲存設定檔AEP結構描述屬性"
+>title="儲存輪廓 AEP 結構描述屬性"
+>abstract="儲存輪廓 AEP 結構描述屬性"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectprimaryfield"
->title="儲存設定檔選取主要識別欄位"
->abstract="儲存設定檔選取主要識別欄位"
+>title="儲存輪廓選取主要身分欄位"
+>abstract="儲存輪廓選取主要身分欄位"
