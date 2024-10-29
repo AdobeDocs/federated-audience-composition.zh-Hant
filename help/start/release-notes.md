@@ -3,16 +3,48 @@ title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 badge: label="限量開放使用" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
-source-wordcount: '188'
-ht-degree: 100%
+source-git-commit: 61a70f9de0a6cf171a2ff1128b57ae6206be842c
+workflow-type: tm+mt
+source-wordcount: '442'
+ht-degree: 53%
 
 ---
 
 # 發行說明 {#rn-new}
 
-## 聯合客群構成 (限量開放使用) {#fac-la}
+[!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都整合在這些發行說明中。 [!DNL Adobe Experience Platform] 上內建的原生 [!DNL Federated Audience Composition] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+
+## 2024年10月發行 {#fac-24-10}
+
+### 相容性 {#fac-24-10-compat}
+
+透過這個新版本，同盟對象構成現在與下列系統相容。
+
+* **資料庫支援**
+
+  您現在可以透過同盟對象構成來建立與Databricks資料庫的連線。 [了解更多](../connections/federated-db.md#databricks)
+
+* **支援透過AWS PrivateLink安全存取Snowflake**
+
+  現在支援透過私人連結安全存取外部Snowflake資料倉儲。 請注意，您的Snowflake帳戶必須託管至Amazon Web Services (AWS)，且位置與您的同盟對象構成環境相同。 請聯絡您的Adobe代表，以尋求設定安全存取您的Snowflake帳戶的協助。 [了解更多](../connections/federated-db.md#snowflake)
+
+* **Amazon Redshift無伺服器支援**
+
+  透過此新版本，同盟對象構成支援[Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}。
+
+### 改進項目 {#fac-24-10-improvements}
+
+此發行版本隨附下列改進項目。
+
+* **重新整理現有結構描述**
+
+  在同盟資料庫中建立、修改或刪除資料行時，您現在可以偵測並套用變更，方法是按一下對應結構描述中的&#x200B;**[!UICONTROL 重新整理結構描述]**&#x200B;按鈕。 [了解更多](../customer/schemas.md#schema-refresh)
+
+* **將資料模型與新構成建立關聯**
+
+  建立構成時，您現在可以選取要與其產生關聯的資料模型。 有了這個新選項，活動設定會更容易，因為只有關聯資料模型的表格可用。 [了解更多](../compositions/create-composition.md)
+
+## 2024年7月發行版本 — 同盟對象構成(LA) {#fac-la}
 
 >[!AVAILABILITY]
 >

@@ -2,12 +2,12 @@
 audience: end-user
 title: 建立組合
 description: 瞭解如何建立組合
-badge: label="限量開放使用" type="Informative"
+badge: label="可用性限制" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
+source-git-commit: 1a90702a02e30712e95fdf48342f1dea3b92e360
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 22%
+source-wordcount: '501'
+ht-degree: 21%
 
 ---
 
@@ -23,9 +23,11 @@ ht-degree: 22%
 
    ![](assets/composition-create.png)
 
-1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，為您的組合指定標籤，然後按一下&#x200B;**[!UICONTROL 建立]**。
+1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，指定構成標籤，並選取資料模型。 只有與此資料模型相關聯的結構描述才可在您的構成活動中使用。
 
-1. 組合畫布隨即顯示。 您現在可以在執行構成之前，視需要新增任意數量的活動以符合您的需求，以設定構成：
+   ![](assets/composition-select-schema.png)
+
+1. 按一下 **[!UICONTROL 建立]**。組合畫布隨即顯示。 您現在可以在執行構成之前，視需要新增任意數量的活動以符合您的需求，以設定構成：
 
    * [瞭解如何協調活動](#action-activities)
    * [瞭解如何開始和監視組合](#save)

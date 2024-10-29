@@ -4,9 +4,9 @@ title: 建立和管理與同盟資料庫的連線
 description: 瞭解如何建立和管理與同盟資料庫的連線
 badge: label="可用性限制" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 6191b9849200723d00398644d038af5b082e7964
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '221'
 ht-degree: 16%
 
 ---
@@ -40,12 +40,13 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+   * [資料庫資料](federated-db.md#databricks)
 
 1. 填寫詳細資料後，按一下&#x200B;**[!UICONTROL 測試連線]**&#x200B;按鈕，再按一下&#x200B;**[!UICONTROL 部署函式]**&#x200B;按鈕。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;按鈕，完成連線的建立。
-
    ![](assets/connections_testdeploy.png){zoomable="yes"}
+
+1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;按鈕，完成連線的建立。
 
    您有同盟資料庫連線的概觀，如下所示：
 

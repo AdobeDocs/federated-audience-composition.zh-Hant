@@ -4,10 +4,10 @@ title: 設定您的聯合資料庫
 description: 了解如何設定您的聯合資料庫
 badge: label="限量開放使用" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 100%
+source-wordcount: '1897'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
+* [資料庫資料](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
 
@@ -120,7 +121,6 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 |---|---|
 | 驗證 | 連接器支援的驗證類型。目前支援的值：ActiveDirectoryMSI。如需詳細資訊，請參閱 [Microsoft SQL 文件](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (連接字串範例 n°8) |
 
-
 ## Google Big Query {#google-big-query}
 
 使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照下列步驟，設定 Google Big Query 的存取權。
@@ -167,8 +167,12 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 | GCloudDefaultConfigName | 請注意，此選項自 7.3.4 版本起適用，且只適用於大量載入工具 (Cloud SDK)。</br> 將作用中標記轉移至新的設定之前，無法刪除作用中的 Google Cloud SDK 設定。此臨時設定對於重新建立用來載入資料的主要設定來說是必要的。臨時設定的預設名稱是 `default`，如有需要可以更改。 |
 | GCloudRecreateConfig | 請注意，此選項自 7.3.4 版本起適用，且只適用於大量載入工具 (Cloud SDK)。</br> 設定為 `false` 時，大量載入機制會避免嘗試重新建立、刪除或修改 Google Cloud SDK 設定。相反，它會使用機器上的現有設定，執行後續的資料載入作業。當有其他作業仰賴 Google Cloud SDK 設定時，此功能尤為重要。</br> 如果使用者在缺少適當設定的情況下啟用此引擎選項，大量載入機制將會發出警告訊息：`No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`。為了防止進一步的錯誤，系統將會恢復使用預設的 ODBC Array Insert 大量載入機制。 |
 
-
 ## Snowflake {#snowflake}
+
+>[!NOTE]
+>
+>支援透過私人連結安全存取外部Snowflake資料倉儲。 請注意，您的Snowflake帳戶必須託管至Amazon Web Services (AWS)，且位置與您的同盟對象構成環境相同。 請聯絡您的Adobe代表，以尋求設定安全存取您的Snowflake帳戶的協助。
+>
 
 使用聯合資料庫來處理儲存在外部資料庫中的資訊。請按照以下步驟，設定對 Snowflake 的存取權。
 
@@ -225,7 +229,6 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 | chunkSize | 決定大量載入器區塊的檔案大小。預設值為 128MB。與 bulkThreads 一起使用時，可以修改此值以進一步提升效能。並行作用中的執行緒越多，效能就越好。<br>如需相關詳細資訊，請參閱 [Snowflake 文件](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}。 |
 | StageName | 預先佈建的內部階段名稱。大量載入時會直接使用此名稱，而非建立新的臨時階段。 |
 
-
 ## Vertica Analytics {#vertica-analytics}
 
 使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照以下步驟，設定 Vertica Analytics 的存取權。
@@ -268,8 +271,99 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
 1. 設定完成後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;建立聯合資料庫。
 
+聯結器支援下列選項：
+
+| 選項 | 說明 |
+|---|---|
+| TimeZoneName | 預設為空白，代表使用應用程式伺服器的系統時區。此選項可用於強制執行 TIMEZONE 工作階段參數。 |
+
+## 資料庫資料 {#databricks}
+
+使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照下列步驟設定對Databricks的存取權。
+
+1. 在&#x200B;**[!UICONTROL 聯合資料]**&#x200B;選單中，選取&#x200B;**[!UICONTROL 聯合資料庫]**。
+
+1. 按一下&#x200B;**[!UICONTROL 新增聯合資料庫]**。
+
+   ![](assets/federated_database_1.png)
+
+1. 輸入聯盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
+
+1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式清單中，選取[Databricks]。
+
+   ![](assets/databricks-config.png)
+
+1. 設定Databricks驗證設定：
+
+   * **[!UICONTROL 伺服器]**：新增Databricks伺服器的名稱。
+
+   * **[!UICONTROL HTTP路徑]**：將路徑新增至您的叢集或倉儲。 [了解更多](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
+
+   * **[!UICONTROL 密碼]**：新增帳戶存取權杖。 [了解更多](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
+
+   * **[!UICONTROL 目錄]**：新增Databricks目錄的欄位。
+
+   * **[!UICONTROL 工作結構描述]**：用於工作表的資料庫結構描述名稱。
+
+     >[!NOTE]
+     >
+     >若要使用資料庫中的任何結構描述，只要您具有連接至此結構描述所需的權限，就可以使用該結構描述，包括用於臨時資料處理的結構描述。
+     >
+     >將多個沙箱與相同資料庫連接時，必須使用&#x200B;**不同的工作結構描述**。
+
+   * **[!UICONTROL 選項]**：下表詳細說明連接器支援的選項。
+
+1. 選取&#x200B;**[!UICONTROL 測試連接]**&#x200B;選項，以驗證您的設定。
+
+1. 按一下&#x200B;**[!UICONTROL 部署功能]**&#x200B;按鈕，建立相關功能。
+
+1. 設定完成後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;建立聯合資料庫。
+
 連接器支援下列選項：
 
 | 選項 | 說明 |
 |---|---|
 | TimeZoneName | 預設為空白，代表使用應用程式伺服器的系統時區。此選項可用於強制執行 TIMEZONE 工作階段參數。 |
+
+<!--Not for October release
+
+## Microsoft Fabric (LA){#microsoft-fabric}
+
+>[!AVAILABILITY]
+>
+>Microsoft Fabric is currently only available for a set of organizations (Limited Availability).
+
+Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Microsoft Fabric.
+
+1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+
+1. Click **[!UICONTROL Add federated database]**.
+
+    ![](assets/federated_database_1.png)
+
+1. Enter a **[!UICONTROL Name]** to your Federate database.
+
+1. From the **[!UICONTROL Type]** drop-down, select Microsoft Fabric.
+
+    ![](assets/microsoft-config.png)
+
+1. Configure the Microsoft Fabric authentication settings:
+
+    * **[!UICONTROL Server]**: Enter the URL of the Microsoft Fabric server.
+
+    * **[!UICONTROL Application ID]**: Enter your Microsoft Fabric Application ID.
+
+    * **[!UICONTROL Client secret]**: Enter your Client secret.
+
+    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+
+1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+
+1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+
+1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+
+| Option   |  Description |
+|---|---|
+| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
+-->

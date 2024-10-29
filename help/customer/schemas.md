@@ -4,10 +4,10 @@ title: 開始使用結構描述
 description: 瞭解如何開始使用結構描述
 badge: label="可用性限制" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 25a60847484aae0cb0dc8441e5dcc7968f8c1615
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 22%
+source-wordcount: '515'
+ht-degree: 19%
 
 ---
 
@@ -91,9 +91,9 @@ ht-degree: 22%
 
 ## 編輯結構 {#schema-edit}
 
-若要編輯綱要：
+若要編輯綱要，請執行下列步驟：
 
-1. 按一下結構描述資料夾中結構描述的名稱。
+1. 按一下清單中您的結構描述名稱。
 
 1. 按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕。
 
@@ -102,6 +102,7 @@ ht-degree: 22%
    您可以存取與[建立結構描述](#schema-create)時相同的選項。
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
+
 
 ## 在結構描述中預覽資料 {#schema-preview}
 
@@ -114,6 +115,16 @@ ht-degree: 22%
 按一下&#x200B;**[!UICONTROL 設定資料行]**&#x200B;按鈕以變更資料顯示。
 
 ![](assets/schema_columns.png){zoomable="yes"}
+
+
+## 重新整理結構描述 {#schema-refresh}
+
+可以更新、新增或移除同盟資料庫中的表格。 在這種情況下，您必須重新整理Adobe Experience Platform中的結構以符合最新變更。 若要執行此動作，請按一下要更新之結構描述名稱旁邊的三個點，然後選取&#x200B;**重新整理結構描述**。
+
+您也可以在編輯時更新結構描述定義。
+
+![](assets/schema_refresh.png){zoomable="yes"}
+
 
 ## 刪除結構描述 {#schema-delete}
 

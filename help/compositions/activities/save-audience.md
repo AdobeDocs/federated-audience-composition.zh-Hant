@@ -4,9 +4,9 @@ title: 使用儲存對象活動
 description: 瞭解如何使用「儲存對象」活動
 badge: label="可用性限制" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 62c6eac92bf5817840f55d9b4e981abd6c42ebaa
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '475'
 ht-degree: 31%
 
 ---
@@ -38,6 +38,10 @@ ht-degree: 31%
 **儲存對象**&#x200B;活動可讓您從構成中的母體運算上游建立新的對象。 建立的對象會新增至Adobe Experience Platform對象清單，並可透過&#x200B;**對象**&#x200B;功能表使用。 [學習如何使用客群](../../start/audiences.md)
 
 此活動主要用於將母體族群轉換為可重複使用的對象，讓母體族群可繼續在相同構成中運算。 將其連線到其他目標定位活動，例如&#x200B;**建立對象**&#x200B;或&#x200B;**合併**&#x200B;活動。
+
+>[!IMPORTANT]
+>
+>**儲存對象**&#x200B;活動需要啟用設定檔的結構描述和資料集。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}。
 
 ## 設定「儲存對象」活動 {#save-audience-configuration}
 
