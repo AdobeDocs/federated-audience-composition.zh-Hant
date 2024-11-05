@@ -5,9 +5,9 @@ description: 了解如何設定您的聯合資料庫
 badge: label="限量開放使用" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1897'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="聯合資料庫詳細資料"
->abstract="輸入連接到新聯合資料庫的設定。使用&#x200B;**[!UICONTROL 測試連接]**&#x200B;按鈕驗證您的設定。"
+>abstract="輸入連接到新聯合資料庫的設定。使用「**[!UICONTROL 測試連線]**」按鈕來驗證您的設定。"
 
 Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建立和擴充客群，並將客群匯入 Adobe Experience Platform。
 
@@ -41,7 +41,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
-* [資料庫資料](#databricks)
+* [Databricks](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
 
@@ -171,7 +171,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
 >[!NOTE]
 >
->支援透過私人連結安全存取外部Snowflake資料倉儲。 請注意，您的Snowflake帳戶必須託管至Amazon Web Services (AWS)，且位置與您的同盟對象構成環境相同。 請聯絡您的Adobe代表，以尋求設定安全存取您的Snowflake帳戶的協助。
+>支援透過私人連結，安全地存取外部 Snowflake 資料倉儲。請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 上，並且與您的聯合客群構成環境位於同一區域。請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。
 >
 
 使用聯合資料庫來處理儲存在外部資料庫中的資訊。請按照以下步驟，設定對 Snowflake 的存取權。
@@ -271,15 +271,15 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
 1. 設定完成後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;建立聯合資料庫。
 
-聯結器支援下列選項：
+連接器支援下列選項：
 
 | 選項 | 說明 |
 |---|---|
 | TimeZoneName | 預設為空白，代表使用應用程式伺服器的系統時區。此選項可用於強制執行 TIMEZONE 工作階段參數。 |
 
-## 資料庫資料 {#databricks}
+## Databricks {#databricks}
 
-使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照下列步驟設定對Databricks的存取權。
+使用聯合資料庫來處理儲存在外部資料庫中的資訊。請按照以下步驟，設定對 Databricks 的存取權。
 
 1. 在&#x200B;**[!UICONTROL 聯合資料]**&#x200B;選單中，選取&#x200B;**[!UICONTROL 聯合資料庫]**。
 
@@ -289,21 +289,21 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
 1. 輸入聯盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
-1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式清單中，選取[Databricks]。
+1. 在「**[!UICONTROL 類型]**」下拉式清單中，選取「Databricks」。
 
    ![](assets/databricks-config.png)
 
-1. 設定Databricks驗證設定：
+1. 完成 Databricks 驗證設定：
 
-   * **[!UICONTROL 伺服器]**：新增Databricks伺服器的名稱。
+   * **[!UICONTROL 伺服器]**：新增 Databricks 伺服器的名稱。
 
-   * **[!UICONTROL HTTP路徑]**：將路徑新增至您的叢集或倉儲。 [了解更多](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
+   * **[!UICONTROL HTTP 路徑]**：新增叢集或倉儲的路徑。[了解更多](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
 
-   * **[!UICONTROL 密碼]**：新增帳戶存取權杖。 [了解更多](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
+   * **[!UICONTROL 密碼]**：新增帳戶存取權杖。[了解更多](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
 
-   * **[!UICONTROL 目錄]**：新增Databricks目錄的欄位。
+   * **[!UICONTROL 目錄]**：新增 Databricks 目錄的欄位。
 
-   * **[!UICONTROL 工作結構描述]**：用於工作表的資料庫結構描述名稱。
+   * **[!UICONTROL 工作結構描述]**：用於工作表的資料庫結構描述的名稱。
 
      >[!NOTE]
      >

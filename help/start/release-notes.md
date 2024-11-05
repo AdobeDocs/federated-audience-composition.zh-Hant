@@ -4,33 +4,33 @@ description: 最新更新和發行說明
 badge: label="限量開放使用" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 61a70f9de0a6cf171a2ff1128b57ae6206be842c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
 # 發行說明 {#rn-new}
 
-[!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都整合在這些發行說明中。 [!DNL Adobe Experience Platform] 上內建的原生 [!DNL Federated Audience Composition] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+[!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Federated Audience Composition] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}。
 
-## 2024年10月發行 {#fac-24-10}
+## 2024 年 10 月發行版本 {#fac-24-10}
 
 ### 相容性 {#fac-24-10-compat}
 
-透過這個新版本，同盟對象構成現在與下列系統相容。
+在這個新版本中，聯合客群構成現在可與下列系統相容。
 
-* **資料庫支援**
+* **Databricks 支援**
 
-  您現在可以透過同盟對象構成來建立與Databricks資料庫的連線。 [了解更多](../connections/federated-db.md#databricks)
+  您現在可以透過聯合客群構成，建立與 Databricks 資料庫的連線。[了解更多](../connections/federated-db.md#databricks)
 
-* **支援透過AWS PrivateLink安全存取Snowflake**
+* **支援透過 AWS PrivateLink 安全地存取 Snowflake**
 
-  現在支援透過私人連結安全存取外部Snowflake資料倉儲。 請注意，您的Snowflake帳戶必須託管至Amazon Web Services (AWS)，且位置與您的同盟對象構成環境相同。 請聯絡您的Adobe代表，以尋求設定安全存取您的Snowflake帳戶的協助。 [了解更多](../connections/federated-db.md#snowflake)
+  現在支援透過私人連結，安全地存取外部 Snowflake 資料倉儲。請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 上，並且與您的聯合客群構成環境位於同一區域。請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。[了解更多](../connections/federated-db.md#snowflake)
 
-* **Amazon Redshift無伺服器支援**
+* **Amazon Redshift Serverless 支援**
 
-  透過此新版本，同盟對象構成支援[Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}。
+  在這個新版本中，聯合客群構成支援 [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}。
 
 ### 改進項目 {#fac-24-10-improvements}
 
@@ -38,13 +38,13 @@ ht-degree: 53%
 
 * **重新整理現有結構描述**
 
-  在同盟資料庫中建立、修改或刪除資料行時，您現在可以偵測並套用變更，方法是按一下對應結構描述中的&#x200B;**[!UICONTROL 重新整理結構描述]**&#x200B;按鈕。 [了解更多](../customer/schemas.md#schema-refresh)
+  當在聯合資料庫中建立、修改或刪除欄時，您現在可以透過按一下對應結構描述中的「**[!UICONTROL 重新整理結構描述]**」按鈕來偵測並套用變更。[了解更多](../customer/schemas.md#schema-refresh)
 
-* **將資料模型與新構成建立關聯**
+* **將資料模型與新構成相關聯**
 
-  建立構成時，您現在可以選取要與其產生關聯的資料模型。 有了這個新選項，活動設定會更容易，因為只有關聯資料模型的表格可用。 [了解更多](../compositions/create-composition.md)
+  建立構成時，您現在可以選取與其關聯的資料模型。透過這個新選項，您的活動設定會更加容易，因為只有關聯資料模型的表格可以使用。[了解更多](../compositions/create-composition.md)
 
-## 2024年7月發行版本 — 同盟對象構成(LA) {#fac-la}
+## 2024 年 7 月發行版本 - 聯合客群構成 (LA) {#fac-la}
 
 >[!AVAILABILITY]
 >

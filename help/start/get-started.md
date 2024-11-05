@@ -4,7 +4,7 @@ description: 了解什麼是 Adobe 聯合客群構成，以及如何在 Adobe Ex
 badge: label="限量開放使用" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
 ht-degree: 100%
 
