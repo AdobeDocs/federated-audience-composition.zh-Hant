@@ -4,16 +4,16 @@ title: 建立和管理與同盟資料庫的連線
 description: 瞭解如何建立和管理與同盟資料庫的連線
 badge: label="可用性限制" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 6191b9849200723d00398644d038af5b082e7964
+source-git-commit: ef72fe2c94c0dc9eb0432d092a6e4f01de8b9845
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 16%
+source-wordcount: '228'
+ht-degree: 5%
 
 ---
 
 # 建立連線 {#connections-fdb}
 
-Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建立和擴充客群，並將客群匯入 Adobe Experience Platform。
+Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建立並豐富對象，並將對象匯入至Adobe Experience Platform。 支援的資料倉儲列於[此區段](../start/access-prerequisites.md#supported-systems)中。
 
 若要使用同盟資料庫和Adobe Experience Platform，您必須先建立連線。 此連線設定於Adobe Experience Platform使用者介面提供的專用使用者介面，如本頁所述。
 
@@ -37,10 +37,10 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
    * [Amazon Redshift](federated-db.md#amazon-redshift)
    * [Azure Synapse](federated-db.md#azure-synapse-redshift)
+   * [Databricks](federated-db.md#databricks)
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
-   * [資料庫資料](federated-db.md#databricks)
 
 1. 填寫詳細資料後，按一下&#x200B;**[!UICONTROL 測試連線]**&#x200B;按鈕，再按一下&#x200B;**[!UICONTROL 部署函式]**&#x200B;按鈕。
 
