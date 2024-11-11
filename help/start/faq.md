@@ -3,10 +3,10 @@ title: 常見問題
 description: 有關 Adobe Experience Platform 聯合客群構成的常見問題
 badge: label="限量開放使用" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
-workflow-type: ht
-source-wordcount: '834'
-ht-degree: 100%
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 91%
 
 ---
 
@@ -19,26 +19,20 @@ ht-degree: 100%
 
 聯合客群構成需要 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer Prime 或 Ultimate 套件。您還需要購買聯合客群構成附加元件。
 
-為了使用聯合客群構成，您必須將每位使用者新增至為每個沙箱建立的特定設定檔中。如需詳細資訊，請參閱[存取聯合客群構成](access-prerequisites.md)頁面。
+為了使用聯合客群構成，您必須將每位使用者新增至為每個沙箱建立的特定輪廓中。如需詳細資訊，請參閱[存取聯合客群構成](access-prerequisites.md)頁面。
 
 +++
 
 +++目前支援哪些雲端倉儲？
 
-此版本的聯合客群構成與下列系統相容：
-
-* Amazon Redshift
-* Azure Synapse
-* Google Big Query
-* Snowflake
-* Vertica Analytics
+[此頁面](../start/access-prerequisites.md#supported-systems)中有同盟對象構成支援的系統清單。
 
 +++
 
 
 +++是否可以在同一個構成中，查詢多個資料倉儲？
 
-是的，您可以在同一個構成中查詢多個倉儲，並能合併來自多個來源的資料。通常，每個[構成活動](../compositions/orchestrate-activities.md) (查詢、擴充、分割等) 會根據活動設定、目標資料庫 (可能同時存在多種聯合資料存取案例) 以及一或多份工作表的輸出與執行結果，執行一個或多個 SQL 陳述式。這些工作表會用來當做後續活動的輸入資料。
+是的，您可以在同一個構成中查詢多個倉儲，並能合併來自多個來源的資料。通常，每個[構成活動](../compositions/orchestrate-activities.md) （查詢、擴充、分割等）會根據活動組態、目標資料庫（可能有多個同盟資料存取的情況）以及一個或多個工作表輸出與執行結果來執行一或多個SQL陳述式。 這些工作表會用來當做後續活動的輸入資料。
 
 +++
 
@@ -46,8 +40,6 @@ ht-degree: 100%
 
 不可以，但您可以自行設定專用或共用的資料庫/結構描述存取權。建議您為聯合客群構成建立專用結構描述，並僅複製/共用業務案例資料集。
 +++
-
-
 
 +++我是否可以存取專用結構描述中的所有表格？
 
@@ -59,7 +51,6 @@ ht-degree: 100%
 * 隱藏不需要的資料欄
 * 儲存這些表格的描述
 +++
-
 
 +++聯合客群構成中是否有任何暫時儲存區？
 
@@ -89,7 +80,7 @@ Adobe Experience Platform 或聯合客群構成所產生的客群資料不會長
 
 +++我是否可以刪除自訂上傳的客群？
 
-不可以，在目前版本中您無法刪除自訂上傳的客群。<!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
+否，在目前版本中，您無法刪除自訂上傳的對象。-->
 
 +++
 
@@ -98,11 +89,3 @@ Adobe Experience Platform 或聯合客群構成所產生的客群資料不會長
 不會，構成期間並不會使用身分服務。構成中所使用的各種來源的資料，是透過使用者定義的邏輯 (如底層模型所述) 相互連接，例如 CRM ID、使用者帳號等。您必須在資料倉儲中，選取要在客群中用來當做識別碼的身分。在聯合客群構成產生的客群中，您需要為結果資料集中的身分指明身分命名空間。
 
 +++
-
-<!--
-+++If I want to combine federated data with datasets that live in Adobe Experience Platform, how is this done?
-
-Likewise, the Identity Service is not being leveraged in this scenario either. The data model underpinning a composition needs to express how the data warehouse data and the audience to be enriched are related. e.g. assume an existing audience in Adobe Experience Platform contains several attributes, among which is the CRM ID. Assume transactional data is in the data warehouse containing purchases with various attributes, including the CRM ID of the purchaser. The end-user would have to specify that the CRM ID for both objects is used to stitch the two objects together.
-
-+++
--->

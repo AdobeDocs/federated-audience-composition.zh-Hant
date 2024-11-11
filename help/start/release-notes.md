@@ -3,16 +3,23 @@ title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 badge: label="限量開放使用" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 61a70f9de0a6cf171a2ff1128b57ae6206be842c
-workflow-type: ht
-source-wordcount: '442'
-ht-degree: 100%
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 發行說明 {#rn-new}
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Federated Audience Composition] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}。
+
+
+>[!AVAILABILITY]
+>
+>Adobe Experience Platform 聯合客群構成目前僅開放給某些組織使用 (限量開放使用)。
+>
+
 
 ## 2024 年 10 月發行版本 {#fac-24-10}
 
@@ -46,10 +53,6 @@ ht-degree: 100%
 
 ## 2024 年 7 月發行版本 - 聯合客群構成 (LA) {#fac-la}
 
->[!AVAILABILITY]
->
->Adobe Experience Platform 聯合客群構成目前僅開放給某些組織使用 (限量開放使用)。
->
 
 聯合客群構成是一項附加功能，使企業能夠靈活地擴充對企業資料倉儲的存取，以使用關鍵企業資料集來構成客群，並提升品牌發起的即時體驗。有了這種新方法，身為 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/home){target="_blank"} 和/或 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"} 使用者，您就可以直接聯合現有資料倉儲中的客群資料，在一個系統中擴充 Adobe Experience Platform 客群。
 

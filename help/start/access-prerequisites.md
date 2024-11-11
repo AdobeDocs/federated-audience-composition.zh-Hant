@@ -2,10 +2,11 @@
 title: 聯合客群構成的先決條件和護欄
 description: 了解聯合客群構成的先決條件、權限和護欄
 badge: label="限量開放使用" type="Informative"
-source-git-commit: 07170ee709c9e3c4ad0bb2390aa0d44adae3b059
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 92%
 
 ---
 
@@ -16,6 +17,19 @@ ht-degree: 100%
 >[!AVAILABILITY]
 >
 >在您收到 Adobe 的歡迎電子郵件通知後，可能需要等候幾個小時，才能看到更新的介面並使用相關功能。
+
+## 支援的系統 {#supported-systems}
+
+同盟對象構成支援下列雲端倉儲：
+
+* Amazon Redshift
+* Azure Synapse
+* Databricks
+* Google Big Query
+* Snowflake
+* Vertica Analytics
+
+在[此頁面](../connections/connections.md)中瞭解如何建立與這些系統的連線。
 
 ## 權限 {#permissions}
 
