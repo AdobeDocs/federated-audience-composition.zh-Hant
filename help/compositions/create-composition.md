@@ -1,12 +1,11 @@
 ---
 audience: end-user
-title: Create compositions
-description: Learn how to create compositions
-badge: label="可用性限制" type="Informative"
+title: 建立組合
+description: 瞭解如何建立組合
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: bd3223a77f490a43487e21662d8f766d4f9b06fc
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '499'
 ht-degree: 21%
 
 ---
@@ -15,22 +14,22 @@ ht-degree: 21%
 
 建立構成的第一步是定義其標籤，並視需要設定其他設定。
 
-## Create the composition {#create-the-composition}
+## 建立構成 {#create-the-composition}
 
-1. ********
+1. 存取&#x200B;**[!UICONTROL 對象]**&#x200B;功能表並選取&#x200B;**[!UICONTROL 同盟組合]**&#x200B;標籤。
 
-1. ****
+1. 按一下&#x200B;**[!UICONTROL 建立組合]**&#x200B;按鈕。
 
    ![](assets/composition-create.png)
 
-1. **** Only the schemas associated to this data model will be available in your composition&#39;s activities.
+1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，指定構成標籤，並選取資料模型。 只有與此資料模型相關聯的結構描述才可在您的構成活動中使用。
 
    ![](assets/composition-select-schema.png)
 
-1. 按一下 **[!UICONTROL 建立]**。The composition canvas displays. You can now configure your composition by adding as many activities as needed to suit your needs before executing it:
+1. 按一下 **[!UICONTROL 建立]**。組合畫布隨即顯示。 您現在可以在執行構成之前，視需要新增任意數量的活動以符合您的需求，以設定構成：
 
-   * [Learn how to orchestrate activities](orchestrate-activities.md)
-   * [](start-monitor-composition.md)
+   * [瞭解如何協調活動](orchestrate-activities.md)
+   * [瞭解如何開始和監視組合](start-monitor-composition.md)
 
 ## 進行構成設定 {#settings}
 
@@ -49,22 +48,22 @@ ht-degree: 21%
 >title="錯誤管理設定"
 >abstract="在此區段中，您可以定義執行期間應如何管理錯誤。您可以選擇暫停流程、忽略一定數量的錯誤，或是停止構成執行。"
 
-When accessing a composition, you can access advanced settings that allow you, for example, to define how the composition should behave in case of error. ****
+存取構成時，您可以存取進階設定，以讓您定義構成在發生錯誤時的行為方式。 若要存取這些其他選項，請按一下構成建立畫面上方的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
 
 ![](assets/composition-create-settings.png)
 
-Available settings are as follows:
+可用的設定如下：
 
 * **[!UICONTROL 標籤]**：變更構成標籤。
 
-* **[!UICONTROL 保留兩個執行之間的臨時母體結果]**：依預設，僅保留構成的最後一個執行的工作表。 Working tables from previous executions are purged by a technical composition, which runs on a daily basis.
+* **[!UICONTROL 保留兩個執行之間的臨時母體結果]**：依預設，僅保留構成的最後一個執行的工作表。 技術構成會清除先前執行的工作表，每天執行。
 
-  If this option is enabled, working tables will be kept even after the composition has been executed. **** It must never be checked in a production composition.
+  如果啟用此選項，即使執行構成後，也會保留工作表格。 您可以將其用於測試目的，因此&#x200B;**只能**&#x200B;用於開發或中繼環境。 在生產組合中絕對不可核取它。
 
-* **** There are three possible options:
+* **[!UICONTROL 錯誤管理]**：此選項可讓您定義在構成活動發生錯誤時要採取的動作。 有三個可能的選項：
 
-   * ************
-   * ************
-   * ************
+   * **[!UICONTROL 暫停處理序]**：構成已自動暫停，其狀態變更為&#x200B;**[!UICONTROL 失敗]**。 問題解決後，請使用&#x200B;**[!UICONTROL 繼續]**&#x200B;按鈕繼續構成。
+   * **[!UICONTROL 忽略]**：觸發錯誤的工作狀態變更為&#x200B;**[!UICONTROL 失敗]**，但構成會保留&#x200B;**[!UICONTROL 已啟動]**&#x200B;狀態。
+   * **[!UICONTROL 中止處理序]**：構成已自動停止，其狀態變更為&#x200B;**[!UICONTROL 失敗]**。 問題解決後，請使用&#x200B;**[!UICONTROL 開始]**&#x200B;按鈕重新啟動構成。
 
 * **[!UICONTROL 連續錯誤]**：指定程式停止前可忽略的錯誤數目。 一旦達到此數目，構成狀態就會變更為&#x200B;**[!UICONTROL 失敗]**。 如果此欄位的值為0，則無論錯誤數量如何，構成都不會停止。

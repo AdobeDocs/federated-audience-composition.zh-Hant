@@ -1,11 +1,10 @@
 ---
 title: 聯合客群構成的先決條件和護欄
 description: 了解聯合客群構成的先決條件、權限和護欄
-badge: label="限量開放使用" type="Informative"
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '305'
 ht-degree: 92%
 
 ---

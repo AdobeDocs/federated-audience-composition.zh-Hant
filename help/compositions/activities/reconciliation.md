@@ -2,12 +2,11 @@
 audience: end-user
 title: 使用調解活動
 description: 瞭解如何使用調解活動
-badge: label="限量開放使用" type="Informative"
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '524'
+ht-degree: 39%
 
 ---
 
@@ -43,7 +42,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
->title="綱要"
+>title="結構描述"
 >abstract="選取要適用於資料的新結構描述。結構描述 (又名為目標市場選擇維度) 可讓您定義目標群體：收件者、應用程式訂閱者、操作者、訂閱者等。預設會選取構成現有的結構描述。"
 
 >[!CONTEXTUALHELP]

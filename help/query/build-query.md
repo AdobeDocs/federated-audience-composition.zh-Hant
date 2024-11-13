@@ -2,12 +2,11 @@
 audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在查詢建模器中建置您的第一個查詢
-badge: label="限量開放使用" type="Informative"
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2066'
+ht-degree: 10%
 
 ---
 

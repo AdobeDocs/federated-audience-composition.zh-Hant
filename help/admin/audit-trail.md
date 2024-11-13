@@ -2,11 +2,10 @@
 audience: end-user
 title: 稽核軌跡
 description: 瞭解在稽核軌跡中如何記錄及存取動作和事件
-badge: label="限量開放使用" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '367'
 ht-degree: 11%
 
 ---
