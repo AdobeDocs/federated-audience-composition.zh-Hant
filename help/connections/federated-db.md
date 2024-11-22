@@ -4,7 +4,7 @@ title: 設定您的聯合資料庫
 description: 了解如何設定您的聯合資料庫
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1895'
 ht-degree: 100%
 

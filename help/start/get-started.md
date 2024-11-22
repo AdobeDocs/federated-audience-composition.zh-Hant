@@ -3,7 +3,7 @@ title: 開始使用 Experience Platform 聯合客群構成
 description: 了解什麼是 Adobe 聯合客群構成，以及如何在 Adobe Experience Platform 中使用此功能
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '931'
 ht-degree: 100%
 
@@ -117,7 +117,7 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
 >title="選取目標市場選擇維度"
->abstract="目標市場選擇維度可讓您定義作業的目標群體：收件者、合約受益人、操作者、訂閱者等對於電子郵件和簡訊，依預設，目標是從收件者內建表格中選取。對於推播通知，預設目標市場選擇維度是訂閱者應用程式。"
+>abstract="目標市場選擇維度可讓您定義作業的目標群體：收件者、合約受益人、操作者、訂閱者等。對於電子郵件和簡訊，依預設，目標是從收件者內建表格中選取。對於推播通知，預設目標市場選擇維度是訂閱者應用程式。"
 
 
 <!-- save profile IDs-->
