@@ -3,9 +3,9 @@ title: Adobe Experience Platform 聯合客群構成文件首頁
 description: 聯合客群構成附加元件文件
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Experience Platform 聯合客群構成可為 Adobe Real-Time CDP 和 Adobe Journ
 
 >[!TAB 構成客群]
 
-新增和設定活動（分割、擴充、查詢等）以建置組合併建立您的對象。
+新增及設定活動 (分割、擴充、查詢等) 以建立構成和您的客群。
 
 [![影像](assets/learn-more-button.svg)](compositions/gs-compositions.md)
 
@@ -53,7 +53,7 @@ Experience Platform 聯合客群構成可為 Adobe Real-Time CDP 和 Adobe Journ
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>組成對象</strong><br/>新增並設定活動（分割、擴充、查詢等）以建立組合併建立您的第一個同盟對象。
+    <div><strong>構成客群</strong><br/>新增及設定活動 (分割、擴充、查詢等) 以建立構成和您的第一個聯合客群。
     </div>
     </td>
     <td>

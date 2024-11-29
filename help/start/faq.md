@@ -3,9 +3,9 @@ title: 常見問題
 description: 有關 Adobe Experience Platform 聯合客群構成的常見問題
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '827'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 91%
 
 +++目前支援哪些雲端倉儲？
 
-[此頁面](../start/access-prerequisites.md#supported-systems)中有同盟對象構成支援的系統清單。
+聯合客群構成支援的系統清單可在[此頁面](../start/access-prerequisites.md#supported-systems)取得。
 
 +++
 
 
 +++是否可以在同一個構成中，查詢多個資料倉儲？
 
-是的，您可以在同一個構成中查詢多個倉儲，並能合併來自多個來源的資料。通常，每個[構成活動](../compositions/orchestrate-activities.md) （查詢、擴充、分割等）會根據活動組態、目標資料庫（可能有多個同盟資料存取的情況）以及一個或多個工作表輸出與執行結果來執行一或多個SQL陳述式。 這些工作表會用來當做後續活動的輸入資料。
+是的，您可以在同一個構成中查詢多個倉儲，並能合併來自多個來源的資料。通常，每個[構成活動](../compositions/orchestrate-activities.md) (查詢、擴充、分割等) 都會根據活動設定、目標資料庫 (可能同時存在多種聯合資料存取案例) 以及一或多份工作表的輸出與執行結果，執行一個或多個 SQL 陳述式。這些工作表會用來當做後續活動的輸入資料。
 
 +++
 
@@ -79,7 +79,7 @@ Adobe Experience Platform 或聯合客群構成所產生的客群資料不會長
 
 +++我是否可以刪除自訂上傳的客群？
 
-否，在目前版本中，您無法刪除自訂上傳的對象。-->
+不可以，您無法在目前版本中刪除自訂上傳的客群。-->
 
 +++
 

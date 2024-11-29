@@ -3,9 +3,9 @@ title: 聯合客群構成的先決條件和護欄
 description: 了解聯合客群構成的先決條件、權限和護欄
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 92%
 
 ## 支援的系統 {#supported-systems}
 
-同盟對象構成支援下列雲端倉儲：
+聯合客群構成支援下列雲端倉儲：
 
 * Amazon Redshift
 * Azure Synapse
@@ -28,7 +28,7 @@ ht-degree: 92%
 * Snowflake
 * Vertica Analytics
 
-在[此頁面](../connections/connections.md)中瞭解如何建立與這些系統的連線。
+若要了解如何建立與這些系統的連線，請參閱[此頁面](../connections/connections.md)。
 
 ## 權限 {#permissions}
 
