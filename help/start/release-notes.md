@@ -3,9 +3,9 @@ title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 96931b019e840d6f0351c9b2349eeffcdd4a55b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '525'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -13,15 +13,15 @@ ht-degree: 88%
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Federated Audience Composition] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}。
 
-## 2024年11月發行 {#fac-24-11}
+## 2024 年 11 月發行版本 {#fac-24-11}
 
 ### 改進項目 {#fac-24-11-improvements}
 
-此版本隨附以下的改善專案。
+此發行版本隨附以下改進項目。
 
-* **IP位址允許清單**
+* **IP 位址允許清單**
 
-  在Adobe Experience Platform使用者介面中新增同盟資料庫時，您現在可以直接檢視與同盟對象構成執行個體相關聯的IP位址。 這可讓您輕鬆複製並授權這些IP以連線至您的資料庫，以提高安全性和彈性。 [了解更多](../connections/connections.md)
+  在 Adobe Experience Platform 使用者介面中新增聯合資料庫時，您現在可以直接檢視與聯合客群構成執行個體關聯的 IP 位址。這可讓您輕鬆複製和授權這些 IP 以連接到您的資料庫，從而提高安全性和靈活性。[了解更多](../connections/connections.md)
 
 ## 2024 年 10 月發行版本 {#fac-24-10}
 
