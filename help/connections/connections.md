@@ -3,7 +3,7 @@ audience: end-user
 title: 建立和管理與同盟資料庫的連線
 description: 瞭解如何建立和管理與同盟資料庫的連線
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 285facb78861bf5558992c0ab777a101bbfc237a
+source-git-commit: 03ff4c5ecc3f3a5f59dd820fc5052b55f09f88af
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -47,9 +47,9 @@ Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建�
 
    按一下清單中的IP，將其複製到您的系統中，並授權此IP連線到您的資料庫。
 
->[!NOTE]
->
->若要針對指定資料庫使用同盟對象構成，您必須允許列出與該資料庫相關聯的所有IP位址。
+   >[!NOTE]
+   >
+   >若要針對指定資料庫使用同盟對象構成，您必須允許列出與該資料庫相關聯的所有IP位址。
 
 1. 填寫詳細資料後，按一下&#x200B;**[!UICONTROL 測試連線]**&#x200B;按鈕，再按一下&#x200B;**[!UICONTROL 部署函式]**&#x200B;按鈕。
 
