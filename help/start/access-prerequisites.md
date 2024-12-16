@@ -2,10 +2,10 @@
 title: 聯合客群構成的先決條件和護欄
 description: 了解聯合客群構成的先決條件、權限和護欄
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 8d498adf9f8998639e39f8f98de098682f828628
+source-git-commit: d26fa10fa7e28c1515a625e2e0b10a000aa2d7d5
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 86%
+source-wordcount: '311'
+ht-degree: 82%
 
 ---
 
@@ -50,7 +50,7 @@ When purchasing the Federated Audience Composition add-on, you are entitled to t
 
 ## 護欄和限制 {#fac-guardrails}
 
-* 聯合客群構成目前不適用於[攝取健康資料](https://experienceleague.adobe.com/zh-hant/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}的客戶以及 Adobe Journey Optimizer Privacy and Security Shield 客戶。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}。
+* 同盟對象構成目前無法供客戶[擷取健康情況資料](https://experienceleague.adobe.com/zh-hant/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}<!-- and to Adobe Journey Optimizer Privacy and Security Shield customers-->。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
