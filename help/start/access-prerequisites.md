@@ -3,9 +3,9 @@ title: 聯合客群構成的先決條件和護欄
 description: 了解聯合客群構成的先決條件、權限和護欄
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: d44813e447de92fe8ba7e43c7b0f0ad9f0b07239
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 77%
 
 ## 沙箱
 
-購買同盟對象構成附加元件時，您有權使用兩個沙箱。 如需任何其他沙箱布建請求，請聯絡您的Adobe代表。
+在購買聯合客群構成附加元件後，您就有權使用兩個沙箱。若有任何額外的沙箱佈建請求，請聯絡您的 Adobe 代表。
 
 ## 權限 {#permissions}
 
@@ -42,13 +42,13 @@ ht-degree: 77%
 
 ## IP 允許清單 {#ip}
 
-若要安全地啟用同盟受眾構成以存取您的資料庫，您必須授權將存取這些資料庫的同盟受眾構成伺服器的IP位址。 在Adobe Experience Platform使用者介面中新增同盟資料庫時，會顯示這些IP位址。 [了解更多](../connections/connections.md)
+若要安全地啟用聯合客群構成來存取您的資料庫，您必須授權將存取這些資料庫的聯合客群構成伺服器的 IP 位址。在 Adobe Experience Platform 使用者介面中新增聯合資料庫時，這些 IP 位址便會顯示。[了解更多](../connections/connections.md)
 
 將這些 IP 位址新增至您的允許清單，以授予聯合客群構成的存取權。
 
 ## 護欄和限制 {#fac-guardrails}
 
-* 同盟對象構成目前無法供客戶[擷取健康情況資料](https://experienceleague.adobe.com/zh-hant/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
+* 聯合客群構成目前不適用於[攝取健康資料](https://experienceleague.adobe.com/zh-hant/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}的客戶。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
