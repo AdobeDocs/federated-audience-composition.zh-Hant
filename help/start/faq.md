@@ -2,9 +2,9 @@
 title: 常見問題
 description: 有關 Adobe Experience Platform 聯合客群構成的常見問題
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: f06414fbacc2e11a374313f3614f76a10eeadc0b
-workflow-type: ht
-source-wordcount: '1004'
+source-git-commit: e3a5afe631ad652c90d67ca22f0581b5a068ad5d
+workflow-type: tm+mt
+source-wordcount: '827'
 ht-degree: 100%
 
 ---
@@ -88,17 +88,18 @@ Adobe Experience Platform 或聯合客群構成所產生的客群資料不會長
 不會，構成期間並不會使用身分識別服務。構成中所使用的各種來源的資料，是透過使用者定義的邏輯 (如底層模型所述) 相互連接，例如 CRM ID、使用者帳號等。您必須在資料倉儲中，選取要在客群中用來當做身分識別碼的身分識別。在聯合客群構成產生的客群中，您需要為結果資料集中的身分識別指明身分識別命名空間。
 
 +++
+<!--
++++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 
-+++如何為匯入至聯合客群構成中的外部產生客群履行客戶同意偏好設定？
+As customer data is captured from multiple channels, identity stitching and merge policies allow this data to be consolidated in a single Real-Time Customer Profile. Information on the customers' consent preferences are stored and evaluated at the profile level.
 
-由於客戶資料是從多個管道所擷取，因此身分拼接和合併原則會允許將此資料整合至單一即時客戶輪廓中。有關客戶同意偏好設定的資訊會在輪廓層級進行儲存和評估。
+Downstream Real-Time CDP and Journey Optimizer destinations check each profile for consent preferences prior to activation. Each profile's consent information is compared against consent requirements for a particular destination. If the profile does not satisfy the requirements, that profile is not sent to a destination.
 
-下游 Real-Time CDP 和 Journey Optimizer 目的地會在啟用之前檢查每個輪廓的同意偏好設定。每個輪廓的同意資訊都會與特定目的地的同意要求進行比較。如果輪廓不符合要求，就不會將該輪廓傳送到目的地。
-
-當外部客群被攝取到聯合客群構成中時，它會使用主要 ID (例如電子郵件或 ECID) 與現有輪廓進行調和。因此，現有的同意原則將在整個啟用過程中保持有效。
+When an external audience is ingested into Federated Audience Composition, it is reconciliated with existing profiles using a primary ID such as email or ECID. As a result, the existing consent policies will remain in force throughout activation.
 
 >[!NOTE]
 >
->由於承載變數不會儲存在輪廓中，而是儲存在資料湖中，因此您不應在外部產生的客群中包含同意資訊。相反，請使用匯入輪廓資料所在的其他 Adobe Experience Platform 攝取管道。
+>Since the payload variables are not stored in the profile but in the data lake, you should not include consent information in externally generated audiences. Instead, use other Adobe Experience Platform ingestion channels where profile data is imported.
 
 +++
+-->
