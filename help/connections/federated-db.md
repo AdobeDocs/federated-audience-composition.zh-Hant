@@ -3,10 +3,10 @@ audience: end-user
 title: 設定您的聯合資料庫
 description: 了解如何設定您的聯合資料庫
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '1895'
-ht-degree: 100%
+source-git-commit: 02e83cd73c42477bdab8a43c3d2a54df60ab5018
+workflow-type: tm+mt
+source-wordcount: '1904'
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,10 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 * [Databricks](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
+
+>[!AVAILABILITY]
+>
+>僅支援Amazon Redshift和Amazon Redshift Serverless。
 
 使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照以下步驟，設定 Amazon Redshift 的存取權。
 
