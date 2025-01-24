@@ -2,10 +2,10 @@
 title: 常見問題
 description: 有關 Adobe Experience Platform 聯合客群構成的常見問題
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: e3a5afe631ad652c90d67ca22f0581b5a068ad5d
+source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 97%
 
 ---
 
@@ -77,9 +77,9 @@ Adobe Experience Platform 或聯合客群構成所產生的客群資料不會長
 
 +++
 
-+++我是否可以刪除自訂上傳的客群？
++++我可以刪除對象嗎？
 
-不可以，您無法在目前版本中刪除自訂上傳的客群。
+否，在目前版本中，您無法刪除同盟對象構成對象。
 
 +++
 
