@@ -2,16 +2,23 @@
 title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 96931b019e840d6f0351c9b2349eeffcdd4a55b4
-workflow-type: ht
-source-wordcount: '525'
-ht-degree: 100%
+source-git-commit: edea9937554c4be4df3e9f03686033aa183cadb7
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 94%
 
 ---
 
 # 發行說明 {#rn-new}
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Federated Audience Composition] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}。
+
+
+## 2025年2月更新 {#fac-25-01}
+
+自2月發行版本開始，[!DNL Federated Audience Composition]僅供已授與&#x200B;**管理同盟資料**許可權的使用者存取。
+若要瞭解如何指派此許可權，請參閱[詳細檔案](feature-access.md)。
+
 
 ## 2024 年 11 月發行版本 {#fac-24-11}
 

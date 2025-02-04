@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 聯合客群構成
 title: Experience Platform 聯合客群構成文件
 breadcrumb-title: Experience Platform 聯合客群構成
-source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: ht
-source-wordcount: '145'
-ht-degree: 100%
+source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 100%
 + 開始使用聯合客群構成 {#start}
    + [什麼是聯合客群構成](start/get-started.md)
    + [先決條件和護欄](start/access-prerequisites.md)
+   + [存取同盟對象構成](start/feature-access.md)
    + [使用客群](start/audiences.md)
    + [常見問題](start/faq.md)
 + 設定步驟 {#config}
@@ -39,7 +40,7 @@ ht-degree: 100%
       + [建置客群](compositions/activities/build-audience.md)
       + [變更維度](compositions/activities/change-dimension.md)
       + [合併](compositions/activities/combine.md)
-      + [去重複化](compositions/activities/deduplication.md)
+      + [重複資料刪除](compositions/activities/deduplication.md)
       + [擴充](compositions/activities/enrichment.md)
       + [分支](compositions/activities/fork.md)
       + [調和](compositions/activities/reconciliation.md)

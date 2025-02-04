@@ -2,10 +2,10 @@
 title: 聯合客群構成的先決條件和護欄
 description: 了解聯合客群構成的先決條件、權限和護欄
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: d44813e447de92fe8ba7e43c7b0f0ad9f0b07239
-workflow-type: ht
-source-wordcount: '335'
-ht-degree: 100%
+source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 90%
 
 ---
 
@@ -36,9 +36,7 @@ ht-degree: 100%
 
 ## 權限 {#permissions}
 
-當您購買聯合客群構成附加元件時，系統會為當時的每個使用中沙箱建立一個產品設定檔。此產品設定檔是在 Admin Console 中的 **Adobe Experience Platform** 產品卡下方建立，並遵循以下命名慣例：`ACP_FAC - <<SandboxName>> - admin.`。若要存取特定沙箱的聯合客群構成，您必須將使用者新增至為該沙箱建立的產品設定檔中。
-
-例如，如果啟用名為「fac-test」的新沙箱，則會建立對應的產品設定檔「ACP_FAC - fac-test - admin」。為了使用此沙箱存取聯合客群構成，您必須將使用者新增至此產品設定檔。
+若要存取同盟對象構成，必須將使用者新增至購買時建立的沙箱特定產品設定檔，並指派&#x200B;**[!UICONTROL 管理同盟資料]**&#x200B;許可權。 [了解更多](feature-access.md)
 
 ## IP 允許清單 {#ip}
 
