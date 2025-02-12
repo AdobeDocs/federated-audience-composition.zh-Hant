@@ -1,7 +1,8 @@
 ---
 title: 存取同盟對象構成
 description: 瞭解同盟對象構成的必要許可權
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
+source-git-commit: 224dc190e998298c68bf60567bbb280b652355a2
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 36%
@@ -20,7 +21,7 @@ ht-degree: 36%
 
 >[!AVAILABILITY]
 >
->許可權是2月發行版本的一部分。
+>許可權在3月版本中提供。
 
 若要存取&#x200B;**同盟對象構成**，您必須先確定已將&#x200B;**管理同盟資料**&#x200B;許可權指派給適當的角色。 這些角色必須指派給需要存取&#x200B;**同盟對象構成**&#x200B;的使用者。
 
@@ -53,5 +54,3 @@ ht-degree: 36%
 1. 輸入使用者的名稱或電子郵件地址，或從可用清單中選取。 完成後，按一下&#x200B;**[!UICONTROL 儲存]**。
 
 之後，使用者會收到電子郵件，其中包含存取您執行個體的指示。 如果之前未建立使用者，請參閱[此文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users)。
-
-
