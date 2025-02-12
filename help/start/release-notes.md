@@ -2,7 +2,7 @@
 title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 51a6c6154452ae56e495312f1d4e909f4eb2d06e
+source-git-commit: 81ac7595196aeff30f1d09d66779ca4392f7bb19
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 88%
@@ -16,7 +16,7 @@ ht-degree: 88%
 
 ## 2025年2月更新 {#fac-25-01}
 
-自2月發行版本開始，[!DNL Federated Audience Composition]將開始強制存取已授予&#x200B;**管理同盟資料**&#x200B;許可權的使用者的&#x200B;**同盟資料管理**&#x200B;和&#x200B;**同盟組合**&#x200B;介面。
+自3月發行版本開始，[!DNL Federated Audience Composition]將開始強制將&#x200B;**同盟資料管理**&#x200B;與&#x200B;**同盟組合**&#x200B;介面存取給已授與管理同盟資料&#x200B;**許可權的使用者。**
 
 我們建議使用者連絡管理員，將此許可權新增至其角色，以繼續存取[!DNL Federated Audience Composition]使用者介面。
 
