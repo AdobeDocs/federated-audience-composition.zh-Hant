@@ -3,9 +3,9 @@ audience: end-user
 title: 開始使用結構描述
 description: 瞭解如何開始使用結構描述
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 3c0cbda211eed4fa1a8fdab015d4db4c9ad0cf30
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '516'
 ht-degree: 19%
 
 ---
@@ -57,19 +57,21 @@ ht-degree: 19%
 
 若要在Federated Audience Composition中建立方案，請遵循下列步驟：
 
-1. 在&#x200B;**[!UICONTROL 同盟資料]**&#x200B;區段中，進入&#x200B;**[!UICONTROL 模型]**&#x200B;連結。 瀏覽至&#x200B;**[!UICONTROL 結構描述]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 建立結構描述]**&#x200B;按鈕。
+1. 在&#x200B;**[!UICONTROL 同盟資料]**&#x200B;區段中，存取&#x200B;**[!UICONTROL 模型]**&#x200B;功能表。 瀏覽至&#x200B;**[!UICONTROL 結構描述]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 建立結構描述]**。
 
    ![](assets/schema_create.png){zoomable="yes"}
 
    此步驟可讓您透過下拉式清單存取新畫面，您可以在其中找到連線到您環境的資料庫。 在[本節](../connections/connections.md#connections-fdb)中進一步瞭解資料庫連線。
 
-1. 在清單中選取您的來源資料庫，然後按一下&#x200B;**[!UICONTROL 新增表格]**&#x200B;索引標籤。
+1. 在清單中選取您的來源資料庫，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
    ![](assets/schema_tables.png){zoomable="yes"}
 
    然後您可以檢視資料庫中所有表格的清單。
 
-1. 透過新增您要建立綱要的表格，您可以存取其欄位，如下所示：
+1. 選取您要建立綱要的表格。
+
+1. 每個選取的表格都會產生具有所選欄的綱要。 視需要設定結構描述及其欄。
 
    ![](assets/schema_fields.png){zoomable="yes"}
 
@@ -77,31 +79,28 @@ ht-degree: 19%
 
    * 變更結構描述的標籤
    * 新增說明
-   * 重新命名所有欄位，並設定其可見度
+   * 重新命名所有欄位標籤，並設定其可見性
    * 選取結構描述主索引鍵
 
-   例如，針對匯入的下清單格：
+   結構描述的定義如下：
 
-   ![](assets/schema_lumaorder.png){zoomable="yes"}
+   ![](assets/schema_example.png)
 
-   結構描述可以定義如下：
-
-   ![](assets/schema_lumaorders.png){zoomable="yes"}
+1. 完成設定後，按一下&#x200B;**[!UICONTROL 完成]**。
 
 ## 編輯結構 {#schema-edit}
 
 若要編輯綱要，請執行下列步驟：
 
-1. 按一下清單中您的結構描述名稱。
+1. 存取您先前建立的結構描述。
 
 1. 按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕。
 
    ![](assets/schema_edit.png){zoomable="yes"}
 
-   您可以存取與[建立結構描述](#schema-create)時相同的選項。
+1. 從&#x200B;**[!UICONTROL 編輯結構描述]**&#x200B;視窗，您可以存取和設定與[建立結構描述](#schema-create)時相同的選項。
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
-
 
 ## 在結構描述中預覽資料 {#schema-preview}
 
@@ -114,7 +113,6 @@ ht-degree: 19%
 按一下&#x200B;**[!UICONTROL 設定資料行]**&#x200B;按鈕以變更資料顯示。
 
 ![](assets/schema_columns.png){zoomable="yes"}
-
 
 ## 重新整理結構描述 {#schema-refresh}
 

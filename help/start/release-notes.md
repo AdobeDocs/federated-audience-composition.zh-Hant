@@ -2,16 +2,46 @@
 title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: e9cc50cbcbd076f784c924bd941e4396c14190ce
+source-git-commit: a9d39ec1f7d678ce35b95898370c258b844e7fab
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '647'
+ht-degree: 82%
 
 ---
 
 # 發行說明 {#rn-new}
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Federated Audience Composition] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}。
+
+## 2025年2月發行 {#fac-25-2}
+
+此版本隨附下列變更。
+
+* **Microsoft網狀架構支援**
+
+  您現在可以透過同盟對象構成來建立與Microsoft光纖資料庫的連線。 [了解更多](../connections/federated-db.md)
+
+* **Amazon Redshift Spectrum支援**
+
+  Amazon Redshift Spectrum現在支援Amazon Redshift資料庫連線。 [了解更多](../connections/federated-db.md#amazon-redshift)
+
+* **增強型結構描述建立體驗**
+
+  透過更新的使用者介面，建立綱要的流程已經過改善，設計成更直覺且更易於瀏覽。 這些增強功能為資料從業人員開發資料模型提供了更順暢、更有效的方式。 [了解更多](../customer/schemas.md)
+
+* **Databricks的對象擴充支援**
+
+  您現在可以在讀取對象流程中使用資料庫，啟用資料庫資料庫活動並允許將其設定為新目的地。 [了解更多](../connections/destinations.md)
+
+<!--
+* **Federated Audience Composition permissions**
+
+    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
+
+    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
+
+    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
+-->
 
 ## 2024 年 11 月發行版本 {#fac-24-11}
 

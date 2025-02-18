@@ -3,9 +3,9 @@ audience: end-user
 title: 建立和管理與同盟資料庫的連線
 description: 瞭解如何建立和管理與同盟資料庫的連線
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 03ff4c5ecc3f3a5f59dd820fc5052b55f09f88af
+source-git-commit: 7818cabf3769cffd05ca5308910fbc412240999e
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '293'
 ht-degree: 3%
 
 ---
@@ -40,6 +40,7 @@ Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建�
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+   * [Microsoft光纖](federated-db.md#microsoft-fabric)
 
 1. 針對每個支援的資料庫，選取&#x200B;**[!UICONTROL 伺服器IP]**&#x200B;按鈕。 系統會顯示與您同盟對象構成執行個體相關聯的所有IP清單。
 

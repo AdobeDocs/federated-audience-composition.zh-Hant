@@ -3,10 +3,10 @@ audience: end-user
 title: 設定您的聯合資料庫
 description: 了解如何設定您的聯合資料庫
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 02e83cd73c42477bdab8a43c3d2a54df60ab5018
+source-git-commit: 845b92dc2064e5274705b61f8e7f42cc396828b1
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 99%
+source-wordcount: '2081'
+ht-degree: 95%
 
 ---
 
@@ -41,12 +41,13 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
+* [Microsoft光纖](#microsoft-fabric)
 
 ## Amazon Redshift {#amazon-redshift}
 
 >[!AVAILABILITY]
 >
->僅支援Amazon Redshift和Amazon Redshift Serverless。
+>僅支援Amazon Redshift AWS、Amazon Redshift Spectrum和Amazon Redshift Serverless。
 
 使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照以下步驟，設定 Amazon Redshift 的存取權。
 
@@ -328,45 +329,45 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 |---|---|
 | TimeZoneName | 預設為空白，代表使用應用程式伺服器的系統時區。此選項可用於強制執行 TIMEZONE 工作階段參數。 |
 
-<!--Not for October release
-
-## Microsoft Fabric (LA){#microsoft-fabric}
+## Microsoft光纖 {#microsoft-fabric}
 
 >[!AVAILABILITY]
 >
->Microsoft Fabric is currently only available for a set of organizations (Limited Availability).
+>Microsoft Fabric目前僅適用於一組組織（可用性限制）。
 
-Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Microsoft Fabric.
+使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照下列步驟設定Microsoft Fabric的存取許可權。
 
-1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+1. 在&#x200B;**[!UICONTROL 聯合資料]**&#x200B;選單中，選取&#x200B;**[!UICONTROL 聯合資料庫]**。
 
-1. Click **[!UICONTROL Add federated database]**.
+1. 按一下&#x200B;**[!UICONTROL 新增聯合資料庫]**。
 
-    ![](assets/federated_database_1.png)
+   ![](assets/federated_database_1.png)
 
-1. Enter a **[!UICONTROL Name]** to your Federate database.
+1. 輸入聯盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
-1. From the **[!UICONTROL Type]** drop-down, select Microsoft Fabric.
+1. 從&#x200B;**[!UICONTROL Type]**&#x200B;下拉式清單中，選取Microsoft Fabric。
 
-    ![](assets/microsoft-config.png)
+   ![](assets/microsoft-config.png)
 
-1. Configure the Microsoft Fabric authentication settings:
+1. 設定Microsoft Fabric驗證設定：
 
-    * **[!UICONTROL Server]**: Enter the URL of the Microsoft Fabric server.
+   * **[!UICONTROL 伺服器]**：輸入Microsoft光纖伺服器的URL。
 
-    * **[!UICONTROL Application ID]**: Enter your Microsoft Fabric Application ID.
+   * **[!UICONTROL 應用程式識別碼]**：輸入您的Microsoft光纖應用程式識別碼。
 
-    * **[!UICONTROL Client secret]**: Enter your Client secret.
+   * **[!UICONTROL 使用者端密碼]**：輸入您的使用者端密碼。
 
-    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+   * **[!UICONTROL 選項]**：下表詳細說明連接器支援的選項。
 
-1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+1. 按一下&#x200B;**[!UICONTROL 伺服器IP]**&#x200B;以選取您要授權的伺服器IP。
 
-1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+1. 選取&#x200B;**[!UICONTROL 測試連接]**&#x200B;選項，以驗證您的設定。
 
-1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+1. 按一下&#x200B;**[!UICONTROL 部署功能]**&#x200B;按鈕，建立相關功能。
 
-| Option   |  Description |
+1. 設定完成後，按一下&#x200B;**[!UICONTROL 新增]**&#x200B;建立聯合資料庫。
+
+| 選項 | 說明 |
 |---|---|
-| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
--->
+| 驗證 | 連接器支援的驗證類型。目前支援的值：ActiveDirectoryMSI。如需詳細資訊，請參閱 [Microsoft SQL 文件](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (連接字串範例 n°8) |
+

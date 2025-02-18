@@ -3,10 +3,10 @@ audience: end-user
 title: 使用外部資料擴充 Adobe Experience Platform 客群
 description: 瞭解如何使用同盟受眾構成目的地，以同盟資料庫中的資料精進及豐富Adobe Experience Platform受眾。
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 2dc7e0ef359eb2b864f2d0e49ec4ff48f7c8bf61
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 6%
+source-wordcount: '586'
+ht-degree: 8%
 
 ---
 
@@ -34,11 +34,22 @@ Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地*
 
    ![](assets/destination-new.png)
 
-1. 提供新連線的名稱，並選擇要使用的&#x200B;**[!UICONTROL 連線型別]**&#x200B;以及要連線的&#x200B;**[!UICONTROL 同盟資料庫]**，然後按一下[下一步]****。
+1. 輸入新連線的名稱，然後從下列可用的連線中選取&#x200B;**[!UICONTROL 連線型別]**：
+
+   * Amazon Redshift
+   * Azure Synapse Analytics
+   * Google Big Query
+   * Snowflake
+   * Vertica Analytics
+   * Databricks
+
+1. 選取您要連線的&#x200B;**[!UICONTROL 同盟資料庫]**，然後按一下[下一步]****。
 
    ![](assets/destination-configure.png)
 
-   **[!UICONTROL 警示]**&#x200B;區段可讓您啟用警示，以接收有關您目的地之資料流狀態的通知。 如需警示的詳細資訊，請參閱Adobe Experience Platform檔案，瞭解如何使用UI訂閱[目的地警示](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+1. 在&#x200B;**[!UICONTROL 警示]**&#x200B;區段中，您可以啟用警示以接收有關您目的地之資料流狀態的通知。
+
+   如需警示的詳細資訊，請參閱Adobe Experience Platform檔案，瞭解如何使用UI訂閱[目的地警示](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. **[!UICONTROL 治理原則與執行動作]**&#x200B;步驟，您可以定義您的資料治理原則，並確保在傳送和啟用對象時，所使用的資料是合規的。
 
