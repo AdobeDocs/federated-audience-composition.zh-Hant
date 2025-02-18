@@ -3,10 +3,10 @@ audience: end-user
 title: 設定您的聯合資料庫
 description: 了解如何設定您的聯合資料庫
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 845b92dc2064e5274705b61f8e7f42cc396828b1
+source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
 workflow-type: tm+mt
-source-wordcount: '2081'
-ht-degree: 95%
+source-wordcount: '2068'
+ht-degree: 96%
 
 ---
 
@@ -331,9 +331,6 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
 ## Microsoft光纖 {#microsoft-fabric}
 
->[!AVAILABILITY]
->
->Microsoft Fabric目前僅適用於一組組織（可用性限制）。
 
 使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照下列步驟設定Microsoft Fabric的存取許可權。
 

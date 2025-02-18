@@ -2,7 +2,7 @@
 title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: a9d39ec1f7d678ce35b95898370c258b844e7fab
+source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 82%
@@ -17,7 +17,7 @@ ht-degree: 82%
 
 此版本隨附下列變更。
 
-* **Microsoft網狀架構支援**
+* **Microsoft光纖支援**
 
   您現在可以透過同盟對象構成來建立與Microsoft光纖資料庫的連線。 [了解更多](../connections/federated-db.md)
 
