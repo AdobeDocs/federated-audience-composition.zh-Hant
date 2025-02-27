@@ -3,9 +3,9 @@ title: 聯合客群構成的先決條件和護欄
 description: 了解聯合客群構成的先決條件、權限和護欄
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 90%
 
 ## 權限 {#permissions}
 
-若要存取同盟對象構成，必須將使用者新增至購買時建立的沙箱特定產品設定檔，並指派&#x200B;**[!UICONTROL 管理同盟資料]**&#x200B;許可權。 [了解更多](feature-access.md)
+若要存取聯合客群構成，您必須將使用者新增至購買時所建立的沙箱特定產品設定檔中，並為其指派「**[!UICONTROL 管理聯合資料]**」權限。[了解更多](feature-access.md)
 
 ## IP 允許清單 {#ip}
 

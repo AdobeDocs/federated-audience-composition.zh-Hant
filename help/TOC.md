@@ -3,9 +3,9 @@ user-guide-title: Experience Platform 聯合客群構成
 title: Experience Platform 聯合客群構成文件
 breadcrumb-title: Experience Platform 聯合客群構成
 source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 + 開始使用聯合客群構成 {#start}
    + [什麼是聯合客群構成](start/get-started.md)
    + [先決條件和護欄](start/access-prerequisites.md)
-   + [存取同盟對象構成](start/feature-access.md)
+   + [存取聯合客群構成](start/feature-access.md)
    + [使用客群](start/audiences.md)
    + [常見問題](start/faq.md)
 + 設定步驟 {#config}
@@ -25,7 +25,7 @@ ht-degree: 94%
    + [設定您的聯合資料庫](connections/federated-db.md)
    + 資料模型與結構描述{#datamodel}
       + [建立及設定結構描述](customer/schemas.md)
-      + [設定您的資料模型（測試版）](data-management/gs-models-beta.md)
+      + [設定您的資料模型 (Beta)](data-management/gs-models-beta.md)
       + [設定您的資料模型](data-management/gs-models.md)
    + [使用外部資料擴充 Adobe Experience Platform 客群](connections/destinations.md)
 + 構成客群 {#compositions}

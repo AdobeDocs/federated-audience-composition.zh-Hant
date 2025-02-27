@@ -4,9 +4,9 @@ title: 設定您的聯合資料庫
 description: 了解如何設定您的聯合資料庫
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2068'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +41,13 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
-* [Microsoft光纖](#microsoft-fabric)
+* [Microsoft Fabric](#microsoft-fabric)
 
 ## Amazon Redshift {#amazon-redshift}
 
 >[!AVAILABILITY]
 >
->僅支援Amazon Redshift AWS、Amazon Redshift Spectrum和Amazon Redshift Serverless。
+>僅支援 Amazon Redshift AWS、Amazon Redshift Spectrum 和 Amazon Redshift Serverless。
 
 使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照以下步驟，設定 Amazon Redshift 的存取權。
 
@@ -57,7 +57,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
    ![](assets/federated_database_1.png)
 
-1. 輸入聯盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
+1. 輸入聯合資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
 1. 在&#x200B;**[!UICONTROL 類型]**&#x200B;下拉式清單中，選取 Amazon Redshift。
 
@@ -97,7 +97,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
    ![](assets/federated_database_1.png)
 
-1. 輸入聯盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
+1. 輸入聯合資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
 1. 在「**[!UICONTROL 類型]**」下拉式清單中，選取 Azure Synapse Analytics。
 
@@ -113,7 +113,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
    * **[!UICONTROL 資料庫]** (選填)：輸入資料庫的名稱 (如果沒有在 DSN 中指定)。
 
-   * **[!UICONTROL 選項]**：下表詳細說明連接器支援的選項。
+   * **[!UICONTROL 選項]**：下表詳細說明了連接器支援的選項。
 
 1. 選取&#x200B;**[!UICONTROL 測試連接]**&#x200B;選項，以驗證您的設定。
 
@@ -123,7 +123,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
 | 選項 | 說明 |
 |---|---|
-| 驗證 | 連接器支援的驗證類型。目前支援的值：ActiveDirectoryMSI。如需詳細資訊，請參閱 [Microsoft SQL 文件](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (連接字串範例 n°8) |
+| Authentication | 連接器支援的驗證類型。目前支援的值：ActiveDirectoryMSI。如需詳細資訊，請參閱 [Microsoft SQL 文件](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (連接字串範例 n°8) |
 
 ## Google Big Query {#google-big-query}
 
@@ -135,7 +135,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
    ![](assets/federated_database_1.png)
 
-1. 輸入聯盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
+1. 輸入聯合資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
 1. 在&#x200B;**[!UICONTROL 類型]**&#x200B;下拉式清單中，選取 Google Big Query。
 
@@ -151,7 +151,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
    * **[!UICONTROL 金鑰檔案路徑]**：將您的金鑰檔案上傳至伺服器。只接受 .json 檔案。
 
-   * **[!UICONTROL 選項]**：下表詳細說明連接器支援的選項。
+   * **[!UICONTROL 選項]**：下表詳細說明了連接器支援的選項。
 
 1. 選取&#x200B;**[!UICONTROL 測試連接]**&#x200B;選項，以驗證您的設定。
 
@@ -186,7 +186,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
    ![](assets/federated_database_1.png)
 
-1. 輸入聯盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
+1. 輸入聯合資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
 1. 在&#x200B;**[!UICONTROL 類型]**&#x200B;下拉式清單中，選取 Snowflake。
 
@@ -212,7 +212,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
    * **[!UICONTROL 私密金鑰]**：按一下&#x200B;**[!UICONTROL 私密金鑰]**&#x200B;欄位，從 locale 資料夾中選取 .pem 檔案。
 
-   * **[!UICONTROL 選項]**：下表詳細說明連接器支援的選項。
+   * **[!UICONTROL 選項]**：下表詳細說明了連接器支援的選項。
 
 1. 選取&#x200B;**[!UICONTROL 測試連接]**&#x200B;選項，以驗證您的設定。
 
@@ -243,7 +243,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
    ![](assets/federated_database_1.png)
 
-1. 輸入聯盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
+1. 輸入聯合資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
 1. 在&#x200B;**[!UICONTROL 類型]**&#x200B;下拉式清單中，選取 Vertica Analytics。
 
@@ -267,7 +267,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
      >
      >將多個沙箱與相同資料庫連接時，必須使用&#x200B;**不同的工作結構描述**。
 
-   * **[!UICONTROL 選項]**：下表詳細說明連接器支援的選項。
+   * **[!UICONTROL 選項]**：下表詳細說明了連接器支援的選項。
 
 1. 選取&#x200B;**[!UICONTROL 測試連接]**&#x200B;選項，以驗證您的設定。
 
@@ -291,7 +291,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
    ![](assets/federated_database_1.png)
 
-1. 輸入聯盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
+1. 輸入聯合資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
 1. 在「**[!UICONTROL 類型]**」下拉式清單中，選取「Databricks」。
 
@@ -315,7 +315,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
      >
      >將多個沙箱與相同資料庫連接時，必須使用&#x200B;**不同的工作結構描述**。
 
-   * **[!UICONTROL 選項]**：下表詳細說明連接器支援的選項。
+   * **[!UICONTROL 選項]**：下表詳細說明了連接器支援的選項。
 
 1. 選取&#x200B;**[!UICONTROL 測試連接]**&#x200B;選項，以驗證您的設定。
 
@@ -329,10 +329,10 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 |---|---|
 | TimeZoneName | 預設為空白，代表使用應用程式伺服器的系統時區。此選項可用於強制執行 TIMEZONE 工作階段參數。 |
 
-## Microsoft光纖 {#microsoft-fabric}
+## Microsoft Fabric {#microsoft-fabric}
 
 
-使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照下列步驟設定Microsoft Fabric的存取許可權。
+使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照下列步驟，設定對 Microsoft Fabric 的存取權。
 
 1. 在&#x200B;**[!UICONTROL 聯合資料]**&#x200B;選單中，選取&#x200B;**[!UICONTROL 聯合資料庫]**。
 
@@ -340,23 +340,23 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
    ![](assets/federated_database_1.png)
 
-1. 輸入聯盟資料庫的&#x200B;**[!UICONTROL 名稱]**。
+1. 輸入聯合資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
-1. 從&#x200B;**[!UICONTROL Type]**&#x200B;下拉式清單中，選取Microsoft Fabric。
+1. 在「**[!UICONTROL 類型]**」下拉式清單中，選取「Microsoft Fabric」。
 
    ![](assets/microsoft-config.png)
 
-1. 設定Microsoft Fabric驗證設定：
+1. 設定 Microsoft Fabric 驗證設定：
 
-   * **[!UICONTROL 伺服器]**：輸入Microsoft光纖伺服器的URL。
+   * **[!UICONTROL 伺服器]**：輸入 Microsoft Fabric 伺服器的 URL。
 
-   * **[!UICONTROL 應用程式識別碼]**：輸入您的Microsoft光纖應用程式識別碼。
+   * **[!UICONTROL 應用程式 ID]**：輸入您的 Microsoft Fabric 應用程式 ID。
 
-   * **[!UICONTROL 使用者端密碼]**：輸入您的使用者端密碼。
+   * **[!UICONTROL 用戶端密碼]**：輸入您的用戶端密碼。
 
-   * **[!UICONTROL 選項]**：下表詳細說明連接器支援的選項。
+   * **[!UICONTROL 選項]**：下表詳細說明了連接器支援的選項。
 
-1. 按一下&#x200B;**[!UICONTROL 伺服器IP]**&#x200B;以選取您要授權的伺服器IP。
+1. 按一下「**[!UICONTROL 伺服器 IP]**」以選取您想要授權的伺服器 IP。
 
 1. 選取&#x200B;**[!UICONTROL 測試連接]**&#x200B;選項，以驗證您的設定。
 
@@ -366,5 +366,5 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
 | 選項 | 說明 |
 |---|---|
-| 驗證 | 連接器支援的驗證類型。目前支援的值：ActiveDirectoryMSI。如需詳細資訊，請參閱 [Microsoft SQL 文件](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (連接字串範例 n°8) |
+| Authentication | 連接器支援的驗證類型。目前支援的值：ActiveDirectoryMSI。如需詳細資訊，請參閱 [Microsoft SQL 文件](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (連接字串範例 n°8) |
 

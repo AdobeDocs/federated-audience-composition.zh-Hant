@@ -3,9 +3,9 @@ title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -13,25 +13,25 @@ ht-degree: 82%
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Federated Audience Composition] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}。
 
-## 2025年2月發行 {#fac-25-2}
+## 2025 年 2 月發行版本 {#fac-25-2}
 
-此版本隨附下列變更。
+此發行版本隨附下列變更。
 
-* **Microsoft光纖支援**
+* **Microsoft Fabric 支援**
 
-  您現在可以透過同盟對象構成來建立與Microsoft光纖資料庫的連線。 [了解更多](../connections/federated-db.md)
+  您現在可以透過聯合客群構成，建立與 Microsoft Fabric 資料庫的連線。[了解更多](../connections/federated-db.md)
 
-* **Amazon Redshift Spectrum支援**
+* **Amazon Redshift Spectrum 支援**
 
-  Amazon Redshift Spectrum現在支援Amazon Redshift資料庫連線。 [了解更多](../connections/federated-db.md#amazon-redshift)
+  對 Amazon Redshift 資料庫的連線現已支援 Amazon Redshift Spectrum。[了解更多](../connections/federated-db.md#amazon-redshift)
 
-* **增強型結構描述建立體驗**
+* **增強的結構描述建立體驗**
 
-  透過更新的使用者介面，建立綱要的流程已經過改善，設計成更直覺且更易於瀏覽。 這些增強功能為資料從業人員開發資料模型提供了更順暢、更有效的方式。 [了解更多](../customer/schemas.md)
+  透過更新後的使用者介面，建立結構描述的程序已獲得改進，變得更直覺且更易於導覽。這些增強功能為資料從業人員提供了更順暢、更有效率的資料模型開發方法。[了解更多](../customer/schemas.md)
 
-* **Databricks的對象擴充支援**
+* **Databricks 的客群擴充支援**
 
-  您現在可以在讀取對象流程中使用資料庫，啟用資料庫資料庫活動並允許將其設定為新目的地。 [了解更多](../connections/destinations.md)
+  您現在可以在「讀取客群」流程中使用 Databricks，為 Databricks 資料庫啟用活動並允許將其設定為新目的地。[了解更多](../connections/destinations.md)
 
 <!--
 * **Federated Audience Composition permissions**
