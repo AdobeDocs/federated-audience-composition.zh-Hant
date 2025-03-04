@@ -2,10 +2,10 @@
 title: 聯合客群構成的先決條件和護欄
 description: 了解聯合客群構成的先決條件、權限和護欄
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
-workflow-type: ht
-source-wordcount: '260'
-ht-degree: 100%
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 88%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## 沙箱
 
-在購買聯合客群構成附加元件後，您就有權使用兩個沙箱。若有任何額外的沙箱佈建請求，請聯絡您的 Adobe 代表。
+購買同盟對象構成時，您有權使用兩個沙箱。 若有任何額外的沙箱佈建請求，請聯絡您的 Adobe 代表。
 
 ## 權限 {#permissions}
 
@@ -51,4 +51,4 @@ ht-degree: 100%
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
-* [Adobe Real-Time Customer Data Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}中列出的權益、產品限制和效能護欄均適用於此附加元件。
+* [Adobe Real-Time Customer Data Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}中列出的權益、產品限制和效能護欄適用於同盟對象構成。

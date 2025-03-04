@@ -2,10 +2,10 @@
 title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: ht
-source-wordcount: '647'
-ht-degree: 100%
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 93%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Adobe Experience Platform 聯合客群構成先前僅開放給某些組織使用 (LA)，現已向所有使用者開放 (GA)。此附加元件是根據您的產品啟用，並且僅在具有相關權限時可見。[了解更多](access-prerequisites.md)
+>Adobe Experience Platform 聯合客群構成先前僅開放給某些組織使用 (LA)，現已向所有使用者開放 (GA)。此功能是根據您的產品而啟動，且僅會顯示相關的許可權。 [了解更多](access-prerequisites.md)
 >
 
 ### 相容性 {#fac-24-10-compat}
@@ -90,7 +90,7 @@ ht-degree: 100%
 
 ## 2024 年 7 月發行版本 - 聯合客群構成 (LA) {#fac-la}
 
-聯合客群構成是一項附加功能，使企業能夠靈活地擴充對企業資料倉儲的存取，以使用關鍵企業資料集來構成客群，並提升品牌發起的即時體驗。有了這種新方法，身為 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/home){target="_blank"} 和/或 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"} 使用者，您就可以直接聯合現有資料倉儲中的客群資料，在一個系統中擴充 Adobe Experience Platform 客群。
+同盟受眾構成可讓企業透過彈性且擴充的存取方式存取企業資料倉儲，以使用關鍵企業資料集和強大的品牌啟動及即時體驗來構成受眾。 有了這種新方法，身為 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/home){target="_blank"} 和/或 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"} 使用者，您就可以直接聯合現有資料倉儲中的客群資料，在一個系統中擴充 Adobe Experience Platform 客群。
 
 對於需要靈活地使用倉庫資料集來構成客群的企業，聯合客群構成恰好滿足了他們不斷增長的市場需求。這使得企業能夠減少資料移動，同時向行銷團隊提供關鍵客群資料，以滿足使用案例要求並提升個人化體驗。 
 
