@@ -3,10 +3,10 @@ title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 69%
+source-wordcount: '857'
+ht-degree: 68%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 69%
 
 ## 2025年3月發行 {#fac-25-3}
 
-此發行版本隨附以下改進項目。
+### 改進項目 {#fac-25-3-improvements}
+
+此版本隨附下列改善專案。
 
 * **同盟對象組合許可權**
 
@@ -34,7 +36,7 @@ ht-degree: 69%
 
   同盟受眾構成現在支援匯出大型受眾，可處理最多20 GB的檔案大小。
 
-### 相容性{#fac-25.3-compat}
+### 相容性 {#fac-25-3-compat}
 
 * **資料庫連線**
 
