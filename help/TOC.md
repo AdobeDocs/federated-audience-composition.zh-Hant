@@ -2,9 +2,9 @@
 user-guide-title: Experience Platform 聯合客群構成
 title: Experience Platform 聯合客群構成文件
 breadcrumb-title: Experience Platform 聯合客群構成
-source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
-workflow-type: ht
-source-wordcount: '154'
+source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+workflow-type: tm+mt
+source-wordcount: '156'
 ht-degree: 100%
 
 ---
@@ -14,6 +14,7 @@ ht-degree: 100%
 
 + [Experience Platform 聯合客群構成文件](home.md)
 + [發行說明](start/release-notes.md)
++ [發行說明](start/e-release-notes.md)
 + 開始使用聯合客群構成 {#start}
    + [什麼是聯合客群構成](start/get-started.md)
    + [先決條件和護欄](start/access-prerequisites.md)
