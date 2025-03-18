@@ -3,10 +3,10 @@ title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
+source-git-commit: 016623ed6aa6e3b2c4dafa5733fd6d1a00109271
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 68%
+source-wordcount: '898'
+ht-degree: 65%
 
 ---
 
@@ -35,6 +35,10 @@ ht-degree: 68%
 * **對象匯出**
 
   同盟受眾構成現在支援匯出大型受眾，可處理最多20 GB的檔案大小。
+
+* **AI 助理**
+
+  AI Assistant是使用者介面功能，旨在協助您導覽和瞭解Adobe概念，並取得您特定環境的營運深入分析。 它適用於Adobe Experience Cloud的多個產品，包括同盟對象構成。
 
 ### 相容性 {#fac-25-3-compat}
 
