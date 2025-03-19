@@ -3,10 +3,11 @@ title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 hide: true
 hidefromtoc: true
-source-git-commit: 016623ed6aa6e3b2c4dafa5733fd6d1a00109271
+exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
+source-git-commit: 4b70d9e84a0089ffc4d3088bd21fb3803143ad38
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 65%
+source-wordcount: '846'
+ht-degree: 69%
 
 ---
 
@@ -28,13 +29,11 @@ ht-degree: 65%
 
   若要瞭解如何指派此許可權，請參閱[詳細檔案](feature-access.md)。
 
-* **資料模型畫布檢視**
+<!--
+* **Data model Canvas view**
 
-  「資料模型」區段的「畫布」檢視可透過在畫布版面配置中在現有表格檢視旁邊啟用資料模型及其連結的視覺效果，進而改善體驗。 [了解更多](../data-management/gs-models.md)
-
-* **對象匯出**
-
-  同盟受眾構成現在支援匯出大型受眾，可處理最多20 GB的檔案大小。
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+-->
 
 * **AI 助理**
 
@@ -45,7 +44,7 @@ ht-degree: 65%
 * **資料庫連線**
 
   透過此新版本，同盟對象構成現在支援Databricks資料庫連線的私人連結連線。
-這樣還能安全地連線到Amazon Web Services (AWS)和Azure上託管的Databricks資料庫。 [了解更多](../connections/federated-db.md#databricks)
+這樣還能安全地連線到Amazon Web Services (AWS)和Microsoft Azure上託管的Databricks資料庫。 [了解更多](../connections/federated-db.md#databricks)
 
 * **支援B2B CDP客戶**
 
@@ -53,7 +52,7 @@ ht-degree: 65%
 
 * **Snowflake安全連線**
 
-  透過此新版本，同盟對象構成支援與Azure上代管的Snowflake資料庫的安全私人連結連線。 [了解更多](../connections/federated-db.md#snowflake)
+  透過此新版本，同盟對象構成支援到Microsoft Azure上代管的Snowflake資料庫的安全私人連結連線。 [了解更多](../connections/federated-db.md#snowflake)
 
 ## 2025 年 2 月發行版本 {#fac-25-2}
 
@@ -129,5 +128,3 @@ ht-degree: 65%
 如需有關聯合客群構成功能的詳細資訊，請參閱[此頁面](get-started.md)和[常見問題](faq.md)。
 
 如需存取聯合客群構成的先決條件和目前護欄的詳細資訊，請參閱[此頁面](access-prerequisites.md)。
-
-
