@@ -2,10 +2,10 @@
 title: 開始使用 Experience Platform 聯合客群構成
 description: 了解什麼是 Adobe 聯合客群構成，以及如何在 Adobe Experience Platform 中使用此功能
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 96%
+source-wordcount: '957'
+ht-degree: 93%
 
 ---
 
@@ -132,11 +132,6 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 >abstract="儲存輪廓"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="儲存輪廓選取 AEP 結構描述"
->abstract="儲存輪廓選取 AEP 結構描述"
-
->[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
 >title="儲存輪廓 AEP 結構描述清單"
 >abstract="儲存輪廓 AEP 結構描述清單"
@@ -147,6 +142,16 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 >abstract="儲存輪廓 AEP 結構描述屬性"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectprimaryfield"
->title="儲存輪廓選取主要身分欄位"
->abstract="儲存輪廓選取主要身分欄位"
+>id="dc_orchestration_saveprofile_primaryidentitynamespace"
+>title="選取主要識別欄位"
+>abstract="用於設定檔的主要識別欄位。"
+
+>[!CONTEXTUALHELP]
+>id="ddc_orchestration_saveprofile_selectdataset"
+>title="AEP資料集"
+>abstract="選取要用於設定檔的AEP資料集。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="儲存輪廓選取 AEP 結構描述"
+>abstract="選取用於設定檔的AEP結構描述。"
