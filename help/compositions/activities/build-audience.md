@@ -22,7 +22,7 @@ ht-degree: 29%
 * 選取現有的Adobe Experience Platform對象。
 * 定義並結合篩選條件，使用查詢塑模器建立新對象。
 
-## 設定建置客群活動 {#build-audience-configuration}
+## 設定建置對象活動 {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"

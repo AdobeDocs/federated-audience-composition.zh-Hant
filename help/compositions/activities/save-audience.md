@@ -14,23 +14,23 @@ ht-degree: 31%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
->title="儲存一個客群"
->abstract="使用此活動從構成中的群體運算上游建立新的客群。建立的客群將新增至客群清單中，並可透過「**客群**」選單使用。"
+>title="儲存一個對象"
+>abstract="使用此活動從構成中的群體運算上游建立新的客群。建立的對象將新增至對象清單中，並可透過「**對象**」選單使用。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
 >title="產生傳出轉變"
->abstract="如果您想在「**儲存客群**」活動之後新增轉變，請使用此選項。"
+>abstract="如果您想在「**儲存對象**」活動之後新增轉變，請使用此選項。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience_primary_identity"
->title="主要身分欄位"
->abstract="選取輪廓要用的主要身分。"
+>title="主要身分識別欄位"
+>abstract="選取輪廓要用的主要身分識別。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="進一步瞭解 Experience Platform 文件"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
->title="身分命名空間"
+>title="身分識別命名空間"
 >abstract="選取輪廓要用的命名空間。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces" text="進一步瞭解 Experience Platform 文件"
 

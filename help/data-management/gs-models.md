@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 開始使用資料模式
+title: 開始使用資料模型
 description: 瞭解如何開始使用資料模型
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
 source-git-commit: 61a7b66d16358a4a1c3d4b2ae153e856d8f682f7
@@ -10,17 +10,17 @@ ht-degree: 15%
 
 ---
 
-# 開始使用資料模式 {#data-model}
+# 開始使用資料模型 {#data-model}
 
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
->title="使用模式"
->abstract="此畫面中列出了結構描述和資料模式。您可以透過&#x200B;**建立**&#x200B;按鈕建立結構描述和資料模式。"
+>title="使用模型"
+>abstract="此畫面中列出了結構描述和資料模型。您可以透過&#x200B;**建立**&#x200B;按鈕建立結構描述和資料模型。"
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_schema"
 >title="選取結構描述"
->abstract="選取資料模式的結構描述。"
+>abstract="選取資料模型的結構描述。"
 
 
 >[!CONTEXTUALHELP]
@@ -30,8 +30,8 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_properties"
->title="資料模式屬性"
->abstract="輸入資料模式的標籤。"
+>title="資料模型屬性"
+>abstract="輸入資料模型的標籤。"
 
 
 ## 什麼是資料模型 {#data-model-start}

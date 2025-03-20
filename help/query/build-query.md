@@ -147,12 +147,12 @@ ht-degree: 10%
 
    ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
-### 選取客群 {#audiences}
+### 選取對象 {#audiences}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_selectaudience"
->title="選取客群"
->abstract="透過使用「**[!UICONTROL 選取客群]**」選項，您可以選擇要用來篩選查詢的客群。"
+>title="選取對象"
+>abstract="透過使用「**[!UICONTROL 選取對象]**」選項，您可以選擇要用來篩選查詢的對象。"
 
 若要使用現有對象篩選查詢，請執行下列步驟：
 
@@ -228,7 +228,7 @@ ht-degree: 10%
 
 此外，您可以按一下轉變上的&#x200B;**+**&#x200B;按鈕，以建立中繼元件群組。 這可讓您在此特定位置新增運運算元，以將多個元件分組在一起，並調整查詢。
 
-在以下範例中，我們已建立中繼群組以包含「VIP to reward」或「Super VIP」受眾的結果。
+在下列範例中，我們已建立中繼群組以包含「要獎勵的VIP」或「超級VIP」對象的結果。
 
 ![](assets/query-intermediate-group.png){zoomable="yes"}
 

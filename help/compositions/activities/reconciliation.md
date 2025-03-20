@@ -29,8 +29,8 @@ ht-degree: 39%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_complement"
->title="調和產生補充"
->abstract="調和產生補充"
+>title="調和產生補集"
+>abstract="調和產生補集"
 
 **調解**&#x200B;活動可讓您定義資料庫中的資料與工作表中的資料之間的連結，例如從外部系統載入的資料。
 
