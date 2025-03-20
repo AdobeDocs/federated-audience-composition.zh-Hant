@@ -3,10 +3,10 @@ audience: end-user
 title: 稽核軌跡
 description: 瞭解在稽核軌跡中如何記錄及存取動作和事件
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 154edf65bc460c6c98ae16f9b799ec38939fb5fd
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 11%
+source-wordcount: '343'
+ht-degree: 12%
 
 ---
 
@@ -17,13 +17,11 @@ ht-degree: 11%
 >title="稽核軌跡"
 >abstract="稽核軌跡功能會針對您在 Adobe Experience Platform 聯合客群組成環境的所有動作和事件，即時提供按時間順序排列的詳細記錄。"
 
-稽核軌跡功能會針對您的環境即時提供所有動作和事件的詳細時間順序記錄
-
-**[!UICONTROL 稽核軌跡]**&#x200B;功能會持續即時記錄Adobe同盟組合執行個體中發生的動作和事件的詳細記錄。 它提供一種便利的方法，可存取按時間順序排列的資料記錄，並解決以下查詢：工作流程的狀態、要修改它們的最新個人，或使用者在執行個體內執行的活動。
+**[!UICONTROL 稽核軌跡]**&#x200B;功能會持續即時記錄Adobe Federated Composition執行個體中發生的動作和事件的詳細記錄。 它提供一種便利的方法，可存取按時間順序排列的資料記錄，並解決以下查詢：工作流程的狀態、要修改它們的最新個人，或使用者在執行個體內執行的活動。
 
 +++ 深入瞭解稽核軌跡可用實體
 
-* **Source結構描述稽核軌跡**&#x200B;可讓您監視Adobe同盟對象構成執行個體中的活動以及最近對結構描述所做的修改。
+* **Source結構描述稽核軌跡**&#x200B;可讓您在Adobe同盟對象構成執行個體中監視活動以及最近對結構描述所做的修改。
 
   如需結構描述的詳細資訊，請參閱此[頁面](../customer/schemas.md)。
 
@@ -40,7 +38,7 @@ ht-degree: 11%
 
   如需工作流程的詳細資訊，請參閱此[頁面](../compositions/gs-compositions.md)。
 
-* **外部帳戶**&#x200B;可讓您檢查對Adobe對象組合執行個體中的外部帳戶所做的修改。
+* **外部帳戶**&#x200B;可讓您檢查對Adobe對象構成執行個體中的外部帳戶所做的修改。
 
   如需外部帳戶的詳細資訊，請參閱此[頁面](../connections/federated-db.md)。
 
