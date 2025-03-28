@@ -3,10 +3,10 @@ audience: end-user
 title: 使用外部資料擴充 Adobe Experience Platform 客群
 description: 瞭解如何使用同盟受眾構成目的地，以同盟資料庫中的資料精進及豐富Adobe Experience Platform受眾。
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
+source-git-commit: 5a332d9252fec16e66e38a1d57ab4e3484ac2b8a
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 9%
+source-wordcount: '611'
+ht-degree: 8%
 
 ---
 
@@ -60,11 +60,15 @@ Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地*
 
    ![](assets/destination-activate.png)
 
-1. 選取您要傳送的所要對象，然後按一下[下一步] ****。
+1. 選取您要傳送的所需對象。
 
-1. 為選取的對象設定檔案名稱和匯出排程。
+1. 選取![](assets/do-not-localize/Smock_Edit_18_N.svg)圖示以編輯您的匯出排程。
 
    ![](assets/destination-schedule.png)
+
+1. 定義匯出檔案選項。 若要更快速地啟用對象，請選取&#x200B;**[!UICONTROL 區段評估之後]**&#x200B;選項，以便在每日Platform批次分段工作完成後立即觸發啟用工作。
+
+   ![](assets/destination-schedule-2.png)
 
    >[!NOTE]
    >

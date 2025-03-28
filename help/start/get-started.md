@@ -2,10 +2,10 @@
 title: 開始使用 Experience Platform 聯合客群構成
 description: 了解什麼是 Adobe 聯合客群構成，以及如何在 Adobe Experience Platform 中使用此功能
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 645d3378120fb52fba7866d3e3499c6af5635027
+source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 82%
+source-wordcount: '1146'
+ht-degree: 81%
 
 ---
 
@@ -30,6 +30,8 @@ ht-degree: 82%
 * 盡量減少資料移動和複製：從企業資料倉儲的資料集中建立客群，而無需複製基礎資料來管理可操作的行銷輪廓和客群。
 
 * 利用單一系統來實現體驗驅動的工作流程：在 Adobe Experience Platform 中管理攝取和聯合的客群，並協調所有管道的傳出體驗。
+
+* B2C和B2B CDP客戶現在可以運用同盟受眾構成，透過整合來自支援企業資料倉儲的資料，建置以人物為基礎的受眾。 此外，他們可以結合企業資料倉儲中可用的相關屬性，強化現有的AEP以人為本的受眾，進而增強受眾設定檔，以實現更個人化且更有針對性的參與。
 
 ## 使用案例 {#rn-uc}
 
@@ -161,15 +163,15 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="選取主要識別欄位"
->abstract="用於設定檔的主要識別欄位。"
+>title="選取主要身分欄位"
+>abstract="用於設定檔的主要身分欄位。"
 
 >[!CONTEXTUALHELP]
 >id="ddc_orchestration_saveprofile_selectdataset"
->title="AEP資料集"
->abstract="選取要用於設定檔的AEP資料集。"
+>title="AEP 資料集"
+>abstract="選取要用於設定檔的 AEP 資料集。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="儲存輪廓選取 AEP 結構描述"
->abstract="選取用於設定檔的AEP結構描述。"
+>title="儲存設定檔選取 AEP 結構描述"
+>abstract="選取要用於設定檔的 AEP 結構描述。"

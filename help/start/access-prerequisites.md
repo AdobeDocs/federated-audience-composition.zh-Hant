@@ -2,10 +2,10 @@
 title: 聯合客群構成的先決條件和護欄
 description: 了解聯合客群構成的先決條件、權限和護欄
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 88%
+source-wordcount: '311'
+ht-degree: 73%
 
 ---
 
@@ -27,12 +27,25 @@ ht-degree: 88%
 * Google Big Query
 * Snowflake
 * Vertica Analytics
+* Microsoft Fabric
 
 若要了解如何建立與這些系統的連線，請參閱[此頁面](../connections/connections.md)。
 
 ## 沙箱
 
 購買同盟對象構成時，您有權使用兩個沙箱。 若有任何額外的沙箱佈建請求，請聯絡您的 Adobe 代表。
+
+若要檢視使用中的同盟對象構成沙箱清單，請遵循下列步驟：
+
+1. 從Federated Audience Composition，存取&#x200B;**[!UICONTROL 管理]**&#x200B;下的&#x200B;**[!UICONTROL 授權使用情況]**&#x200B;功能表。
+
+1. 按一下&#x200B;**[!UICONTROL 資料輸出總量]**&#x200B;中的![](assets/do-not-localize/Smock_InfoOutline_18_N.svg)圖示以存取您的沙箱屬性。
+
+   ![](assets/sandbox_1.png)
+
+1. 「屬性」彈出視窗中顯示沙箱的相關資訊。
+
+   ![](assets/sandbox_2.png)
 
 ## 權限 {#permissions}
 
@@ -52,3 +65,7 @@ ht-degree: 88%
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
 * [Adobe Real-Time Customer Data Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}中列出的權益、產品限制和效能護欄適用於同盟對象構成。
+
+<!--* Federated Audience Composition supports the export of large audiences, with file sizes greater than 1 GB. For optimal performance, the maximum recommended file size is up to 20 GB.
+-->
+

@@ -2,11 +2,9 @@
 title: 存取聯合客群構成
 description: 了解聯合客群構成所需的權限
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-hide: true
-hidefromtoc: true
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 0f4bba9c749a6548da07d78136e914cc53314684
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '301'
 ht-degree: 93%
 
 ---
@@ -20,10 +18,6 @@ ht-degree: 93%
 例如，如果啟用名為「fac-test」的新沙箱，則會建立對應的產品設定檔「ACP_FAC - fac-test - admin」。為了使用此沙箱存取聯合客群構成，您必須將使用者新增至此產品設定檔。
 
 ## 管理對聯合客群構成的存取權
-
->[!AVAILABILITY]
->
->權限是作為 3 月版的一部分提供。
 
 若要存取&#x200B;**聯合客群構成**，您必須先確保&#x200B;**管理聯合資料**&#x200B;權限已指派給適當的角色。然後，您必須將這些角色指派給需要存取&#x200B;**聯合客群構成**&#x200B;的使用者。
 

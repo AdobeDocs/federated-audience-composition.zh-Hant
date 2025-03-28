@@ -2,16 +2,56 @@
 title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 93%
+source-wordcount: '813'
+ht-degree: 72%
 
 ---
 
 # 發行說明 {#rn-new}
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Federated Audience Composition] 延續了最新版本的創新和改進內容。 欲深入瞭解這些變更，可參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}。
+
+## 2025年3月發行 {#fac-25-3}
+
+### 改進項目 {#fac-25-3-improvements}
+
+此版本隨附下列改善專案。
+
+* **同盟對象組合許可權**
+
+  自3月發行版本開始，[!DNL Federated Audience Composition]將開始強制將&#x200B;**同盟資料管理**&#x200B;與&#x200B;**同盟組合**&#x200B;介面存取給已授與管理同盟資料&#x200B;**許可權的使用者。**
+
+  我們建議使用者連絡管理員，將此許可權新增至其角色，以繼續存取[!DNL Federated Audience Composition]使用者介面。
+
+  若要瞭解如何指派此許可權，請參閱[詳細檔案](feature-access.md)。
+
+<!--
+* **Data model Canvas view**
+
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+
+* **AI Assistant**
+
+    The AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. 
+-->
+
+
+### 相容性 {#fac-25-3-compat}
+
+* **資料庫連線**
+
+  透過此新版本，同盟對象構成現在支援Databricks資料庫連線的私人連結連線。
+這包括通過私人連結與Amazon Web Services (AWS)上託管的Databricks資料庫的安全連線，以及透過VPN與Microsoft Azure上託管的Databricks資料庫的安全連線。 [了解更多](../connections/federated-db.md#databricks)
+
+* **支援B2B CDP客戶**
+
+  Federated Audience Composition現在可供B2B) Customer Data Platform (CDP)客戶用於以人物為基礎的對象使用案例。
+
+* **Snowflake安全連線**
+
+  透過此新版本，同盟對象構成支援到Microsoft Azure上代管的Snowflake資料庫的安全私人連結連線。 [了解更多](../connections/federated-db.md#snowflake)
 
 ## 2025 年 2 月發行版本 {#fac-25-2}
 
@@ -32,16 +72,6 @@ ht-degree: 93%
 * **Databricks 的客群擴充支援**
 
   您現在可以在「讀取客群」流程中使用 Databricks，為 Databricks 資料庫啟用活動並允許將其設定為新目的地。[了解更多](../connections/destinations.md)
-
-<!--
-* **Federated Audience Composition permissions**
-
-    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
-
-    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
-
-    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
--->
 
 ## 2024 年 11 月發行版本 {#fac-24-11}
 
@@ -92,9 +122,8 @@ ht-degree: 93%
 
 同盟受眾構成可讓企業透過彈性且擴充的存取方式存取企業資料倉儲，以使用關鍵企業資料集和強大的品牌啟動及即時體驗來構成受眾。 有了這種新方法，身為 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/home){target="_blank"} 和/或 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"} 使用者，您就可以直接聯合現有資料倉儲中的客群資料，在一個系統中擴充 Adobe Experience Platform 客群。
 
-對於需要靈活地使用倉庫資料集來構成客群的企業，聯合客群構成恰好滿足了他們不斷增長的市場需求。這使得企業能夠減少資料移動，同時向行銷團隊提供關鍵客群資料，以滿足使用案例要求並提升個人化體驗。 
+對於需要彈性來使用倉儲資料集組成受眾的企業來說，同盟受眾組成可解決其日益增長的市場需求。 這使得企業能夠減少資料移動，同時向行銷團隊提供關鍵客群資料，以滿足使用案例要求並提升個人化體驗。
 
 如需有關聯合客群構成功能的詳細資訊，請參閱[此頁面](get-started.md)和[常見問題](faq.md)。
 
 如需存取聯合客群構成的先決條件和目前護欄的詳細資訊，請參閱[此頁面](access-prerequisites.md)。
-
