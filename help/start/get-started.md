@@ -163,8 +163,8 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="選取主要身分欄位"
->abstract="用於設定檔的主要身分欄位。"
+>title="選取主要識別欄位"
+>abstract="用於設定檔的主要識別欄位。"
 
 >[!CONTEXTUALHELP]
 >id="ddc_orchestration_saveprofile_selectdataset"
