@@ -3,9 +3,9 @@ title: 常見問題
 description: 有關 Adobe Experience Platform 聯合客群構成的常見問題
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '897'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 +++存取聯合客群構成需要哪些權限？
 
-聯合客群構成需要 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer Prime 或 Ultimate 套件。您也需要購買同盟對象構成。
+聯合客群構成需要 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer Prime 或 Ultimate 套件。您還需要購買聯合客群構成。
 
 為了使用聯合客群構成，您必須將每位使用者新增至為每個沙箱建立的特定輪廓中。如需詳細資訊，請參閱[存取聯合客群構成](access-prerequisites.md)頁面。
 
@@ -89,14 +89,14 @@ Adobe Experience Platform 或聯合客群構成所產生的客群資料不會長
 
 +++
 
-+++如何使用同盟受眾構成建立及管理隱私權請求？
++++ 如何使用聯合客群構成來建立和管理隱私請求？
 
-您可以透過兩種方式提交存取和刪除Adobe同盟對象構成中客戶資料的個別請求：
+您可以透過兩種方式提交個別請求，以存取和刪除 Adobe 聯合客群構成中的客戶資料：
 
-* 透過Adobe Experience Platform **Privacy Service UI**。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant){target="_blank"}
-* 透過Adobe Experience Platform **Privacy Service API**。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/overview){target="_blank"}
+* 透過 Adobe Experience Platform **Privacy Service 使用者介面**。[了解更多](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant){target="_blank"}
+* 透過 Adobe Experience Platform **Privacy Service API**。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/overview){target="_blank"}
 
-建立及管理&#x200B;**存取要求**&#x200B;和&#x200B;**刪除要求**&#x200B;的所有步驟都在[即時客戶設定檔檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/privacy){target="_blank"}中詳細說明。
+建立和管理&#x200B;**存取請求**&#x200B;及&#x200B;**刪除請求**&#x200B;的所有步驟，在[即時客戶輪廓文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/privacy){target="_blank"}中均有詳細說明。
 
 +++
 
