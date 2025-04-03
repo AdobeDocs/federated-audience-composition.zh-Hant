@@ -5,13 +5,13 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 81%
+ht-degree: 95%
 
 ---
 
 # 開始使用聯合客群構成 {#gs-fac}
 
-同盟對象組合可用於[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/home){target="_blank"}和[Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}環境。 它可讓您從協力廠商資料倉儲建立及擴充對象，並將對象匯入至Adobe Experience Platform。 聯合客群構成提供簡易且強大的解決方案，可讓您直接在 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer 中連接企業資料倉儲，並針對資料倉儲中的表格執行查詢。
+聯合客群構成適用於 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/home){target="_blank"} 和 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"} 環境。您可以透過聯合客群構成使用第三方資料倉儲來建置和擴充客群，並將客群匯入 Adobe Experience Platform。聯合客群構成提供簡易且強大的解決方案，可讓您直接在 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer 中連接企業資料倉儲，並針對資料倉儲中的表格執行查詢。
 
 有了 Adobe 聯合客群構成協助，Adobe Experience Platform 應用程式使用者就能存取儲存在資料倉儲與雲端儲存平台 (如 Amazon Redshift、Azure Synapse Analytics 等) 中的客戶資料。現在，客戶資料可以存放在多個資料倉儲中，而且無需複寫，就能立即存取。[此頁面](../connections/federated-db.md#supported-db)列出了支援的平台。
 
@@ -65,23 +65,23 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 >
 >在執行構成後，產生的客群將作為外部客群儲存在 Adobe Experience Platform 中，並可用於 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer。該客群可透過「**客群**」選單進行存取。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
-## 治理、隱私和安全性 {#governance-privacy-security}
+## 治理、隱私權和安全性 {#governance-privacy-security}
 
-### 隱私權請求 {#gov-privacy-requests}
+### 隱私請求 {#gov-privacy-requests}
 
-建立構成後，系統會將產生的對象儲存至Adobe Experience Platform中。
+您建立客群構成後，產生的客群會儲存至 Adobe Experience Platform。
 
-然後，您可以透過Adobe Experience Platform **Privacy Service**&#x200B;提出隱私權請求，存取和/或刪除對應至這些對象的設定檔資料，此網站提供[使用者介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant){target="_blank"}和[RESTful API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/overview){target="_blank"}，協助您管理客戶資料請求。
+Adobe Experience Platform **Privacy Service** 提供[使用者介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant){target="_blank"} 和 [RESTful API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/overview){target="_blank"} 來協助您管理客戶資料請求，讓您可以提出隱私請求，要求存取和/或刪除與這些客群對應的輪廓資料。
 
 >[!NOTE]
 >
->如需Privacy Service的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target="_blank"}。
+>請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target="_blank"}，了解更多 Privacy Service 的資訊。
 
-您可以建立和管理存取和刪除Adobe同盟對象構成中客戶資料的個別請求。 在[即時客戶個人檔案檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/privacy){target="_blank"}中詳細說明了提交&#x200B;**存取要求**&#x200B;和&#x200B;**刪除要求**&#x200B;的步驟。
+您可以建立及管理要求存取和刪除 Adobe 聯合客群構成中客戶資料的個別請求。提交&#x200B;**存取請求**&#x200B;和&#x200B;**刪除請求**&#x200B;的步驟，在[即時客戶輪廓文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/privacy){target="_blank"}中均有詳細說明。
 
 ### 稽核軌跡 {#gov-audit-trail}
 
-稽核軌跡功能會針對您的環境即時提供所有動作和事件的詳細時間順序記錄。 [了解更多](../admin/audit-trail.md)
+稽核軌跡功能會針對您在環境執行的所有動作和事件，即時提供按時間順序排列的詳細記錄。[了解更多](../admin/audit-trail.md)
 
 ## 了解更多 {#learn}
 
@@ -164,14 +164,14 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
 >title="選取主要識別欄位"
->abstract="用於設定檔的主要識別欄位。"
+>abstract="用於輪廓的主要識別欄位。"
 
 >[!CONTEXTUALHELP]
 >id="ddc_orchestration_saveprofile_selectdataset"
 >title="AEP 資料集"
->abstract="選取要用於設定檔的 AEP 資料集。"
+>abstract="選取要用於輪廓的 AEP 資料集。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="儲存設定檔選取 AEP 結構描述"
->abstract="選取要用於設定檔的 AEP 結構描述。"
+>title="儲存輪廓選取 AEP 結構描述"
+>abstract="選取要用於輪廓的 AEP 結構描述。"

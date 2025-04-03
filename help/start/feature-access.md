@@ -5,7 +5,7 @@ exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: 0f4bba9c749a6548da07d78136e914cc53314684
 workflow-type: tm+mt
 source-wordcount: '301'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 93%
 
 ## 管理對沙箱的存取權 {#access-sandboxes}
 
-購買Adobe Experience Platform同盟對象構成時，系統會同時為每個使用中的沙箱建立產品設定檔。 此產品設定檔是在 Admin Console 中的 **Adobe Experience Platform** 產品卡下方建立，並遵循以下命名慣例：`ACP_FAC - <<SandboxName>> - admin.`。若要存取特定沙箱的聯合客群構成，您必須將使用者新增至為該沙箱建立的產品設定檔中。
+當您購買 Adobe Experience Platform 聯合客群構成時，系統會為當時的每個使用中沙箱建立產品設定檔。此產品設定檔是在 Admin Console 中的 **Adobe Experience Platform** 產品卡下方建立，並遵循以下命名慣例：`ACP_FAC - <<SandboxName>> - admin.`。若要存取特定沙箱的聯合客群構成，您必須將使用者新增至為該沙箱建立的產品設定檔中。
 
 例如，如果啟用名為「fac-test」的新沙箱，則會建立對應的產品設定檔「ACP_FAC - fac-test - admin」。為了使用此沙箱存取聯合客群構成，您必須將使用者新增至此產品設定檔。
 
