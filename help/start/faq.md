@@ -2,16 +2,16 @@
 title: 常見問題
 description: 有關 Adobe Experience Platform 聯合客群構成的常見問題
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: ht
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 常見問題 {#faq}
 
-以下是有關 Adobe Experience Platform 聯合客群構成的常見問題清單。[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/faq){target="_blank"}也提供了 Adobe Experience Platform Segmentation Service 的全球常見問題。
+以下是有關 Adobe Experience Platform 聯合客群構成的常見問題清單。[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/faq){target="_blank"}上的Adobe Experience Platform Segmentation Service也提供全域常見問題集。
 
 
 +++存取聯合客群構成需要哪些權限？
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 +++目前支援哪些雲端倉儲？
 
-聯合客群構成支援的系統清單可在[此頁面](../start/access-prerequisites.md#supported-systems)取得。
+[此頁面](../start/access-prerequisites.md#supported-systems)提供同盟對象組合支援的系統清單。
 
 +++
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 例如：
 
 * 在客群建立的案例中，客群會在您的倉儲中建立，而您可以使用聯合客群構成執行其他構成任務和資料操作，然後再透過 Adobe Experience Platform 客群入口網站發佈產生的客群和相關屬性。客群定義和相關屬性會轉移到 Adobe Experience Platform。
-請注意，外部產生的客群目前的資料過期時間為 30 天。此資料過期時間有助於減少組織內部儲存的過量資料。資料過期後，關聯的資料集仍會在資料集庫存中顯示，但您無法啟動客群，且用戶輪廓計數會顯示為零。透過 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}了解更多。
+請注意，外部產生的客群目前的資料過期時間為 30 天。此資料過期時間有助於減少組織內部儲存的過量資料。資料過期後，關聯的資料集仍會在資料集庫存中顯示，但您無法啟動客群，且用戶輪廓計數會顯示為零。進一步瞭解[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}。
 
 * 客群擴充案例會以現有的 Adobe Experience Platform 客群做為起點。這裡可以考慮兩種情況：
    1. 從聯合資料倉儲引入額外的客群承載屬性：在此情況下，新增的額外屬性將會成為此客群定義的一部分。外部產生的客群資料過期時間同樣是 30 天，與上述相同。
@@ -96,7 +96,7 @@ Adobe Experience Platform 或聯合客群構成所產生的客群資料不會長
 * 透過 Adobe Experience Platform **Privacy Service 使用者介面**。[了解更多](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant){target="_blank"}
 * 透過 Adobe Experience Platform **Privacy Service API**。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/overview){target="_blank"}
 
-建立和管理&#x200B;**存取請求**&#x200B;及&#x200B;**刪除請求**&#x200B;的所有步驟，在[即時客戶輪廓文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/privacy){target="_blank"}中均有詳細說明。
+建立及管理&#x200B;**存取要求**&#x200B;和&#x200B;**刪除要求**&#x200B;的所有步驟都在[即時客戶設定檔檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/privacy){target="_blank"}中詳細說明。
 
 +++
 

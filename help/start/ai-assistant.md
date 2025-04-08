@@ -1,7 +1,7 @@
 ---
 title: 使用 AI 助理
 description: 瞭解如何善用AI助理
-source-git-commit: c9396f2b72fe6572f5feb5145b6d636ac6c068e1
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 3%
@@ -19,7 +19,7 @@ AI Assistant是使用者介面功能，旨在協助您導覽和瞭解Adobe概念
 
 >[!CAUTION]
 >
->您必須同意Adobe Experience Cloud Generative AI使用者准則，才能使用AI助理。 在[此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}中進一步瞭解合約。
+>您必須同意Adobe Experience Cloud Generative AI使用者准則，才能使用AI助理。 在[此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}上進一步瞭解合約。
 
 在Federated Audience Composition中，您可以存取與程式的各個方面相關的Adobe概念產品知識問題。 這類問題的範例包括：
 

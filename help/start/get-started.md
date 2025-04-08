@@ -2,18 +2,18 @@
 title: 開始使用 Experience Platform 聯合客群構成
 description: 了解什麼是 Adobe 聯合客群構成，以及如何在 Adobe Experience Platform 中使用此功能
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 95%
+ht-degree: 83%
 
 ---
 
 # 開始使用聯合客群構成 {#gs-fac}
 
-聯合客群構成適用於 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/home){target="_blank"} 和 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"} 環境。您可以透過聯合客群構成使用第三方資料倉儲來建置和擴充客群，並將客群匯入 Adobe Experience Platform。聯合客群構成提供簡易且強大的解決方案，可讓您直接在 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer 中連接企業資料倉儲，並針對資料倉儲中的表格執行查詢。
+同盟對象構成可用於[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/home){target="_blank"}和[Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}環境。 您可以透過聯合客群構成使用第三方資料倉儲來建置和擴充客群，並將客群匯入 Adobe Experience Platform。聯合客群構成提供簡易且強大的解決方案，可讓您直接在 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer 中連接企業資料倉儲，並針對資料倉儲中的表格執行查詢。
 
-有了 Adobe 聯合客群構成協助，Adobe Experience Platform 應用程式使用者就能存取儲存在資料倉儲與雲端儲存平台 (如 Amazon Redshift、Azure Synapse Analytics 等) 中的客戶資料。現在，客戶資料可以存放在多個資料倉儲中，而且無需複寫，就能立即存取。[此頁面](../connections/federated-db.md#supported-db)列出了支援的平台。
+有了 Adobe 聯合客群構成協助，Adobe Experience Platform 應用程式使用者就能存取儲存在資料倉儲與雲端儲存平台 (如 Amazon Redshift、Azure Synapse Analytics 等) 中的客戶資料。現在，客戶資料可以存放在多個資料倉儲中，而且無需複寫，就能立即存取。支援的平台列於[此頁面](../connections/federated-db.md#supported-db)。
 
 >[!INFO]
 >
@@ -55,11 +55,11 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 
 1. **資料整合**：匯集各種來源的資料，並合併為統一的資料集。若要進一步了解如何連接 Adobe Experience Platform 應用程式和您的企業資料倉儲、支援的資料庫，以及如何設定這些資料庫，請參閱[本節](../connections/federated-db.md)說明。
 
-1. **資料模式**：設計並建立資料模型和結構描述，以定義資料的結構、關係和限制。前往[此頁面](../customer/schemas.md)深入了解結構描述。前往[此頁面](../data-management/gs-models.md)學習如何為資料模型建立連結。
+1. **資料模式**：設計並建立資料模型和結構描述，以定義資料的結構、關係和限制。在[此頁面](../customer/schemas.md)上進一步瞭解結構描述。 在[此頁面](../data-management/gs-models.md)瞭解如何建立資料模型的連結。
 
 1. **資料轉換**：應用資料處理技術，修改資料元素的格式、結構或值，使其相容或適用於特定的分析或應用程式。
 
-1. **資料使用**：建立、協調及建置客群。前往[此頁面](../compositions/gs-compositions.md)了解如何構成客群。您也可以透過 Adobe Experience Platform Audience Portal 和目標系統，更新或重複使用現有的客群。前往[此頁面](../connections/destinations.md)了解更多
+1. **資料使用**：建立、協調及建置客群。瞭解如何在[此頁面](../compositions/gs-compositions.md)上撰寫對象。 您也可以透過 Adobe Experience Platform Audience Portal 和目標系統，更新或重複使用現有的客群。在[此頁面](../connections/destinations.md)瞭解更多資訊
 
 >[!NOTE]
 >
@@ -71,13 +71,13 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 
 您建立客群構成後，產生的客群會儲存至 Adobe Experience Platform。
 
-Adobe Experience Platform **Privacy Service** 提供[使用者介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant){target="_blank"} 和 [RESTful API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/overview){target="_blank"} 來協助您管理客戶資料請求，讓您可以提出隱私請求，要求存取和/或刪除與這些客群對應的輪廓資料。
+然後，您可以透過Adobe Experience Platform **Privacy Service**&#x200B;提出隱私權請求，存取和/或刪除對應至這些對象的設定檔資料，此網站提供[使用者介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant){target="_blank"}和[RESTful API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/overview){target="_blank"}，協助您管理客戶資料請求。
 
 >[!NOTE]
 >
->請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target="_blank"}，了解更多 Privacy Service 的資訊。
+>如需Privacy Service的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target="_blank"}。
 
-您可以建立及管理要求存取和刪除 Adobe 聯合客群構成中客戶資料的個別請求。提交&#x200B;**存取請求**&#x200B;和&#x200B;**刪除請求**&#x200B;的步驟，在[即時客戶輪廓文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/privacy){target="_blank"}中均有詳細說明。
+您可以建立及管理要求存取和刪除 Adobe 聯合客群構成中客戶資料的個別請求。在[即時客戶個人檔案檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/privacy){target="_blank"}中詳細說明了提交&#x200B;**存取要求**&#x200B;和&#x200B;**刪除要求**&#x200B;的步驟。
 
 ### 稽核軌跡 {#gov-audit-trail}
 
@@ -88,9 +88,9 @@ Adobe Experience Platform **Privacy Service** 提供[使用者介面](https://ex
 <!-- Workflow + Workflow activities-->
 
 
-若要了解如何存取聯合客群構成、護欄和限制，請參閱[此頁面](access-prerequisites.md)。
+瞭解如何在[此頁面](access-prerequisites.md)上存取同盟對象構成、護欄和限制。
 
-另請參閱[此頁面](faq.md)的常見問題。
+另請參閱[此頁面](faq.md)上的常見問題。
 
 
 >[!CONTEXTUALHELP]

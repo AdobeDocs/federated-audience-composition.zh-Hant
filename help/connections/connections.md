@@ -3,10 +3,10 @@ audience: end-user
 title: 建立和管理與同盟資料庫的連線
 description: 瞭解如何建立和管理與同盟資料庫的連線
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 7818cabf3769cffd05ca5308910fbc412240999e
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建立並豐富對象，並將對象匯入至Adobe Experience Platform。 支援的資料倉儲列於[此區段](../start/access-prerequisites.md#supported-systems)中。
 
-若要使用同盟資料庫和Adobe Experience Platform，您必須先建立連線。 此連線設定於Adobe Experience Platform使用者介面提供的專用使用者介面，如本頁所述。
+若要使用同盟資料庫和Adobe Experience Platform，您必須先建立連線。 此連線設定於Adobe Experience Platform使用者介面提供的專用使用者介面中，詳情請參閱本頁。
 
 若要設定與資料庫的連線，請執行下列步驟：
 
@@ -28,7 +28,7 @@ Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建�
 
    ![](assets/connections_name.png){zoomable="yes"}
 
-   選取其型別可讓您存取要填寫的其他屬性。 在此瞭解更多有關[此頁面](federated-db.md)中支援的資料庫。
+   選取其型別可讓您存取要填寫的其他屬性。 在這裡瞭解更多有關[此頁面](federated-db.md)支援的資料庫。
 
    ![](assets/connections_details.png){zoomable="yes"}
 
@@ -40,7 +40,7 @@ Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建�
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
-   * [Microsoft光纖](federated-db.md#microsoft-fabric)
+   * [Microsoft Fabric](federated-db.md#microsoft-fabric)
 
 1. 針對每個支援的資料庫，選取&#x200B;**[!UICONTROL 伺服器IP]**&#x200B;按鈕。 系統會顯示與您同盟對象構成執行個體相關聯的所有IP清單。
 
