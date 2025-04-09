@@ -5,7 +5,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '813'
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 87%
 
 * **Databricks 連線**
 
-  透過此一新版本，聯合客群構成現在支援透過私人連結進行 Databricks 資料庫連線，這包括通過私人連結與Amazon Web Services (AWS)上託管的Databricks資料庫的安全連線，以及透過VPN與Microsoft Azure上託管的Databricks資料庫的安全連線。 [了解更多](../connections/federated-db.md#databricks)
+  透過此一新版本，聯合客群構成現在支援透過私人連結進行 Databricks 資料庫連線，這包括透過私人連結與託管在 Amazon Web Services (AWS) 上的 Databricks 資料庫建立安全連線，以及透過 VPN 與託管在 Microsoft Azure 上的 Databricks 資料庫建立安全連線。[了解更多](../connections/federated-db.md#databricks)
 
 * **為 B2B CDP 客戶提供支援**
 

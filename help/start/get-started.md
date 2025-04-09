@@ -5,13 +5,13 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 83%
+ht-degree: 87%
 
 ---
 
 # 開始使用聯合客群構成 {#gs-fac}
 
-同盟對象構成可用於[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/home){target="_blank"}和[Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}環境。 您可以透過聯合客群構成使用第三方資料倉儲來建置和擴充客群，並將客群匯入 Adobe Experience Platform。聯合客群構成提供簡易且強大的解決方案，可讓您直接在 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer 中連接企業資料倉儲，並針對資料倉儲中的表格執行查詢。
+同盟對象構成可用於[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/home)和[Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)環境。 您可以透過聯合客群構成使用第三方資料倉儲來建置和擴充客群，並將客群匯入 Adobe Experience Platform。聯合客群構成提供簡易且強大的解決方案，可讓您直接在 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer 中連接企業資料倉儲，並針對資料倉儲中的表格執行查詢。
 
 有了 Adobe 聯合客群構成協助，Adobe Experience Platform 應用程式使用者就能存取儲存在資料倉儲與雲端儲存平台 (如 Amazon Redshift、Azure Synapse Analytics 等) 中的客戶資料。現在，客戶資料可以存放在多個資料倉儲中，而且無需複寫，就能立即存取。支援的平台列於[此頁面](../connections/federated-db.md#supported-db)。
 
@@ -31,7 +31,7 @@ ht-degree: 83%
 
 * 利用單一系統來實現體驗驅動的工作流程：在 Adobe Experience Platform 中管理攝取和聯合的客群，並協調所有管道的傳出體驗。
 
-* B2C和B2B CDP客戶現在可以運用同盟受眾構成，透過整合來自支援企業資料倉儲的資料，建置以人物為基礎的受眾。 此外，他們可以結合企業資料倉儲中可用的相關屬性，強化現有的AEP以人為本的受眾，進而增強受眾設定檔，以實現更個人化且更有針對性的參與。
+* B2C 和 B2B CDP 客戶現在可以利用聯合客群構成，透過整合受支援的企業資料倉儲中的資料來建立以人員為基礎的客群。此外，他們可以透過整合企業資料倉儲中的相關屬性來擴充現有 AEP 以人員為基礎的客群，從而增強其客群輪廓以實現更個人化和有針對性的參與。
 
 ## 使用案例 {#rn-uc}
 
@@ -43,7 +43,7 @@ ht-degree: 83%
 
 1. 客群擴充：利用從企業資料倉儲聯合的構成客群資料，擴充 Adobe Experience Platform 中的現有客群。此資料將不會長期保存在 Adobe Experience Platform 客戶輪廓中。
 
-![圖表](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+![圖表](assets/fac-use-cases.png)
 
 ## 主要步驟 {#gs-steps}
 
@@ -63,7 +63,7 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 
 >[!NOTE]
 >
->在執行構成後，產生的客群將作為外部客群儲存在 Adobe Experience Platform 中，並可用於 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer。該客群可透過「**客群**」選單進行存取。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>在執行構成後，產生的客群將作為外部客群儲存在 Adobe Experience Platform 中，並可用於 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer。該客群可透過「**客群**」選單進行存取。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal)
 
 ## 治理、隱私權和安全性 {#governance-privacy-security}
 
@@ -71,13 +71,13 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 
 您建立客群構成後，產生的客群會儲存至 Adobe Experience Platform。
 
-然後，您可以透過Adobe Experience Platform **Privacy Service**&#x200B;提出隱私權請求，存取和/或刪除對應至這些對象的設定檔資料，此網站提供[使用者介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant){target="_blank"}和[RESTful API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/overview){target="_blank"}，協助您管理客戶資料請求。
+然後，您可以透過Adobe Experience Platform **Privacy Service**&#x200B;提出隱私權請求，存取和/或刪除對應至這些對象的設定檔資料，此網站提供[使用者介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant)和[RESTful API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/overview)，協助您管理客戶資料請求。
 
 >[!NOTE]
 >
->如需Privacy Service的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target="_blank"}。
+>如需Privacy Service的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)。
 
-您可以建立及管理要求存取和刪除 Adobe 聯合客群構成中客戶資料的個別請求。在[即時客戶個人檔案檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/privacy){target="_blank"}中詳細說明了提交&#x200B;**存取要求**&#x200B;和&#x200B;**刪除要求**&#x200B;的步驟。
+您可以建立及管理要求存取和刪除 Adobe 聯合客群構成中客戶資料的個別請求。在[即時客戶個人檔案檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/privacy)中詳細說明了提交&#x200B;**存取要求**&#x200B;和&#x200B;**刪除要求**&#x200B;的步驟。
 
 ### 稽核軌跡 {#gov-audit-trail}
 

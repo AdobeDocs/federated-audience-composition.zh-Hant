@@ -6,7 +6,7 @@ exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '2120'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -175,7 +175,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
 >[!NOTE]
 >
->支援透過私人連結，安全地存取外部 Snowflake 資料倉儲。請注意，您的Snowflake帳戶必須託管至Amazon Web Services (AWS)或Azure，且位置與您的同盟對象構成環境相同。 請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。
+>支援透過私人連結，安全地存取外部 Snowflake 資料倉儲。請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 或 Azure 上，並且與您的聯合客群構成環境位於同一區域。請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。
 >
 
 使用聯合資料庫來處理儲存在外部資料庫中的資訊。請按照以下步驟，設定對 Snowflake 的存取權。
@@ -285,7 +285,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
 >[!NOTE]
 >
->支援透過私人連結安全存取您的外部Databricks資料倉儲。 這包括通過私人連結與Amazon Web Services (AWS)上託管的Databricks資料庫的安全連線，以及透過VPN與Microsoft Azure上託管的Databricks資料庫的安全連線。 請聯絡您的Adobe代表，以尋求設定安全存取權的協助。
+>支援透過私人連結，安全地存取外部 Databricks 資料倉儲。這包括透過私人連結與託管在 Amazon Web Services (AWS) 上的 Databricks 資料庫建立安全連線，以及透過 VPN 與託管在 Microsoft Azure 上的 Databricks 資料庫建立安全連線。請聯絡您的 Adobe 代表，以取得設定安全存取的協助。
 
 使用聯合資料庫來處理儲存在外部資料庫中的資訊。請按照以下步驟，設定對 Databricks 的存取權。
 
