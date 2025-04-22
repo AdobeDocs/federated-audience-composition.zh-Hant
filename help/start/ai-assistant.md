@@ -1,25 +1,25 @@
 ---
-title: 使用 AI 助理
-description: 了解如何善用 AI 助理
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+title: 使用AI助理
+description: 瞭解如何善用AI助理
+source-git-commit: 83d6074da966553caec36908729729445246ea2f
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 85%
+source-wordcount: '246'
+ht-degree: 54%
 
 ---
 
-# 使用 AI 助理 {#ai-assistant}
+# 使用AI助理 {#ai-assistant}
 
-AI 助理是一項使用者介面功能，旨在協助您導覽和了解 Adobe 概念，並取得您特定環境的運作深入分析。它適用於 Adobe Experience Cloud 的多項產品，包括聯合客群構成。
+AI Assistant是使用者介面功能，旨在協助您導覽和瞭解Adobe概念，並取得您特定環境的營運深入分析。 它適用於 Adobe Experience Cloud 的多項產品，包括聯合客群構成。
 
-若要存取 AI 助理，請按一下頂端列上的圖示。AI 助理便會顯示在畫面右側區段。
+若要存取AI助理，請按一下頂端列中的圖示。 AI助理會顯示在畫面的右側區段。
 
 ![](assets/do-not-localize/ai-assistant-open.png)
 
 
 >[!CAUTION]
 >
->您必須同意 Adobe Experience Cloud 生成式 AI 使用者準則，然後才能使用 AI 助理。在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}上進一步瞭解合約。
+>您必須同意Adobe Experience Cloud Generative AI使用者准則，才能使用AI Assistant。 在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}上進一步瞭解合約。
 
 在聯合客群構成中，您可以存取與流程各個方面相關的 Adobe 概念的產品知識問題。此類問題的範例包括：
 
