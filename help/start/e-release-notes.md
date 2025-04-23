@@ -4,16 +4,44 @@ description: 最新更新和發行說明
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
+source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 90%
+source-wordcount: '969'
+ht-degree: 77%
 
 ---
 
 # 發行說明 {#rn-new}
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Federated Audience Composition] 延續了最新版本的創新和改進內容。 在[Adobe Experience Platform發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}中進一步瞭解這些變更。
+
+## 2025年4月發行 {#fac-25-4}
+
+### 改進項目 {#fac-25-4-improvements}
+
+此版本包含下列改進項目。
+
+* **資料模型畫布檢視**
+
+  「資料模型」區段的「畫布」檢視可透過在畫布版面配置中在現有表格檢視旁邊啟用資料模型及其連結的視覺效果，進而改善體驗。 [了解更多](../data-management/gs-models.md)
+
+* **AI 助理**
+
+  AI Assistant是使用者介面功能，旨在協助您導覽和瞭解Adobe概念，並取得您特定環境的營運深入分析。 它適用於Adobe Experience Cloud的多個產品，包括同盟對象構成。 [了解更多](../start/audiences.md)
+
+* **資料模型名稱**
+
+  從「對象」功能表，**同盟組合**&#x200B;索引標籤現在會顯示資料模型名稱而不是ID，進而提高清晰度和整體可用性。
+
+* **客群**
+
+  現在，當使用者選擇沒有關聯對象的資料模型時，「對象」選單會顯示所選資料模型的名稱或標籤。
+
+### 相容性 {#fac-25-4-compat}
+
+* **Snowflake 安全連線**
+
+  透過此新版本，同盟對象構成支援與Microsoft Azure上託管的Amazon Redshift資料庫的安全私人連結連線。 [了解更多](../connections/federated-db.md#amazon-redshift)
 
 ## 2025 年 3 月版 {#fac-25-3}
 
@@ -34,11 +62,11 @@ ht-degree: 90%
 
     The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
 
-
 * **AI Assistant**
 
     AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. [Learn more](ai-assistant.md)
 -->
+
 
 ### 相容性 {#fac-25-3-compat}
 
