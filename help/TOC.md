@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 聯合客群構成
 title: Experience Platform 聯合客群構成文件
 breadcrumb-title: Experience Platform 聯合客群構成
-source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
+source-git-commit: 8cd1b967e004d84fda3788e442e41d2010f5ec24
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 100%
+source-wordcount: '159'
+ht-degree: 84%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 + [Experience Platform 聯合客群構成文件](home.md)
 + [發行說明](start/release-notes.md)
 + [發行說明](start/e-release-notes.md)
-+ 開始使用聯合客群構成 {#start}
++ 開始使用同盟對象構成 {#start}
    + [什麼是聯合客群構成](start/get-started.md)
    + [先決條件和護欄](start/access-prerequisites.md)
    + [存取聯合客群構成](start/feature-access.md)
@@ -24,12 +24,13 @@ ht-degree: 100%
 + 設定步驟 {#config}
    + [建立和管理連接](connections/connections.md)
    + [設定您的聯合資料庫](connections/federated-db.md)
-   + 資料模型與結構描述{#datamodel}
+   + [FDA許可權矩陣](connections/fda-rights.md)
+   + 資料模型和結構描述{#datamodel}
       + [建立及設定結構描述](customer/schemas.md)
       + [設定您的資料模型 (Beta)](data-management/gs-models-beta.md)
       + [設定您的資料模型](data-management/gs-models.md)
    + [使用外部資料擴充 Adobe Experience Platform 客群](connections/destinations.md)
-+ 構成客群 {#compositions}
++ 撰寫對象 {#compositions}
    + [開始使用構成](compositions/gs-compositions.md)
    + 建立並執行您的第一個構成 {#create-composition}
       + [建立構成的主要原則](compositions/gs-composition-creation.md)
