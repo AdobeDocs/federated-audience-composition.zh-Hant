@@ -5,43 +5,43 @@ hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 # 發行說明 {#rn-new}
 
-[!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Adobe Experience Platform] 上內建的原生 [!DNL Federated Audience Composition] 延續了最新版本的創新和改進內容。 在[Adobe Experience Platform發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}中進一步瞭解這些變更。
+[!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的，並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
-## 2025年4月發行 {#fac-25-4}
+## 2025 年 4 月發行版本 {#fac-25-4}
 
 ### 改進項目 {#fac-25-4-improvements}
 
 此版本包含下列改進項目。
 
-* **資料模型畫布檢視**
+* **資料模型畫布視圖**
 
-  「資料模型」區段的「畫布」檢視可透過在畫布版面配置中在現有表格檢視旁邊啟用資料模型及其連結的視覺效果，進而改善體驗。 [了解更多](../data-management/gs-models.md)
+  資料模型區段的畫布視圖，在畫布版面中除了原有的表格視圖以外，也啟用資料模型的視覺效果及其連結，藉此改善使用體驗。[了解更多](../data-management/gs-models.md)
 
 * **AI 助理**
 
-  AI Assistant是使用者介面功能，旨在協助您導覽和瞭解Adobe概念，並取得您特定環境的營運深入分析。 它適用於Adobe Experience Cloud的多個產品，包括同盟對象構成。 [了解更多](../start/audiences.md)
+  AI 助理是一項使用者介面功能，旨在協助您導覽和了解 Adobe 的概念，並取得您特定環境的運作深入分析。其適用於 Adobe Experience Cloud 的多項產品，包括聯合客群構成。[了解更多](../start/audiences.md)
 
 * **資料模型名稱**
 
-  從「對象」功能表，**同盟組合**&#x200B;索引標籤現在會顯示資料模型名稱而不是ID，進而提高清晰度和整體可用性。
+  在「客群」選單中，「**聯合構成**」索引標籤現在顯示資料模型名稱而非 ID，從而提高清晰度和整體可用性。
 
 * **客群**
 
-  現在，當使用者選擇沒有關聯對象的資料模型時，「對象」選單會顯示所選資料模型的名稱或標籤。
+  現在，當使用者選取沒有關聯客群的資料模型時，「客群」選單會顯示所選資料模型的名稱或標籤。
 
 ### 相容性 {#fac-25-4-compat}
 
 * **Snowflake 安全連線**
 
-  透過此新版本，同盟對象構成支援與Microsoft Azure上託管的Amazon Redshift資料庫的安全私人連結連線。 [了解更多](../connections/federated-db.md#amazon-redshift)
+  透過此一新版本，聯合客群構成現在支援使用私人連結連線至託管在 Microsoft Azure 上的 Amazon Redshift 資料庫連線。[了解更多](../connections/federated-db.md#amazon-redshift)
 
 ## 2025 年 3 月版 {#fac-25-3}
 
@@ -133,7 +133,7 @@ ht-degree: 77%
 
 * **Amazon Redshift Serverless 支援**
 
-  透過此新版本，同盟對象構成支援[Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}。
+  在此新版本中，聯合客群構成支援 [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}。
 
 ### 改進項目 {#fac-24-10-improvements}
 
@@ -149,10 +149,10 @@ ht-degree: 77%
 
 ## 2024 年 7 月發行版本 - 聯合客群構成 (LA) {#fac-la}
 
-聯合客群構成讓企業能夠用靈活存取更多企業資料倉儲，使用關鍵企業資料集來構成客群，並提升品牌主導的即時體驗。使用此新方法，身為[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/home){target="_blank"}和/或[Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}使用者，您可以直接從現有的資料倉儲同盟對象資料，以在一個系統中擴充Adobe Experience Platform對象。
+聯合客群構成讓企業能夠用靈活存取更多企業資料倉儲，使用關鍵企業資料集來構成客群，並提升品牌主導的即時體驗。使用此新方法，身為 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/home){target="_blank"} 和/或 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"} 使用者，您可以直接聯合現有資料倉儲中的客群資料，擴充在一個系統中的 Adobe Experience Platform 客群。
 
 市場上有越來越多企業希望能夠靈活地使用倉儲資料集來構成客群，而聯合客群構成滿足了這樣的需求。企業能夠藉此減少資料移動，同時讓行銷團隊能夠使用關鍵客群資料來滿足使用案例要求及提升個人化體驗。
 
-在[本頁面](get-started.md)和[常見問題](faq.md)中進一步瞭解同盟對象構成功能。
+若要了解更多有關聯合客群構成功能的資訊，請參閱[此頁面](get-started.md)和[常見問題](faq.md)。
 
-如需存取聯合客群構成的先決條件和目前護欄的詳細資訊，請參閱[此頁面](access-prerequisites.md)。
+關於存取聯合客群構成的先決條件和目前護欄的詳細資訊，請參閱[此頁面](access-prerequisites.md)。

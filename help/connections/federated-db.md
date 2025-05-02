@@ -4,9 +4,9 @@ title: 設定您的聯合資料庫
 description: 了解如何設定您的聯合資料庫
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2120'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 
 Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建立和擴充客群，並將客群匯入 Adobe Experience Platform。
 
-瞭解如何在[此頁面](connections.md)上建立、設定、測試及儲存外部資料庫的連線。 您可以在下方找到支援的資料庫清單以及為每個資料庫設定的詳細設定。
+若要了解如何建立、設定、測試及儲存與外部資料庫的連線，請參閱[此頁面](connections.md)。您可以在下方找到支援的資料庫清單以及為每個資料庫設定的詳細設定。
 
 ## 支援的資料庫 {#supported-db}
 
@@ -73,7 +73,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
    * **[!UICONTROL 資料庫]**：資料庫名稱 (如果沒有在 DSN 中指定)。如果已於 DSN 中指定，則可以保留空白
 
-   * **[!UICONTROL 工作結構描述]**：用於工作表的資料庫結構描述的名稱。在[Amazon檔案](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}中進一步瞭解
+   * **[!UICONTROL 工作結構描述]**：用於工作表的資料庫結構描述的名稱。若要了解更多資訊，請參閱 [Amazon 文件](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
 
      >[!NOTE]
      >
@@ -123,7 +123,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
 | 選項 | 說明 |
 |---|---|
-| Authentication | 連接器支援的驗證類型。目前支援的值：ActiveDirectoryMSI。如需詳細資訊，請參閱[Microsoft SQL檔案](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} （連線字串n°8範例） |
+| Authentication | 連接器支援的驗證類型。目前支援的值：ActiveDirectoryMSI。若需更多詳細資訊，請參閱 [Microsoft SQL 文件](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (連接字串範例 n°8) |
 
 ## Google Big Query {#google-big-query}
 
@@ -226,11 +226,11 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 |---|---|
 | workschema | 工作表所使用的資料庫結構描述 |
 | warehouse | 預設倉儲所使用的名稱。此選項將覆寫使用者的預設值。 |
-| TimeZoneName | 預設為空白，代表使用應用程式伺服器的系統時區。此選項可用於強制執行 TIMEZONE 工作階段參數。<br>如需詳細資訊，請參閱[此頁面](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}。 |
-| WeekStart | WEEK_START 工作階段參數。預設值為 0。<br>如需詳細資訊，請參閱[此頁面](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}。 |
-| UseCachedResult | USE_CACHED_RESULTS 工作階段參數。預設值為 TRUE。此選項可用來停用 Snowflake 快取結果。<br>如需詳細資訊，請參閱[此頁面](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}。 |
+| TimeZoneName | 預設為空白，代表使用應用程式伺服器的系統時區。此選項可用於強制執行 TIMEZONE 工作階段參數。<br>若需更多有關此預設值的詳細資訊，請參閱[此頁面](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}。 |
+| WeekStart | WEEK_START 工作階段參數。預設值為 0。<br>若需更多有關此預設值的詳細資訊，請參閱[此頁面](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}。 |
+| UseCachedResult | USE_CACHED_RESULTS 工作階段參數。預設值為 TRUE。此選項可用來停用 Snowflake 快取結果。<br>若需更多有關此預設值的詳細資訊，請參閱[此頁面](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}。 |
 | bulkThreads | Snowflake 大量載入器所使用的執行緒數量，執行緒越多，代表大量載入的效能越好。預設值為 1。此數量可根據機器的執行緒數量調整。 |
-| chunkSize | 決定大量載入器區塊的檔案大小。預設值為 128MB。與 bulkThreads 一起使用時，可以修改此值以進一步提升效能。並行作用中的執行緒越多，效能就越好。<br>如需詳細資訊，請參閱[Snowflake檔案](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}。 |
+| chunkSize | 決定大量載入器區塊的檔案大小。預設值為 128MB。與 bulkThreads 一起使用時，可以修改此值以進一步提升效能。並行作用中的執行緒越多，效能就越好。<br>若需更多有關此預設值的詳細資訊，請參閱 [Snowflake 文件](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}。 |
 | StageName | 預先佈建的內部階段名稱。大量載入時會直接使用此名稱，而非建立新的臨時階段。 |
 
 ## Vertica Analytics {#vertica-analytics}
@@ -370,5 +370,5 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
 | 選項 | 說明 |
 |---|---|
-| Authentication | 連接器支援的驗證類型。目前支援的值：ActiveDirectoryMSI。如需詳細資訊，請參閱[Microsoft SQL檔案](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} （連線字串n°8範例） |
+| Authentication | 連接器支援的驗證類型。目前支援的值：ActiveDirectoryMSI。若需更多詳細資訊，請參閱 [Microsoft SQL 文件](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (連接字串範例 n°8) |
 

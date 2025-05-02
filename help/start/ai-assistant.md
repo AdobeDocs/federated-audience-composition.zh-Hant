@@ -1,25 +1,25 @@
 ---
-title: 使用AI助理
-description: 瞭解如何善用AI助理
+title: 使用 AI 助理
+description: 了解如何善用 AI 助理
 source-git-commit: 83d6074da966553caec36908729729445246ea2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
-# 使用AI助理 {#ai-assistant}
+# 使用 AI 助理 {#ai-assistant}
 
-AI Assistant是使用者介面功能，旨在協助您導覽和瞭解Adobe概念，並取得您特定環境的營運深入分析。 它適用於 Adobe Experience Cloud 的多項產品，包括聯合客群構成。
+AI 助理是一項使用者介面功能，旨在協助您導覽和了解 Adobe 的概念，並取得您特定環境的運作深入分析。其適用於 Adobe Experience Cloud 的多項產品，包括聯合客群構成。
 
-若要存取AI助理，請按一下頂端列中的圖示。 AI助理會顯示在畫面的右側區段。
+若要存取 AI 助理，請按一下頂端列上的圖示。AI 助理會顯示在畫面的右側區段。
 
 ![](assets/do-not-localize/ai-assistant-open.png)
 
 
 >[!CAUTION]
 >
->您必須同意Adobe Experience Cloud Generative AI使用者准則，才能使用AI Assistant。 在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}上進一步瞭解合約。
+>您必須同意 Adobe Experience Cloud 生成式 AI 使用者準則，然後才能使用 AI 助理。若要了解更多有關此協議的資訊，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}。
 
 在聯合客群構成中，您可以存取與流程各個方面相關的 Adobe 概念的產品知識問題。此類問題的範例包括：
 
@@ -39,4 +39,4 @@ AI Assistant是使用者介面功能，旨在協助您導覽和瞭解Adobe概念
 
 1. 使用「按讚」和「不滿意」來評價該答案。
 
-若要瞭解如何使用AI助理，請參閱您可以使用AI助理完成的目標範例，並瞭解AI助理的運作方式，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}。
+若要了解如何使用 AI 助理、查看您可以使用 AI 助理實現的範例目標，以及了解 AI 助理的運作方式，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}。
