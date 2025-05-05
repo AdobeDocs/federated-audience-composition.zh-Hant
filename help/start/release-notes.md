@@ -88,7 +88,7 @@ ht-degree: 83%
 
 * **儲存對象活動**
 
-  已在&#x200B;**儲存對象**活動中新增附註，提醒使用者與資料管理員共同作業，將治理標籤套用至對象建立和擴充期間建立的新結構描述和資料集。
+  已在&#x200B;**儲存對象**&#x200B;活動中新增附註，提醒使用者與資料管理員共同作業，將治理標籤套用至對象建立和擴充期間建立的新結構描述和資料集。
   [進一步瞭解資料使用標籤](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 相容性 {#fac-25-4-compat}
