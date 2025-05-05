@@ -38,11 +38,11 @@ ht-degree: 28%
 
 此活動主要用於將母體族群轉換為可重複使用的對象，讓母體族群可繼續在相同構成中運算。 將其連線到其他目標定位活動，例如&#x200B;**建立對象**&#x200B;或&#x200B;**合併**&#x200B;活動。
 
-**[!UICONTROL 儲存對象]**&#x200B;活動會產生新的對象結構描述和資料集。 建立對象後，請與管理員協調以指派適當的資料控管標籤。 [進一步瞭解資料使用標籤](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+**[!UICONTROL 儲存對象]**&#x200B;活動會產生新的對象結構描述和資料集。 建立對象後，請與管理員協調以指派適當的資料控管標籤。 [進一步瞭解資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >
->**儲存對象**&#x200B;活動需要啟用設定檔的結構描述和資料集。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}。
+>**儲存對象**&#x200B;活動需要啟用設定檔的結構描述和資料集。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}。
 
 ## 設定「儲存對象」活動 {#save-audience-configuration}
 
