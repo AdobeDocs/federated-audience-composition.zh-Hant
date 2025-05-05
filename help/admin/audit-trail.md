@@ -3,7 +3,7 @@ audience: end-user
 title: 稽核軌跡
 description: 瞭解在稽核軌跡中如何記錄及存取動作和事件
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 12%
@@ -56,8 +56,8 @@ ht-degree: 12%
 
 1. **[!UICONTROL 稽核實體]**&#x200B;視窗會提供您所選實體的詳細資訊，例如：
 
-   * **[!UICONTROL 型別]** ：工作流程、選項、傳遞或結構描述。
-   * **[!UICONTROL 實體]** ：活動的內部名稱。
-   * **[!UICONTROL 修改者]** ：上次修改此實體之人員的使用者名稱。
-   * **[!UICONTROL 動作]** ：此實體上執行的最後一個動作，已建立、已修改或已刪除。
-   * **[!UICONTROL 修改日期]** ：此實體上執行之上一個動作的日期。
+   * **[!UICONTROL 型別]**：工作流程、選項、傳遞或結構描述。
+   * **[!UICONTROL 實體]**：活動的內部名稱。
+   * **[!UICONTROL 修改者]**：上次修改此實體的人員使用者名稱。
+   * **[!UICONTROL 動作]**：此實體上執行的最後一個動作，已建立、已修改或已刪除。
+   * **[!UICONTROL 修改日期]**：在此實體上執行最後動作的日期。

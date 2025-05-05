@@ -3,9 +3,9 @@ audience: end-user
 title: 使用調解活動
 description: 瞭解如何使用調解活動
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '521'
 ht-degree: 39%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 39%
 1. 選取要用於調解的欄位。 您可以使用一個或多個調和標準。
 
    1. 若要使用屬性來調解資料，請選取&#x200B;**簡單屬性**&#x200B;選項，然後按一下&#x200B;**新增規則**&#x200B;按鈕。
-   1. 選取調解的&#x200B;**Source**&#x200B;和&#x200B;**目的地**&#x200B;欄位。 **Source**&#x200B;欄位。 **Destination**&#x200B;欄位對應到所選結構描述的欄位。
+   1. 選取調解的&#x200B;**Source**&#x200B;和&#x200B;**目的地**&#x200B;欄位。 **Destination**&#x200B;欄位對應到所選結構描述的欄位。
 
       當來源和目的地相等時，資料就會進行協調。 例如，選取&#x200B;**電子郵件**&#x200B;欄位，以根據設定檔的電子郵件地址刪除重複設定檔。
 

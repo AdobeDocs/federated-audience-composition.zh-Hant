@@ -3,7 +3,7 @@ audience: end-user
 title: 使用活動
 description: 瞭解如何使用活動
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 16%
@@ -31,7 +31,7 @@ ht-degree: 16%
 ## 流量控制活動
 
 * [AND-join](and-join.md)：同步處理組合的多個執行分支。
-* **End** ：以圖形方式標示構成結尾。 此活動並不會造成任何功能性影響，因此為選用。
+* **結束**：以圖形方式標示構成結束。 此活動並不會造成功能性影響，因此為選用。
 * [分支](fork.md)：建立出站轉變，以同時啟動多個活動。
 * [排程器](scheduler.md)：排程組合何時開始。
 * [等待](wait.md)：暫時暫停執行部分構成。

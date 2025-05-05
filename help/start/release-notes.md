@@ -2,16 +2,104 @@
 title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
-workflow-type: ht
-source-wordcount: '813'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '1130'
+ht-degree: 83%
 
 ---
 
 # 發行說明 {#rn-new}
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+
+## 2025 年 4 月發行版本 {#fac-25-4}
+
+### 新功能 {#fac-25-04-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>資料模型畫布檢視 — Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>「資料模型」區段的「畫布」檢視可透過在畫布版面配置中在現有表格檢視旁邊啟用資料模型及其連結的視覺效果，進而改善體驗。 </p>
+<p>具有畫布檢視的資料模型目前僅供特定使用者測試版。</p>
+<p>如需詳細資訊，請參閱<a href="../data-management/gs-models.md">詳細文件</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>產品知識的AI助理支援</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI 助理是一項使用者介面功能，旨在協助您導覽和了解 Adobe 的概念，並取得您特定環境的運作深入分析。其適用於 Adobe Experience Cloud 的多項產品，包括聯合客群構成。</p>
+<p>如需詳細資訊，請參閱<a href="../start/ai-assistant.md">詳細文件</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>儲存設定檔活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> 同盟對象構成現在支援設定檔擴充使用案例，讓客戶可使用其外部資料倉儲的資料來增強現有Experience Platform設定檔。
+</p>
+<p>如需詳細資訊，請參閱<a href="../compositions/activities/save-profiles.md">詳細文件</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 功能改進 {#fac-25-4-improvements}
+
+此版本包含下列改進項目。
+
+* **資料模型名稱**
+
+  在「客群」選單中，「**聯合構成**」索引標籤現在顯示資料模型名稱而非 ID，從而提高清晰度和整體可用性。
+
+* **客群**
+
+  現在，當使用者選取沒有關聯客群的資料模型時，「客群」選單會顯示所選資料模型的名稱或標籤。
+
+* **大型對象匯出**
+
+  同盟對象構成現在支援匯出檔案大小大於1 GB的大型對象。
+
+* **儲存對象活動**
+
+  已在&#x200B;**儲存對象**活動中新增附註，提醒使用者與資料管理員共同作業，將治理標籤套用至對象建立和擴充期間建立的新結構描述和資料集。
+  [進一步瞭解資料使用標籤](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+
+### 相容性 {#fac-25-4-compat}
+
+* **Amazon Redshift安全連線**
+
+  透過此新版本，同盟對象構成支援到Amazon Redshift資料庫的安全私人連結連線。 [了解更多](../connections/federated-db.md#amazon-redshift)
+
+* **Google Big Query**
+
+  透過此新版本，同盟對象構成支援與Google Big Query資料庫的安全VPN連線。 [了解更多](../connections/federated-db.md#google-big-query)
 
 ## 2025 年 3 月版 {#fac-25-3}
 
@@ -105,7 +193,7 @@ ht-degree: 100%
 
   在此新版本中，聯合客群構成支援 [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}。
 
-### 改進項目 {#fac-24-10-improvements}
+### 功能改進 {#fac-24-10-improvements}
 
 此發行版本隨附下列改進項目。
 

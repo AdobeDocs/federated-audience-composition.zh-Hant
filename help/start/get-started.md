@@ -2,10 +2,10 @@
 title: 開始使用 Experience Platform 聯合客群構成
 description: 了解什麼是 Adobe 聯合客群構成，以及如何在 Adobe Experience Platform 中使用此功能
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '1112'
+ht-degree: 97%
 
 ---
 
@@ -42,6 +42,8 @@ ht-degree: 100%
 1. 客群建立：從企業資料集中建立新客群，而無需複製基礎資料，並透過預先建立的目的地來啟用這些客群。
 
 1. 客群擴充：利用從企業資料倉儲聯合的構成客群資料，擴充 Adobe Experience Platform 中的現有客群。此資料將不會長期保存在 Adobe Experience Platform 客戶輪廓中。
+
+1. 設定檔擴充：透過聯合來自外部倉庫的資料，擴充Adobe Experience Platform設定檔，允許您透過其他屬性和見解來增強客戶設定檔。
 
 ![圖表](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
@@ -143,35 +145,3 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 >title="選取目標市場選擇維度"
 >abstract="目標市場選擇維度可讓您定義作業的目標群體：收件者、合約受益人、操作者、訂閱者等。對於電子郵件和簡訊，依預設，目標是從收件者內建表格中選取。對於推播通知，預設目標市場選擇維度是訂閱者應用程式。"
 
-
-<!-- save profile IDs-->
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile"
->title="儲存輪廓"
->abstract="儲存輪廓"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_aepschemalist"
->title="儲存輪廓 AEP 結構描述清單"
->abstract="儲存輪廓 AEP 結構描述清單"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepattribute"
->title="儲存輪廓 AEP 結構描述屬性"
->abstract="儲存輪廓 AEP 結構描述屬性"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="選取主要識別欄位"
->abstract="用於輪廓的主要識別欄位。"
-
->[!CONTEXTUALHELP]
->id="ddc_orchestration_saveprofile_selectdataset"
->title="AEP 資料集"
->abstract="選取要用於輪廓的 AEP 資料集。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="儲存輪廓選取 AEP 結構描述"
->abstract="選取要用於輪廓的 AEP 結構描述。"

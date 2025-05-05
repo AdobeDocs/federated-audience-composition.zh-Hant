@@ -1,33 +1,36 @@
 ---
 title: 使用 AI 助理
 description: 了解如何善用 AI 助理
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
-workflow-type: ht
-source-wordcount: '246'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 46%
 
 ---
 
 # 使用 AI 助理 {#ai-assistant}
 
-AI 助理是一項使用者介面功能，旨在協助您導覽和了解 Adobe 的概念，並取得您特定環境的運作深入分析。其適用於 Adobe Experience Cloud 的多項產品，包括聯合客群構成。
-
-若要存取 AI 助理，請按一下頂端列上的圖示。AI 助理會顯示在畫面的右側區段。
-
-![](assets/do-not-localize/ai-assistant-open.png)
-
+AI Assistant是使用者介面功能，旨在協助您導覽及瞭解Adobe概念。 它適用於Adobe Experience Cloud多個產品的產品知識使用案例，包括同盟受眾構成。
 
 >[!CAUTION]
 >
 >您必須同意 Adobe Experience Cloud 生成式 AI 使用者準則，然後才能使用 AI 助理。若要了解更多有關此協議的資訊，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}。
 
-在聯合客群構成中，您可以存取與流程各個方面相關的 Adobe 概念的產品知識問題。此類問題的範例包括：
+在Federated Audience Composition中，您可以存取產品知識，以瞭解與流程不同部分相關的Adobe概念。 AI Assistant支援兩種產品知識： **開放式探索** (探索以Experience League檔案為基礎的產品概念)和&#x200B;**目標學習與疑難排解** （詢問關於特定功能或功能的問題）。
 
-* 在 Snowflake 和 Adobe Experience Platform 之間建立聯合連線需要哪些組態設定？
-* 如何在聯合客群構成中設定構成？
-* 如何使用查詢建模工具中預先定義的篩選器來調整我的客群選擇？
+此類問題的範例包括：
+
+* 什麼是同盟對象構成？
+* 如何設定Snowflake同盟資料庫帳戶？
+* 如何建立同盟組合？
 
 若要提出問題：
+
+1. 按一下頂端列中的圖示即可存取AI小幫手。
+
+   AI助理會顯示在畫面的右側區段。 您可以按一下![潛入影像替代文字](assets/do-not-localize/Smock_FullScreen_18_N.svg "展開")以展開AI助理視窗。
+
+   ![](assets/do-not-localize/ai-assistant-open.png)
 
 1. 將其輸入到畫面底部的欄位中，然後按 Enter 鍵。
 

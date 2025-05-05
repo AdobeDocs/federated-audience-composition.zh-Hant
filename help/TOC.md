@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 聯合客群構成
 title: Experience Platform 聯合客群構成文件
 breadcrumb-title: Experience Platform 聯合客群構成
-source-git-commit: 8cd1b967e004d84fda3788e442e41d2010f5ec24
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 84%
+source-wordcount: '161'
+ht-degree: 83%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 84%
    + [先決條件和護欄](start/access-prerequisites.md)
    + [存取聯合客群構成](start/feature-access.md)
    + [使用客群](start/audiences.md)
+   + [使用 AI 助理](start/ai-assistant.md)
    + [常見問題](start/faq.md)
 + 設定步驟 {#config}
    + [建立和管理連接](connections/connections.md)
@@ -27,7 +28,6 @@ ht-degree: 84%
    + [FDA許可權矩陣](connections/fda-rights.md)
    + 資料模型和結構描述{#datamodel}
       + [建立及設定結構描述](customer/schemas.md)
-      + [設定您的資料模型 (Beta)](data-management/gs-models-beta.md)
       + [設定您的資料模型](data-management/gs-models.md)
    + [使用外部資料擴充 Adobe Experience Platform 客群](connections/destinations.md)
 + 撰寫對象 {#compositions}
@@ -48,6 +48,7 @@ ht-degree: 84%
       + [分支](compositions/activities/fork.md)
       + [調和](compositions/activities/reconciliation.md)
       + [儲存客群](compositions/activities/save-audience.md)
+      + [儲存設定檔](compositions/activities/save-profiles.md)
       + [排程器](compositions/activities/scheduler.md)
       + [分割](compositions/activities/split.md)
       + [等待](compositions/activities/wait.md)
