@@ -4,9 +4,9 @@ title: 設定您的聯合資料庫
 description: 了解如何設定您的聯合資料庫
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2133'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 >
 >* 僅支援 Amazon Redshift AWS、Amazon Redshift Spectrum 和 Amazon Redshift Serverless。
 >
->* 支援透過私人連結安全存取外部Amazon Redshift資料庫。
+>* 支援透過私人連結，安全地存取外部 Amazon Redshift 資料庫。
 
 使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照以下步驟，設定 Amazon Redshift 的存取權。
 

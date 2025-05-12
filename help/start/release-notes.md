@@ -3,15 +3,15 @@ title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # 發行說明 {#rn-new}
 
-[!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+[!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}。
 
 ## 2025 年 4 月發行版本 {#fac-25-4}
 
@@ -20,15 +20,15 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>資料模型畫布檢視 — Beta</strong><br/></th>
+<th><strong>資料模型畫布檢視 - Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>「資料模型」區段的「畫布」檢視可透過在畫布版面配置中在現有表格檢視旁邊啟用資料模型及其連結的視覺效果，進而改善體驗。 </p>
-<p>具有畫布檢視的資料模型目前僅供特定使用者測試版。</p>
-<p>如需詳細資訊，請參閱<a href="../data-management/gs-models.md">詳細文件</a>。</p>
+<p>除了現有的表格檢視以外，資料模型區段的畫布檢視可透過在畫布版面中啟用資料模型的視覺化及其連結，藉此改善使用體驗。 </p>
+<p>具有畫布檢視的資料模型目前僅供特定使用者作為 Beta 版使用。</p>
+<p>如需詳細資訊，請參閱<a href="../data-management/gs-models.md">詳細說明文件</a>。</p>
 </br>
 </td>
 </tr>
@@ -38,14 +38,14 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>產品知識的AI助理支援</strong><br/></th>
+<th><strong>AI 助理對產品知識的支援</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>AI 助理是一項使用者介面功能，旨在協助您導覽和了解 Adobe 的概念，並取得您特定環境的運作深入分析。其適用於 Adobe Experience Cloud 的多項產品，包括聯合客群構成。</p>
-<p>如需詳細資訊，請參閱<a href="../start/ai-assistant.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../start/ai-assistant.md">詳細說明文件</a>。</p>
 </br>
 </td>
 </tr>
@@ -55,15 +55,15 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>儲存設定檔活動</strong><br/></th>
+<th><strong>儲存輪廓活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> 同盟對象構成現在支援設定檔擴充使用案例，讓客戶可使用其外部資料倉儲的資料來增強現有Experience Platform設定檔。
+<p> 聯合客群構成現在支援輪廓擴充使用案例，可讓客戶利用來自其外部資料倉儲的資料來增強現有的 Experience Platform 輪廓。
 </p>
-<p>如需詳細資訊，請參閱<a href="../compositions/activities/save-profiles.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../compositions/activities/save-profiles.md">詳細說明文件</a>。</p>
 </br>
 </td>
 </tr>
@@ -82,26 +82,26 @@ ht-degree: 83%
 
   現在，當使用者選取沒有關聯客群的資料模型時，「客群」選單會顯示所選資料模型的名稱或標籤。
 
-* **大型對象匯出**
+* **大量客群匯出**
 
-  同盟對象構成現在支援匯出檔案大小大於1 GB的大型對象。
+  聯合客群構成現在支援匯出大量客群，檔案大小可大於 1GB。
 
-* **儲存對象活動**
+* **儲存客群活動**
 
-  已在&#x200B;**儲存對象**&#x200B;活動中新增附註，提醒使用者與資料管理員共同作業，將治理標籤套用至對象建立和擴充期間建立的新結構描述和資料集。
-  [進一步瞭解資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/user-guide)
+  **儲存客群**活動中新增了一則注意事項，提醒使用者與資料管理員協作，以便將治理標籤套用至在客群建立和擴充期間所建立的新結構描述和資料集。
+  [深入了解資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 相容性 {#fac-25-4-compat}
 
-* **Amazon Redshift安全連線**
+* **Amazon Redshift 安全連線**
 
-  透過此新版本，同盟對象構成支援到Amazon Redshift資料庫的安全私人連結連線。 [了解更多](../connections/federated-db.md#amazon-redshift)
+  透過這個新版本，聯合客群構成可支援與 Amazon Redshift 資料庫建立安全的私人連結連線。[了解更多](../connections/federated-db.md#amazon-redshift)
 
 * **Google Big Query**
 
-  透過此新版本，同盟對象構成支援與Google Big Query資料庫的安全VPN連線。 [了解更多](../connections/federated-db.md#google-big-query)
+  透過這個新版本，聯合客群構成可支援與 Google Big Query 資料庫建立安全的 VPN 連線。[了解更多](../connections/federated-db.md#google-big-query)
 
-## 2025 年 3 月版 {#fac-25-3}
+## 2025 年 3 月發行版本 {#fac-25-3}
 
 ### 改進項目 {#fac-25-3-improvements}
 
@@ -113,7 +113,7 @@ ht-degree: 83%
 
   我們建議使用者聯絡管理員將此權限新增至他們的角色中，以便繼續存取 [!DNL Federated Audience Composition] 使用者介面。
 
-  若要了解如何指派此權限，請參閱[詳細文件](feature-access.md)。
+  若要了解如何指派此權限，請參閱[詳細說明文件](feature-access.md)。
 
 <!--
 * **Data model Canvas view**

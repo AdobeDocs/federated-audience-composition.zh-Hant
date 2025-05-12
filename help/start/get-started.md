@@ -3,9 +3,9 @@ title: 開始使用 Experience Platform 聯合客群構成
 description: 了解什麼是 Adobe 聯合客群構成，以及如何在 Adobe Experience Platform 中使用此功能
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1112'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 97%
 
 1. 客群擴充：利用從企業資料倉儲聯合的構成客群資料，擴充 Adobe Experience Platform 中的現有客群。此資料將不會長期保存在 Adobe Experience Platform 客戶輪廓中。
 
-1. 設定檔擴充：透過聯合來自外部倉庫的資料，擴充Adobe Experience Platform設定檔，允許您透過其他屬性和見解來增強客戶設定檔。
+1. 輪廓擴充：透過聯合外部倉儲的資料來擴充 Adobe Experience Platform 輪廓，使您能夠利用額外的屬性和深入分析來增強客戶輪廓。
 
 ![圖表](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
