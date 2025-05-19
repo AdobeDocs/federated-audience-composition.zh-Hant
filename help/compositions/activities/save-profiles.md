@@ -2,34 +2,35 @@
 audience: end-user
 title: 使用儲存設定檔活動
 description: 瞭解如何使用儲存設定檔活動
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
+source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 0%
+ht-degree: 29%
 
 ---
 
-# 儲存設定檔 {#save-profile}
+# 儲存輪廓 {#save-profile}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile"
->title="儲存輪廓"
->abstract="「儲存設定檔」活動可讓您透過聯合來自外部倉庫的資料來擴充Experience Platform設定檔，並允許您使用其他屬性增強客戶設定檔。 "
+>title="儲存設定檔"
+>abstract="儲存設定檔活動可讓您透過聯合外部倉儲的資料來擴充 Experience Platform 設定檔，進而使用其他屬性來增強客戶設定檔。 "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="選取AEP結構描述"
->abstract="為設定檔選擇Experience Platform結構描述。"
+>title="選取 AEP 結構描述"
+>abstract="選擇設定檔的 Experience Platform 結構描述。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="選取主要識別欄位"
->abstract="選取主要身分，用來識別資料庫中的目標設定檔。"
+>title="選取主要身分識別欄位"
+>abstract="選取主要身分識別，以用於在資料庫中識別目標設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="選取AEP結構描述"
->abstract="為設定檔選擇Experience Platform結構描述。"
+>title="選取 AEP 結構描述"
+>abstract="選擇設定檔的 Experience Platform 結構描述。"
 
 **儲存設定檔**&#x200B;活動可讓您使用從外部倉儲同盟的資料，擴充Adobe Experience Platform設定檔。
 
@@ -55,7 +56,7 @@ ht-degree: 0%
 
 1. 選擇用於識別資料庫中設定檔的主要身分欄位。
 
-1. 如果要調解其他資料屬性，請按一下[新增屬性]。**&#x200B;**
+1. 如果要調解其他資料屬性，請按一下[新增屬性]。****
 
    然後，針對您要對應的每個屬性，指定&#x200B;**Source**&#x200B;欄位（外部資料）和&#x200B;**目的地**&#x200B;欄位（結構描述欄位）。
 

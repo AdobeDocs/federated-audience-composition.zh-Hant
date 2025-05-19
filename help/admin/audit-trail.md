@@ -15,7 +15,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="稽核軌跡"
->abstract="稽核軌跡功能會針對您在 Adobe Experience Platform 聯合客群組成環境的所有動作和事件，即時提供按時間順序排列的詳細記錄。"
+>abstract="稽核軌跡功能會針對您在 Adobe Experience Platform 聯合客群構成環境的所有動作和事件，即時提供按時間順序排列的詳細記錄。"
 
 **[!UICONTROL 稽核軌跡]**&#x200B;功能會持續即時記錄Adobe Federated Composition執行個體中發生的動作和事件的詳細記錄。 它提供一種便利的方法，可存取按時間順序排列的資料記錄，並解決以下查詢：工作流程的狀態、要修改它們的最新個人，或使用者在執行個體內執行的活動。
 
