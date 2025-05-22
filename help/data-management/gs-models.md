@@ -2,20 +2,25 @@
 audience: end-user
 title: 開始使用資料模型
 description: 瞭解如何開始使用資料模型
-badge: label="Beta" type="Informative"
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 7f8a90c21c000d66cd7f3181170d6d8edb448f83
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '688'
 ht-degree: 2%
 
 ---
+
 
 # 開始使用資料模型 {#data-model-beta}
 
 >[!AVAILABILITY]
 >
->具有畫布檢視的資料模型目前僅供特定使用者測試版。
+>若要存取資料模型，您需要下列其中一個許可權：
+>
+>-**管理同盟資料模型**
+>-**檢視同盟資料模型**
+>
+>如需必要許可權的詳細資訊，請參閱[Access Federated Audience Composition指南](/help/start/feature-access.md)。
 
 ## 什麼是資料模型 {#data-model-start}
 
@@ -45,7 +50,9 @@ ht-degree: 2%
 
    ![](assets/datamodel_schemas.png){zoomable="yes"}
 
-1. 按一下&#x200B;**[!UICONTROL 新增對象]**&#x200B;以定義您的目標群組。
+1. 此外，您也可以將對象新增至資料模型。 選取&#x200B;**[!UICONTROL 新增對象]**&#x200B;以定義您的目標群組。
+
+   ![](assets/datamodel-audiences.png){zoomable="yes"}
 
 1. 在資料模型中的表格之間建立連線，以確保精確的資料關係。 [了解更多](#data-model-links)
 

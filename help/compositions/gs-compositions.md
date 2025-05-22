@@ -3,14 +3,23 @@ audience: end-user
 title: 開始使用構成
 description: 學習如何開始構成
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 90%
 
 ---
 
 # 開始使用構成 {#compositions}
+
+>[!AVAILABILITY]
+>
+>若要存取組合，您需要下列其中一項許可權：
+>
+>-**管理同盟組合**
+>-**檢視同盟組合**
+>
+>如需必要許可權的詳細資訊，請參閱[Access Federated Audience Composition指南](/help/start/feature-access.md)。
 
 ## 什麼是構成 {#what}
 

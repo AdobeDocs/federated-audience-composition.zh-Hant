@@ -3,14 +3,23 @@ audience: end-user
 title: 建立和管理與同盟資料庫的連線
 description: 瞭解如何建立和管理與同盟資料庫的連線
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '324'
 ht-degree: 4%
 
 ---
 
 # 建立連線 {#connections-fdb}
+
+>[!AVAILABILITY]
+>
+>若要存取連線，您需要下列其中一個許可權：
+>
+>-**管理同盟資料庫**
+>-**檢視同盟資料庫**
+>
+>如需必要許可權的詳細資訊，請參閱[Access Federated Audience Composition指南](/help/start/feature-access.md)。
 
 Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建立並豐富對象，並將對象匯入至Adobe Experience Platform。 支援的資料倉儲列於[此區段](../start/access-prerequisites.md#supported-systems)中。
 

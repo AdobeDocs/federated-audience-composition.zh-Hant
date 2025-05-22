@@ -2,16 +2,48 @@
 title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '1130'
-ht-degree: 100%
+source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
+workflow-type: tm+mt
+source-wordcount: '1246'
+ht-degree: 93%
 
 ---
 
 # 發行說明 {#rn-new}
 
-[!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+[!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}。
+
+## 2025年5月發行 {#fac-25-5}
+
+### 新功能 {#fac-25-05-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>資料模型畫布檢視 — 一般可用性</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>具有畫布檢視的資料模型現在可供所有客戶使用！</p>
+<p>除了現有的表格檢視以外，資料模型區段的畫布檢視可透過在畫布版面中啟用資料模型的視覺化及其連結，藉此改善使用體驗。 </p>
+<p>如需畫布檢視的詳細資訊，請參閱<a href="../data-management/gs-models.md">資料模型概觀</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 功能改進 {#fac-25-5-improvements}
+
+此版本隨附下列改善專案。
+
+* **角色型存取控制**
+
+  從5月發行版本開始，[!DNL Federated Audience Composition]支援存取控制的新精細許可權。 使用者可以將這些許可權指派給使用者角色，以更精確地存取[!DNL Federated Audience Composition]。
+
+  若要深入瞭解新許可權，請參閱[同盟對象構成存取指南](feature-access.md)。
 
 ## 2025 年 4 月發行版本 {#fac-25-4}
 

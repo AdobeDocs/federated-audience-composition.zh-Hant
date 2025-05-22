@@ -3,14 +3,23 @@ audience: end-user
 title: 開始使用結構描述
 description: 瞭解如何開始使用結構描述
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 3c0cbda211eed4fa1a8fdab015d4db4c9ad0cf30
+source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 19%
+source-wordcount: '547'
+ht-degree: 18%
 
 ---
 
 # 開始使用結構描述 {#schemas}
+
+>[!AVAILABILITY]
+>
+>若要存取方案，您需要下列其中一項許可權：
+>
+>-**管理同盟結構描述**
+>-**檢視同盟結構描述**
+>
+>如需必要許可權的詳細資訊，請參閱[Access Federated Audience Composition指南](/help/start/feature-access.md)。
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
