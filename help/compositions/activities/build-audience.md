@@ -14,7 +14,7 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience"
->title="讀取客群活動"
+>title="建置客群活動"
 >abstract="「**建置客群**」活動可讓您定義會進入構成客群。"
 
 **建立對象**&#x200B;活動可讓您定義將進入構成的對象。 若要定義客群群體，您可以：
