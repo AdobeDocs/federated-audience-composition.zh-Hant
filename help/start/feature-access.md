@@ -2,10 +2,10 @@
 title: 存取聯合客群構成
 description: 了解聯合客群構成所需的權限
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: 7f8ba57e0fd53350690e391e015f5161b2b7d04e
+source-git-commit: 62bbed4818caf06539234f97d4c0d1cf9c9a52d1
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 40%
+source-wordcount: '479'
+ht-degree: 46%
 
 ---
 
@@ -63,12 +63,12 @@ ht-degree: 40%
 
 1. 輸入使用者的姓名或電子郵件地址，或從可用清單中進行選取。完成後，選取&#x200B;**[!UICONTROL 儲存]**。
 
-或者，您可以根據使用者需要的許可權，將其中一個預先存在的角色指派給使用者。 如需將現有角色指派給使用者的詳細資訊，請閱讀產品設定檔管理使用者的[指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/users)。
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
-| 角色名稱 | 權限 |
+| Role name | Permissions |
 | --------- | ----------- |
-| FAC資料管理員 | <ul><li>管理同盟組合</li><li>檢視同盟資料庫</li><li>檢視同盟結構描述</li><li>檢視同盟結構描述資料</li><li>檢視同盟資料模型</li></ul> |
-| FAC組合管理員 | <ul><li>管理同盟組合</li></ul> |
-| FAC管理員 | <ul><li>管理同盟資料</li></ul> |
+| FAC Data Managers | <ul><li>Manage Federated Compositions</li><li>View Federated Databases</li><li>View Federated Schemas</li><li>View Federated Schema Data</li><li>View Federated Data Models</li></ul> |
+| FAC Composition Managers | <ul><li>Manage Federated Compositions</li></ul> |
+| FAC Administrators | <ul><li>Manage Federated Data</li></ul> | -->
 
 然後，使用者將會收到一封電子郵件，內含存取執行個體的指示。如果之前未建立該使用者，請參閱[此文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users)。
