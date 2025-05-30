@@ -5,7 +5,7 @@ exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: 62bbed4818caf06539234f97d4c0d1cf9c9a52d1
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 46%
 
 ## 管理對聯合客群構成的存取權
 
-若要存取&#x200B;**同盟對象構成**，您必須先確定您指派必要的許可權，以存取同盟對象構成的不同層面。 這些角色必須指派給需要&#x200B;**同盟對象構成**&#x200B;存取權的使用者。
+若要存取&#x200B;**聯合客群構成**，您必須先確保指派所需權限以便存取聯合客群構成的所有層面。然後，您必須將這些角色指派給需要存取&#x200B;**聯合客群構成**&#x200B;的使用者。
 
 請注意，只有管理員才能夠指派權限。
 
@@ -29,41 +29,41 @@ ht-degree: 46%
 
    ![](assets/access_fda_1.png)
 
-1. 選取&#x200B;**[!UICONTROL 編輯]**&#x200B;以修改您角色的許可權。
+1. 選取「**[!UICONTROL 編輯]**」以修改您的角色權限。
 
    ![](assets/access_fda_2.png)
 
-1. 為使用者新增必要許可權。 您可以新增以下許可權來存取同盟對象構成：
+1. 新增使用者所需的權限。您可以新增以下權限以便存取聯合客群構成：
 
    | 權限 | 說明 |
    | ---------- | ----------- |
-   | 管理同盟資料 | 使用此許可權可管理同盟對象構成的各個層面。 此許可權包含管理同盟資料庫、管理同盟結構、管理同盟資料模型，以及管理同盟組成。 |
-   | 管理同盟資料庫 | 使用此許可權來新增、檢視、更新和刪除您與同盟資料庫的連線。 |
-   | 檢視同盟資料庫 | 使用此許可權來檢視您與同盟資料庫的連線。 |
-   | 管理同盟結構描述 | 使用此許可權來建立、檢視、更新、刪除和重新整理結構描述。 |
-   | 檢視同盟結構描述資料 | 使用此許可權可檢視架構區段內的資料標籤。 |
-   | 檢視同盟結構描述 | 使用此許可權來檢視綱要表格。 |
-   | 管理同盟資料模型 | 使用此許可權來建立、檢視、更新和刪除資料模型。 |
-   | 檢視同盟資料模型 | 使用此許可權來檢視資料模型。 |
-   | 檢視同盟稽核軌跡 | 使用此許可權可檢視Federated Audience Composition的稽核軌跡。 |
-   | 管理同盟組合 | 使用此許可權來建立、檢視、更新和刪除同盟組合。 |
-   | 檢視同盟組合 | 使用此許可權來檢視同盟組合。 |
+   | 管理聯合資料 | 使用此權限來管理聯合客群構成的所有層面。此權限包含管理聯合資料庫、管理聯合結構描述、管理聯合資料模型和管理聯合構成。 |
+   | 管理聯合資料庫 | 使用此權限來新增、檢視、更新和刪除您與聯合資料庫的連線。 |
+   | 檢視聯合資料庫 | 使用此權限來檢視您與聯合資料庫的連線。 |
+   | 管理聯合結構描述 | 使用此權限來建立、檢視、更新、刪除和刷新結構描述。 |
+   | 檢視聯合結構描述資料 | 使用此權限來檢視結構描述部分內的資料標籤。 |
+   | 檢視聯合結構描述 | 使用此權限來檢視結構描述表。 |
+   | 管理聯合資料模型 | 使用此權限來建立、檢視、更新和刪除資料模型。 |
+   | 檢視聯合資料模型 | 使用此權限來檢視資料模型。 |
+   | 檢視聯合稽核軌跡 | 使用此權限來檢視聯合客群構成的稽核軌跡。 |
+   | 管理聯合構成 | 使用此權限來建立、查看、更新和刪除聯合構成。 |
+   | 檢視聯合構成 | 使用此權限來檢視聯合構成。 |
 
    ![](assets/permissions.png)
 
-1. 完成必要的變更後，請選取&#x200B;**[!UICONTROL 儲存]**。
+1. 在完成必要的變更後，請選取「**[!UICONTROL 儲存]**」。
 
 對於任何已指派此角色的使用者，其權限都將自動更新並可存取聯合客群構成。
 
 若要將此角色指派給新使用者：
 
-1. 導覽至您角色儀表板中的&#x200B;**[!UICONTROL 使用者]**&#x200B;索引標籤，並選取&#x200B;**[!UICONTROL 新增使用者]**。
+1. 導覽至「角色」儀表板內的「**[!UICONTROL 使用者]**」標籤，然後選取「**[!UICONTROL 新增使用者]**」。
 
    ![](assets/access_fda_4.png)
 
-1. 輸入使用者的姓名或電子郵件地址，或從可用清單中進行選取。完成後，選取&#x200B;**[!UICONTROL 儲存]**。
+1. 輸入使用者的姓名或電子郵件地址，或從可用清單中進行選取。完成後，選取「**[!UICONTROL 儲存]**」。
 
-<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/users).
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
 | Role name | Permissions |
 | --------- | ----------- |
