@@ -4,9 +4,9 @@ title: 開始使用構成
 description: 學習如何開始構成
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 90%
 
 >[!AVAILABILITY]
 >
->若要存取組合，您需要下列其中一項許可權：
+>若要存取作品，您需要以下權限之一：
 >
->-**管理同盟組合**
->-**檢視同盟組合**
+>-**管理聯合構成**
+>>-**檢視聯合構成**
 >
->如需必要許可權的詳細資訊，請參閱[Access Federated Audience Composition指南](/help/start/feature-access.md)。
+>有關所需權限的更多資訊，請閱讀「[存取聯合客群構成指南](/help/start/feature-access.md)」。
 
 ## 什麼是構成 {#what}
 

@@ -3,51 +3,51 @@ title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1246'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # 發行說明 {#rn-new}
 
-[!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+[!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}。
 
-## 2025年5月發行 {#fac-25-5}
+## 2025 年 5 月版 {#fac-25-5}
 
-### 新功能 {#fac-25-05-feature}
+### 全新功能 {#fac-25-05-feature}
 
 <table>
 <thead>
 <tr>
-<th><strong>資料模型畫布檢視 — 一般可用性</strong><br/></th>
+<th><strong>資料模型畫布檢視 - 一般適用性</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>具有畫布檢視的資料模型現在可供所有客戶使用！</p>
+<p>具備晝布檢視的資料模型現在可供所有客戶使用！</p>
 <p>除了現有的表格檢視以外，資料模型區段的畫布檢視可透過在畫布版面中啟用資料模型的視覺化及其連結，藉此改善使用體驗。 </p>
-<p>如需畫布檢視的詳細資訊，請參閱<a href="../data-management/gs-models.md">資料模型概觀</a>。</p>
+<p>有關畫布檢視的更多資訊，請閱讀「<a href="../data-management/gs-models.md">資料模型概觀</a>」。</p>
 </br>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 功能改進 {#fac-25-5-improvements}
+### 功能改善 {#fac-25-5-improvements}
 
-此版本隨附下列改善專案。
+此版本包含下列改善項目。
 
 * **角色型存取控制**
 
-  從5月發行版本開始，[!DNL Federated Audience Composition]支援存取控制的新精細許可權。 使用者可以將這些許可權指派給使用者角色，以更精確地存取[!DNL Federated Audience Composition]。
+  從 5 月版本開始，[!DNL Federated Audience Composition] 支援存取控制的全新精細度權限。使用者可以將這些權限指派給使用者角色，以便更精確存取[!DNL Federated Audience Composition]。
 
-  若要深入瞭解新許可權，請參閱[同盟對象構成存取指南](feature-access.md)。
+  若要了解有關新權限的更多資訊，請閱讀「[聯合客群構成存取指南](feature-access.md)」。
 
 ## 2025 年 4 月發行版本 {#fac-25-4}
 
-### 新功能 {#fac-25-04-feature}
+### 全新功能 {#fac-25-04-feature}
 
 <table>
 <thead>
@@ -102,9 +102,9 @@ ht-degree: 93%
 </tbody>
 </table>
 
-### 功能改進 {#fac-25-4-improvements}
+### 功能改善 {#fac-25-4-improvements}
 
-此版本包含下列改進項目。
+此版本包含下列改善項目。
 
 * **資料模型名稱**
 
@@ -120,7 +120,7 @@ ht-degree: 93%
 
 * **儲存客群活動**
 
-  **儲存客群**&#x200B;活動中新增了一則注意事項，提醒使用者與資料管理員協作，以便將治理標籤套用至在客群建立和擴充期間所建立的新結構描述和資料集。
+  **儲存客群**活動中新增了一則注意事項，提醒使用者與資料管理員協作，以便將治理標籤套用至在客群建立和擴充期間所建立的新結構描述和資料集。
   [深入了解資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 相容性 {#fac-25-4-compat}
@@ -135,9 +135,9 @@ ht-degree: 93%
 
 ## 2025 年 3 月發行版本 {#fac-25-3}
 
-### 改進項目 {#fac-25-3-improvements}
+### 功能改善 {#fac-25-3-improvements}
 
-此版本包含下列改進項目。
+此版本包含下列改善項目。
 
 * **聯合客群構成權限**
 
@@ -186,7 +186,7 @@ ht-degree: 93%
 
 * **增強的結構描述建立體驗**
 
-  透過更新後的使用者介面，建立結構描述的程序已獲得改進，變得更直覺且更易於導覽。這些增強功能為資料從業人員提供了更順暢、更有效率的資料模型開發方法。[了解更多](../customer/schemas.md)
+  透過更新後的使用者介面，建立結構描述的程序已獲得改善，變得更直覺且更易於導覽。這些增強功能為資料從業人員提供了更順暢、更有效率的資料模型開發方法。[了解更多](../customer/schemas.md)
 
 * **Databricks 的客群擴充支援**
 
@@ -194,9 +194,9 @@ ht-degree: 93%
 
 ## 2024 年 11 月發行版本 {#fac-24-11}
 
-### 改進項目 {#fac-24-11-improvements}
+### 功能改善 {#fac-24-11-improvements}
 
-此發行版本隨附以下改進項目。
+此發行版本隨附以下改善項目。
 
 * **IP 位址允許清單**
 
@@ -225,9 +225,9 @@ ht-degree: 93%
 
   在此新版本中，聯合客群構成支援 [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}。
 
-### 功能改進 {#fac-24-10-improvements}
+### 功能改善 {#fac-24-10-improvements}
 
-此發行版本隨附下列改進項目。
+此發行版本隨附下列改善項目。
 
 * **重新整理現有結構描述**
 
