@@ -27,7 +27,7 @@ ht-degree: 1%
 
 在Privacy Service中，您可以建立和管理個人隱私權請求，以存取和刪除同盟對象構成中的客戶資料。 Privacy Service提供[使用者介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant){target="_blank"}和[RESTful API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/overview){target="_blank"}，協助您管理客戶資料請求。
 
-如需建立及管理隱私權要求的詳細資訊，請參閱Privacy Service UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide){target="_blank"}中的[隱私權工作。
+如需建立及管理隱私權要求的詳細資訊，請參閱Privacy Service UI指南[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide){target="_blank"}中的隱私權工作。
 
 ## 同意原則執行 {#consent}
 
