@@ -2,16 +2,16 @@
 title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 100%
+source-wordcount: '1244'
+ht-degree: 98%
 
 ---
 
 # 發行說明 {#rn-new}
 
-[!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+[!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}。
 
 ## 2025 年 5 月版 {#fac-25-5}
 
@@ -129,9 +129,9 @@ ht-degree: 100%
 
   透過這個新版本，聯合客群構成可支援與 Amazon Redshift 資料庫建立安全的私人連結連線。[了解更多](../connections/federated-db.md#amazon-redshift)
 
-* **Google Big Query**
+* **Google BigQuery**
 
-  透過這個新版本，聯合客群構成可支援與 Google Big Query 資料庫建立安全的 VPN 連線。[了解更多](../connections/federated-db.md#google-big-query)
+  透過此新版本，同盟對象構成支援與Google BigQuery資料庫的安全VPN連線。 [了解更多](../connections/federated-db.md#google-bigquery)
 
 ## 2025 年 3 月發行版本 {#fac-25-3}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 建立和管理與同盟資料庫的連線
 description: 瞭解如何建立和管理與同盟資料庫的連線
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 4%
+source-wordcount: '323'
+ht-degree: 8%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 4%
 >若要存取連線，您需要下列其中一個許可權：
 >
 >-**管理同盟資料庫**
->-**檢視同盟資料庫**
+>>-**檢視同盟資料庫**
 >
->如需必要許可權的詳細資訊，請參閱[Access Federated Audience Composition指南](/help/start/feature-access.md)。
+>有關所需權限的更多資訊，請閱讀「[存取聯合客群構成指南](/help/start/feature-access.md)」。
 
 Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建立並豐富對象，並將對象匯入至Adobe Experience Platform。 支援的資料倉儲列於[此區段](../start/access-prerequisites.md#supported-systems)中。
 
@@ -46,7 +46,7 @@ Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建�
    * [Amazon Redshift](federated-db.md#amazon-redshift)
    * [Azure Synapse](federated-db.md#azure-synapse-redshift)
    * [Databricks](federated-db.md#databricks)
-   * [Google Big Query](federated-db.md#google-big-query)
+   * [Google BigQuery](federated-db.md#google-bigquery)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
    * [Microsoft Fabric](federated-db.md#microsoft-fabric)
