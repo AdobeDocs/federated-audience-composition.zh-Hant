@@ -44,7 +44,7 @@ Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地*
    * Databricks
    * Microsoft Fabric
 
-1. 選取您要連線的&#x200B;**[!UICONTROL 同盟資料庫]**，然後按一下[下一步]****。
+1. 選取您要連線的&#x200B;**[!UICONTROL 同盟資料庫]**，然後按一下[下一步]&#x200B;**&#x200B;**。
 
    ![](assets/destination-configure.png)
 
@@ -54,9 +54,9 @@ Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地*
 
 1. **[!UICONTROL 治理原則與執行動作]**&#x200B;步驟，您可以定義您的資料治理原則，並確保在傳送和啟用對象時，所使用的資料是合規的。
 
-   當您完成選取目的地所需的行銷動作時，請按一下[建立]。****
+   當您完成選取目的地所需的行銷動作時，請按一下[建立]。**&#x200B;**
 
-1. 會建立與目的地的新連線。 您現在可以啟用對象以傳送至目的地。 若要這麼做，請從清單中選取它，然後按一下[下一步] ****
+1. 會建立與目的地的新連線。 您現在可以啟用對象以傳送至目的地。 若要這麼做，請從清單中選取它，然後按一下[下一步] **&#x200B;**
 
    ![](assets/destination-activate.png)
 
@@ -81,7 +81,7 @@ Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地*
 
    ![](assets/destination-attributes.png)
 
-1. 檢閱目的地組態和對象設定，然後按一下[完成]。****
+1. 檢閱目的地組態和對象設定，然後按一下[完成]。**&#x200B;**
 
    ![](assets/destination-review.png)
 
