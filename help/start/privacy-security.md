@@ -21,23 +21,23 @@ ht-degree: 1%
 
 或者，在構成畫布中使用儲存設定檔活動建立設定檔擴充後，產生的擴充會作為啟用設定檔的結構描述和啟用設定檔的資料集儲存在Experience Platform中。 此擴充資料會以身分欄位和身分名稱空間標示。 因此，您可以使用Privacy Service來存取和清除這些設定檔。
 
-如需Privacy Service的詳細資訊，請閱讀[Privacy Service概觀](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home){target="_blank"}。
+如需Privacy Service的詳細資訊，請閱讀[Privacy Service概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/home){target="_blank"}。
 
 ### 隱私權要求 {#privacy-requests}
 
 在Privacy Service中，您可以建立和管理個人隱私權請求，以存取和刪除同盟對象構成中的客戶資料。 Privacy Service提供[使用者介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant){target="_blank"}和[RESTful API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/overview){target="_blank"}，協助您管理客戶資料請求。
 
-如需建立及管理隱私權要求的詳細資訊，請參閱Privacy Service UI指南[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide){target="_blank"}中的隱私權工作。
+如需建立及管理隱私權要求的詳細資訊，請參閱Privacy Service UI指南[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/ui/user-guide){target="_blank"}中的隱私權工作。
 
 ## 同意原則執行 {#consent}
 
 同盟對象構成可透過Experience Platform提供可讓您自動執行同意的工具，確保您根據提供給客戶的同意來啟用對象。
 
-例如，當您使用構成畫布中的儲存活動區塊來建立對象時，產生的對象會作為外部對象儲存在Experience Platform的資料湖中。 Experience Platform在啟用期間自動支援同意驗證。 如需詳細資訊，請參閱[Segmentation Service常見問題集](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#consent){target="_blank"}。
+例如，當您使用構成畫布中的儲存活動區塊來建立對象時，產生的對象會作為外部對象儲存在Experience Platform的資料湖中。 Experience Platform在啟用期間自動支援同意驗證。 如需詳細資訊，請參閱[Segmentation Service常見問題集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/faq#consent){target="_blank"}。
 
-或者，當您使用構成畫布中的儲存設定檔活動建立設定檔擴充後，產生的擴充會作為啟用設定檔的結構描述和啟用設定檔的資料集儲存在Experience Platform中。 對於現有的設定檔，在啟用期間會自動接受可用的同意屬性。 對於新設定檔，在啟動期間會自動遵循設定檔擷取期間提供的同意屬性。 如需將同意套用至設定檔的詳細資訊，請閱讀[同意和偏好設定欄位群組指南](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}。
+或者，當您使用構成畫布中的儲存設定檔活動建立設定檔擴充後，產生的擴充會作為啟用設定檔的結構描述和啟用設定檔的資料集儲存在Experience Platform中。 對於現有的設定檔，在啟用期間會自動接受可用的同意屬性。 對於新設定檔，在啟動期間會自動遵循設定檔擷取期間提供的同意屬性。 如需將同意套用至設定檔的詳細資訊，請閱讀[同意和偏好設定欄位群組指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}。
 
-如需套用同意的詳細資訊，請參閱[管理原則UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}。
+如需套用同意的詳細資訊，請參閱[管理原則UI指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}。
 
 ## 資料生命週期 {#data-lifecycle}
 
@@ -47,13 +47,13 @@ ht-degree: 1%
 
 或者，當您使用構成畫布中的儲存設定檔活動建立設定檔擴充後，產生的擴充會作為啟用設定檔的結構描述和啟用設定檔的資料集儲存在Experience Platform中。 因此，您可以在資料生命週期中存取及清除設定檔。
 
-如需使用資料生命週期的詳細資訊，請參閱[資料生命週期概觀](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home){target="_blank"}。
+如需使用資料生命週期的詳細資訊，請參閱[資料生命週期概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-lifecycle/home){target="_blank"}。
 
 ## 資料使用情況標籤 {#data-usage-labels}
 
 資料使用情況標籤可讓您根據套用至該資料的治理原則，將資料集和欄位分類。 使用構成建立受眾後，您可以在產生的結構描述上套用適當的資料標籤，以確保其符合必要的使用限制。
 
-如需使用資料標籤的詳細資訊，請閱讀[資料使用標籤概觀](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}。
+如需使用資料標籤的詳細資訊，請閱讀[資料使用標籤概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview){target="_blank"}。
 
 ## 加密 {#encryption}
 
@@ -63,13 +63,13 @@ ht-degree: 1%
 
 傳輸中的資料是指在同盟對象構成中從一個元件移動到另一個元件時的客戶資料。 所有使用TLS 1.3 （透過HTTPS）的同盟受眾構成元件中的資料都會保持加密。
 
-如需Adobe如何處理資料加密的詳細資訊，請閱讀Experience Platform中[資料加密](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}的指南。
+如需Adobe如何處理資料加密的詳細資訊，請閱讀Experience Platform中[資料加密](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}的指南。
 
 ### 客戶自控金鑰 {#customer-managed-keys}
 
 客戶自控金鑰可讓您使用自己的加密金鑰來加密資料，進而控制資料。 由於同盟對象構成&#x200B;**不會**&#x200B;儲存任何客戶資料，因此您可以直接在產生的對象和增強專案上使用客戶自控金鑰，因為這些金鑰將會儲存在Experience Platform上的資料湖中。
 
-如需客戶自控金鑰的詳細資訊，請參閱[客戶自控金鑰指南](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}。
+如需客戶自控金鑰的詳細資訊，請參閱[客戶自控金鑰指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}。
 
 ## 稽核記錄 {#audit-log}
 
