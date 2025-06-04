@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 聯合客群構成
 title: Experience Platform 聯合客群構成文件
 breadcrumb-title: Experience Platform 聯合客群構成
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '161'
-ht-degree: 100%
+source-git-commit: 16af7b7e5258aa377c94d552048bdc2d38a39b44
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
    + [存取聯合客群構成](start/feature-access.md)
    + [使用客群](start/audiences.md)
    + [使用 AI 助理](start/ai-assistant.md)
+   + [隱私權與安全性](start/privacy-security.md)
    + [常見問題](start/faq.md)
 + 設定步驟 {#config}
    + [建立和管理連接](connections/connections.md)
