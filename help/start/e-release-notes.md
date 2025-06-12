@@ -4,9 +4,9 @@ description: 最新更新和發行說明
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: a33c3706836e578246c994130d6b46c0cb0e5c1f
+source-git-commit: 996f5a932b2cc849f5844300fcaf38b4d62a84b4
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1095'
 ht-degree: 89%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 89%
 
 此版本隨附下列改善專案：
 
-* **醫療保健客戶一般可用性**
+* **Adobe Healthcare Shield客戶一般可用性**
 
-  同盟對象構成將可供醫療保健客戶在6月底前建立、擴充對象及擴充設定檔使用案例。
+  同盟受眾構成將可供Adobe Healthcare Shield客戶在6月底前建立、擴充受眾及擴充設定檔使用案例。
 
 * **物件層級存取控制**
 
