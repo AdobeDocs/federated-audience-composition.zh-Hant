@@ -4,10 +4,10 @@ description: 最新更新和發行說明
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '980'
-ht-degree: 100%
+source-git-commit: a33c3706836e578246c994130d6b46c0cb0e5c1f
+workflow-type: tm+mt
+source-wordcount: '1091'
+ht-degree: 89%
 
 ---
 
@@ -15,11 +15,31 @@ ht-degree: 100%
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
+## 2025年6月發行版本 {#fac-25-6}
+
+此版本隨附下列改善專案：
+
+* **醫療保健客戶一般可用性**
+
+  同盟對象構成將可供醫療保健客戶在6月底前建立、擴充對象及擴充設定檔使用案例。
+
+* **物件層級存取控制**
+
+  同盟對象構成現在支援物件層級存取控制，以將存取標籤套用至您指定的構成。
+
+* **預設角色**
+
+  您現在可以使用其中一個預設角色，管理同盟對象構成存取的使用者許可權。
+
+* **設定檔擴充使用案例中的增量更新**
+
+  儲存設定檔活動現在支援增量更新。 透過增量更新，您可以查詢和更新增量資料，同時使用外部資料倉儲的資料擴充設定檔。
+
 ## 2025 年 4 月發行版本 {#fac-25-4}
 
-### 改進項目 {#fac-25-4-improvements}
+### 功能改善 {#fac-25-4-improvements}
 
-此版本包含下列改進項目。
+此版本包含下列改善項目。
 
 * **資料模型畫布視圖**
 
@@ -43,11 +63,11 @@ ht-degree: 100%
 
   透過此一新版本，聯合客群構成現在支援使用私人連結連線至託管在 Microsoft Azure 上的 Amazon Redshift 資料庫連線。[了解更多](../connections/federated-db.md#amazon-redshift)
 
-## 2025 年 3 月版 {#fac-25-3}
+## 2025 年 3 月發行版本 {#fac-25-3}
 
-### 改進項目 {#fac-25-3-improvements}
+### 功能改善 {#fac-25-3-improvements}
 
-此版本包含下列改進項目。
+此版本包含下列改善項目。
 
 * **聯合客群構成權限**
 
@@ -55,7 +75,7 @@ ht-degree: 100%
 
   我們建議使用者聯絡管理員將此權限新增至他們的角色中，以便繼續存取 [!DNL Federated Audience Composition] 使用者介面。
 
-  若要了解如何指派此權限，請參閱[詳細文件](feature-access.md)。
+  若要了解如何指派此權限，請參閱[詳細說明文件](feature-access.md)。
 
 <!--
 * **Data model Canvas view**
@@ -96,7 +116,7 @@ ht-degree: 100%
 
 * **增強的結構描述建立體驗**
 
-  透過更新後的使用者介面，建立結構描述的程序已獲得改進，變得更直覺且更易於導覽。這些增強功能為資料從業人員提供了更順暢、更有效率的資料模型開發方法。[了解更多](../customer/schemas.md)
+  透過更新後的使用者介面，建立結構描述的程序已獲得改善，變得更直覺且更易於導覽。這些增強功能為資料從業人員提供了更順暢、更有效率的資料模型開發方法。[了解更多](../customer/schemas.md)
 
 * **Databricks 的客群擴充支援**
 
@@ -104,9 +124,9 @@ ht-degree: 100%
 
 ## 2024 年 11 月發行版本 {#fac-24-11}
 
-### 改進項目 {#fac-24-11-improvements}
+### 功能改善 {#fac-24-11-improvements}
 
-此發行版本隨附以下改進項目。
+此發行版本隨附以下改善項目。
 
 * **IP 位址允許清單**
 
@@ -135,9 +155,9 @@ ht-degree: 100%
 
   在此新版本中，聯合客群構成支援 [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}。
 
-### 功能改進 {#fac-24-10-improvements}
+### 功能改善 {#fac-24-10-improvements}
 
-此發行版本隨附下列改進項目。
+此發行版本隨附下列改善項目。
 
 * **重新整理現有結構描述**
 
