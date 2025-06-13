@@ -3,9 +3,9 @@ title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1244'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 98%
 
 * **儲存客群活動**
 
-  **儲存客群**&#x200B;活動中新增了一則注意事項，提醒使用者與資料管理員協作，以便將治理標籤套用至在客群建立和擴充期間所建立的新結構描述和資料集。
+  **儲存客群**活動中新增了一則注意事項，提醒使用者與資料管理員協作，以便將治理標籤套用至在客群建立和擴充期間所建立的新結構描述和資料集。
   [深入了解資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 相容性 {#fac-25-4-compat}
@@ -131,7 +131,7 @@ ht-degree: 98%
 
 * **Google BigQuery**
 
-  透過此新版本，同盟對象構成支援與Google BigQuery資料庫的安全VPN連線。 [了解更多](../connections/federated-db.md#google-bigquery)
+  透過這個新版本，聯合客群構成可支援與 Google BigQuery 資料庫建立安全的 VPN 連線。[了解更多](../connections/federated-db.md#google-bigquery)
 
 ## 2025 年 3 月發行版本 {#fac-25-3}
 

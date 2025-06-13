@@ -4,9 +4,9 @@ title: 設定您的聯合資料庫
 description: 了解如何設定您的聯合資料庫
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2128'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
 ## Google BigQuery {#google-bigquery}
 
-使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照下列步驟設定對Google BigQuery的存取權。
+使用聯合資料庫來處理儲存在外部資料庫中的資訊。請依照下列步驟，設定 Google BigQuery 的存取權。
 
 1. 在&#x200B;**[!UICONTROL 聯合資料]**&#x200B;選單中，選取&#x200B;**[!UICONTROL 聯合資料庫]**。
 
@@ -139,11 +139,11 @@ Experience Platform 聯合客群構成可讓客戶從第三方資料倉儲中建
 
 1. 輸入聯合資料庫的&#x200B;**[!UICONTROL 名稱]**。
 
-1. 從&#x200B;**[!UICONTROL 型別]**&#x200B;下拉式清單中，選取Google BigQuery。
+1. 在&#x200B;**[!UICONTROL 類型]**&#x200B;下拉式清單中，選取 Google BigQuery。
 
    ![](assets/federated_database_3.png)
 
-1. 設定Google BigQuery驗證設定：
+1. 設定 Google BigQuery 的驗證設定：
 
    * **[!UICONTROL 服務帳戶]**：輸入&#x200B;**[!UICONTROL 服務帳戶]**&#x200B;的電子郵件地址。如需相關詳細資訊，請參閱 [Google Cloud 文件](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}。
 
