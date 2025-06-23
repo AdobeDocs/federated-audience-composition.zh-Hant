@@ -6,7 +6,7 @@ exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
 source-git-commit: ca975be136155f69bc84362fde8c283b1c4edffe
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 18%
+ht-degree: 55%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="選取Experience Platform結構描述"
+>title="選取 Experience Platform 結構描述"
 >abstract="選擇輪廓的 Experience Platform 結構描述。"
 
 >[!CONTEXTUALHELP]
@@ -29,38 +29,38 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="選取Experience Platform結構描述"
+>title="選取 Experience Platform 結構描述"
 >abstract="選擇輪廓的 Experience Platform 結構描述。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode"
->title="儲存設定檔更新模式"
->abstract="儲存設定檔活動的可用更新模式包括完整更新和增量更新。"
+>title="儲存輪廓更新模式"
+>abstract="儲存輪廓活動的可用更新模式包括完整更新和漸進式更新。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode_full"
 >title="完整更新"
->abstract="完整更新模式會更新擴充的完整設定檔集。"
+>abstract="完整更新模式會更新整套輪廓進行擴充。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode_incremental"
->title="增量更新"
->abstract="增量更新模式會更新自上次擴充執行以來修改的設定檔。"
+>title="漸進式更新"
+>abstract="漸進式更新模式會更新自上次擴充後曾修改的輪廓。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentityfield"
 >title="主要身分識別欄位"
->abstract="主要身分欄位會指出將設定檔合併在一起以進行擴充時的真實來源。"
+>abstract="主要身分識別欄位指的是在擴充過程中合併輪廓時所依據的真相來源。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_requiredfieldscheck"
->title="必要欄位條件"
->abstract="必要欄位是在匯出資料時，必須為每個設定檔或記錄填寫的屬性。 如果缺少必填欄位，匯出將無法完成或有效。"
+>title="必填欄位條件"
+>abstract="必填欄位是匯出資料時每個輪廓或記錄必須填寫的屬性。若缺少必填欄位，匯出結果將不完整或無效。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitycheck"
->title="主要身分欄位條件"
->abstract="每個設定檔或記錄的唯一識別碼。 這樣可確保每個記錄都能被清楚辨識和比對，避免重複資料。"
+>title="主要身分識別欄位條件"
+>abstract="每個輪廓或記錄的唯一識別碼。這樣可確保每筆記錄都能分開識別與匹配，避免資料重複。"
 
 **儲存設定檔**&#x200B;活動可讓您使用從外部倉儲同盟的資料，擴充Adobe Experience Platform設定檔。
 
@@ -86,7 +86,7 @@ ht-degree: 18%
 
 1. 選擇用於識別資料庫中設定檔的主要身分欄位。
 
-1. 如果要調解其他資料屬性，請按一下[新增屬性]。**&#x200B;**
+1. 如果要調解其他資料屬性，請按一下[新增屬性]。****
 
    然後，針對您要對應的每個屬性，指定&#x200B;**Source**&#x200B;欄位（外部資料）和&#x200B;**目的地**&#x200B;欄位（結構描述欄位）。
 
