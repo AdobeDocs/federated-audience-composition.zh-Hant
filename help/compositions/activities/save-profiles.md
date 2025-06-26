@@ -70,9 +70,9 @@ ht-degree: 37%
 
 >[!IMPORTANT]
 >
->**儲存設定檔**&#x200B;活動需要啟用設定檔的結構描述和資料集。 若要瞭解如何啟用資料集以啟用設定檔，請參閱[資料集使用手冊](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}。
+>**儲存設定檔**&#x200B;活動需要啟用設定檔的結構描述和資料集。 若要瞭解如何啟用資料集以啟用設定檔，請參閱[資料集使用手冊](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}。
 >
->此外，如果選取的資料集&#x200B;**未**&#x200B;啟用更新插入，則來自設定檔的資料將會被&#x200B;**取代**。 若要瞭解如何為資料集啟用更新插入，請閱讀[啟用更新插入指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)。
+>此外，如果選取的資料集&#x200B;**未**&#x200B;啟用更新插入，則來自設定檔的資料將會被&#x200B;**取代**。 若要瞭解如何為資料集啟用更新插入，請閱讀[啟用更新插入指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/enable-upsert)。
 
 請依照下列步驟設定&#x200B;**[!UICONTROL 儲存設定檔]**&#x200B;活動：
 
