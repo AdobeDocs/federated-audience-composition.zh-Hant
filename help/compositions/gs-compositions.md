@@ -17,7 +17,7 @@ ht-degree: 16%
 >若要存取作品，您需要以下權限之一：
 >
 >-**管理聯合構成**
->>-**檢視聯合構成**
+>&#x200B;>-**檢視聯合構成**
 >
 >如需必要許可權的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
 
