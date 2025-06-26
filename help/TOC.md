@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 聯合客群構成
 title: Experience Platform 聯合客群構成文件
 breadcrumb-title: Experience Platform 聯合客群構成
-source-git-commit: 16af7b7e5258aa377c94d552048bdc2d38a39b44
-workflow-type: ht
-source-wordcount: '164'
-ht-degree: 100%
+source-git-commit: 326509ed14bb2c29b2061ede11389aceb1f26956
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 98%
 
 ---
 
@@ -18,11 +18,12 @@ ht-degree: 100%
 + 開始使用聯合客群構成 {#start}
    + [什麼是聯合客群構成](start/get-started.md)
    + [先決條件和護欄](start/access-prerequisites.md)
-   + [存取聯合客群構成](start/feature-access.md)
    + [使用客群](start/audiences.md)
    + [使用 AI 助理](start/ai-assistant.md)
-   + [隱私權與安全性](start/privacy-security.md)
    + [常見問題](start/faq.md)
++ 治理、隱私權、安全性 {#governance-privacy-security}
+   + [概觀](./governance-privacy-security/home.md)
+   + [存取控制](governance-privacy-security/access-control.md)
 + 設定步驟 {#config}
    + [建立和管理連接](connections/connections.md)
    + [設定您的聯合資料庫](connections/federated-db.md)

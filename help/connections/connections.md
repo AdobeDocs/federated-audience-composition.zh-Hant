@@ -3,10 +3,10 @@ audience: end-user
 title: 建立和管理與同盟資料庫的連線
 description: 瞭解如何建立和管理與同盟資料庫的連線
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
+source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 8%
+source-wordcount: '321'
+ht-degree: 3%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 8%
 >若要存取連線，您需要下列其中一個許可權：
 >
 >-**管理同盟資料庫**
->&#x200B;>-**檢視同盟資料庫**
+>>-**檢視同盟資料庫**
 >
->有關所需權限的更多資訊，請閱讀「[存取聯合客群構成指南](/help/start/feature-access.md)」。
+>如需必要許可權的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
 
 Experience Platform同盟對象構成可讓客戶從協力廠商資料倉儲建立並豐富對象，並將對象匯入至Adobe Experience Platform。 支援的資料倉儲列於[此區段](../start/access-prerequisites.md#supported-systems)中。
 

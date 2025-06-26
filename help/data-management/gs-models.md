@@ -3,9 +3,9 @@ audience: end-user
 title: 開始使用資料模型
 description: 瞭解如何開始使用資料模型
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
-source-git-commit: 7f8a90c21c000d66cd7f3181170d6d8edb448f83
+source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 2%
 >若要存取資料模型，您需要下列其中一個許可權：
 >
 >-**管理同盟資料模型**
->-**檢視同盟資料模型**
+>>-**檢視同盟資料模型**
 >
->如需必要許可權的詳細資訊，請參閱[Access Federated Audience Composition指南](/help/start/feature-access.md)。
+>如需必要許可權的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
 
 ## 什麼是資料模型 {#data-model-start}
 

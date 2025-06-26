@@ -3,10 +3,10 @@ audience: end-user
 title: 使用儲存對象活動
 description: 瞭解如何使用「儲存對象」活動
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 28%
+source-wordcount: '532'
+ht-degree: 19%
 
 ---
 
@@ -34,15 +34,11 @@ ht-degree: 28%
 >abstract="選取輪廓要用的命名空間。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces" text="進一步瞭解 Experience Platform 文件"
 
-**儲存對象**&#x200B;活動可讓您從構成中的母體運算上游建立新的對象。 建立的對象會新增至Adobe Experience Platform對象清單，並可透過&#x200B;**對象**&#x200B;功能表使用。 [學習如何使用客群](../../start/audiences.md)
+**[!UICONTROL 儲存對象]**&#x200B;活動可讓您從構成中的母體運算上游建立新的對象。 建立的對象會新增至Adobe Experience Platform對象清單，並可透過&#x200B;**對象**&#x200B;功能表使用。 [學習如何使用客群](../../start/audiences.md)
 
 此活動主要用於將母體族群轉換為可重複使用的對象，讓母體族群可繼續在相同構成中運算。 將其連線到其他目標定位活動，例如&#x200B;**建立對象**&#x200B;或&#x200B;**合併**&#x200B;活動。
 
-**[!UICONTROL 儲存對象]**&#x200B;活動會產生新的對象結構描述和資料集。 建立對象後，請與管理員協調以指派適當的資料控管標籤。 [進一步瞭解資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/user-guide)
-
->[!IMPORTANT]
->
->**儲存對象**&#x200B;活動需要啟用設定檔的結構描述和資料集。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}。
+**[!UICONTROL 儲存對象]**&#x200B;活動會產生新的對象結構描述和相關資料集，其中可能包含個人識別資訊(PII)或受保護的健康資訊(PHI)。 建立對象後，請與您的管理員合作，確保根據您組織的資料原則套用適當的資料治理標籤。 如需如何套用資料使用標籤的詳細資訊，請參閱[資料使用標籤使用手冊](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/user-guide)。
 
 ## 設定「儲存對象」活動 {#save-audience-configuration}
 
@@ -69,7 +65,7 @@ ht-degree: 28%
 
 ## 在 Adobe Experience Platform 中存取客群 {#access-audience}
 
-在執行構成後，產生的客群將作為外部客群儲存在 Adobe Experience Platform 中，並可用於 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer。該客群可透過「**客群**」選單進行存取。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+執行構成後，產生的對象會儲存至Adobe Experience Platform作為外部對象，並可在Audience Portal的Adobe Real-Time CDP和/或Adobe Journey Optimizer中使用。 如需對象入口網站的詳細資訊，請閱讀[對象入口網站概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}。
 
 建立的對象包含「對象對應」區段中選取的所有欄位。 您可以在Journey Optimizer中鎖定此對象，或在Adobe Experience Platform支援的任何目的地啟用它。
 

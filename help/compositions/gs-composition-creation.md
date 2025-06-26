@@ -3,7 +3,7 @@ audience: end-user
 title: 建立組合
 description: 瞭解如何建立組合
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: b73eba776e3e75f3ff7107bcf48f7b2f60048d08
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 58%
@@ -21,9 +21,9 @@ ht-degree: 58%
 
 Experience Platform同盟對象構成提供視覺畫布，可讓您運用各種活動（分割、擴充等）來建立對象。
 
-構成圖是應該發生的表示法。 它會說明要執行的各種任務以及任務如何連結在一起。
+構成圖是應該發生的表示法。 其會說明要執行的各種任務以及任務如何連結在一起。
 
-![](assets/composition-example.png){zoomable="yes"} {zoomable="yes"}
+![](assets/gs-compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
 每個構成都包含：
 

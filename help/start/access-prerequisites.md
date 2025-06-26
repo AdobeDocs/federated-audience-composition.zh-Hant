@@ -2,9 +2,9 @@
 title: 聯合客群構成的先決條件和護欄
 description: 了解聯合客群構成的先決條件、權限和護欄
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: ht
-source-wordcount: '337'
+source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
+workflow-type: tm+mt
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ## 權限 {#permissions}
 
-若要存取聯合客群構成，您必須將使用者新增至購買時所建立的沙箱特定產品設定檔中，並為其指派「**[!UICONTROL 管理聯合資料]**」權限。[了解更多](feature-access.md)
+若要存取聯合客群構成，您必須將使用者新增至購買時所建立的沙箱特定產品設定檔中，並為其指派「**[!UICONTROL 管理聯合資料]**」權限。[了解更多](/help/governance-privacy-security/access-control.md)
 
 ## IP 允許清單 {#ip}
 
@@ -59,13 +59,6 @@ ht-degree: 100%
 
 ## 護欄和限制 {#fac-guardrails}
 
-* 聯合客群構成目前不適用於[攝取健康資料](https://experienceleague.adobe.com/zh-hant/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}的客戶。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
-
-<!--
-* Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/zh-hant/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
-
 * [Adobe Real-Time Customer Data Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}中列出的權益、產品限制及效能護欄，均適用於聯合客群構成。
 
 * 聯合客群構成支援匯出大量客群，檔案大小可大於 1GB。為了獲得最佳效能，建議的檔案大小上限為 20GB。
-
-
