@@ -73,7 +73,7 @@ ht-degree: 17%
 | 敏感標籤 | 敏感標籤（「S」標籤）可用來分類您和/或您的組織認為敏感。 |
 | 合作夥伴生態系統標籤 | 合作夥伴生態系統標籤可用來對來自組織外部來源的資料進行分類。 |
 
-如需存取和資料控管標籤的詳細資訊，請閱讀[資料使用標籤字彙表](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference)。
+如需存取和資料控管標籤的詳細資訊，請閱讀[資料使用標籤字彙表](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/reference)。
 
 ## 後續步驟
 
