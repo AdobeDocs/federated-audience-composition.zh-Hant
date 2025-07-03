@@ -6,7 +6,7 @@ exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 16%
 >若要存取作品，您需要以下權限之一：
 >
 >-**管理聯合構成**
->&#x200B;>-**檢視聯合構成**
+>>-**檢視聯合構成**
 >
 >如需必要許可權的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
 
@@ -25,7 +25,7 @@ ht-degree: 16%
 
 ![範例構成工作流程顯示在同盟對象構成中。](assets/gs-compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
-## 存取和管理組合 {#access}
+## 存取和管理構成 {#access}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
@@ -73,7 +73,7 @@ ht-degree: 16%
 | 敏感標籤 | 敏感標籤（「S」標籤）可用來分類您和/或您的組織認為敏感。 |
 | 合作夥伴生態系統標籤 | 合作夥伴生態系統標籤可用來對來自組織外部來源的資料進行分類。 |
 
-如需存取和資料控管標籤的詳細資訊，請閱讀[資料使用標籤字彙表](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/reference)。
+如需存取和資料控管標籤的詳細資訊，請閱讀[資料使用標籤字彙表](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference)。
 
 ## 後續步驟
 
