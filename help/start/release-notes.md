@@ -3,19 +3,19 @@ title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1428'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # 發行說明 {#rn-new}
 
-[!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+[!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-hant){target="_blank"}。
 
-## 2025年6月發行 {#fac-25-6}
+## 2025 年 6 月版 {#fac-25-6}
 
-### 改良功能 {#fac-25-06-improvements}
+### 功能改善 {#fac-25-06-improvements}
 
 此版本包含下列改善項目：
 
@@ -23,25 +23,25 @@ ht-degree: 95%
 
   在 6 月底以前，Adobe Healthcare Shield 客戶將可以將聯合客群構成用於客群建立、擴充以及輪廓擴充使用案例。
 
-  在[資料治理、隱私和安全性指南](/help/governance-privacy-security/home.md)中，可以找到有關同盟對象組合中隱私和安全的更多資訊。
+  如需有關聯合客群構成中的隱私權和安全性的詳細資訊，請參閱[資料治理、隱私權和安全性指南](/help/governance-privacy-security/home.md)。
 
 * **物件層級的存取控制**
 
   聯合客群構成現在支援物件層級的存取控制，以便將存取標籤套用至您指定的構成。
 
-  您可以在[組合指南](/help/compositions/gs-compositions.md)中找到有關使用物件層級存取標籤的更多資訊。
+  如需有關使用物件層級存取標籤的詳細資訊，請參閱[構成指南](/help/compositions/gs-compositions.md)。
 
 * **預設角色**
 
   您現在可以使用其中一個預設角色來管理聯合客群構成存取的使用者權限。
 
-  如需預設角色的詳細資訊，請參閱[存取同盟對象組合指南](/help/governance-privacy-security/access-control.md)。
+  如需有關預設角色的詳細資訊，請參閱[存取聯合客群構成指南](/help/governance-privacy-security/access-control.md)。
 
 * **輪廓擴充使用案例中的漸進式更新**
 
   儲存輪廓活動現在支援漸進式更新。透過漸進式更新，您就可以查詢及更新增量資料，同時使用外部資料倉儲中的資料來擴充輪廓。
 
-  您可以在[儲存設定檔活動指南](/help/compositions/activities/save-profiles.md)中找到更多有關使用儲存設定檔活動的資訊。
+  如需有關使用儲存輪廓活動的詳細資訊，請參閱[儲存輪廓活動指南](/help/compositions/activities/save-profiles.md)。
 
 ## 2025 年 5 月版 {#fac-25-5}
 
@@ -150,7 +150,7 @@ ht-degree: 95%
 
 * **儲存客群活動**
 
-  **儲存客群**&#x200B;活動中新增了一則注意事項，提醒使用者與資料管理員協作，以便將治理標籤套用至在客群建立和擴充期間所建立的新結構描述和資料集。
+  **儲存客群**活動中新增了一則注意事項，提醒使用者與資料管理員協作，以便將治理標籤套用至在客群建立和擴充期間所建立的新結構描述和資料集。
   [深入了解資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 相容性 {#fac-25-4-compat}
