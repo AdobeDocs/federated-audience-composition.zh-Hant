@@ -61,7 +61,7 @@ ht-degree: 86%
 
 若要使用同盟對象構成來產生對象，您&#x200B;**必須**&#x200B;使用依順序&#x200B;**合併原則的**&#x200B;時間戳記。 如果您的對象使用&#x200B;**資料集優先順序**&#x200B;合併原則，請聯絡Adobe客戶服務以繼續。
 
-如需合併原則的詳細資訊，請閱讀[合併原則概觀](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)。
+如需合併原則的詳細資訊，請閱讀[合併原則概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview)。
 
 ## 護欄與限制 {#fac-guardrails}
 
