@@ -2,10 +2,10 @@
 title: 聯合客群構成的先決條件和護欄
 description: 了解聯合客群構成的先決條件、權限和護欄
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
-workflow-type: ht
-source-wordcount: '322'
-ht-degree: 100%
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 86%
 
 ---
 
@@ -57,7 +57,13 @@ ht-degree: 100%
 
 將這些 IP 位址新增至您的允許清單，以授予聯合客群構成的存取權。
 
-## 護欄和限制 {#fac-guardrails}
+## 合併原則 {#merge-policies}
+
+若要使用同盟對象構成來產生對象，您&#x200B;**必須**&#x200B;使用依順序&#x200B;**合併原則的**&#x200B;時間戳記。 如果您的對象使用&#x200B;**資料集優先順序**&#x200B;合併原則，請聯絡Adobe客戶服務以繼續。
+
+如需合併原則的詳細資訊，請閱讀[合併原則概觀](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)。
+
+## 護欄與限制 {#fac-guardrails}
 
 * [Adobe Real-Time Customer Data Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}中列出的權益、產品限制及效能護欄，均適用於聯合客群構成。
 

@@ -2,9 +2,9 @@
 user-guide-title: Experience Platform 聯合客群構成
 title: Experience Platform 聯合客群構成文件
 breadcrumb-title: Experience Platform 聯合客群構成
-source-git-commit: 326509ed14bb2c29b2061ede11389aceb1f26956
-workflow-type: ht
-source-wordcount: '163'
+source-git-commit: d67acd28c05143202ca9a9cd64b15cfaf42c62e4
+workflow-type: tm+mt
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 100%
       + [活動清單](compositions/activities/about-activities.md)
       + [合併連結](compositions/activities/and-join.md)
       + [建置客群](compositions/activities/build-audience.md)
+      + [變更資料來源](compositions/activities/change-data-source.md)
       + [變更維度](compositions/activities/change-dimension.md)
       + [合併](compositions/activities/combine.md)
       + [重複資料刪除](compositions/activities/deduplication.md)

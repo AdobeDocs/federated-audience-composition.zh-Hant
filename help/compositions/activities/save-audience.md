@@ -3,10 +3,10 @@ audience: end-user
 title: 使用儲存對象活動
 description: 瞭解如何使用「儲存對象」活動
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 19%
+source-wordcount: '578'
+ht-degree: 18%
 
 ---
 
@@ -33,6 +33,12 @@ ht-degree: 19%
 >title="身分識別命名空間"
 >abstract="選取輪廓要用的命名空間。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces" text="進一步瞭解 Experience Platform 文件"
+
+>[!IMPORTANT]
+>
+>若要使用儲存對象活動，您的對象必須使用依序&#x200B;**合併原則的**&#x200B;時間戳記。 如果您的對象使用&#x200B;**資料集優先順序**&#x200B;合併原則，請聯絡Adobe客戶服務以繼續。
+>
+>如需合併原則的詳細資訊，請閱讀[合併原則概觀](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)。
 
 **[!UICONTROL 儲存對象]**&#x200B;活動可讓您從構成中的母體運算上游建立新的對象。 建立的對象會新增至Adobe Experience Platform對象清單，並可透過&#x200B;**對象**&#x200B;功能表使用。 [學習如何使用客群](../../start/audiences.md)
 

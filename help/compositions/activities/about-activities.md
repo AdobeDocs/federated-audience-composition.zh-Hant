@@ -3,10 +3,10 @@ audience: end-user
 title: 使用活動
 description: 瞭解如何使用活動
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 2a21dcde345febdaad0934c8835df5f7ae8c30f6
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 16%
+source-wordcount: '289'
+ht-degree: 17%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 16%
 ## 目標定位活動
 
 * [建立對象活動](build-audience.md)：定義您的目標母體。 您可以選取現有對象，或使用查詢建模器來定義您自己的查詢。
+* [變更資料來源](./change-data-source.md)：變更構成所使用的資料來源。
 * [變更維度](change-dimension.md)：當您建置構成時，請變更結構描述（也稱為目標維度）。
 * [合併](combine.md)：對傳入母體執行分段。 您可以使用聯合、交集或排除。
 * [重複資料刪除](deduplication.md)：刪除傳入活動結果中的重複專案。
