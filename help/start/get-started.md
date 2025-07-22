@@ -2,10 +2,10 @@
 title: 開始使用 Experience Platform 聯合客群構成
 description: 了解什麼是 Adobe 聯合客群構成，以及如何在 Adobe Experience Platform 中使用此功能
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '1112'
-ht-degree: 100%
+source-git-commit: bb3e01b11d34568b61fdd98eedaa59af5267fd87
+workflow-type: tm+mt
+source-wordcount: '1236'
+ht-degree: 76%
 
 ---
 
@@ -33,19 +33,22 @@ ht-degree: 100%
 
 * B2C 和 B2B CDP 客戶現在可以利用聯合客群構成，透過整合受支援的企業資料倉儲中的資料來建立以人員為基礎的客群。此外，他們可以透過整合企業資料倉儲中的相關屬性來擴充現有 AEP 以人員為基礎的客群，從而增強其客群輪廓以實現更個人化和有針對性的參與。
 
-## 使用案例 {#rn-uc}
+## 使用案例 {#use-cases}
 
-透過行銷人員一看就懂的使用者介面，建立用來查詢資料倉儲的區段規則，找出符合行銷活動所需特定區段資格的使用者清單；存取倉儲中的現有客群並加以啟用，或使用倉儲中的其他現有資料點擴充 Adobe Experience Platform 客群。
+同盟對象構成支援&#x200B;**三個**&#x200B;類別的使用案例：對象建立、對象擴充和客戶設定檔擴充。
 
-在此版本中，有兩個可用的使用案例：
+* 對象建立：您可以從Data Warehouse建立對象，並將這些對象組成至Experience Platform，以便透過行銷人員易用的拖放使用者介面用於Real-Time CDP或Journey Optimizer。 因此，您可以查詢資料倉儲，而不需複製敏感的基礎資料或複製現有的資料。
+   * **範例：**&#x200B;使用倉儲中的歷史交易資料，建立高價值過去購買者的對象，而不將那些交易複製到Experience Platform。
 
-1. 客群建立：從企業資料集中建立新客群，而無需複製基礎資料，並透過預先建立的目的地來啟用這些客群。
+* 對象擴充：您可以使用資料倉儲中的其他資料集，並將此資訊覆蓋對象，在Experience Platform中新增更多詳細資訊至現有對象，而完全無須將基礎資料複製到Experience Platform。 透過對象擴充，您可以透過擴充的對象來提供改善的個人化。
+   * **範例：**&#x200B;透過高價值過去購買者的同盟對象構成對象，讓購物車放棄者的Experience Platform對象更為豐富，從而提供鎖定目標的選件。
 
-1. 客群擴充：利用從企業資料倉儲聯合的構成客群資料，擴充 Adobe Experience Platform 中的現有客群。此資料將不會長期保存在 Adobe Experience Platform 客戶輪廓中。
-
-1. 輪廓擴充：透過聯合外部倉儲的資料來擴充 Adobe Experience Platform 輪廓，使您能夠利用額外的屬性和深入分析來增強客戶輪廓。
+* 設定檔擴充：您可以從資料倉儲選取個別客戶屬性，以增強Experience Platform設定檔。 透過將同盟資料新增到這些設定檔，您可以更好地支援由傳入客戶訊號觸發的即時體驗。
+   * **範例：**&#x200B;使用同盟對象的資訊，擴充Experience Platform設定檔。 現在，您可以將行銷對象行銷給屬於高價值過去購買者同盟受眾的網站訪客，其同盟受眾具有由其網站上的行為觸發的鎖定目標選件。
 
 ![圖表](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+
+如需同盟對象構成使用案例的詳細資訊，請參閱[同盟對象構成白皮書](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html)。
 
 ## 主要步驟 {#gs-steps}
 
@@ -65,7 +68,7 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 
 >[!NOTE]
 >
->在執行構成後，產生的客群將作為外部客群儲存在 Adobe Experience Platform 中，並可用於 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer。該客群可透過「**客群**」選單進行存取。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>執行構成後，產生的對象會儲存於Adobe Experience Platform中作為外部對象，並可供Adobe Real-Time Customer Data Platform和/或Adobe Journey Optimizer使用。 該客群可透過「**客群**」選單進行存取。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## 治理、隱私權和安全性 {#governance-privacy-security}
 
