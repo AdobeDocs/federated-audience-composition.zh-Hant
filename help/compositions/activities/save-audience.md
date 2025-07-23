@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: 使用儲存對象活動
+title: 使用儲存客群活動
 description: 瞭解如何使用「儲存對象」活動
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 18%
+source-wordcount: '567'
+ht-degree: 23%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->若要使用儲存對象活動，您的對象必須使用依序&#x200B;**合併原則的**&#x200B;時間戳記。 如果您的對象使用&#x200B;**資料集優先順序**&#x200B;合併原則，請聯絡Adobe客戶服務以繼續。
+>如果您的對象使用&#x200B;**資料集優先順序**&#x200B;合併原則，請聯絡Adobe客戶服務以將`Halos UPS`資料集新增到您的合併原則。
 >
->如需合併原則的詳細資訊，請閱讀[合併原則概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview)。
+>如需合併原則的詳細資訊，請閱讀[合併原則概觀](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)。
 
 **[!UICONTROL 儲存對象]**&#x200B;活動可讓您從構成中的母體運算上游建立新的對象。 建立的對象會新增至Adobe Experience Platform對象清單，並可透過&#x200B;**對象**&#x200B;功能表使用。 [學習如何使用客群](../../start/audiences.md)
 
@@ -46,9 +46,9 @@ ht-degree: 18%
 
 **[!UICONTROL 儲存對象]**&#x200B;活動會產生新的對象結構描述和相關資料集，其中可能包含個人識別資訊(PII)或受保護的健康資訊(PHI)。 建立對象後，請與您的管理員合作，確保根據您組織的資料原則套用適當的資料治理標籤。 如需如何套用資料使用標籤的詳細資訊，請參閱[資料使用標籤使用手冊](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/user-guide)。
 
-## 設定「儲存對象」活動 {#save-audience-configuration}
+## 設定儲存客群活動 {#save-audience-configuration}
 
-請依照下列步驟設定&#x200B;**儲存對象**&#x200B;活動：
+請按照以下步驟，設定「**儲存客群**」活動：
 
 1. 將&#x200B;**儲存對象**&#x200B;活動新增至您的組合。
 
@@ -75,7 +75,7 @@ ht-degree: 18%
 
 建立的對象包含「對象對應」區段中選取的所有欄位。 您可以在Journey Optimizer中鎖定此對象，或在Adobe Experience Platform支援的任何目的地啟用它。
 
-[在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[請到 Adobe Experience Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}那邊，了解更多相關資訊。
 
 <!--
 
