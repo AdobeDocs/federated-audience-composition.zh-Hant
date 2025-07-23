@@ -38,7 +38,7 @@ ht-degree: 23%
 >
 >如果您的對象使用&#x200B;**資料集優先順序**&#x200B;合併原則，請聯絡Adobe客戶服務以將`Halos UPS`資料集新增到您的合併原則。
 >
->如需合併原則的詳細資訊，請閱讀[合併原則概觀](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)。
+>如需合併原則的詳細資訊，請閱讀[合併原則概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview)。
 
 **[!UICONTROL 儲存對象]**&#x200B;活動可讓您從構成中的母體運算上游建立新的對象。 建立的對象會新增至Adobe Experience Platform對象清單，並可透過&#x200B;**對象**&#x200B;功能表使用。 [學習如何使用客群](../../start/audiences.md)
 

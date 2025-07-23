@@ -61,7 +61,7 @@ ht-degree: 90%
 
 如果您的對象使用&#x200B;**資料集優先順序**&#x200B;合併原則，請聯絡Adobe客戶服務以將`Halos UPS`資料集新增到您的合併原則。
 
-如需合併原則的詳細資訊，請閱讀[合併原則概觀](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)。
+如需合併原則的詳細資訊，請閱讀[合併原則概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview)。
 
 ## 護欄與限制 {#fac-guardrails}
 
