@@ -3,9 +3,9 @@ title: 開始使用 Experience Platform 聯合客群構成
 description: 了解什麼是 Adobe 聯合客群構成，以及如何在 Adobe Experience Platform 中使用此功能
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: bb3e01b11d34568b61fdd98eedaa59af5267fd87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1236'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -35,20 +35,20 @@ ht-degree: 76%
 
 ## 使用案例 {#use-cases}
 
-同盟對象構成支援&#x200B;**三個**&#x200B;類別的使用案例：對象建立、對象擴充和客戶設定檔擴充。
+聯合客群構成支援&#x200B;**三個**&#x200B;使用案例類別：客群建立、客群擴充和客戶輪廓擴充。
 
-* 對象建立：您可以從Data Warehouse建立對象，並將這些對象組成至Experience Platform，以便透過行銷人員易用的拖放使用者介面用於Real-Time CDP或Journey Optimizer。 因此，您可以查詢資料倉儲，而不需複製敏感的基礎資料或複製現有的資料。
-   * **範例：**&#x200B;使用倉儲中的歷史交易資料，建立高價值過去購買者的對象，而不將那些交易複製到Experience Platform。
+* 客群建立：您可以從資料倉儲中建立客群，並將這些客群聯合到 Experience Platform 中，以便透過行銷人員易用的拖放使用者介面，在 Real-Time CDP 或 Journey Optimizer 中使用。如此，您便可以查詢資料倉儲，而無需複製敏感的底層資料或複製現有資料。
+   * **例如：**&#x200B;使用倉儲中的歷史交易資料來建立由高價值過往購買者組成的客群，而無需將這些交易複製到 Experience Platform 中。
 
-* 對象擴充：您可以使用資料倉儲中的其他資料集，並將此資訊覆蓋對象，在Experience Platform中新增更多詳細資訊至現有對象，而完全無須將基礎資料複製到Experience Platform。 透過對象擴充，您可以透過擴充的對象來提供改善的個人化。
-   * **範例：**&#x200B;透過高價值過去購買者的同盟對象構成對象，讓購物車放棄者的Experience Platform對象更為豐富，從而提供鎖定目標的選件。
+* 客群擴充：您可以使用資料倉儲中的其他資料集並利用這些資訊來覆蓋您的客群，從而為 Experience Platform 中的現有客群新增更多詳細資料，而完全無需將底層資料複製到 Experience Platform 中。透過客群擴充，您便可以使用擴充的客群來提供更好的個人化。
+   * **例如：**&#x200B;利用由高價值過往購買者組成的聯合客群構成客群來擴充由購物車捨棄者組成的 Experience Platform 客群，以提供有針對性的優惠。
 
-* 設定檔擴充：您可以從資料倉儲選取個別客戶屬性，以增強Experience Platform設定檔。 透過將同盟資料新增到這些設定檔，您可以更好地支援由傳入客戶訊號觸發的即時體驗。
-   * **範例：**&#x200B;使用同盟對象的資訊，擴充Experience Platform設定檔。 現在，您可以將行銷對象行銷給屬於高價值過去購買者同盟受眾的網站訪客，其同盟受眾具有由其網站上的行為觸發的鎖定目標選件。
+* 輪廓擴充：您可以從資料倉儲中選取個別的客戶屬性來改進 Experience Platform 輪廓。透過將聯合資料新增至這些輪廓，您便可以更好地支援由傳入客戶訊號所觸發的即時體驗。
+   * **例如：**&#x200B;利用聯合客群中的資訊來擴充 Experience Platform 輪廓。對於屬於高價值過往購買者聯合客群的網站訪客，您現在可以利用他們的網站上行為所觸發的針對性優惠來向他們推銷。
 
 ![圖表](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
-如需同盟對象構成使用案例的詳細資訊，請參閱[同盟對象構成白皮書](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html)。
+如需有關聯合客群構成使用案例的詳細資訊，請參閱[聯合客群構成白皮書](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html)。
 
 ## 主要步驟 {#gs-steps}
 
@@ -68,7 +68,7 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 
 >[!NOTE]
 >
->執行構成後，產生的對象會儲存於Adobe Experience Platform中作為外部對象，並可供Adobe Real-Time Customer Data Platform和/或Adobe Journey Optimizer使用。 該客群可透過「**客群**」選單進行存取。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>在執行構成後，產生的客群將作為外部客群儲存在 Adobe Experience Platform 中，並可用於 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer。該客群可透過「**客群**」選單進行存取。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## 治理、隱私權和安全性 {#governance-privacy-security}
 

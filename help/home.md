@@ -3,9 +3,9 @@ title: Adobe Experience Platform 聯合客群構成文件首頁
 description: 聯合客群構成文件
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 87ad70eea32255060d6c23075901cbfc83107e7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -53,17 +53,17 @@ Experience Platform 聯合客群構成可為 Adobe Real-Time CDP 和 Adobe Journ
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>撰寫對象</strong><br/>新增並設定活動（例如分割、擴充或查詢）以建置組合，並建立您的第一個同盟對象。
+    <div><strong>構成客群</strong><br/>新增及設定活動 (例如分割、擴充或查詢) 以建立構成和您的第一個聯合客群。
     </div>
     </td>
     <td>
     <a href="start/get-started.md#use-cases"><img src="assets/do-not-localize/start-use-cases.png"></a>
-    <div><strong>使用案例</strong><br/>使用同盟對象構成來建立及豐富對象，並豐富設定檔資料。
+    <div><strong>使用案例</strong><br/>使用聯合客群構成來建立和擴充客群，以及擴充輪廓資料。
     </div>
     </td>
     <td>
     <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
-    <div><strong>常見問題集</strong><br/>關於同盟對象構成的常見問題。</div>
+    <div><strong>常見問題</strong><br/>有關聯合客群構成的常見問題。</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -77,4 +77,4 @@ Experience Platform 聯合客群構成可為 Adobe Real-Time CDP 和 Adobe Journ
 
 ## 其他資源  {#additional-resources}
 
-[Real-Time Customer Data Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe對象入口網站檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [教學課程](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
+[Real-Time Customer Data Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [教學課程](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
