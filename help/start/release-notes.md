@@ -2,7 +2,7 @@
 title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 92%
@@ -197,7 +197,7 @@ ht-degree: 92%
 
 * **儲存客群活動**
 
-  **儲存客群**&#x200B;活動中新增了一則注意事項，提醒使用者與資料管理員協作，以便將治理標籤套用至在客群建立和擴充期間所建立的新結構描述和資料集。
+  **儲存客群**活動中新增了一則注意事項，提醒使用者與資料管理員協作，以便將治理標籤套用至在客群建立和擴充期間所建立的新結構描述和資料集。
   [深入了解資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 相容性 {#fac-25-4-compat}
@@ -273,7 +273,6 @@ ht-degree: 92%
 >[!AVAILABILITY]
 >
 >Adobe Experience Platform 聯合客群構成先前僅開放給某些組織使用 (LA)，現已向所有使用者開放 (GA)。這項功能會根據您的產品啟用，而且必須具備相關權限才看得見。[了解更多](access-prerequisites.md)
->
 
 ### 相容性 {#fac-24-10-compat}
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 建立組合
 description: 瞭解如何建立組合
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 8%
@@ -95,3 +95,4 @@ ht-degree: 8%
 * **[!UICONTROL 停止]**&#x200B;正在執行的組合，這會顯示&#x200B;**[!UICONTROL 已完成]**&#x200B;的狀態。 如果可能的話，進行中的作業會被中斷。 您無法從停止的同一個位置繼續構成。
 
 * **[!UICONTROL 重新啟動]**：停止然後重新啟動組合。 在大多數情況下，這可以讓您更快速地重新啟動，因為停止需要一定的時間，而且&#x200B;**[!UICONTROL 啟動]**&#x200B;按鈕只有在停止生效時才可用。
+

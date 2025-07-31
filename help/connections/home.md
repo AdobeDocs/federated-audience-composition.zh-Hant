@@ -3,7 +3,7 @@ audience: end-user
 title: 建立和管理與同盟資料庫的連線
 description: 瞭解如何建立和管理與同盟資料庫的連線
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 0fad4079df8efb2ed249a3b82703acf658ca2e72
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 11%
@@ -17,7 +17,7 @@ ht-degree: 11%
 >若要存取連線，您需要下列其中一個許可權：
 >
 >-**管理同盟資料庫**
->&#x200B;>-**檢視同盟資料庫**
+>>-**檢視同盟資料庫**
 >
 >如需有關必要權限的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
 
@@ -227,4 +227,3 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | 測試連線 | 可讓您驗證您的設定詳細資料。 |
 
 您現在可以選取&#x200B;**[!UICONTROL 部署功能]**，然後選取&#x200B;**[!UICONTROL 新增]**，以完成同盟資料庫與Experience Platform之間的連線。
-
