@@ -3,10 +3,10 @@ audience: end-user
 title: 使用儲存客群活動
 description: 瞭解如何使用「儲存對象」活動
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
+source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 23%
+ht-degree: 25%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->如果您的對象使用&#x200B;**資料集優先順序**&#x200B;合併原則，請聯絡Adobe客戶服務以將`Halos UPS`資料集新增到您的合併原則。
+>如果您的沙箱使用&#x200B;**資料集優先順序**&#x200B;合併原則，請聯絡Adobe客戶服務以將`Halos UPS`資料集新增到合併原則中。
 >
->如需合併原則的詳細資訊，請閱讀[合併原則概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview)。
+>如需有關合併原則的詳細資訊，請參閱[合併原則概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview)。
 
 **[!UICONTROL 儲存對象]**&#x200B;活動可讓您從構成中的母體運算上游建立新的對象。 建立的對象會新增至Adobe Experience Platform對象清單，並可透過&#x200B;**對象**&#x200B;功能表使用。 [學習如何使用客群](../../start/audiences.md)
 

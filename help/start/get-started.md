@@ -2,8 +2,8 @@
 title: 開始使用 Experience Platform 聯合客群構成
 description: 了解什麼是 Adobe 聯合客群構成，以及如何在 Adobe Experience Platform 中使用此功能
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: bb3e01b11d34568b61fdd98eedaa59af5267fd87
-workflow-type: ht
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 聯合客群構成適用於 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/home){target="_blank"} 和 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"} 環境。您可以透過聯合客群構成使用第三方資料倉儲來建置和擴充客群，並將客群匯入 Adobe Experience Platform。聯合客群構成提供簡易且強大的解決方案，可讓您直接在 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer 中連接企業資料倉儲，並針對資料倉儲中的表格執行查詢。
 
-有了 Adobe 聯合客群構成協助，Adobe Experience Platform 應用程式使用者就能存取儲存在資料倉儲與雲端儲存平台 (如 Amazon Redshift、Azure Synapse Analytics 等) 中的客戶資料。現在，客戶資料可以存放在多個資料倉儲中，而且無需複寫，就能立即存取。[此頁面](../connections/federated-db.md#supported-db)列出支援的平台。
+有了 Adobe 聯合客群構成協助，Adobe Experience Platform 應用程式使用者就能存取儲存在資料倉儲與雲端儲存平台 (如 Amazon Redshift、Azure Synapse Analytics 等) 中的客戶資料。現在，客戶資料可以存放在多個資料倉儲中，而且無需複寫，就能立即存取。[此頁面](../connections/home.md#supported-db)列出支援的平台。
 
 >[!INFO]
 >
@@ -58,7 +58,7 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 
 主要步驟：
 
-1. **資料整合**：匯集各種來源的資料，並合併為統一的資料集。若要進一步了解如何連接 Adobe Experience Platform 應用程式和您的企業資料倉儲、支援的資料庫，以及如何設定這些資料庫，請參閱[本節](../connections/federated-db.md)說明。
+1. **資料整合**：匯集各種來源的資料，並合併為統一的資料集。若要進一步了解如何連接 Adobe Experience Platform 應用程式和您的企業資料倉儲、支援的資料庫，以及如何設定這些資料庫，請參閱[本節](../connections/home.md)說明。
 
 1. **資料模式**：設計並建立資料模型和結構描述，以定義資料的結構、關係和限制。若要了解更多有關結構描述的資訊，請參閱[此頁面](../customer/schemas.md)。在[此頁面](../data-management/gs-models.md)學習如何為資料模型建立連結。
 

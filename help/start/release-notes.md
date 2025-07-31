@@ -2,16 +2,63 @@
 title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
-workflow-type: ht
-source-wordcount: '1428'
-ht-degree: 100%
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+workflow-type: tm+mt
+source-wordcount: '1542'
+ht-degree: 92%
 
 ---
 
 # 發行說明 {#rn-new}
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-hant){target="_blank"}。
+
+## 2025年7月發行 {#fac-25-7}
+
+### 全新功能 {#fac-25-07-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>新聯結器 — Oracle</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Oracle聯結器現在可與同盟對象構成搭配使用。</p>
+<p>您可以使用Oracle聯結器來建立對象和擴充對象使用案例。</p>
+<p>如需Oracle連線的詳細資訊，請參閱<a href="../connections/home.md#create">連線總覽</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>組合警報</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以訂閱警報，以瞭解您的構成成功和失敗的執行作業</p>
+<p>如需訂閱構成執行通知的詳細資訊，請閱讀<a href="../compositions/start-monitor-composition.md#alerts">開始並監視構成指南</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 功能改善 {#fac-25-07-improvements}
+
+此版本隨附下列改善專案：
+
+* **伺服器字元長度增加**
+
+  設定同盟資料庫時，您現在可以使用最多255個字元，而不是之前的80個字元。
 
 ## 2025 年 6 月版 {#fac-25-6}
 
@@ -157,11 +204,11 @@ ht-degree: 100%
 
 * **Amazon Redshift 安全連線**
 
-  透過這個新版本，聯合客群構成可支援與 Amazon Redshift 資料庫建立安全的私人連結連線。[了解更多](../connections/federated-db.md#amazon-redshift)
+  透過這個新版本，聯合客群構成可支援與 Amazon Redshift 資料庫建立安全的私人連結連線。[了解更多](../connections/home.md#amazon-redshift)
 
 * **Google BigQuery**
 
-  透過這個新版本，聯合客群構成可支援與 Google BigQuery 資料庫建立安全的 VPN 連線。[了解更多](../connections/federated-db.md#google-bigquery)
+  透過這個新版本，聯合客群構成可支援與 Google BigQuery 資料庫建立安全的 VPN 連線。[了解更多](../connections/home.md#google-bigquery)
 
 ## 2025 年 3 月發行版本 {#fac-25-3}
 
@@ -177,22 +224,11 @@ ht-degree: 100%
 
   若要了解如何指派此權限，請參閱[詳細說明文件](/help/governance-privacy-security/access-control.md)。
 
-<!--
-* **Data model Canvas view**
-
-    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
-
-* **AI Assistant**
-
-    AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. 
--->
-
-
 ### 相容性 {#fac-25-3-compat}
 
 * **Databricks 連線**
 
-  透過此一新版本，聯合客群構成現在支援透過私人連結進行 Databricks 資料庫連線，這包括透過私人連結與託管在 Amazon Web Services (AWS) 上的 Databricks 資料庫建立安全連線，以及透過 VPN 與託管在 Microsoft Azure 上的 Databricks 資料庫建立安全連線。[了解更多](../connections/federated-db.md#databricks)
+  透過此一新版本，聯合客群構成現在支援透過私人連結進行 Databricks 資料庫連線，這包括透過私人連結與託管在 Amazon Web Services (AWS) 上的 Databricks 資料庫建立安全連線，以及透過 VPN 與託管在 Microsoft Azure 上的 Databricks 資料庫建立安全連線。[了解更多](../connections/home.md#databricks)
 
 * **為 B2B CDP 客戶提供支援**
 
@@ -200,7 +236,7 @@ ht-degree: 100%
 
 * **Snowflake 安全連線**
 
-  透過此一新版本，聯合客群構成現在支援使用私人連結連線至託管在 Microsoft Azure 上的 Snowflake 資料庫連線。[了解更多](../connections/federated-db.md#snowflake)
+  透過此一新版本，聯合客群構成現在支援使用私人連結連線至託管在 Microsoft Azure 上的 Snowflake 資料庫連線。[了解更多](../connections/home.md#snowflake)
 
 ## 2025 年 2 月發行版本 {#fac-25-2}
 
@@ -208,11 +244,11 @@ ht-degree: 100%
 
 * **Microsoft Fabric 支援**
 
-  您現在可以透過聯合客群構成，建立與 Microsoft Fabric 資料庫的連線。[了解更多](../connections/federated-db.md)
+  您現在可以透過聯合客群構成，建立與 Microsoft Fabric 資料庫的連線。[了解更多](../connections/home.md)
 
 * **Amazon Redshift Spectrum 支援**
 
-  對 Amazon Redshift 資料庫的連線現已支援 Amazon Redshift Spectrum。[了解更多](../connections/federated-db.md#amazon-redshift)
+  對 Amazon Redshift 資料庫的連線現已支援 Amazon Redshift Spectrum。[了解更多](../connections/home.md#amazon-redshift)
 
 * **增強的結構描述建立體驗**
 
@@ -230,7 +266,7 @@ ht-degree: 100%
 
 * **IP 位址允許清單**
 
-  在 Adobe Experience Platform 使用者介面中新增聯合資料庫時，您現在可以直接檢視與聯合客群構成執行個體關聯的 IP 位址。這可讓您輕鬆複製和授權這些 IP 以連接到您的資料庫，從而提高安全性和靈活性。[了解更多](../connections/connections.md)
+  在 Adobe Experience Platform 使用者介面中新增聯合資料庫時，您現在可以直接檢視與聯合客群構成執行個體關聯的 IP 位址。這可讓您輕鬆複製和授權這些 IP 以連接到您的資料庫，從而提高安全性和靈活性。[了解更多](../connections/home.md)
 
 ## 2024 年 10 月發行版本 {#fac-24-10}
 
@@ -245,11 +281,11 @@ ht-degree: 100%
 
 * **Databricks 支援**
 
-  您現在可以透過聯合客群構成，建立與 Databricks 資料庫的連線。[了解更多](../connections/federated-db.md#databricks)
+  您現在可以透過聯合客群構成，建立與 Databricks 資料庫的連線。[了解更多](../connections/home.md#databricks)
 
 * **支援透過 AWS PrivateLink 安全地存取 Snowflake**
 
-  現在支援透過私人連結，安全地存取外部 Snowflake 資料倉儲。請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 上，並且與您的聯合客群構成環境位於同一區域。請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。[了解更多](../connections/federated-db.md#snowflake)
+  現在支援透過私人連結，安全地存取外部 Snowflake 資料倉儲。請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 上，並且與您的聯合客群構成環境位於同一區域。請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。[了解更多](../connections/home.md#snowflake)
 
 * **Amazon Redshift Serverless 支援**
 

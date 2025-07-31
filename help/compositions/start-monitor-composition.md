@@ -3,10 +3,10 @@ audience: end-user
 title: 建立組合
 description: 瞭解如何建立組合
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 1%
+source-wordcount: '738'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 組合轉變 {#transitions}
 
-在組合中，透過轉變從一個活動傳輸到另一個活動的資料會儲存在臨時工作表中。 此資料可針對每個轉變顯示。 要執行此操作，請選取轉變以在熒幕右側開啟其屬性。
+在組合中，透過轉變從一個活動傳輸到另一個活動的資料會儲存在臨時工作表中。 此資料可針對每個轉變顯示。要執行此操作，請選取轉變以在熒幕右側開啟其屬性。
 
 * 按一下&#x200B;**[!UICONTROL 預覽結構描述]**&#x200B;以顯示工作表的結構描述。
 * 按一下&#x200B;**[!UICONTROL 預覽結果]**，以視覺化方式呈現所選轉變中傳輸的資料。 只有在啟用&#x200B;**[!UICONTROL 保留兩個執行之間的中期母體結果]**&#x200B;選項時，此選項才可用。 [了解更多](create-composition.md#settings)。
@@ -35,14 +35,14 @@ ht-degree: 1%
 
 每個活動方塊右上角的視覺指示器可讓您檢查其執行：
 
-| 視覺指示器 | 說明 |
+| 視覺指標 | 說明 |
 |-----|------------|
 | ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | 活動目前正在執行。 |
-| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | 活動需要您注意。 這可能涉及確認傳遞的傳送或採取必要行動。 |
-| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 活動發生錯誤。 若要解決此問題，請開啟構成記錄以取得詳細資訊。 |
-| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | 已成功執行活動。 |
+| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | 活動需要您注意。這可能涉及確認傳遞的傳送或採取必要行動。 |
+| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 活動發生錯誤。若要解決此問題，請開啟構成記錄以取得詳細資訊。 |
+| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | 活動已成功執行。 |
 
-## 監視日誌和任務 {#logs-tasks}
+## 監視記錄和任務 {#logs-tasks}
 
 監控構成日誌和工作是分析構成並確保其正確執行的關鍵步驟。 可從動作工具列和每個活動屬性窗格中的&#x200B;**[!UICONTROL 記錄檔]**&#x200B;按鈕存取。
 
@@ -61,6 +61,22 @@ ht-degree: 1%
 ![](assets/logs-tasks.png)
 
 在所有標籤中，您可以選擇顯示的欄及其順序、套用篩選器，並使用搜尋欄位來快速尋找所需的資訊。
+
+## 訂閱警報 {#alerts}
+
+此外，您可以訂閱警報，以便在聯合構成執行成功或失敗時接收通知。
+
+若要訂閱警示，請選取![通知圖示](/help/assets/icons/bell.png)，然後選取![設定圖示](/help/assets/icons/settings.png)。
+
+![通知和設定圖示都會反白顯示。](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
+
+此時會顯示通知設定頁面。 在此頁面上，選取&#x200B;**[!UICONTROL Experience Platform]**，然後選擇您想要的警示頻道。 若要在UI中檢視通知，請選取&#x200B;**[!UICONTROL 應用程式內]**。
+
+![已在Experience Platform區段中選取「應用程式內」核取方塊。](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
+
+選取&#x200B;**[!UICONTROL 應用程式內]**&#x200B;後，您現在會收到組合執行成功和失敗的通知。
+
+![顯示警示，顯示組合成功與失敗。](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
 
 ## 組合執行命令 {#execution-commands}
 

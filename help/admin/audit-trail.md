@@ -3,10 +3,10 @@ audience: end-user
 title: 稽核軌跡
 description: 瞭解在稽核軌跡中如何記錄及存取動作和事件
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 >
 >-**檢視稽核軌跡**
 >
->如需必要許可權的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
+>如需有關必要權限的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
@@ -48,7 +48,7 @@ ht-degree: 11%
 
 * **外部帳戶**&#x200B;可讓您檢查對Adobe對象構成執行個體中的外部帳戶所做的修改。
 
-  如需外部帳戶的詳細資訊，請參閱此[頁面](../connections/federated-db.md)。
+  如需外部帳戶的詳細資訊，請參閱此[頁面](../connections/home.md)。
 
 +++
 

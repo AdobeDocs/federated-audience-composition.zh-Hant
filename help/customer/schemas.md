@@ -3,10 +3,10 @@ audience: end-user
 title: 開始使用結構描述
 description: 瞭解如何開始使用結構描述
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 18%
 >若要存取方案，您需要下列其中一項許可權：
 >
 >-**管理同盟結構描述**
->&#x200B;>-**檢視同盟結構描述**
+>>-**檢視同盟結構描述**
 >
->如需必要許可權的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
+>如需有關必要權限的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -69,7 +69,7 @@ ht-degree: 18%
 
    ![](assets/schema_create.png){zoomable="yes"}
 
-   此步驟可讓您透過下拉式清單存取新畫面，您可以在其中找到連線到您環境的資料庫。 在[本節](../connections/connections.md#connections-fdb)中進一步瞭解資料庫連線。
+   此步驟可讓您透過下拉式清單存取新畫面，您可以在其中找到連線到您環境的資料庫。 在[本節](../connections/home.md#connections-fdb)中進一步瞭解資料庫連線。
 
 1. 在清單中選取您的來源資料庫，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 

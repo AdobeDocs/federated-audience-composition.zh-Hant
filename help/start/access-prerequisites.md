@@ -2,7 +2,7 @@
 title: 聯合客群構成的先決條件和護欄
 description: 了解聯合客群構成的先決條件、權限和護欄
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
+source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 93%
@@ -29,7 +29,7 @@ ht-degree: 93%
 * Vertica Analytics
 * Microsoft Fabric
 
-若要了解如何與這些系統建立連線，請參閱[此頁面](../connections/connections.md)。
+若要了解如何與這些系統建立連線，請參閱[此頁面](../connections/home.md)。
 
 ## 沙箱
 
@@ -53,13 +53,13 @@ ht-degree: 93%
 
 ## IP 允許清單 {#ip}
 
-若要安全地啟用聯合客群構成來存取您的資料庫，您必須授權將存取這些資料庫的聯合客群構成伺服器的 IP 位址。在 Adobe Experience Platform 使用者介面中新增聯合資料庫時，這些 IP 位址便會顯示。[了解更多](../connections/connections.md)
+若要安全地啟用聯合客群構成來存取您的資料庫，您必須授權將存取這些資料庫的聯合客群構成伺服器的 IP 位址。在 Adobe Experience Platform 使用者介面中新增聯合資料庫時，這些 IP 位址便會顯示。[了解更多](../connections/home.md)
 
 將這些 IP 位址新增至您的允許清單，以授予聯合客群構成的存取權。
 
 ## 合併原則 {#merge-policies}
 
-如果您的對象使用&#x200B;**資料集優先順序**&#x200B;合併原則，請聯絡Adobe客戶服務以將`Halos UPS`資料集新增到您的合併原則。
+如果您的沙箱使用&#x200B;**資料集優先順序**&#x200B;合併原則，請聯絡Adobe客戶服務以將`Halos UPS`資料集新增到合併原則中。
 
 如需有關合併原則的詳細資訊，請參閱[合併原則概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview)。
 

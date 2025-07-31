@@ -2,13 +2,13 @@
 audience: end-user
 title: 變更資料Source活動
 description: 瞭解如何使用變更資料來源活動來變更構成所使用的資料來源，在構成中管理資料方面提供更大的彈性。
-source-git-commit: 2a21dcde345febdaad0934c8835df5f7ae8c30f6
+exl-id: 8f8e627a-fef9-42b8-a42a-bfa1c421b202
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 3%
 
 ---
-
 
 # 變更資料來源
 
@@ -22,12 +22,12 @@ ht-degree: 3%
 
 將&#x200B;**[!UICONTROL 變更資料來源]**&#x200B;活動新增至畫布後，您可以定義工作流程的資料來源。
 
-![資料來源選項在同盟對象組合工作區中反白顯示。](/help/compositions/assets/change-data-source/configure.png){zoomable="yes"}{width="70%"}{align="center"}
+![資料來源選項在同盟對象組合工作區中反白顯示。](/help/compositions/assets/change-data-source/configure.png){zoomable="yes"}{width="70%"}
 
 | 來源 | 說明 |
 | ------ | ----------- |
-| FDA外部帳戶 | 外部雲端資料庫已透過同盟對象構成連線至Adobe Campaign。 |
+| FDA外部帳戶 | 外部雲端資料庫已連線至同盟對象構成。 |
 
 選取&#x200B;**[!UICONTROL FDA外部帳戶]**&#x200B;後，您可以選擇您要連線的外部帳戶。
 
-![顯示外部帳戶選項的彈出視窗。](/help/compositions/assets/change-data-source/fda-external-account.png){zoomable="yes"}{width="70%"}{align="center"}
+![顯示外部帳戶選項的彈出視窗。](/help/compositions/assets/change-data-source/fda-external-account.png){zoomable="yes"}{width="70%"}

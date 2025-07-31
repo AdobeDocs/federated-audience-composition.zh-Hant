@@ -3,8 +3,8 @@ audience: end-user
 title: 開始使用構成
 description: 學習如何開始構成
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
-workflow-type: ht
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 100%
 
@@ -48,23 +48,23 @@ ht-degree: 100%
 
 您可以在[開始和監控構成指南](./start-monitor-composition.md)中了解如何開始或停止構成。
 
-![顯示了一份可用的構成清單。](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}{align="center"}
+![顯示了一份可用的構成清單。](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}
 
 若要縮小清單範圍，並找到您想要的構成，您可以搜尋清單，並依狀態或上次處理日期篩選構成。
 
 您也可以透過新增或移除欄來自訂清單。若要執行此操作，請選取「**[!UICONTROL 設定欄]**」按鈕，並新增或移除所需的輸出欄。
 
-![顯示了一份您可以新增至構成瀏覽頁面的可用欄清單。](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}{align="center"}
+![顯示了一份您可以新增至構成瀏覽頁面的可用欄清單。](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### 套用存取標籤 {#access-labels}
 
 若要將存取標籤套用至特定構成，請選取該構成，然後選取「**[!UICONTROL 管理存取權]**」。
 
-![構成畫布內醒目標示了「管理存取權」按鈕。](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![構成畫布內醒目標示了「管理存取權」按鈕。](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 「**[!UICONTROL 管理存取權]**」彈出視窗隨即顯示。在此頁面上，您可以將適用的存取權和資料治理標籤套用至您的構成。
 
-![「管理存取權」彈出視窗隨即顯示。這會顯示一份您可以套用至構成的所有可用標籤清單。](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![「管理存取權」彈出視窗隨即顯示。這會顯示一份您可以套用至構成的所有可用標籤清單。](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}
 
 | 標籤類型 | 說明 |
 | ---------- | ----------- |

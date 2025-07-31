@@ -4,7 +4,7 @@ description: 最新更新和發行說明
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: a568024516cec999e1e22b6f6deec926fe7083f8
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 95%
@@ -73,7 +73,7 @@ ht-degree: 95%
 
 * **Snowflake 安全連線**
 
-  透過此一新版本，聯合客群構成現在支援使用私人連結連線至託管在 Microsoft Azure 上的 Amazon Redshift 資料庫連線。[了解更多](../connections/federated-db.md#amazon-redshift)
+  透過此一新版本，聯合客群構成現在支援使用私人連結連線至託管在 Microsoft Azure 上的 Amazon Redshift 資料庫連線。[了解更多](../connections/home.md#amazon-redshift)
 
 ## 2025 年 3 月發行版本 {#fac-25-3}
 
@@ -104,7 +104,7 @@ ht-degree: 95%
 
 * **Databricks 連線**
 
-  透過此一新版本，聯合客群構成現在支援透過私人連結進行 Databricks 資料庫連線，這包括透過私人連結與託管在 Amazon Web Services (AWS) 上的 Databricks 資料庫建立安全連線，以及透過 VPN 與託管在 Microsoft Azure 上的 Databricks 資料庫建立安全連線。[了解更多](../connections/federated-db.md#databricks)
+  透過此一新版本，聯合客群構成現在支援透過私人連結進行 Databricks 資料庫連線，這包括透過私人連結與託管在 Amazon Web Services (AWS) 上的 Databricks 資料庫建立安全連線，以及透過 VPN 與託管在 Microsoft Azure 上的 Databricks 資料庫建立安全連線。[了解更多](../connections/home.md#databricks)
 
 * **為 B2B CDP 客戶提供支援**
 
@@ -112,7 +112,7 @@ ht-degree: 95%
 
 * **Snowflake 安全連線**
 
-  透過此一新版本，聯合客群構成現在支援使用私人連結連線至託管在 Microsoft Azure 上的 Snowflake 資料庫連線。[了解更多](../connections/federated-db.md#snowflake)
+  透過此一新版本，聯合客群構成現在支援使用私人連結連線至託管在 Microsoft Azure 上的 Snowflake 資料庫連線。[了解更多](../connections/home.md#snowflake)
 
 ## 2025 年 2 月發行版本 {#fac-25-2}
 
@@ -120,11 +120,11 @@ ht-degree: 95%
 
 * **Microsoft Fabric 支援**
 
-  您現在可以透過聯合客群構成，建立與 Microsoft Fabric 資料庫的連線。[了解更多](../connections/federated-db.md)
+  您現在可以透過聯合客群構成，建立與 Microsoft Fabric 資料庫的連線。[了解更多](../connections/home.md)
 
 * **Amazon Redshift Spectrum 支援**
 
-  對 Amazon Redshift 資料庫的連線現已支援 Amazon Redshift Spectrum。[了解更多](../connections/federated-db.md#amazon-redshift)
+  對 Amazon Redshift 資料庫的連線現已支援 Amazon Redshift Spectrum。[了解更多](../connections/home.md#amazon-redshift)
 
 * **增強的結構描述建立體驗**
 
@@ -142,7 +142,7 @@ ht-degree: 95%
 
 * **IP 位址允許清單**
 
-  在 Adobe Experience Platform 使用者介面中新增聯合資料庫時，您現在可以直接檢視與聯合客群構成執行個體關聯的 IP 位址。這可讓您輕鬆複製和授權這些 IP 以連接到您的資料庫，從而提高安全性和靈活性。[了解更多](../connections/connections.md)
+  在 Adobe Experience Platform 使用者介面中新增聯合資料庫時，您現在可以直接檢視與聯合客群構成執行個體關聯的 IP 位址。這可讓您輕鬆複製和授權這些 IP 以連接到您的資料庫，從而提高安全性和靈活性。[了解更多](../connections/home.md)
 
 ## 2024 年 10 月發行版本 {#fac-24-10}
 
@@ -157,11 +157,11 @@ ht-degree: 95%
 
 * **Databricks 支援**
 
-  您現在可以透過聯合客群構成，建立與 Databricks 資料庫的連線。[了解更多](../connections/federated-db.md#databricks)
+  您現在可以透過聯合客群構成，建立與 Databricks 資料庫的連線。[了解更多](../connections/home.md#databricks)
 
 * **支援透過 AWS PrivateLink 安全地存取 Snowflake**
 
-  現在支援透過私人連結，安全地存取外部 Snowflake 資料倉儲。請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 上，並且與您的聯合客群構成環境位於同一區域。請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。[了解更多](../connections/federated-db.md#snowflake)
+  現在支援透過私人連結，安全地存取外部 Snowflake 資料倉儲。請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 上，並且與您的聯合客群構成環境位於同一區域。請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。[了解更多](../connections/home.md#snowflake)
 
 * **Amazon Redshift Serverless 支援**
 
