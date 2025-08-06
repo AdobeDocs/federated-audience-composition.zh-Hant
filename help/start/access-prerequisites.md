@@ -3,9 +3,9 @@ title: 聯合客群構成的先決條件和護欄
 description: 了解聯合客群構成的先決條件、權限和護欄
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 93%
 
 ## 合併原則 {#merge-policies}
 
-如果您的沙箱使用&#x200B;**資料集優先順序**&#x200B;合併原則，請聯絡Adobe客戶服務以將`Halos UPS`資料集新增到合併原則中。
+如果您的沙箱使用&#x200B;**資料集優先順序**&#x200B;合併原則，請聯絡 Adobe 客戶服務以將 `Halos UPS` 資料集新增至您的合併原則。
 
 如需有關合併原則的詳細資訊，請參閱[合併原則概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview)。
 

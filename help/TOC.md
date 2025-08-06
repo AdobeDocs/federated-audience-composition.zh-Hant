@@ -3,9 +3,9 @@ user-guide-title: Experience Platform 聯合客群構成
 title: Experience Platform 聯合客群構成文件
 breadcrumb-title: Experience Platform 聯合客群構成
 source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
    + [概觀](./governance-privacy-security/home.md)
    + [存取控制](governance-privacy-security/access-control.md)
 + 設定步驟 {#config}
-   + [連線總覽](connections/home.md)
+   + [連線概觀](connections/home.md)
    + [FDA 權利矩陣](connections/fda-rights.md)
    + 資料模型與結構描述{#datamodel}
       + [建立及設定結構描述](customer/schemas.md)

@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1142'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 95%
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
-## 2025年7月發行版本 {#fac-25-7}
+## 2025 年 7 月版 {#fac-25-7}
 
-此版本隨附下列變更和改善專案：
+此版本包含下列變更和改善項目：
 
-* **Oracle聯結器可用性**
+* **Oracle 連接器可用性**
 
-  Oracle聯結器現在可與同盟對象構成搭配使用。
+  Oracle 連接器現在可與聯合客群構成搭配使用。
 
-* **組合狀態警示**
+* **構成狀態警報**
 
-  您可以訂閱警示，以取得構成執行成功和失敗的警示。
+  您可以訂閱警報，以便在您的構成執行成功或失敗時收到警報。
 
-## 2025 年 6 月發行版本 {#fac-25-6}
+## 2025 年 6 月版 {#fac-25-6}
 
 此版本包含下列改善項目：
 

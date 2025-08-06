@@ -3,9 +3,9 @@ title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1542'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -13,22 +13,22 @@ ht-degree: 92%
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-hant){target="_blank"}。
 
-## 2025年7月發行 {#fac-25-7}
+## 2025 年 7 月版 {#fac-25-7}
 
 ### 全新功能 {#fac-25-07-feature}
 
 <table>
 <thead>
 <tr>
-<th><strong>新聯結器 — Oracle</strong><br/></th>
+<th><strong>新連接器 - Oracle</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Oracle聯結器現在可與同盟對象構成搭配使用。</p>
-<p>您可以使用Oracle聯結器來建立對象和擴充對象使用案例。</p>
-<p>如需Oracle連線的詳細資訊，請參閱<a href="../connections/home.md#create">連線總覽</a>。</p>
+<p>Oracle 連接器現在可與聯合客群構成搭配使用。</p>
+<p>您可以將 Oracle 連接器用於客群建立和客群擴充使用案例。</p>
+<p>如需有關 Oracle 連線的詳細資訊，請參閱<a href="../connections/home.md#create">連線概觀</a>。</p>
 </br>
 </td>
 </tr>
@@ -38,14 +38,14 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>組合警報</strong><br/></th>
+<th><strong>構成警報</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以訂閱警報，以瞭解您的構成成功和失敗的執行作業</p>
-<p>如需訂閱構成執行通知的詳細資訊，請閱讀<a href="../compositions/start-monitor-composition.md#alerts">開始並監視構成指南</a>。</p>
+<p>您現在可以訂閱警報，以了解您的構成執行成功和失敗的資訊</p>
+<p>如需有關訂閱構成執行通知的詳細資訊，請參閱<a href="../compositions/start-monitor-composition.md#alerts">開始並監控您的構成指南</a>。</p>
 </br>
 </td>
 </tr>
@@ -54,11 +54,11 @@ ht-degree: 92%
 
 ### 功能改善 {#fac-25-07-improvements}
 
-此版本隨附下列改善專案：
+此版本包含下列改善項目：
 
-* **伺服器字元長度增加**
+* **增加了伺服器字元長度**
 
-  設定同盟資料庫時，您現在可以使用最多255個字元，而不是之前的80個字元。
+  在設定您的聯合資料庫時，您現在最多可以使用 255 個字元，而不是先前的 80 個字元。
 
 ## 2025 年 6 月版 {#fac-25-6}
 
@@ -197,7 +197,7 @@ ht-degree: 92%
 
 * **儲存客群活動**
 
-  **儲存客群**&#x200B;活動中新增了一則注意事項，提醒使用者與資料管理員協作，以便將治理標籤套用至在客群建立和擴充期間所建立的新結構描述和資料集。
+  **儲存客群**活動中新增了一則注意事項，提醒使用者與資料管理員協作，以便將治理標籤套用至在客群建立和擴充期間所建立的新結構描述和資料集。
   [深入了解資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 相容性 {#fac-25-4-compat}
