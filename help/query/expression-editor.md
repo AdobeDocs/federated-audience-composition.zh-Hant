@@ -3,22 +3,22 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在查詢建模器中建置您的第一個查詢。
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: b0218a627d2f19617a806718c27e69ae39f95e10
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 53%
+source-wordcount: '2075'
+ht-degree: 78%
 
 ---
 
 # 編輯運算式 {#expression}
 
-編輯運算式需要手動輸入條件以形成規則。 此模式可讓您使用進階函式，這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位、排序等。
+編輯運算式需要手動輸入條件以形成規則。此模式可讓您使用進階函式，這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位、排序等。
 
 ## 使用運算式編輯器 {#edit}
 
 設定自訂條件時，**[!UICONTROL 屬性]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;欄位可使用查詢模型器&#x200B;**[!UICONTROL 編輯運算式]**&#x200B;按鈕中的運算式編輯器。
 
-| 從&#x200B;**[!UICONTROL 屬性]**&#x200B;欄位存取 | 從&#x200B;**[!UICONTROL 值]**&#x200B;欄位存取 |
+| 從「**[!UICONTROL 屬性]**」欄位存取 | 從「**[!UICONTROL 值]**」欄位存取 |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
@@ -26,9 +26,9 @@ ht-degree: 53%
 
 * 定義運算式的&#x200B;**輸入欄位(1)**。
 * 可用的&#x200B;**欄位(2)**&#x200B;清單，可用於運算式中，並與查詢的結構描述（也稱為目標維度）相對應。
-* **協助程式函式(3)**，依類別排序。
+* **協助程式函式 (3)**，依類別排序。
 
-直接在輸入欄位中輸入運算式以編輯運算式。 若要新增欄位或協助程式函式，請將游標置於要新增的運算式中，然後按一下+按鈕。
+直接在輸入欄位中輸入運算式以編輯運算式。若要新增欄位或協助程式函式，請將游標置於要新增的運算式上，然後按一下「+」按鈕。
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
@@ -38,9 +38,9 @@ ht-degree: 53%
 
 ![](assets/edit-expression-value.png){zoomable="yes"}
 
-## 輔助函式
+## 協助程式功能
 
-查詢編輯工具可讓您使用進階功能，根據所需結果和操作資料的型別執行複雜的篩選。 可使用下列函式：
+查詢編輯工具可讓您使用進階功能，根據所需結果和操作資料的類型執行複雜的篩選。可使用下列函式：
 
 ### 彙總
 
@@ -56,12 +56,12 @@ ht-degree: 53%
   <tr> 
    <td> <strong>平均</strong><br /> </td> 
    <td> 傳回數字型別資料行<br />的平均值 </td> 
-   <td> Avg(&lt;value&gt;)<br /></td> 
+   <td> Avg(&lt;值&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>計數</strong><br /> </td> 
    <td> 計算資料行<br />的非空值 </td> 
-   <td> Count(&lt;value&gt;)<br /></td>  
+   <td> Count(&lt;值&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>CountAll</strong><br /> </td> 
@@ -71,32 +71,32 @@ ht-degree: 53%
   <tr> 
    <td> <strong>Countdistinct</strong><br /> </td> 
    <td> 計算資料行<br />的相異非null值 </td> 
-   <td> Countdistinct(&lt;value&gt;)<br /></td> 
+   <td> Countdistinct(&lt;值&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>最大</strong><br /> </td> 
    <td> 傳回數字、字串或日期型別資料行<br />的最大值 </td> 
-   <td> Max(&lt;value&gt;)<br /></td>  
+   <td> Max(&lt;值&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>分鐘</strong><br /> </td> 
    <td> 傳回數字、字串或日期型別資料行<br />的最小值 </td> 
-   <td> Min(&lt;value&gt;)<br /></td> 
+   <td> Min(&lt;值&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>StdDev</strong><br /> </td> 
    <td> 傳回數字、字串或日期資料行<br />的標準差 </td> 
-   <td> stdev(&lt;value&gt;)<br /></td> 
+   <td> StdDev(&lt;值&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>StringAgg</strong><br /> </td> 
    <td> 傳回字串型別資料行值的串連，以第二個引數<br />中的字元分隔 </td> 
-   <td> StringAgg(&lt;Value&gt;， &lt;String&gt;)<br /></td> 
+   <td> StringAgg(&lt;值&gt;, &lt;字串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>總和</strong><br /> </td> 
    <td> 傳回數字、字串或日期型別資料行<br />的值總和 </td> 
-   <td> Sum(&lt;value&gt;)<br /></td> 
+   <td> Sum(&lt;值&gt;)<br /></td> 
   </tr> 
  </tbody> 
 </table>
@@ -381,16 +381,16 @@ ht-degree: 53%
    <td> <strong>語法</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>距離</strong><br /> </td> 
-   <td> 傳回由經度和緯度定義的兩點之間的距離，以度表示。<br /> </td> 
-   <td> 距離（&lt;Longitude A&gt;, &lt;Latitude A&gt;, &lt;Longitude B&gt;, &lt;Latitude B&gt;）<br /> </td>  
+   <td> <strong>Distance</strong><br /> </td> 
+   <td> 傳回由經度和緯度，通常會以度來表示，定義兩點之間的距離<br /> </td> 
+   <td> Distance(&lt;經度 A&gt;, &lt;緯度 A&gt;, &lt;經度 B&gt;, &lt;緯度 B&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
 
 ### 數值
 
-數值函式用於將文字轉換為數字。
+數值函數可用來將文轉換為數字。
 
 <table> 
  <tbody> 
@@ -402,37 +402,37 @@ ht-degree: 53%
   <tr> 
    <td> <strong>Abs</strong><br /> </td> 
    <td> 返回數字的絕對值<br /> </td> 
-   <td> Abs(&lt;number&gt;)<br /> </td>  
+   <td> Abs(&lt;數字&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Ceil</strong><br /> </td> 
    <td> 傳回大於或等於數字的最小整數<br /> </td> 
-   <td> Ceil(&lt;number&gt;)<br /> </td>  
+   <td> Ceil(&lt;數字&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> 傳回大於或等於數字<br />的最大整數 </td> 
-   <td> Floor(&lt;number&gt;)<br /> </td>  
+   <td> 傳回大於或等於數字的最小整數<br /> </td> 
+   <td> Floor(&lt;數字&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Greatest</strong><br /> </td> 
    <td> 傳回兩個數字中的較大值<br /> </td> 
-   <td> Greatest(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
+   <td> Greatest(&lt;數字 1&gt;, &lt;數字 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Least</strong><br /> </td> 
    <td> 傳回兩個數字中的較小者<br /> </td> 
-   <td> Least(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
+   <td> Least(&lt;數字 1&gt;, &lt;數字 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
-   <td> 傳回n1除以n2<br />的整數除法的餘數 </td> 
-   <td> Mod(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
+   <td> 傳回 n1 除以 n2 的整數餘數<br /> </td> 
+   <td> Mod(&lt;數字 1&gt;, &lt;數字 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Percent</strong><br /> </td> 
    <td> 傳回兩個數字的比率，以百分比表示<br /> </td> 
-   <td> Percent(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
+   <td> Percent(&lt;數字 1&gt;, &lt;數字 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Random</strong><br /> </td> 
@@ -441,28 +441,28 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>Round</strong><br /> </td> 
-   <td> 將數字四捨五入為n個小數<br /> </td> 
-   <td> Round(&lt;number&gt;, &lt;number of decimals&gt;)<br /> </td>  
+   <td> 將數字四捨五入為 n 個小數<br /> </td> 
+   <td> Round(&lt;數字&gt;, &lt;小數位數&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Sign</strong><br /> </td> 
    <td> 傳回數字元號<br /> </td> 
-   <td> Sign(&lt;number&gt;)<br /> </td>  
+   <td> Sign(&lt;數字&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToDouble</strong><br /> </td> 
    <td> 將整數轉換為浮點數<br /> </td> 
-   <td> ToDouble(&lt;number&gt;)<br /> </td>  
+   <td> ToDouble(&lt;數字&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToInt64</strong><br /> </td> 
    <td> 將浮點數轉換為　64　位整數<br /> </td> 
-   <td> ToInt64(&lt;number&gt;)<br /> </td>  
+   <td> ToInt64(&lt;數字&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToInteger</strong><br /> </td> 
    <td> 將浮點數轉換為整數<br /> </td> 
-   <td> ToInteger(&lt;number&gt;)<br /> </td>  
+   <td> ToInteger(&lt;數字&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Trunc</strong><br /> </td> 
@@ -474,7 +474,7 @@ ht-degree: 53%
 
 ### 其他
 
-此表格包含剩餘的可用函式。
+此表包含剩餘的可用函式。
 
 <table> 
  <tbody> 
@@ -485,28 +485,28 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> 加密引數<br />中提供的字串 </td> 
-   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+   <td> 加密引數中提供的字串<br /> </td> 
+   <td> AESEncrypt(&lt;值&gt;)<br /> </td> 
   </tr>
   <tr> 
-   <td> <strong>案例</strong><br /> </td> 
-   <td> 若條件為true，則傳回值1。 如果沒有，則傳回值2.<br /> </td> 
-   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
+   <td> <strong>Case</strong><br /> </td> 
+   <td> 如果條件為真，則傳回值 1。如果為假，則傳回值 2。<br /> </td> 
+   <td> Case(When(&lt;條件&gt;, &lt;值 1&gt;), Else(&lt;值 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
    <td> 刪除值中的旗標<br /> </td> 
-   <td> ClearBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
+   <td> ClearBit(&lt;識別碼&gt;, &lt;旗標&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>合併</strong><br /> </td> 
+   <td> <strong>Coalesce</strong><br /> </td> 
    <td> 如果值　1　為　零或　null，則傳回值　2，否則傳回值　1<br /> </td> 
-   <td> Coalesce(&lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
+   <td> Coalesce(&lt;值 1&gt;, &lt;值 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
-   <td> 如果值1 =值2，則傳回值3。 如果未傳回值4.<br /> </td> 
-   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
+   <td> 如果值 1 = 值 2，則傳回值 3。如果不等，則傳回值 4。<br /> </td> 
+   <td> Decode(&lt;值 1&gt;, &lt;值 2&gt;, &lt;值 3&gt;, &lt;值 4&gt;)<br /> </td>  
   </tr> 
   <!--<tr> 
    <td> <strong>DefaultFolder</strong><br /> </td> 
@@ -515,33 +515,33 @@ ht-degree: 53%
   </tr> -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
-   <td> 傳回值　1（只能用作　case　函式的參數）<br /> </td> 
-   <td> Else(&lt;value 1&gt;， &lt;value 2&gt;)<br /> </td>  
+   <td> 傳回值　1 (只能用作　case　函式的參數)<br /> </td> 
+   <td> Else(&lt;值 1&gt;, &lt;值 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
    <td> 從電子郵件地址中擷取網域<br /> </td> 
-   <td> GetEmailDomain(&lt;value&gt;)<br /> </td>  
+   <td> GetEmailDomain(&lt;值&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetMirrorURL</strong><br /> </td> 
    <td> 檢索鏡像頁面伺服器的URL<br /> </td> 
-   <td> GetMirrorURL(&lt;value&gt;)<br /> </td>  
+   <td> GetMirrorURL(&lt;值&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> 如果運算式為true，則傳回值1。 如果沒有，則傳回值2<br /> </td> 
-   <td> Iif(&lt;condition&gt;, &lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
+   <td> 如果運算式為真，則傳回值 1。如果為假，則傳回值 2<br /> </td> 
+   <td> Iif(&lt;條件&gt;, &lt;值 1&gt;, &lt;值 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>IsBitSet</strong><br /> </td> 
    <td> 指出旗標是否在值中<br /> </td> 
-   <td> IsBitSet(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
+   <td> IsBitSet(&lt;識別碼&gt;, &lt;旗標&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
-   <td> 如果字串1為空，則傳回值2，否則傳回值3<br /> </td> 
-   <td> IsEmptyString(&lt;value 1&gt;， &lt;value 2&gt;， &lt;value 3&gt;)<br /> </td>  
+   <td> 如果字串 1 為空，則傳回值 2，否則傳回值 3<br /> </td> 
+   <td> IsEmptyString(&lt;值 1&gt;, &lt;值 2&gt;, &lt;值 3&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
@@ -551,7 +551,7 @@ ht-degree: 53%
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> 如果引數為　NULL，則返回空字串<br /> </td> 
-   <td> NoNull(&lt;value&gt;)<br /> </td>   
+   <td> NoNull(&lt;值&gt;)<br /> </td>   
   </tr> 
   <tr> 
    <td> <strong>RowId</strong><br /> </td> 
@@ -561,17 +561,17 @@ ht-degree: 53%
   <tr> 
    <td> <strong>SetBit</strong><br /> </td> 
    <td> 強制值中的旗標<br /> </td> 
-   <td> SetBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
+   <td> SetBit(&lt;識別碼&gt;, &lt;旗標&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToBoolean</strong><br /> </td> 
    <td> 將數字轉換為布林值<br /> </td> 
-   <td> ToBoolean(&lt;number&gt;)<br /> </td>   
+   <td> ToBoolean(&lt;數字&gt;)<br /> </td>   
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> 如果運算式為true，則傳回值1。 如果沒有，則傳回值2 （只能用作case函式的引數）<br /> </td> 
-   <td> When(&lt;condition&gt;, &lt;value 1&gt;)<br /> </td>  
+   <td> 如果運算式為真，則傳回值 1。否則，傳回值 2 (只能用作 case 函式的參數)<br /> </td> 
+   <td> When(&lt;條件&gt;, &lt;值 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
@@ -590,162 +590,162 @@ ht-degree: 53%
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
    <td> 指示所有參數是否為非空值且非空白<br /> </td> 
-   <td> AllNonNull2(&lt;string&gt;， &lt;string&gt;)<br /></td> 
+   <td> AllNonNull2(&lt;字串&gt;, &lt;字串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
    <td> 指示所有參數是否為非空值且非空白<br /> </td> 
-   <td> AllNonNull3(&lt;string&gt;， &lt;string&gt;， &lt;string&gt;)<br /></td> 
+   <td> AllNonNull3(&lt;字串&gt;, &lt;字串&gt;, &lt;字串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ascii</strong><br /> </td> 
-   <td> 傳回字串中第一個字元的ASCII值。<br /> </td> 
-   <td> Ascii(&lt;string&gt;)<br /></td> 
+   <td> 傳回字串中第一個字元的 ASCII 值<br /> </td> 
+   <td> Ascii(&lt;字串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> 傳回與　'n' ASCII　代碼對應的字元<br /> </td> 
-   <td> 字元(&lt;number&gt;)<br /></td>  
+   <td> Char(&lt;數字&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
-   <td> 傳回字串1.<br />中字串2的位置 </td> 
-   <td> Charindex(&lt;string&gt;， &lt;string&gt;)<br /></td> 
+   <td> 傳回字串 2 在字串 1 中的位置。<br /> </td> 
+   <td> Charindex(&lt;字串&gt;, &lt;字串&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>資料長度</strong><br /> </td> 
-   <td> 傳回字串<br />的大小（位元組） </td> 
-   <td> dataLength(&lt;string&gt;)<br /></td> 
+   <td> <strong>DataLength</strong><br /> </td> 
+   <td> 傳回字串的位元組大小<br /> </td> 
+   <td> dataLength(&lt;字串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
-   <td> 傳回字串的第　n　行（從　1　到　n）<br /> </td> 
-   <td> GetLine(&lt;string&gt;)<br /></td> 
+   <td> 傳回字串的第　n　行 (從　1　到　n)<br /> </td> 
+   <td> GetLine(&lt;字串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
-   <td> 如果前兩個引數相等，則傳回第三個引數。 如果不是，則傳回最後一個引數<br /> </td> 
-   <td> IfEquals(&lt;string&gt;， &lt;string&gt;， &lt;string&gt;， &lt;string&gt;)<br /></td> 
+   <td> 如果前兩個參數相等，就會傳回第三個參數。如果不是，就會傳回最後一個參數<br /> </td> 
+   <td> IfEquals(&lt;字串&gt;, &lt;字串&gt;, &lt;字串&gt;, &lt;字串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IsMemoNull</strong><br /> </td> 
    <td> 指示作為參數傳遞的備忘錄是否為空<br /> </td> 
-   <td> IsMemoNull(&lt;memo&gt;)<br /></td> 
+   <td> IsMemoNull(&lt;備忘錄&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> 串連以引數形式傳遞的字串。 如有必要，在字串之間新增空格。<br /> </td> 
-   <td> JuxtWords(&lt;string&gt;， &lt;string&gt;)<br /></td> 
+   <td> 將傳遞的兩個字串當成參數進行加以串連。如有必要，請在字串之間新增空格。<br /> </td> 
+   <td> JuxtWords(&lt;字串&gt;, &lt;字串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> 串連以引數形式傳遞的字串。 如有必要，在字串之間新增空格<br /> </td> 
-   <td> JuxtWords3(&lt;string&gt;， &lt;string&gt;， &lt;string&gt;)<br /></td>  
+   <td> 將傳遞的兩個字串當成參數進行加以串連。如有必要，請在字串之間新增空格<br /> </td> 
+   <td> JuxtWords3(&lt;字串&gt;, &lt;字串&gt;, &lt;字串&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> 傳回字串的前　n　個字元<br /> </td> 
-   <td> Left(&lt;string&gt;， &lt;number&gt;)<br /></td> 
+   <td> Left(&lt;字串&gt;, &lt;數字&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
-   <td> 傳回字串<br />的長度 </td> 
-   <td> Length(&lt;string&gt;)<br /></td> 
+   <td> 傳回字串的長度<br /> </td> 
+   <td> Length(&lt;字串&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>行</strong><br /> </td> 
-   <td> 從字串<br />擷取行n </td> 
-   <td> Line(&lt;string&gt;，&lt;number&gt;)<br /></td> 
+   <td> <strong>Line</strong><br /> </td> 
+   <td> 從字串中擷取第 n 行<br /> </td> 
+   <td> Line(&lt;字串&gt;,&lt;數字&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> 傳回小寫字串<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /></td> 
+   <td> Lower(&lt;字串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> 傳回左側的已完成字串<br /> </td> 
-   <td> LPad (&lt;String&gt;， &lt;Number&gt;， &lt;Char&gt;)<br /></td> 
+   <td> LPad (&lt;字串&gt;, &lt;數字&gt;, &lt;字元&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
    <td> 移除字串左側的空格<br /> </td> 
-   <td> Ltrim(&lt;string&gt;)<br /></td> 
+   <td> Ltrim(&lt;字串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
    <td> 返回字串　MD5　鍵的十六進位表示<br /> </td> 
-   <td> Md5Digest(&lt;string&gt;)<br /></td> 
+   <td> Md5Digest(&lt;字串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> 指定備忘錄是否包含作為參數傳遞的字串<br /> </td> 
-   <td> MemoContains(&lt;memo&gt;， &lt;string&gt;)<br /></td> 
+   <td> MemoContains(&lt;備忘錄&gt;, &lt;字串&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>節點值</strong><br /> </td> 
-   <td> 從其XPath和欄位資料中擷取XML欄位的值<br /> </td> 
-   <td> NodeValue (&lt;String&gt;， &lt;String&gt;)<br /></td> 
+   <td> <strong>NodeValue</strong><br /> </td> 
+   <td> 從 XPath 和欄位資料中擷取到 XML 欄位的數值<br /> </td> 
+   <td> NodeValue (&lt;字串&gt;, &lt;字串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> 以其他字串值取代指定字串值的所有出現次數。<br /> </td> 
-   <td> Replace(&lt;String&gt;，&lt;String&gt;，&lt;String&gt;)<br /></td> 
+   <td> 將指定字串值（字串2）的所有出現次數，換成字串（字串1）中的另一個字串值（字串3）。<br /> </td> 
+   <td> Replace(&lt;String1&gt;，&lt;String2&gt;，&lt;String3&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
    <td> 傳回字串的最後　n　個字元<br /> </td> 
-   <td> Right(&lt;string&gt;)<br /> </td> 
+   <td> Right(&lt;字串&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> 傳回右側的已完成字串<br /> </td> 
-   <td> RPad(&lt;string&gt;， &lt;number&gt;， &lt;character&gt;)<br /></td> 
+   <td> RPad(&lt;字串&gt;, &lt;數字&gt;, &lt;字元&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
    <td> 移除字串右側的空格<br /> </td> 
-   <td> Rtrim(&lt;string&gt;)<br /> </td> 
+   <td> Rtrim(&lt;字串&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
-   <td> 字串SHA256鍵的十六進位表示。<br /> </td> 
-   <td> Sha256Digest (&lt;String&gt;)<br /> </td> 
+   <td> 字串 SHA256 鍵的十六進位表示。<br /> </td> 
+   <td> Sha256Digest (&lt;字串&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
-   <td> 字串SHA512鍵的十六進位表示。<br /> </td> 
-   <td> Sha512Digest (&lt;String&gt;)<br /> </td> 
+   <td> 字串 SHA512 鍵的十六進位表示。<br /> </td> 
+   <td> Sha512Digest (&lt;字串&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
    <td> 傳回字串，每個字詞的首字母以大寫表示<br /> </td> 
-   <td> Smart(&lt;string&gt;)<br /> </td> 
+   <td> Smart(&lt;字串&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
-   <td> 從字串的字元n1開始提取長度為n2<br />的子字串 </td> 
-   <td> Substring(&lt;string&gt;, &lt;offset&gt;, &lt;length&gt;)<br /> </td>  
+   <td> 從字串的字元 n1 開始提取長度為 n2 的子字串<br /> </td> 
+   <td> Substring(&lt;字串&gt;, &lt;位移&gt;, &lt;長度&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToString</strong><br /> </td> 
    <td> 將數字轉換為字串<br /> </td> 
-   <td> ToString(&lt;number&gt;， &lt;number&gt;)<br /> </td>  
+   <td> ToString(&lt;數字&gt;, &lt;數字&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Upper</strong><br /> </td> 
    <td> 以大寫傳回字串<br /> </td> 
-   <td> Upper(&lt;string&gt;)<br /> </td>  
+   <td> Upper(&lt;字串&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>VirtualLink</strong><br /> </td> 
    <td> 傳回連結的外鍵，如果其他兩個參數相等，則傳遞為參數<br /> </td> 
-   <td> VirtualLink(&lt;number&gt;、&lt;number&gt;、&lt;number&gt;)<br /> </td>  
+   <td> VirtualLink(&lt;數字&gt;、&lt;數字&gt;、&lt;數字&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>VirtualLinkStr</strong><br /> </td> 
-   <td> 傳回連結的外鍵（文字）索引鍵，如果其他兩個參數相等，則傳回該連結的外鍵　(text)　<br /> </td> 
-   <td> VirtualLinkStr(&lt;string&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td>  
+   <td> 如果其他兩個參數相等，則傳回該連結的外鍵　(text)　<br /> </td> 
+   <td> VirtualLinkStr(&lt;字串&gt;, &lt;數字&gt;, &lt;數字&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
@@ -760,29 +760,29 @@ ht-degree: 53%
    <td> <strong>語法</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>_超過__</strong><br /> </td> 
-   <td> 執行以第1個引數輸入的SQL函式呼叫，透過Partition或Order By輸入為第2個引數的欄位<br /> </td> 
-   <td> _超過_ (&lt;Value&gt;， &lt;Value&gt;)<br /> </td>  
+   <td> <strong>_Over__</strong><br /> </td> 
+   <td> 執行以第 1 個參數輸入的 SQL 函式呼叫，取代以第 2 個參數輸入的「分割」或「排序」欄位<br /> </td> 
+   <td> _Over_ (&lt;值&gt;, &lt;值&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
    <td> 套用遞減排序<br /> </td> 
-   <td> Desc(&lt;value 1&gt;)<br /> </td>  
+   <td> Desc(&lt;值 1&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>OrderBy</strong><br /> </td> 
    <td> 對分區內的結果進行排序<br /> </td> 
-   <td> OrderBy(&lt;value 1&gt;)<br /> </td>  
+   <td> OrderBy(&lt;值 1&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>PartitionBy</strong><br /> </td> 
    <td> 對表上的查詢結果進行分區<br /> </td> 
-   <td> PartitionBy(&lt;value 1&gt;)<br /> </td>  
+   <td> PartitionBy(&lt;值 1&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 
-   <td> 根據資料表分割和排序順序產生行號。<br /> </td> 
-   <td> RowNum(PartitionBy(&lt;value 1&gt;), OrderBy(&lt;value 1&gt;))<br /> </td> 
+   <td> 根據表格分割和排序序列產生行號。<br /> </td> 
+   <td> RowNum(PartitionBy(&lt;值 1&gt;), OrderBy(&lt;值 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 
 </table>

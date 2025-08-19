@@ -3,33 +3,35 @@ audience: end-user
 title: 建立組合
 description: 瞭解如何建立組合
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 21%
+source-wordcount: '515'
+ht-degree: 20%
 
 ---
 
-# 建立和設定構成 {#create}
+# 建立及設定構成 {#create}
 
 建立構成的第一步是定義其標籤，並視需要設定其他設定。
 
 ## 建立構成 {#create-the-composition}
 
-1. 存取&#x200B;**[!UICONTROL 對象]**&#x200B;功能表並選取&#x200B;**[!UICONTROL 同盟組合]**&#x200B;標籤。
+若要建立組合，請選取&#x200B;**[!UICONTROL 客戶]**&#x200B;區段內的&#x200B;**[!UICONTROL 對象]**，然後選取&#x200B;**[!UICONTROL 同盟組合]**&#x200B;索引標籤。
 
-1. 按一下&#x200B;**[!UICONTROL 建立組合]**&#x200B;按鈕。
+影像
 
-   ![](assets/composition-create.png)
+同盟構成瀏覽頁面隨即顯示。 選取&#x200B;**[!UICONTROL 建立組合]**&#x200B;以繼續組合建立程式。
 
-1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，指定構成標籤，並選取資料模型。 只有與此資料模型相關聯的結構描述才可在您的構成活動中使用。
+![](assets/composition-create.png)
 
-   ![](assets/composition-select-schema.png)
+在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，指定構成標籤，並選取資料模型。 只有與此資料模型相關聯的結構描述才可在您的構成活動中使用。
 
-1. 按一下 **[!UICONTROL 建立]**。組合畫布隨即顯示。 您現在可以在執行構成之前，視需要新增任意數量的活動以符合您的需求，以設定構成：
+![](assets/composition-select-schema.png)
 
-   * [瞭解如何協調活動](orchestrate-activities.md)
-   * [瞭解如何開始和監視組合](start-monitor-composition.md)
+選擇 **[!UICONTROL 建立]**。組合畫布隨即顯示。 您現在可以在執行構成之前，視需要新增任意數量的活動以符合您的需求，以設定構成：
+
+* [瞭解如何協調活動](orchestrate-activities.md)
+* [瞭解如何開始和監視組合](start-monitor-composition.md)
 
 ## 進行構成設定 {#settings}
 
@@ -48,7 +50,9 @@ ht-degree: 21%
 >title="錯誤管理設定"
 >abstract="在此區段中，您可以定義執行期間應如何管理錯誤。您可以選擇暫停流程、忽略一定數量的錯誤，或是停止構成執行。"
 
-存取構成時，您可以存取進階設定，以讓您定義構成在發生錯誤時的行為方式。 若要存取這些其他選項，請按一下構成建立畫面上方的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
+存取構成時，您可以存取進階設定，以讓您定義構成在發生錯誤時的行為方式。
+
+若要存取這些其他選項，請選取構成建立畫面上方的&#x200B;**[!UICONTROL 設定]**。
 
 ![](assets/composition-create-settings.png)
 

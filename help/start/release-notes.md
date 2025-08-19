@@ -2,16 +2,78 @@
 title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: ht
-source-wordcount: '1542'
-ht-degree: 100%
+source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+workflow-type: tm+mt
+source-wordcount: '1706'
+ht-degree: 91%
 
 ---
 
 # 發行說明 {#rn-new}
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-hant){target="_blank"}。
+
+## 2025年8月發行 {#fac-25-8}
+
+### 全新功能 {#fac-25-08-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>結構描述探索中的複合金鑰支援</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以將欄組合在一起，為您的結構描述建立複合索引鍵。</p>
+<p>如需結構描述的詳細資訊，請參閱<a href="../customer/schemas.md#create">結構描述概觀</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>在模型的連結中新增多個聯結</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在單一連結中為模型新增多個聯結。</p>
+<p>如需模型的詳細資訊，請參閱<a href="../data-management/gs-models.md#create">模型概觀</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 功能改善 {#fac-25-8-improvements}
+
+此版本包含下列改善項目：
+
+* **已新增`StringAgg`函式**
+
+  您現在可以在以下情況下對Amazon Redshift Spectrum資料庫使用`StringAgg`函式： 使用運算式編輯器。
+
+* **`Replace`函式**
+
+  `Replace`函式的說明和語法已在檔案中釐清。
+
+### 相容性 {#fac-25-8-compatibility}
+
+* **Azure Synapse資料庫**
+
+  您現在可以使用PrivateLink或VPN安全地連線到Azure Synapse資料庫。 如需詳細資訊，請聯絡Adobe客戶服務。
+
+* **Oracle資料庫**
+
+  您現在可以安全地連線至Oracle資料庫。 如需詳細資訊，請聯絡Adobe客戶服務。
+
+如需有關同盟對象構成中支援的資料庫的詳細資訊，請閱讀[連線總覽](../connections/home.md)。
 
 ## 2025 年 7 月版 {#fac-25-7}
 
