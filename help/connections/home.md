@@ -3,9 +3,9 @@ audience: end-user
 title: 建立和管理與同盟資料庫的連線
 description: 瞭解如何建立和管理與同盟資料庫的連線
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1970'
 ht-degree: 11%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 11%
 >若要存取連線，您需要下列其中一個許可權：
 >
 >-**管理同盟資料庫**
->&#x200B;>-**檢視同盟資料庫**
+>>-**檢視同盟資料庫**
 >
 >如需有關必要權限的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
 
@@ -71,6 +71,10 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | 工作結構描述 | 用於工作表的資料庫綱要名稱。 如需有關此功能的詳細資訊，請參閱[Amazon結構描述檔案](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}。<br/><br/>**注意：**&#x200B;只要您擁有連線到這個結構描述所需的許可權，就可以使用資料庫的任何結構描述，包括用於暫時資料處理的結構描述。 但是，當使用相同資料庫連線多個沙箱時，**必須**&#x200B;使用不同的工作結構描述。 |
 
 >[!TAB Azure Synapse Analytics]
+
+>[!NOTE]
+>
+>如果您想要使用Azure Synapse Analytics建立安全連線，請聯絡您的Adobe客戶服務代表。
 
 選取Azure Synapse Analytics後，您可以新增下列詳細資料：
 
@@ -153,7 +157,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 >
 >Oracle資料庫聯結器目前只能&#x200B;**使用**&#x200B;來建立對象和擴充對象使用案例。
 >
->此外，在設定Oracle資料庫之前，請聯絡您的Adobe客戶服務代表。
+>設定Oracle資料庫(包括設定Oracle連線以使用安全連線)之前，請聯絡您的Adobe客戶服務代表。
 
 選取Oracle後，您可以新增下列詳細資料：
 

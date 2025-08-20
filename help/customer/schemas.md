@@ -3,9 +3,9 @@ audience: end-user
 title: 開始使用結構描述
 description: 瞭解如何開始使用結構描述
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '586'
 ht-degree: 19%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 19%
 >若要存取方案，您需要下列其中一項許可權：
 >
 >-**管理同盟結構描述**
->&#x200B;>-**檢視同盟結構描述**
+>>-**檢視同盟結構描述**
 >
 >如需有關必要權限的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
 
@@ -64,7 +64,7 @@ ht-degree: 19%
 
 若要在Federated Audience Composition中建立結構描述，請在&#x200B;**[!UICONTROL Federated Data]**&#x200B;區段中選取&#x200B;**[!UICONTROL 模型]**。 在&#x200B;**[!UICONTROL 結構描述]**&#x200B;標籤中，選取&#x200B;**[!UICONTROL 建立結構描述]**。
 
-![](assets/schema_create.png){zoomable="yes"}
+![「建立結構描述」按鈕在「同盟對象構成」結構描述區段中反白顯示。](assets/schema_create.png){zoomable="yes"}
 
 出現&#x200B;**[!UICONTROL 選取同盟資料庫]**&#x200B;彈出視窗。 在此彈出視窗上，您可以選取[來源資料庫](/help/connections/home.md)，然後選取&#x200B;**[!UICONTROL 下一步]**。
 
@@ -77,7 +77,7 @@ ht-degree: 19%
 
 每個選取的表格都會產生具有所選欄的綱要。 對於每個表格，您可以變更綱要的標籤、新增說明、重新命名欄位標籤、設定欄位標籤可見度，以及選取綱要主索引鍵。
 
-![](assets/schema_fields.png){zoomable="yes"}
+![](assets/schema-fields.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ ht-degree: 19%
 
 此外，您可以建立由多個結構描述欄組成的索引鍵。 開啟&#x200B;**[!UICONTROL 使用複合金鑰]**，並標示您要用作複合金鑰的金鑰。
 
-![](assets/composite-key.png)
+![](assets/composite-key.png){zoomable="yes"}
 
 完成設定後，請選取&#x200B;**[!UICONTROL 完成]**&#x200B;以完成建立結構描述。
 
