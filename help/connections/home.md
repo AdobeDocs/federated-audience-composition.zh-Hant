@@ -3,9 +3,9 @@ audience: end-user
 title: 建立和管理與同盟資料庫的連線
 description: 瞭解如何建立和管理與同盟資料庫的連線
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 3f9980840bd9a8e5052d34835c40440c722d13cb
+source-git-commit: f0a66632e90526c450e45430d4bdf8a73f2bad49
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1990'
 ht-degree: 11%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 11%
 >若要存取連線，您需要下列其中一個許可權：
 >
 >-**管理同盟資料庫**
->&#x200B;>-**檢視同盟資料庫**
+>>-**檢視同盟資料庫**
 >
 >如需有關必要權限的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
 
@@ -155,7 +155,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 
 >[!IMPORTANT]
 >
->設定Oracle資料庫(包括設定Oracle連線以使用安全連線)之前，請聯絡您的Adobe客戶服務代表。
+>同盟對象構成支援同盟連線設定，可使用Oracle資料庫版本11g或更新版本，並在AWS、Azure、Exadata或私人雲端（只要可透過外部網路存取）上代管。 如果您有任何與Oracle資料庫設定相關的進一步查詢，或需要建立與Oracle的安全連線，請聯絡您的Adobe客戶服務代表。
 
 選取Oracle後，您可以新增下列詳細資料：
 
