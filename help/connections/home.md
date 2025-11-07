@@ -3,9 +3,9 @@ audience: end-user
 title: 建立和管理與同盟資料庫的連線
 description: 瞭解如何建立和管理與同盟資料庫的連線
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
+source-git-commit: 74679f5cf6dbc7401544232b484febd5ebc00aca
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2298'
 ht-degree: 10%
 
 ---
@@ -127,11 +127,15 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 
 如果您選取&#x200B;**[!UICONTROL OAuth 2.0]**，可以新增下列登入資訊：
 
+>[!NOTE]
+>
+>使用OAuth 2.0連線至Google BigQuery之前，您需要在Google Cloud專案中設定重新導向URL。 將重新導向URL `https://fac-oauth.adobe.io/oauth`新增至OAuth 2.0使用者端ID設定下的Google Cloud專案。
+
 | 欄位 | 說明 |
 | ----- | ----------- |
 | 用戶端 ID | 來自您Google BigQuery專案的使用者端ID。 此欄位的作用就像專案的使用者名稱。 |
 | 使用者端密碼 | 來自您Google BigQuery專案的使用者端密碼。 此欄位的作用就像專案的密碼。 |
-| 重新導向URL | 成功授權後，應用程式將重新導向的URL。 |
+| 存取範圍 | 預先填入的資訊會列出您的Google雲端資源中OAuth權杖獲授權的範圍。 |
 
 選取&#x200B;**[!UICONTROL 登入]**&#x200B;以完成您的驗證。
 
@@ -176,7 +180,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 
 >[!TAB Oracle]
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >同盟對象構成支援同盟連線設定，可在11g版或更新版本上使用Oracle資料庫，並託管於AWS、Azure、Exadata或私人雲端（只要可透過外部網路存取）。 如果您有任何與Oracle資料庫設定相關的進一步查詢，或需要建立與Oracle的安全連線，請聯絡您的Adobe客戶服務代表。
 
@@ -205,6 +209,10 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | 密碼 | 帳戶的密碼。 |
 
 如果您選取&#x200B;**[!UICONTROL OAuth 2.0]**，可以新增下列登入資訊：
+
+>[!NOTE]
+>
+>使用OAuth 2.0連線至Snowflake之前，您需要在Snowflake OAuth整合物件中設定重新導向URL。 將重新導向URL `https://fac-oauth.adobe.io/oauth`新增至您的Snowflake OAuth整合設定。
 
 | 欄位 | 說明 |
 | ----- | ----------- |
