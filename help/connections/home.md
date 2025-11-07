@@ -3,10 +3,10 @@ audience: end-user
 title: 建立和管理與同盟資料庫的連線
 description: 瞭解如何建立和管理與同盟資料庫的連線
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: eda1c6fc6344b0ad088b0f23b4d8edfb948d4151
+source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 11%
+source-wordcount: '2224'
+ht-degree: 10%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 11%
 >若要存取連線，您需要下列其中一個許可權：
 >
 >-**管理同盟資料庫**
->&#x200B;>-**檢視同盟資料庫**
+>-**檢視同盟資料庫**
 >
 >如需有關必要權限的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
 
@@ -59,6 +59,8 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 >[!AVAILABILITY]
 >
 >僅支援Amazon Redshift AWS、Amazon Redshift Spectrum和Amazon Redshift Serverless。
+>
+>此外，也支援透過私人連結安全存取您的外部Amazon Redshift資料倉儲。
 
 選取Amazon Redshift後，您可以新增下列詳細資料：
 
@@ -111,11 +113,32 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 
 >[!TAB Google BigQuery]
 
-選取Google BigQuery後，您可以新增下列詳細資料：
+>[!NOTE]
+>
+>支援透過VPN安全存取您的外部Google BigQuery資料倉儲。
+
+選取Google BigQuery後，您可以選擇在與同盟對象構成連線時要使用的驗證方法。
+
+如果您選取&#x200B;**[!UICONTROL 帳戶/密碼驗證]**，您可以新增下列登入資訊：
 
 | 欄位 | 說明 |
 | ----- | ----------- |
 | 服務帳戶 | 您的服務帳戶的電子郵件地址。 如需詳細資訊，請參閱[Google雲端服務帳戶檔案](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}。 |
+
+如果您選取&#x200B;**[!UICONTROL OAuth 2.0]**，可以新增下列登入資訊：
+
+| 欄位 | 說明 |
+| ----- | ----------- |
+| 用戶端 ID | 來自您Google BigQuery專案的使用者端ID。 此欄位的作用就像專案的使用者名稱。 |
+| 使用者端密碼 | 來自您Google BigQuery專案的使用者端密碼。 此欄位的作用就像專案的密碼。 |
+| 重新導向URL | 成功授權後，應用程式將重新導向的URL。 |
+
+選取&#x200B;**[!UICONTROL 登入]**&#x200B;以完成您的驗證。
+
+輸入您的登入詳細資訊後，您可以新增以下詳細資訊：
+
+| 欄位 | 說明 |
+| ----- | ----------- |
 | 專案 | 專案的ID。 如需詳細資訊，請閱讀[Google Cloud專案檔案](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}。 |
 | 資料集 | 資料集的名稱。 如需詳細資訊，請參閱[Google Cloud資料集檔案](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}。 |
 | 金鑰檔案路徑 | 連線到伺服器的金鑰檔案。 僅支援`json`個檔案。 |
@@ -171,13 +194,30 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 >
 >支援透過私人連結，安全地存取外部 Snowflake 資料倉儲。請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 或 Azure 上，並且與您的聯合客群構成環境位於同一區域。請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。
 
-選取Snowflake後，您可以新增下列詳細資料：
+選取Snowflake後，您可以選擇連線至同盟對象構成時要使用的驗證方法。
+
+如果您選取&#x200B;**[!UICONTROL 帳戶/密碼驗證]**，您可以新增下列登入資訊：
 
 | 欄位 | 說明 |
 | ----- | ----------- |
 | 伺服器 | 伺服器的名稱。 |
 | 使用者 | 帳戶的使用者名稱。 |
 | 密碼 | 帳戶的密碼。 |
+
+如果您選取&#x200B;**[!UICONTROL OAuth 2.0]**，可以新增下列登入資訊：
+
+| 欄位 | 說明 |
+| ----- | ----------- |
+| 伺服器 | 伺服器的名稱。 |
+| 用戶端 ID | 來自您Snowflake專案的使用者端ID。 此欄位的作用就像專案的使用者名稱。 |
+| 使用者端密碼 | 您Snowflake專案的使用者端密碼。 此欄位的作用就像專案的密碼。 |
+
+選取&#x200B;**[!UICONTROL 登入]**&#x200B;以完成您的驗證。
+
+輸入您的登入詳細資訊後，您可以新增以下詳細資訊：
+
+| 欄位 | 說明 |
+| ----- | ----------- |
 | 資料庫 | 資料庫的名稱。 若在伺服器名稱中指定此專案，此欄位可保留空白。 |
 | 工作結構描述 | 用於工作表的資料庫綱要名稱。 <br/><br/>**注意：**&#x200B;只要您擁有連線至此結構描述所需的許可權，就可以使用資料庫中的&#x200B;**any**&#x200B;結構描述，包括用於暫時資料處理的結構描述。 但是，當使用相同資料庫連線多個沙箱時，**必須**&#x200B;使用不同的工作結構描述。 |
 | 私密金鑰 | 資料庫連線的私密金鑰。 您可以從本機系統上傳`.pem`檔案。 |

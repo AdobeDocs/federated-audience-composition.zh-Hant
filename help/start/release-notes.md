@@ -2,16 +2,54 @@
 title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
-workflow-type: ht
-source-wordcount: '1706'
-ht-degree: 100%
+source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
+workflow-type: tm+mt
+source-wordcount: '1740'
+ht-degree: 98%
 
 ---
 
 # 發行說明 {#rn-new}
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都已整合在這些發行說明中。[!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-hant){target="_blank"}。
+
+## 2025年10月發行 {#fac-25-10}
+
+### 全新功能 {#fac-25-10-feature}
+
+<!-- <table>
+<thead>
+<tr>
+<th><strong>Availability for Adobe Experience Platform customers on Amazon Web Services (AWS)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table> -->
+
+<table>
+<thead>
+<tr>
+<th><strong>適用於Google BigQuery和Snowflake的OAuth驗證</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以使用OAuth連線至Google BigQuery和Snowflake。</p>
+<p>如需建立連線的詳細資訊，請參閱<a href="../connections/home.md#create">連線總覽</a>。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2025 月 8 月版 {#fac-25-8}
 
