@@ -2,7 +2,7 @@
 title: Experience Platform 聯合客群構成的新增功能
 description: 最新更新和發行說明
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
+source-git-commit: aabe96fc223af5841c7b77ab914745d08d82ce49
 workflow-type: tm+mt
 source-wordcount: '1740'
 ht-degree: 98%
@@ -17,7 +17,8 @@ ht-degree: 98%
 
 ### 全新功能 {#fac-25-10-feature}
 
-<!-- <table>
+<!-- 
+<table>
 <thead>
 <tr>
 <th><strong>Availability for Adobe Experience Platform customers on Amazon Web Services (AWS)</strong><br/></th>
@@ -27,12 +28,13 @@ ht-degree: 98%
 <tr>
 <td>
 <p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
-<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
 </br>
 </td>
 </tr>
 </tbody>
-</table> -->
+</table> 
+-->
 
 <table>
 <thead>
@@ -297,7 +299,7 @@ ht-degree: 98%
 
 * **儲存客群活動**
 
-  **儲存客群**&#x200B;活動中新增了一則注意事項，提醒使用者與資料管理員協作，以便將治理標籤套用至在客群建立和擴充期間所建立的新結構描述和資料集。
+  **儲存客群**活動中新增了一則注意事項，提醒使用者與資料管理員協作，以便將治理標籤套用至在客群建立和擴充期間所建立的新結構描述和資料集。
   [深入了解資料使用標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 相容性 {#fac-25-4-compat}

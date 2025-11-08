@@ -3,7 +3,7 @@ audience: end-user
 title: 建立和管理與同盟資料庫的連線
 description: 瞭解如何建立和管理與同盟資料庫的連線
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 4ad3897bec276cf4c63f9192ce34b17bd598fe84
+source-git-commit: aabe96fc223af5841c7b77ab914745d08d82ce49
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 10%
@@ -277,4 +277,3 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | 測試連線 | 可讓您驗證您的設定詳細資料。 |
 
 您現在可以選取&#x200B;**[!UICONTROL 部署功能]**，然後選取&#x200B;**[!UICONTROL 新增]**，以完成同盟資料庫與Experience Platform之間的連線。
-
