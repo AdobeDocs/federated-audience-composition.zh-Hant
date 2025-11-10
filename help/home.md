@@ -2,8 +2,8 @@
 title: Adobe Experience Platform 聯合客群構成文件首頁
 description: 聯合客群構成文件
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
-workflow-type: ht
+source-git-commit: ae33d99e1d8b5c56a563d062c2526d53527878df
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
 
@@ -78,3 +78,4 @@ Experience Platform 聯合客群構成可為 Adobe Real-Time CDP 和 Adobe Journ
 ## 其他資源  {#additional-resources}
 
 [Real-Time Customer Data Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [教學課程](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
+
