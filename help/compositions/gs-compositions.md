@@ -3,8 +3,8 @@ audience: end-user
 title: 開始使用構成
 description: 學習如何開始構成
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
-workflow-type: ht
+source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
+workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >若要存取作品，您需要以下權限之一：
 >
 >-**管理聯合構成**
->>-**檢視聯合構成**
+>-**檢視聯合構成**
 >
 >如需有關必要權限的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
 

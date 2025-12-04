@@ -2,7 +2,7 @@
 title: 存取外部資料庫的許可權
 description: 瞭解您需要在每個資料庫引擎上存取和執行工作的許可權
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
-source-git-commit: 530a8709a67fabec1a36e1661b922f3e9a9e6996
+source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 5%
