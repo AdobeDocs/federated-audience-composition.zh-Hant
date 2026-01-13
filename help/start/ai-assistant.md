@@ -2,10 +2,10 @@
 title: 使用 AI 助理
 description: 了解如何善用 AI 助理
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
-source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
-workflow-type: ht
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -27,9 +27,9 @@ AI 助理是一項使用者介面功能，旨在協助您導覽和了解 Adobe �
 
 若要提出問題：
 
-1. 按一下頂端列上的圖示來存取 AI 助理。
+1. 選取頂端列中的圖示即可存取AI小幫手。
 
-   AI 助理會顯示在畫面的右側區段。您可以按一下 ![深入影像替代文字](assets/do-not-localize/Smock_FullScreen_18_N.svg "展開") 來展開 AI 助理視窗。
+   AI 助理會顯示在畫面的右側區段。您可以選取![潛入影像替代文字](assets/do-not-localize/Smock_FullScreen_18_N.svg "展開")以展開AI助理視窗。
 
    ![](assets/do-not-localize/ai-assistant-open.png)
 

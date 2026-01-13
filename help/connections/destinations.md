@@ -3,7 +3,7 @@ audience: end-user
 title: 使用外部資料擴充 Adobe Experience Platform 客群
 description: 瞭解如何使用同盟受眾構成目的地，以同盟資料庫中的資料精進及豐富Adobe Experience Platform受眾。
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 8%
@@ -30,7 +30,7 @@ Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地*
 
 1. 存取Adobe Experience Platform目的地目錄，並選取同盟對象構成目的地。
 
-   在右窗格中選取&#x200B;**[!UICONTROL 設定新的目的地]**。
+   在右窗格中，選取&#x200B;**[!UICONTROL 設定新目的地]**。
 
    ![](assets/destination-new.png)
 
@@ -44,19 +44,19 @@ Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地*
    * Databricks
    * Microsoft Fabric
 
-1. 選取您要連線的&#x200B;**[!UICONTROL 同盟資料庫]**，然後按一下[下一步]&#x200B;**&#x200B;**。
+1. 選取您要連線的&#x200B;**[!UICONTROL 同盟資料庫]**，接著選取&#x200B;**[!UICONTROL 下一步]**。
 
    ![](assets/destination-configure.png)
 
 1. 在&#x200B;**[!UICONTROL 警示]**&#x200B;區段中，您可以啟用警示以接收有關您目的地之資料流狀態的通知。
 
-   如需警示的詳細資訊，請參閱Adobe Experience Platform關於使用UI訂閱目的地警示[的檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+   如需警示的詳細資訊，請參閱Adobe Experience Platform關於使用UI訂閱目的地警示[的檔案](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. **[!UICONTROL 治理原則與執行動作]**&#x200B;步驟，您可以定義您的資料治理原則，並確保在傳送和啟用對象時，所使用的資料是合規的。
 
-   當您完成選取目的地所需的行銷動作時，請按一下[建立]。**&#x200B;**
+   當您完成選取目的地所需的行銷動作時，請選取&#x200B;**[!UICONTROL 建立]**。
 
-1. 會建立與目的地的新連線。 您現在可以啟用對象以傳送至目的地。 若要這麼做，請從清單中選取它，然後按一下[下一步] **&#x200B;**
+1. 會建立與目的地的新連線。 您現在可以啟用對象以傳送至目的地。 若要這麼做，請從清單中選取該專案，然後選取&#x200B;**[!UICONTROL 下一步]**
 
    ![](assets/destination-activate.png)
 
@@ -74,14 +74,14 @@ Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地*
    >
    >如需如何設定排程和檔案名稱的詳細資訊，請參閱Adobe Experience Platform檔案的下列章節：
    >
-   >* [排程對象匯出](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
-   >* [設定檔案名稱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+   >* [排程對象匯出](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+   >* [設定檔案名稱](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. 在&#x200B;**[!UICONTROL 對應]**&#x200B;步驟中，選取要為對象匯出的屬性和身分欄位。 如需詳細資訊，請參閱Adobe Experience Platform檔案中的[對應步驟](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}。
+1. 在&#x200B;**[!UICONTROL 對應]**&#x200B;步驟中，選取要為對象匯出的屬性和身分欄位。 如需詳細資訊，請參閱Adobe Experience Platform檔案中的[對應步驟](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}。
 
    ![](assets/destination-attributes.png)
 
-1. 檢閱目的地組態和對象設定，然後按一下[完成]。**&#x200B;**
+1. 檢閱目的地組態和對象設定，然後選取&#x200B;**[!UICONTROL 完成]**。
 
    ![](assets/destination-review.png)
 

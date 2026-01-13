@@ -2,10 +2,10 @@
 title: 聯合客群構成的先決條件和護欄
 description: 了解聯合客群構成的先決條件、權限和護欄
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 * Vertica Analytics
 * Microsoft Fabric
 
-若要了解如何與這些系統建立連線，請參閱[此頁面](../connections/home.md)。
+您可以在[連線總覽](../connections/home.md)中瞭解如何建立與這些系統的連線。
 
 ## 沙箱
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 1. 從聯合客群構成中，存取「**[!UICONTROL 管理]**」下方的「**[!UICONTROL 授權使用量]**」選單。
 
-1. 按一下「**[!UICONTROL 資料輸出總量]**」中的 ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) 圖示，以存取您的沙箱屬性。
+1. 從![](assets/do-not-localize/Smock_InfoOutline_18_N.svg)資料輸出總量&#x200B;**[!UICONTROL 中選取]**&#x200B;圖示以存取您的沙箱屬性。
 
    ![](assets/sandbox_1.png)
 

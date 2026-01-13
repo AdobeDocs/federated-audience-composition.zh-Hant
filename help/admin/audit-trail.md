@@ -3,7 +3,7 @@ audience: end-user
 title: 稽核軌跡
 description: 瞭解在稽核軌跡中如何記錄及存取動作和事件
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 14%
@@ -31,7 +31,7 @@ ht-degree: 14%
 
 * **Source結構描述稽核軌跡**&#x200B;可讓您在Adobe同盟對象構成執行個體中監視活動以及最近對結構描述所做的修改。
 
-  如需結構描述的詳細資訊，請參閱此[頁面](../customer/schemas.md)。
+  如需結構描述的詳細資訊，請參閱此[頁面](../data-modelling/schemas.md)。
 
 * **工作流程稽核軌跡**&#x200B;可讓您追蹤活動及最近對工作流程所做的變更，包括其目前狀態，例如：
 
@@ -44,7 +44,7 @@ ht-degree: 14%
    * 立即喚醒等於動作執行擱置中的工作
    * 無條件停止
 
-  如需工作流程的詳細資訊，請參閱此[頁面](../compositions/gs-compositions.md)。
+  如需工作流程的詳細資訊，請參閱此[頁面](../compositions/home.md)。
 
 * **外部帳戶**&#x200B;可讓您檢查對Adobe對象構成執行個體中的外部帳戶所做的修改。
 

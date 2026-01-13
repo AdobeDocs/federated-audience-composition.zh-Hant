@@ -2,7 +2,7 @@
 title: 同盟對象組合中的存取控制
 description: 瞭解如何在同盟受眾構成中管理使用者的資料存取。
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: a26e5a2b106426113764d3f2f668ddfbbff85b01
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 80%
@@ -74,10 +74,10 @@ ht-degree: 80%
 | FAC 構成管理員 | <ul><li>管理聯合構成</li></ul> |
 | FAC 管理員 | <ul><li>管理聯合資料</li></ul> |
 
-然後，使用者將會收到一封電子郵件，內含存取執行個體的指示。如果之前未建立該使用者，請參閱[此文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users)。
+然後，使用者將會收到一封電子郵件，內含存取執行個體的指示。如果之前未建立使用者，請參閱[此文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users)。
 
 ## 管理對特定組合的存取
 
 您可以套用存取權標籤，以管理對特定構圖的存取權。
 
-如需將存取權標籤套用至組合的相關詳細資訊，請閱讀組合指南的[套用存取權標籤區段](/help/compositions/gs-compositions.md#access-labels)。
+如需將存取權標籤套用至組合的相關詳細資訊，請閱讀組合指南的[套用存取權標籤區段](/help/compositions/home.md#access-labels)。

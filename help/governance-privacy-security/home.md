@@ -2,7 +2,7 @@
 title: 聯合客群構成中的隱私權和安全性
 description: 了解聯合客群構成如何處理使用者資料的隱私權和安全性，包括資料治理、同意執行、存取控制、資料加密和隱私權合規性等功能。
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
-source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 77%
@@ -31,7 +31,7 @@ Federated Audience Composition提供數種服務和工具，可讓您遵守業�
 
 您可以使用資料使用標籤，根據套用至該資料的治理原則，將資料集和欄位分類。 使用構成建立客群後，您可以在產生的結構描述上套用適當的資料標籤，以確保其符合所需的使用限制。
 
-如需在同盟對象構成中使用資料標籤的詳細資訊，請參閱[套用存取標籤區段](../compositions/gs-compositions.md#access-labels){target="_blank"}。
+如需在同盟對象構成中使用資料標籤的詳細資訊，請參閱[套用存取標籤區段](../compositions/home.md#access-labels){target="_blank"}。
 
 ## 隱私權
 
@@ -47,7 +47,7 @@ Federated Audience Composition提供數種服務和工具，可讓您遵守業�
 
 如需關於隱私權服務的詳細資訊，請詳閱[隱私權服務概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/home){target="_blank"}。
 
-### 隱私權請求 {#privacy-requests}
+### 隱私權要求 {#privacy-requests}
 
 在隱私權服務中，您可以建立及管理要求存取和刪除聯合客群構成中客戶資料的個別隱私權請求。隱私權服務提供[使用者介面](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant){target="_blank"}和 [RESTful API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/overview){target="_blank"}，幫助您管理客戶資料請求。
 
