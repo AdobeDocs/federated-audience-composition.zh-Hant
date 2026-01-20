@@ -4,9 +4,9 @@ title: 使用客群
 description: 學習如何使用客群
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
 source-git-commit: ad6ba3e9e806065c05bb4b67ef94dffc7e6b45cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Experience Platform 聯合客群構成可讓您[建立構成](../compositions/ho
 
 在執行構成後，產生的客群將作為外部客群儲存在 Adobe Experience Platform 中，並可用於 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer。
 
-您可以在 Adobe Experience Platform 支援的任何目的地上啟用這些客群。瞭解如何在[Adobe Experience Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/home){target="_blank"}中使用目的地
+您可以在 Adobe Experience Platform 支援的任何目的地上啟用這些客群。了解如何在 [Adobe Experience Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/home){target="_blank"} 中使用目的地
 
 >[!NOTE]
 >

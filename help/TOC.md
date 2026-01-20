@@ -3,9 +3,9 @@ user-guide-title: Experience Platform 聯合客群構成
 title: Experience Platform 聯合客群構成文件
 breadcrumb-title: Experience Platform 聯合客群構成
 source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '110'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 82%
 # Experience Platform 聯合客群構成文件 {#using}
 
 - [Experience Platform 聯合客群構成文件](landing.md)
-- [同盟對象構成概觀](./overview.md)
+- [聯合客群構成概觀](./overview.md)
 - 開始使用聯合客群構成 {#start}
    - [先決條件和護欄](start/access-prerequisites.md)
    - [使用客群](start/audiences.md)
@@ -23,18 +23,18 @@ ht-degree: 82%
    - [存取控制](governance-privacy-security/access-control.md)
 - 連線 {#connections}
    - [連線概觀](connections/home.md)
-   - [資料存取許可權矩陣](connections/fda-rights.md)
+   - [資料存取權限矩陣](connections/fda-rights.md)
    - [使用外部資料擴充 Adobe Experience Platform 客群](connections/destinations.md)
 - 資料模型與結構描述 {#models}
    - [結構描述概觀](data-modelling/schemas.md)
    - [資料模型概觀](data-modelling/models.md)
 - 構成 {#compositions}
-   - [組合概述](compositions/home.md)
+   - [構成概觀](compositions/home.md)
    - [建立構成](compositions/create-composition.md)
    - [活動概觀](compositions/activities.md)
 - 查詢建模工具 {#query-database}
-   - [查詢建模器概述](query/home.md)
-   - [建立查詢](query/build-query.md)
+   - [查詢建模工具概觀](query/home.md)
+   - [建置查詢](query/build-query.md)
    - [編輯運算式](query/expression-editor.md)
 - [稽核軌跡](admin/audit-trail.md)
 - [常見問題](./faq.md)

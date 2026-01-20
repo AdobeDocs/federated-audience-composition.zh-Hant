@@ -1,8 +1,8 @@
 ---
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 # 貢獻文章
@@ -26,8 +26,8 @@ ht-degree: 93%
 如果您想要貢獻微幅更新：
 
 1. 瀏覽到您想要編輯的主題。
-2. 在「此內容是否實用？」(Was this content helpful?) 顯示在瀏覽器視窗底部的橫幅，請選取&#x200B;**詳細意見選項**。
-3. 選取&#x200B;**建議編輯**，並在GitHub UI中提交包含變更的提取請求(PR)。
+2. 在「此內容是否實用？」(Was this content helpful?) 出現在瀏覽器視窗底部的橫幅，選取&#x200B;**詳細的回饋意見選項**。
+3. 選取&#x200B;**建議編輯**，然後在 GitHub UI中，提交包含變更內容的提取請求 (PR)。
 
    如需詳細資訊，請參閱一般 [Adobe Docs 貢獻者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hant)。
 
