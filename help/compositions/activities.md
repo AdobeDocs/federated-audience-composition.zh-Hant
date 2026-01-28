@@ -2,9 +2,9 @@
 audience: end-user
 title: 活動概觀
 description: 瞭解同盟對象構成中可用的不同活動和轉變。
-source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
+source-git-commit: 04f4edafd1c687b94bf5617458edf0866bba16fa
 workflow-type: tm+mt
-source-wordcount: '4619'
+source-wordcount: '4662'
 ht-degree: 33%
 
 ---
@@ -420,6 +420,8 @@ ht-degree: 33%
 現在，您可以指定對應以選取要將哪些欄位傳輸至新建立的對象。 選取&#x200B;**新增對象對應**&#x200B;並選擇來源和目標對象欄位，視需要重複多次。
 
 新增對應後，您可以選取主要身分和名稱空間，以識別資料庫中的目標設定檔。 主要身分欄位用於識別設定檔，而身分名稱空間會作為識別身分的金鑰。
+
+此外，您可以設定對象的資料有效期。 資料到期日決定對象會籍到期的天數。 資料有效期的範圍可以是1到90天。 預設情況下，此值設定為30。
 
 +++
 
