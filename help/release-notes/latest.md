@@ -2,7 +2,7 @@
 title: 同盟對象構成發行說明
 description: 同盟對象構成的最新更新和發行說明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 77591055e0561de07053c1ca5a0c6ab9551a5dfe
+source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 24%
@@ -26,7 +26,7 @@ ht-degree: 24%
 
 | Amazon Web Services (AWS)上Adobe Experience Platform客戶的可用性 |
 | --- |
-| 如果您的Experience Platform執行個體位於AWS，您現在可以使用同盟對象構成。 如需AWS上Experience Platform的詳細資訊，請閱讀[多雲端總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/multi-cloud)。 |
+| 如果您的Experience Platform執行個體位於AWS，您現在可以使用同盟對象構成。 如需AWS上Experience Platform的詳細資訊，請閱讀[多雲端總覽](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)。 |
 
 ### 改進 {#fac-26-01-improvements}
 
@@ -37,3 +37,4 @@ ht-degree: 24%
   在構成中使用&#x200B;**儲存對象**&#x200B;活動時，您現在可以設定資料有效期。
 
   若要深入瞭解同盟對象組合中的資料有效期，請參閱[活動指南](../compositions/activities.md#save-audience)。
+
