@@ -26,7 +26,7 @@ ht-degree: 24%
 
 | Amazon Web Services (AWS)上Adobe Experience Platform客戶的可用性 |
 | --- |
-| 如果您的Experience Platform執行個體位於AWS，您現在可以使用同盟對象構成。 如需AWS上Experience Platform的詳細資訊，請閱讀[多雲端總覽](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)。 |
+| 如果您的Experience Platform執行個體位於AWS，您現在可以使用同盟對象構成。 如需AWS上Experience Platform的詳細資訊，請閱讀[多雲端總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/multi-cloud)。 |
 
 ### 改進 {#fac-26-01-improvements}
 
