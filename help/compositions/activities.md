@@ -2,7 +2,7 @@
 audience: end-user
 title: 活動概觀
 description: 瞭解同盟對象構成中可用的不同活動和轉變。
-source-git-commit: 04f4edafd1c687b94bf5617458edf0866bba16fa
+source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
 workflow-type: tm+mt
 source-wordcount: '4662'
 ht-degree: 33%
@@ -23,7 +23,7 @@ ht-degree: 33%
 
 目標定位活動可讓您定義構成構成對象的內容。
 
-#### 建置客群
+#### 建置客群 {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
@@ -60,7 +60,7 @@ ht-degree: 33%
 
 +++
 
-#### 變更資料來源
+#### 變更資料來源 {#change-data-source}
 
 **變更資料來源**&#x200B;活動可讓您變更構成正在使用的資料來源。
 
@@ -80,7 +80,7 @@ ht-degree: 33%
 
 +++
 
-#### 變更維度
+#### 變更維度 {#change-dimension}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
@@ -104,7 +104,7 @@ ht-degree: 33%
 
 +++
 
-#### 合併
+#### 合併 {#combine}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
@@ -206,7 +206,7 @@ ht-degree: 33%
 
 +++
 
-#### 重複資料刪除
+#### 重複資料刪除 {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
@@ -251,7 +251,7 @@ ht-degree: 33%
 
 +++
 
-#### 擴充
+#### 擴充 {#enrichment}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
@@ -294,7 +294,7 @@ ht-degree: 33%
 
 +++
 
-#### 調和
+#### 調和 {#reconciliation}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
@@ -375,7 +375,7 @@ ht-degree: 33%
 
 +++
 
-#### 儲存客群
+#### 儲存客群 {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
@@ -415,7 +415,7 @@ ht-degree: 33%
 
 將&#x200B;**儲存對象**&#x200B;活動新增至您的組合後，您可以指定新建立對象的名稱。
 
-![](./assets/activities/save-audience.png)
+![](./assets/activities/save-audience.png){zoomable="yes" width="30%"}
 
 現在，您可以指定對應以選取要將哪些欄位傳輸至新建立的對象。 選取&#x200B;**新增對象對應**&#x200B;並選擇來源和目標對象欄位，視需要重複多次。
 
@@ -425,7 +425,7 @@ ht-degree: 33%
 
 +++
 
-#### 分割
+#### 分割 {#split}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"
@@ -506,7 +506,7 @@ ht-degree: 33%
 
 流程控制活動可讓您定義構成的組織與協調。
 
-#### 並加入
+#### 並加入 {#and-join}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
@@ -525,11 +525,11 @@ ht-degree: 33%
 
 +++
 
-#### 結尾
+#### 結尾 {#end}
 
 **End**&#x200B;活動會以圖形方式標示構成結尾，而不會造成功能影響。
 
-#### 分支
+#### 分支 {#fork}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork"
@@ -551,7 +551,7 @@ ht-degree: 33%
 
 +++
 
-#### 排程器
+#### 排程器 {#scheduler}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
@@ -651,7 +651,7 @@ ht-degree: 33%
 
 +++
 
-#### 等待
+#### 等待 {#wait}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_wait"
