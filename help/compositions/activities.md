@@ -2,10 +2,11 @@
 audience: end-user
 title: 活動概觀
 description: 瞭解同盟對象構成中可用的不同活動和轉變。
-source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
+exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
+source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
 workflow-type: tm+mt
-source-wordcount: '4662'
-ht-degree: 33%
+source-wordcount: '5001'
+ht-degree: 32%
 
 ---
 
@@ -20,6 +21,81 @@ ht-degree: 33%
 有&#x200B;**兩種**&#x200B;不同型別的活動可用於同盟對象構成：目標定位活動和流量控制活動。
 
 ### 目標定位活動 {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="擴充欄位"
+>abstract="豐富欄位活動可讓您透過聯合來自外部倉庫的資料來擴充Experience Platform方案，讓您透過其他屬性增強Experience Platform方案。 "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="主要識別名稱空間欄位"
+>abstract="主要身分的名稱空間。 名稱空間有助於提供內容，以說明主要身分的分類。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="選取Experience Platform結構描述"
+>abstract="選擇要擴充的Experience Platform結構描述。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="豐富欄位更新模式"
+>abstract="豐富欄位活動的可用更新模式包括完整更新和增量更新。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="完整更新"
+>abstract="完整更新模式會更新所選結構描述中的完整屬性集。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="漸進式更新"
+>abstract="增量更新模式會更新自上次擴充執行以來所修改的欄位。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="主要身分識別欄位"
+>abstract="主要身分識別欄位指的是在擴充過程中合併輪廓時所依據的真相來源。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="必填欄位條件"
+>abstract="必填欄位是匯出資料時每個輪廓或記錄必須填寫的屬性。若缺少必填欄位，匯出結果將不完整或無效。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="主要身分識別欄位條件"
+>abstract="每個輪廓或記錄的唯一識別碼。這樣可確保每筆記錄都能分開識別與匹配，避免資料重複。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="結構描述清單"
+>abstract="您的沙箱中可用的結構描述清單。 您可以選取標準或關聯式結構描述。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="選取屬性"
+>abstract="您可以為欄位建立來源/目的地對應。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="選取資料集"
+>abstract="屬於結構描述的資料集清單。 您可以選取要將擴充資料儲存到的資料集。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="主索引鍵"
+>abstract="關聯式結構描述的主索引鍵。 此值會防止擷取重複的記錄，以確保資料集中的唯一性。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="版本描述項"
+>abstract="關聯式結構描述的版本描述項。 若有多個值共用相同的主索引鍵，此值可協助判斷哪個屬性優先，確保套用最新的更新。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="時間戳記描述項"
+>abstract="關聯式結構描述的時間戳記描述項。 此值有助於設定訂購的事件時間，並且僅在您使用時間序列資料時存在。"
 
 目標定位活動可讓您定義構成構成對象的內容。
 
@@ -226,7 +302,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
 >title="重複資料刪除設定"
->abstract="若要刪除傳入資料中的重複項目，請在以下欄位中定義重複資料刪除方法。預設只會保留一筆記錄。您還應該根據運算式或屬性選取重複資料刪除模式。預設會隨機選取要避免重複的記錄。"
+>abstract="若要刪除傳入資料中的重複項目，請在以下欄位中定義重複資料刪除方法。預設只會保留一筆記錄。您還應該根據運算式或屬性選取重複資料刪除模式。預設情況下會隨機選取要避免重複的記錄。"
 
 **重複資料刪除**&#x200B;活動會移除對象內任何重複的結果。
 
