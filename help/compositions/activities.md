@@ -6,7 +6,7 @@ exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
 workflow-type: tm+mt
 source-wordcount: '5001'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -195,7 +195,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_merging_options"
 >title="排除合併選項"
->abstract="**排除**&#x200B;可讓您根據特定條件從一個母體中排除元素。 在「**要加入的集合**」一節中，勾選您之前想要加入的所有活動。"
+>abstract="「**排除**」讓您根據特定條件排除一個群體中的元素。 在「**要加入的集合**」一節中，勾選您之前想要加入的所有活動。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"

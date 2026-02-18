@@ -1,15 +1,15 @@
 ---
-title: 同盟對象構成概觀
+title: 聯合客群構成概觀
 description: 瞭解Adobe Federated Audience Composition，以及如何將其用於下游服務，例如Adobe Experience Platform和Adobe Journey Optimizer
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '1203'
-ht-degree: 51%
+ht-degree: 52%
 
 ---
 
-# 同盟對象構成概觀
+# 聯合客群構成概觀
 
 同盟對象構成可讓您從協力廠商資料倉儲建立及擴充對象，並將對象匯入至Adobe Experience Platform。 這可提供簡單而強大的解決方案，讓您直接在Adobe Real-Time Customer Data Platform或Adobe Journey Optimizer等下游服務中連線企業資料倉儲，並對資料倉儲的表格執行查詢。 因此，您可以存取儲存在資料倉儲和雲端儲存平台(例如Amazon Redshift和Azure Synapse Analytics)的客戶資料。
 
@@ -42,7 +42,7 @@ ht-degree: 51%
 
 ![圖表](assets/overview/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
-如需有關聯合客群構成使用案例的詳細資訊，請參閱[聯合客群構成白皮書](https://business.adobe.com/tw/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html)。
+如需有關聯合客群構成使用案例的詳細資訊，請參閱[聯合客群構成白皮書](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html)。
 
 ## 主要步驟 {#gs-steps}
 
