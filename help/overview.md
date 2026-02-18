@@ -42,7 +42,7 @@ ht-degree: 52%
 
 ![圖表](assets/overview/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
-如需有關聯合客群構成使用案例的詳細資訊，請參閱[聯合客群構成白皮書](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html)。
+如需有關聯合客群構成使用案例的詳細資訊，請參閱[聯合客群構成白皮書](https://business.adobe.com/tw/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html)。
 
 ## 主要步驟 {#gs-steps}
 
