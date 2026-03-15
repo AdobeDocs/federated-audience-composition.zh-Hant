@@ -3,10 +3,10 @@ audience: end-user
 title: 活動概觀
 description: 瞭解同盟對象構成中可用的不同活動和轉變。
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
-source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
+source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
 workflow-type: tm+mt
-source-wordcount: '5001'
-ht-degree: 33%
+source-wordcount: '5477'
+ht-degree: 36%
 
 ---
 
@@ -21,81 +21,6 @@ ht-degree: 33%
 有&#x200B;**兩種**&#x200B;不同型別的活動可用於同盟對象構成：目標定位活動和流量控制活動。
 
 ### 目標定位活動 {#targeting}
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset"
->title="擴充欄位"
->abstract="豐富欄位活動可讓您透過聯合來自外部倉庫的資料來擴充Experience Platform方案，讓您透過其他屬性增強Experience Platform方案。 "
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentitynamespace"
->title="主要識別名稱空間欄位"
->abstract="主要身分的名稱空間。 名稱空間有助於提供內容，以說明主要身分的分類。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepschema"
->title="選取Experience Platform結構描述"
->abstract="選擇要擴充的Experience Platform結構描述。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode"
->title="豐富欄位更新模式"
->abstract="豐富欄位活動的可用更新模式包括完整更新和增量更新。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode_full"
->title="完整更新"
->abstract="完整更新模式會更新所選結構描述中的完整屬性集。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode_incremental"
->title="漸進式更新"
->abstract="增量更新模式會更新自上次擴充執行以來所修改的欄位。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentityfield"
->title="主要身分識別欄位"
->abstract="主要身分識別欄位指的是在擴充過程中合併輪廓時所依據的真相來源。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_requiredfieldscheck"
->title="必填欄位條件"
->abstract="必填欄位是匯出資料時每個輪廓或記錄必須填寫的屬性。若缺少必填欄位，匯出結果將不完整或無效。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentitycheck"
->title="主要身分識別欄位條件"
->abstract="每個輪廓或記錄的唯一識別碼。這樣可確保每筆記錄都能分開識別與匹配，避免資料重複。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_aepschemalist"
->title="結構描述清單"
->abstract="您的沙箱中可用的結構描述清單。 您可以選取標準或關聯式結構描述。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepattribute"
->title="選取屬性"
->abstract="您可以為欄位建立來源/目的地對應。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepdataset"
->title="選取資料集"
->abstract="屬於結構描述的資料集清單。 您可以選取要將擴充資料儲存到的資料集。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primarykeycheck"
->title="主索引鍵"
->abstract="關聯式結構描述的主索引鍵。 此值會防止擷取重複的記錄，以確保資料集中的唯一性。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_versiondescriptor"
->title="版本描述項"
->abstract="關聯式結構描述的版本描述項。 若有多個值共用相同的主索引鍵，此值可協助判斷哪個屬性優先，確保套用最新的更新。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_timestampdescriptor"
->title="時間戳記描述項"
->abstract="關聯式結構描述的時間戳記描述項。 此值有助於設定訂購的事件時間，並且僅在您使用時間序列資料時存在。"
 
 目標定位活動可讓您定義構成構成對象的內容。
 
@@ -161,12 +86,12 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="產生補集"
->abstract="您可以使用剩餘群體 (其已因重複而排除) 產生額外的傳出轉變。若要這樣做，請開啟「**[!UICONTROL 產生補集]**」選項"
+>abstract="您可以使用剩餘群體 (其已因重複而排除) 產生額外的傳出轉變。 若要這樣做，請開啟「**[!UICONTROL 產生補集]**」選項"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="變更維度活動"
->abstract="此活動可讓您在建立客群時變更結構描述 (又名目標市場選擇維度)。此活動會根據資料範本和輸入結構描述來移動軸。例如，您可以從「合約」結構描述切換到「用戶端」結構描述。"
+>abstract="此活動可讓您在建立客群時變更結構描述 (又名目標市場選擇維度)。 此活動會根據資料範本和輸入結構描述來移動軸。 例如，您可以從「合約」結構描述切換到「用戶端」結構描述。"
 
 **變更維度**&#x200B;活動可讓您變更構成的結構描述（也稱為目標維度）。
 
@@ -185,12 +110,12 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
 >title="組合活動"
->abstract="「**組合**」活動可讓您對傳入群體執行分段。您因此可以組合好幾個群體、排除其中的一部分或僅保留幾個目標通用資料。"
+>abstract="「**組合**」活動可讓您對傳入群體執行分段。 您因此可以組合好幾個群體、排除其中的一部分或僅保留幾個目標通用資料。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_merging_options"
 >title="交集合併選項"
->abstract="「**交集**」活動可讓您僅保留活動中不同傳入群體的通用元素。在「**要加入的集合**」一節中，勾選您之前想要加入的所有活動。"
+>abstract="「**交集**」活動可讓您僅保留活動中不同傳入群體的通用元素。 在「**要加入的集合**」一節中，勾選您之前想要加入的所有活動。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_merging_options"
@@ -200,7 +125,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
 >title="選取分段類型"
->abstract="選取如何合併對象：聯合、交集或排除。"
+>abstract="選取組合客群的方式：聯合、交集或排除。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_reconciliation_options"
@@ -210,22 +135,22 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_reconciliation"
 >title="調和選項"
->abstract="選取「**調解類型**」，以定義處理重複項目的方式。"
+>abstract="選取「**調和類型**」，以定義處理重複項目的方式。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="排除規則"
->abstract="如有必要，您可以操控傳入表格。事實上，若要從另一個結構描述 (目標市場選擇維度) 排除目標，必須將此目標傳回到與主要目標相同的結構描述。若要這麼做，請在E **排除規則**&#x200B;區段中選取&#x200B;**新增規則**，並指定結構描述變更條件。 資料調和會透過屬性或加入執行。"
+>abstract="如有必要，您可以操控傳入表格。 事實上，若要從另一個結構描述 (目標市場選擇維度) 排除目標，必須將此目標傳回到與主要目標相同的結構描述。 若要進行此步驟，請選取「**排除規則**」一節中的「**新增規則**」，並指定結構描述變更條件。 資料調和會透過屬性或加入執行。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
 >title="選取要組合的集合"
->abstract="在「**要加入的集合**」一節中，從傳入轉變中選取「**主要集合**」。這是從中排除元素的集。其他集會先設定相符的元素，然後才會從主要集予以排除。"
+>abstract="在「**要加入的集合**」一節中，從傳入轉變中選取「**主要集合**」。 這是從中排除元素的集。 其他集會先設定相符的元素，然後才會從主要集予以排除。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="排除規則"
->abstract="如有必要，您可以操控傳入表格。事實上，若要從另一個結構描述 (目標市場選擇維度) 排除目標，必須將此目標傳回到與主要目標相同的結構描述。若要這麼做，請在&#x200B;**排除規則**&#x200B;區段中選取&#x200B;**新增規則**，並指定結構描述變更條件。 資料調和會透過屬性或加入執行。"
+>abstract="如有必要，您可以操控傳入表格。 事實上，若要從另一個結構描述 (目標市場選擇維度) 排除目標，必須將此目標傳回到與主要目標相同的結構描述。 若要進行此步驟，請選取「**排除規則**」一節中的「**新增規則**」，並指定結構描述變更條件。 資料調和會透過屬性或加入執行。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
@@ -287,22 +212,22 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="用於識別重複資料的欄位"
->abstract="在&#x200B;**[!UICONTROL 識別重複專案的欄位]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 新增屬性]**&#x200B;按鈕，指定相同值允許識別重複專案的欄位，例如：電子郵件地址、名字、姓氏等。 欄位的順序可讓您指定首先處理的資料。"
+>abstract="在&#x200B;**[!UICONTROL 用於識別重複項目的欄位]**&#x200B;區段，選取「**[!UICONTROL 新增屬性]**」按鈕，指定可允許識別重複之相同值的欄位，例如：電子郵件地址、名字、姓氏等。欄位的排序方式讓您能夠指定優先處理的欄位。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
 >title="重複資料刪除活動"
->abstract="「**重複資料刪除**」活動可讓您刪除傳入活動結果中的重複資料。其主要在目標市場選擇活動之後和允許使用目標資料的活動之前使用。"
+>abstract="「**重複資料刪除**」活動可讓您刪除傳入活動結果中的重複資料。 其主要在目標市場選擇活動之後和允許使用目標資料的活動之前使用。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"
 >title="產生補集"
->abstract="您可以使用剩餘群體 (其已因重複而排除) 產生額外的傳出轉變。若要這樣做，請開啟「**[!UICONTROL 產生補集]**」選項"
+>abstract="您可以使用剩餘群體 (其已因重複而排除) 產生額外的傳出轉變。 若要這樣做，請開啟「**[!UICONTROL 產生補集]**」選項"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
 >title="重複資料刪除設定"
->abstract="若要刪除傳入資料中的重複項目，請在以下欄位中定義重複資料刪除方法。預設只會保留一筆記錄。您還應該根據運算式或屬性選取重複資料刪除模式。預設情況下會隨機選取要避免重複的記錄。"
+>abstract="若要刪除傳入資料中的重複項目，請在以下欄位中定義重複資料刪除方法。 預設只會保留一筆記錄。 您還應該根據運算式或屬性選取重複資料刪除模式。 預設情況下會隨機選取要避免重複的記錄。"
 
 **重複資料刪除**&#x200B;活動會移除對象內任何重複的結果。
 
@@ -332,7 +257,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="擴充活動"
->abstract="「**擴充活動**」可讓您使用資料庫中的其他資訊來增強目標資料。這通常會用於分段活動之後的構成。"
+>abstract="「**擴充活動**」可讓您使用資料庫中的其他資訊來增強目標資料。 這通常會用於分段活動之後的構成。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
@@ -352,11 +277,11 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="擴充資料"
->abstract="選取用於擴充構成的資料。您可以選取兩種類型的擴充資料：結構描述 (又名目標市場選擇維度) 中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
+>abstract="選取用於擴充構成的資料。 您可以選取兩種類型的擴充資料：結構描述 (又名目標市場選擇維度) 中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
 
 **擴充**&#x200B;活動可讓您透過從同盟資料庫新增其他資料來增強組合。
 
-如果您已設定同盟對象構成目標的連線，則可使用擴充活動，以外部資料庫的屬性擴充來自Adobe Experience Platform的資料。 [瞭解如何使用外部資料擴充Adobe Experience Platform對象](../connections/destinations.md)
+如果您已設定同盟對象構成目標的連線，則可使用擴充活動，以外部資料庫的屬性擴充來自Adobe Experience Platform的資料。[瞭解如何使用外部資料擴充Adobe Experience Platform對象](../connections/destinations.md)
 
 +++ 設定詳細資料
 
@@ -395,12 +320,12 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="結構描述"
->abstract="選取要適用於資料的新結構描述。結構描述 (又名為目標市場選擇維度) 可讓您定義目標群體：收件者、應用程式訂閱者、操作者、訂閱者等。預設會選取構成現有的結構描述。"
+>abstract="選取要適用於資料的新結構描述。 您可以透過結構描述 (也稱為目標選擇維度) 定義目標群體：收件者、應用程式訂閱者、操作者、訂閱者等。預設情況下，所選取的是組合目前的結構描述。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
 >title="調和規則"
->abstract="選取用於重複資料刪除的調和規則。若要使用屬性，請選取&#x200B;**簡單屬性**&#x200B;選項，然後選擇來源欄位和目的地欄位。若要使用查詢建模工具建立您自己的調和條件，請選取&#x200B;**進階調和條件**&#x200B;選項。"
+>abstract="選取用於重複資料刪除的調和規則。 若要使用屬性，請選取&#x200B;**簡單屬性**&#x200B;選項，然後選擇來源欄位和目的地欄位。 若要使用查詢建模工具建立您自己的調和條件，請選取&#x200B;**進階調和條件**&#x200B;選項。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
@@ -410,7 +335,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
 >title="保留未調和的資料"
->abstract="依預設，未調和的資料保留在傳出轉變中，並可在工作表中供未來使用。若要移除未調和的資料，請停用「**保留未調和的資料**」選項。"
+>abstract="依預設，未調和的資料保留在傳出轉變中，並可在工作表中供未來使用。 若要移除未調和的資料，請停用「**保留未調和的資料**」選項。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
@@ -456,7 +381,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="儲存一個對象"
->abstract="使用此活動從構成中的群體運算上游建立新的客群。建立的對象將新增至對象清單中，並可透過「**對象**」選單使用。"
+>abstract="使用此活動從構成中的群體運算上游建立新的客群。 建立的對象將新增至對象清單中，並可透過「**對象**」選單使用。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -501,6 +426,138 @@ ht-degree: 33%
 
 +++
 
+#### 儲存欄位 {#save-fields}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="儲存欄位"
+>abstract="「儲存欄位」活動可讓您透過聯合來自外部倉庫的資料來擴充Experience Platform方案，讓您透過其他屬性來增強Experience Platform方案。 "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="主要身分識別命名空間欄位"
+>abstract="主要身分識別的命名空間。 命名空間提供說明主要身分識別之分類的背景資訊。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="選取 Experience Platform 結構描述"
+>abstract="選擇您要擴充的 Experience Platform 結構描述。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="儲存欄位更新模式"
+>abstract="儲存欄位活動可用的更新模式包括完整更新和增量更新。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="完整更新"
+>abstract="完整更新模式會更新所選結構描述中完整的屬性集。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="漸進式更新"
+>abstract="漸進式更新模式會更新自上次擴充後曾修改的欄位。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="主要身分識別欄位"
+>abstract="主要身分識別欄位是指在擴充過程中合併輪廓時所依據的事實來源。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="必填欄位條件"
+>abstract="必填欄位是匯出資料時每個輪廓或記錄必須填寫的屬性。 若缺少必填欄位，匯出結果將不完整或無效。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="主要身分識別欄位條件"
+>abstract="每個輪廓或記錄的唯一識別碼。 這樣可確保能夠明確地辨識與比對每筆記錄，避免資料重複。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="結構描述清單"
+>abstract="您的沙箱中可用的結構描述之清單。 您可以選取標準或關聯式結構描述。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="選取屬性"
+>abstract="您可以為欄位建立來源/目標的對應。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="選取資料集"
+>abstract="屬於該結構描述的資料集之清單。 您可以選取要用來儲存已擴充資料的資料集。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="主索引鍵"
+>abstract="關聯式結構描述的主索引鍵。 此值可防止攝取重複的記錄，以確保在資料集中的唯一性。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="版本描述項"
+>abstract="關聯式結構描述的版本描述項。 若有多個值共用相同的主索引鍵，此值可協助判斷哪個屬性優先，確保套用最新的更新。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="時間戳記描述項"
+>abstract="關聯式結構描述的時間戳記描述項。 此值可設定事件時間以進行排序，並且僅在您使用時間序列資料時存在。"
+
+**[!UICONTROL 儲存欄位]**&#x200B;活動可讓您透過聯合來自外部倉儲的資料來擴充Experience Platform結構描述，讓您透過其他屬性擴充Experience Platform結構描述。
+
+此活動會透過引入其他屬性和深入分析來豐富結構描述，而不會將資料實際移動或複製到平台中。
+
++++ 設定詳細資料
+
+>[!IMPORTANT]
+>
+>如果選取的資料集&#x200B;**未**&#x200B;啟用更新插入，資料將會被&#x200B;**取代**。 若要瞭解如何為資料集啟用更新插入，請閱讀[啟用更新插入指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)。
+
+將&#x200B;**[!UICONTROL 儲存欄位]**&#x200B;活動新增至撰寫後，您可以為該活動加上標籤，並選取您要使用的Adobe Experience Platform結構描述。 此結構描述可以是標準結構描述或關聯結構描述。
+
+![顯示可用的結構描述。](/help/compositions//assets/activities/enrich-fields/select-schema.png){width="1500" zoomable="yes"}
+
+>[!BEGINTABS]
+
+>[!TAB 標準結構描述]
+
+如果您選取標準結構描述，您將需要選擇擴充儲存的目標資料集。
+
+![選取的資料集區段已反白顯示。](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
+
+選取資料集後，您可以看到用於識別資料庫中設定檔的主要身分欄位。 不過，您需要對應主要和必要欄位。 選取&#x200B;**[!UICONTROL 新增欄位]**，並為要對應的每個屬性指定&#x200B;**[!UICONTROL Source]**&#x200B;欄位（外部資料）和&#x200B;**[!UICONTROL 目的地]**&#x200B;欄位（結構描述欄位）。
+
+![新增欄位按鈕和欄位對應區段會反白顯示。](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
+
+您也可以指定擴充的更新模式。
+
+![顯示更新模式型別。](/help/compositions/assets/activities/enrich-fields/select-update-mode.png){width="300" zoomable="yes"}
+
+| 更新模式 | 說明 |
+| ----------- | ----------- |
+| 完整更新 | 所選結構描述中的完整屬性集已更新，以供擴充。 |
+| 漸進式更新 | 只有在上次擴充執行後修改的欄位才會針對擴充進行更新。 |
+
+如果您選取[!UICONTROL 增量更新]，您也必須選擇上次修改日期，以決定要傳送哪些資料。
+
+>[!TAB 關聯式結構描述]
+
+如果您選取關聯式結構描述，您將需要選擇擴充儲存的目標資料集。
+
+![選取的資料集區段已反白顯示。](/help/compositions/assets/activities/enrich-fields/select-dataset-relational.png){width="300" zoomable="yes"}
+
+選取資料集後，您可以檢視資料庫的主要索引鍵和版本描述項。  不過，您需要對應主索引鍵和必要欄位。 選取&#x200B;**[!UICONTROL 新增欄位]s**，並為您要對應的每個屬性指定&#x200B;**[!UICONTROL Source]**&#x200B;欄位（外部資料）和&#x200B;**[!UICONTROL 目的地]**&#x200B;欄位（結構描述欄位）。
+
+![新增欄位按鈕和欄位對應區段會反白顯示。](/help/compositions/assets/activities/enrich-fields/specify-mapping-relational.png){width="300" zoomable="yes"}
+
+由於關聯式結構描述僅支援增量更新，因此您必須選擇上次修改日期以決定要傳送哪些資料。 增量更新只會更新自上次擴充執行以來修改的欄位。
+
+![顯示更新模式（增量更新）。](/help/compositions/assets/activities/enrich-fields/update-mode-relational.png){width="300" zoomable="yes"}
+
+>[!ENDTABS]
+
++++
+
 #### 分割 {#split}
 
 >[!CONTEXTUALHELP]
@@ -511,12 +568,12 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="分割活動的區段"
->abstract="依需求新增任意數量的子集，將傳入的群體進行細分。<br/></br>執行&#x200B;**分割** 活動時，系統會依照子集新增至活動的順序，將群體細分成不同的子集。在開始構成之前，請確保已使用箭頭按鈕按照符合您需求的順序排列子集。"
+>abstract="依需求新增任意數量的子集，將傳入的群體進行細分。<br/></br>當執行&#x200B;**分割**&#x200B;活動時，系統會依照子集新增至活動的順序，將群體細分成不同的子集。 在開始構成之前，請確保已使用箭頭按鈕按照符合您需求的順序排列子集。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"
 >title="分割活動篩選器"
->abstract="若要將篩選條件套用至子集，請選取&#x200B;**[!UICONTROL 建立篩選器]**，並使用查詢模型工具設定所要的篩選規則。 例如，於傳入族群中，將有電子郵件地址存在於資料庫的輪廓包含在內。"
+>abstract="若要將篩選條件套用到子集，請選取「**[!UICONTROL 建立篩選器]**」並使用查詢建模工具設定所需的篩選規則。 例如，於傳入族群中，將有電子郵件地址存在於資料庫的輪廓包含在內。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_limit"
@@ -526,12 +583,12 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_sorting"
 >title="分割活動排序"
->abstract="為子集設定族群限制時，您可以用指定設定檔屬性按升序或降序順序來排列所選設定檔。為此，請開啟「**啟用排序**」選項。例如，您可以限制子集僅包含購買金額最高的前 50 個設定檔。"
+>abstract="為子集設定族群限制時，您可以用指定設定檔屬性按升序或降序順序來排列所選設定檔。 為此，請開啟「**啟用排序**」選項。 例如，您可以限制子集僅包含購買金額最高的前 50 個設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_complement"
 >title="分割產生補集"
->abstract="設定完所有子集後，您可以選擇與任何子集都不相符的剩餘族群，並將其包含在額外的傳出轉變中。若要這樣做，請開啟「**產生補集**」選項。"
+>abstract="設定完所有子集後，您可以選擇與任何子集都不相符的剩餘族群，並將其包含在額外的傳出轉變中。 若要這樣做，請開啟「**產生補集**」選項。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_generatesubsets"
@@ -546,7 +603,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="啟用輸出群體的重疊"
->abstract="「**[!UICONTROL 啟用輸出群體的重疊]**」選項可讓您管理屬於多個子集的群體。當未選取該方塊時，分割活動將確保收件者不能出現在多個輸出轉換中，即使其滿足多個子集的條件也是如此。它們將位於具有符合條件的第一個標籤的目標中。當選取該方塊時，符合篩選條件的收件者，會出現在多個子集中。 "
+>abstract="「**[!UICONTROL 啟用輸出群體的重疊]**」選項可讓您管理屬於多個子集的群體。 當未選取該方塊時，分割活動將確保收件者不能出現在多個輸出轉換中，即使其滿足多個子集的條件也是如此。 它們將位於具有符合條件的第一個標籤的目標中。 當選取該方塊時，符合篩選條件的收件者，會出現在多個子集中。 "
 
 **分割**&#x200B;活動會根據指定的條件，將傳入母體分成多個部分。
 
@@ -582,12 +639,12 @@ ht-degree: 33%
 
 流程控制活動可讓您定義構成的組織與協調。
 
-#### 並加入 {#and-join}
+#### 合併連接 {#and-join}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
 >title="合併連結活動"
->abstract="**合併連結**&#x200B;活動可讓您同步處理構成的多個執行分支。一旦所有前面的活動完成，就會觸發此活動。這讓您可以在確保特定活動已完成後再繼續執行構成。"
+>abstract="**合併連結**&#x200B;活動可讓您同步處理構成的多個執行分支。 一旦所有前面的活動完成，就會觸發此活動。 這讓您可以在確保特定活動已完成後再繼續執行構成。"
 
 **AND-join**&#x200B;活動可讓您合併組合的多個分支。 此活動只會在啟動&#x200B;**所有**&#x200B;入站轉變後觸發。
 
@@ -615,7 +672,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
 >title="分支活動轉變"
->abstract="依預設，透過&#x200B;**分支**&#x200B;活動建立二個轉變。選取&#x200B;**新增轉變**&#x200B;按鈕以定義額外的輸出轉變，並輸入其標籤。"
+>abstract="依預設，透過&#x200B;**分支**&#x200B;活動建立二個轉變。 選取「**新增轉變**」按鈕，定義額外的傳出轉變，並輸入其標籤。"
 
 **分支**&#x200B;活動可讓您建立多個同時啟動多個活動的出站轉變。
 
@@ -632,17 +689,17 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="排程器活動"
->abstract="「**排程器**」活動可讓您安排客群構成何時開始。此活動應視為已排程的開始。其只能當作構成的第一個活動。"
+>abstract="「**排程器**」活動可讓您安排客群構成何時開始。 此活動應視為已排程的開始。 其只能當作構成的第一個活動。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_schedule_validity"
 >title="排程器有效性"
->abstract="您可以定義排程器的有效期限。它可以是永久的 (預設)，也可以在特定日期之前有效。"
+>abstract="您可以定義排程器的有效期限。 它可以是永久的 (預設)，也可以在特定日期之前有效。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_schedule_options"
 >title="排程器選項"
->abstract="定義排程器的頻率。它可以在特定時刻執行，可每天、每週或每月執行一次或多次。"
+>abstract="定義排程器的頻率。 它可以在特定時刻執行，可每天、每週或每月執行一次或多次。"
 
 **排程器**&#x200B;活動可讓您排程何時開始構成執行。 您&#x200B;**必須**&#x200B;使用此項作為組合的第一個活動。
 
