@@ -6,7 +6,7 @@ exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
 workflow-type: tm+mt
 source-wordcount: '5477'
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -431,7 +431,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset"
 >title="儲存欄位"
->abstract="「儲存欄位」活動可讓您透過聯合來自外部倉庫的資料來擴充Experience Platform方案，讓您透過其他屬性來增強Experience Platform方案。 "
+>abstract="儲存欄位活動讓您透過整合外部倉儲的資料，使 Experience Platform 結構描述更為多元，並讓您可以運用額外的屬性來增強 Experience Platform 結構描述。 "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
@@ -446,7 +446,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode"
 >title="儲存欄位更新模式"
->abstract="儲存欄位活動可用的更新模式包括完整更新和增量更新。"
+>abstract="儲存欄位活動可用的更新模式包括完整更新和漸進式更新。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_full"
@@ -511,7 +511,7 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->如果選取的資料集&#x200B;**未**&#x200B;啟用更新插入，資料將會被&#x200B;**取代**。 若要瞭解如何為資料集啟用更新插入，請閱讀[啟用更新插入指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/enable-upsert)。
+>如果選取的資料集&#x200B;**未**&#x200B;啟用更新插入，資料將會被&#x200B;**取代**。 若要瞭解如何為資料集啟用更新插入，請閱讀[啟用更新插入指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)。
 
 將&#x200B;**[!UICONTROL 儲存欄位]**&#x200B;活動新增至撰寫後，您可以為該活動加上標籤，並選取您要使用的Adobe Experience Platform結構描述。 此結構描述可以是標準結構描述或關聯結構描述。
 
