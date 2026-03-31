@@ -2,10 +2,10 @@
 title: 同盟對象構成發行說明
 description: 同盟對象構成的最新更新和發行說明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 7d12773b36cb963f3d4251a9b88486864056a0fb
+source-git-commit: d3a97b5887778f910ca8f09f7cb8fa99360a612c
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 11%
+source-wordcount: '442'
+ht-degree: 8%
 
 ---
 
@@ -13,6 +13,20 @@ ht-degree: 11%
 # 發行說明
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能增強並修正錯誤。 所有變更都整合在這些發行說明中。[!DNL Federated Audience Composition] 原生內建於[!DNL Adobe Experience Platform]，並繼承其最新的創新和改進專案。 若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+
+## 2026年3月發行 {#fac-26-03}
+
+3月發行的Federated Audience Composition支援下列功能：
+
+### 全新功能 {#fac-26-03-feature}
+
+| AI支援的分段 |
+| --- |
+| 您現在可以在AI Assistant中自主建立同盟對象組合。 使用AI助理建立對象時，AI助理會產生一個計畫，在您核准後，該計畫將在您的瀏覽器中執行。 如需使用AI助理建立對象的詳細資訊，請閱讀[AI助理概述](/help/start/ai-assistant.md)。 |
+
+| Operational Insights的AI助理 |
+| --- |
+| 您現在可以向AI助理詢問有關同盟受眾構成中操作深入分析的問題。 支援的區域包括連線、結構描述和資料模型。 此發行版本不支援&#x200B;**同盟組合**。 如需有關同盟對象構成中AI助理的詳細資訊，請閱讀[AI助理概述](/help/start/ai-assistant.md)。 |
 
 ## 2026年2月發行 {#fac-26-02}
 
@@ -40,7 +54,7 @@ ht-degree: 11%
 
 | Amazon Web Services (AWS)上Adobe Experience Platform客戶的可用性 |
 | --- |
-| 如果您的Experience Platform執行個體位於AWS，您現在可以使用同盟對象構成。 如需AWS上Experience Platform的詳細資訊，請閱讀[多雲端總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/multi-cloud)。 |
+| 如果您的Experience Platform執行個體位於AWS，您現在可以使用同盟對象構成。 如需AWS上Experience Platform的詳細資訊，請閱讀[多雲端總覽](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)。 |
 
 ### 改善 {#fac-26-01-improvements}
 
