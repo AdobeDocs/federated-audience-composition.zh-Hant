@@ -3,9 +3,9 @@ audience: end-user
 title: 活動概觀
 description: 瞭解同盟對象構成中可用的不同活動和轉變。
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
-source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
 workflow-type: tm+mt
-source-wordcount: '5477'
+source-wordcount: '5478'
 ht-degree: 37%
 
 ---
@@ -281,7 +281,7 @@ ht-degree: 37%
 
 **擴充**&#x200B;活動可讓您透過從同盟資料庫新增其他資料來增強組合。
 
-如果您已設定同盟對象構成目標的連線，則可使用擴充活動，以外部資料庫的屬性擴充來自Adobe Experience Platform的資料。[瞭解如何使用外部資料擴充Adobe Experience Platform對象](../connections/destinations.md)
+如果您已設定同盟對象構成目標的連線，則可使用擴充活動，以外部資料庫的屬性擴充來自Adobe Experience Platform的資料。 [瞭解如何使用外部資料擴充Adobe Experience Platform對象](../connections/destinations.md)
 
 +++ 設定詳細資料
 
@@ -511,7 +511,7 @@ ht-degree: 37%
 
 >[!IMPORTANT]
 >
->如果選取的資料集&#x200B;**未**&#x200B;啟用更新插入，資料將會被&#x200B;**取代**。 若要瞭解如何為資料集啟用更新插入，請閱讀[啟用更新插入指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/enable-upsert)。
+>如果選取的資料集&#x200B;**未**&#x200B;啟用更新插入，資料將會被&#x200B;**取代**。 若要瞭解如何為資料集啟用更新插入，請閱讀[啟用更新插入指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)。
 
 將&#x200B;**[!UICONTROL 儲存欄位]**&#x200B;活動新增至撰寫後，您可以為該活動加上標籤，並選取您要使用的Adobe Experience Platform結構描述。 此結構描述可以是標準結構描述或關聯結構描述。
 
@@ -568,7 +568,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="分割活動的區段"
->abstract="依需求新增任意數量的子集，將傳入的群體進行細分。<br/></br>當執行&#x200B;**分割**&#x200B;活動時，系統會依照子集新增至活動的順序，將群體細分成不同的子集。 在開始構成之前，請確保已使用箭頭按鈕按照符合您需求的順序排列子集。"
+>abstract="依需求新增任意數量的子集，將傳入的群體進行細分。<br/></br>執行&#x200B;**分割** 活動時，系統會依照子集新增至活動的順序，將群體細分成不同的子集。 在開始構成之前，請確保已使用箭頭按鈕按照符合您需求的順序排列子集。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"

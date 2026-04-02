@@ -3,16 +3,16 @@ audience: end-user
 title: 運算式編輯器概觀
 description: 瞭解如何使用運算式編輯器中的函式，在查詢建模器中建置查詢。
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
 workflow-type: tm+mt
-source-wordcount: '4108'
-ht-degree: 9%
+source-wordcount: '4215'
+ht-degree: 8%
 
 ---
 
 # 運算式編輯器概觀 {#expression}
 
-編輯運算式需要手動輸入條件以形成規則。此模式可讓您使用進階函式，這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位、排序等。
+編輯運算式需要手動輸入條件以形成規則。 此模式可讓您使用進階函式，這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位、排序等。
 
 ## 使用運算式編輯器 {#edit}
 
@@ -28,7 +28,7 @@ ht-degree: 9%
 * 可用的&#x200B;**欄位(2)**&#x200B;清單，可用於運算式中，並與查詢的結構描述（也稱為目標維度）相對應。
 * **協助程式函式 (3)**，依類別排序。
 
-直接在輸入欄位中輸入運算式以編輯運算式。若要新增欄位或協助程式函式，請將游標置於要新增的運算式中，然後選取+按鈕。
+直接在輸入欄位中輸入運算式以編輯運算式。 若要新增欄位或協助程式函式，請將游標置於要新增的運算式中，然後選取+按鈕。
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
@@ -40,9 +40,10 @@ ht-degree: 9%
 
 ## 協助程式功能
 
-查詢編輯工具可讓您使用進階功能，根據所需結果和操作資料的類型執行複雜的篩選。可使用下列函式：
+查詢編輯工具可讓您使用進階功能，根據所需結果和操作資料的類型執行複雜的篩選。 可使用下列函式：
 
-<!-- ### Aggregate
+<!-- 
+### Aggregate
 
 The aggregate functions are used to perform calculations on a set of values.
 
@@ -52,7 +53,8 @@ The aggregate functions are used to perform calculations on a set of values.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **StdDev** | Returns the standard deviation of the values given. | StdDev(&lt;VALUE&gt;) | StdDev([0,3,5]) | -->
+| **StdDev** | Returns the standard deviation of the values given. | StdDev(&lt;VALUE&gt;) | StdDev([0,3,5]) | 
+-->
 
 <!-- 
 
@@ -68,7 +70,8 @@ Aggregate functions are not available.
 
 >[!TAB Redshift]
 
-Aggregate functions are not available. -->
+Aggregate functions are not available. 
+-->
 
 <!-- 
 
@@ -76,12 +79,14 @@ Aggregate functions are not available. -->
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **StringAgg** | Returns the concatenation of the values of a string type column, separated by the character in the second argument | StringAgg(&lt;Value&gt;, &lt;String&gt;) | StringAgg(column, ",") | -->
+| **StringAgg** | Returns the concatenation of the values of a string type column, separated by the character in the second argument | StringAgg(&lt;Value&gt;, &lt;String&gt;) | StringAgg(column, ",") | 
+-->
 
 <!-- 
 >[!TAB Vertica]
 
-Aggregate functions are not available. -->
+Aggregate functions are not available. 
+-->
 
 <!-- 
 >[!ENDTABS] 
@@ -134,19 +139,21 @@ Aggregate functions are not available. -->
 | **Oldest** | 傳回提供的兩個日期之間的最早日期。 | Oldest(&lt;DATETIME>， &lt;DATETIME>) | Oldest(&quot;2015-02-13 11:59:59&quot;， &quot;2016-04-13 19:28:14&quot;) |
 | **TruncDate** | 根據指定的數值，將日期時間截斷為最接近的單位。 如果數值等於60，則會截斷至最接近的分鐘。 如果數值等於3600，則會截斷為最接近的小時。 如果數值等於86400，則會截斷至最接近的天數。 否則，會截斷至最接近的秒數。 | TruncDate(&lt;DATETIME>， &lt;NUMBER>) | TruncDate(&quot;2016-04-13 19:28:14&quot;， 3600) |
 | **TruncDateTZ** | 根據指定的數值，將日期時間截斷為最接近的單位，並將日期時間設定為指定的時區。 如果數值等於60，則會截斷至最接近的分鐘。 如果數值等於3600，則會截斷為最接近的小時。 如果數值等於86400，則會截斷至最接近的天數。 | TruncDateTZ(&lt;DATETIME>， &lt;NUMBER>， &lt;TIMEZONE>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;， 3600， &quot;America/Los_Angeles&quot;) |
-| **TruncTime** | 將日期時間設為2000年1月1日，並根據給定的數值將剩餘的日期時間舍入至最接近的單位。如果數值等於60，則會截斷至最接近的分鐘。 如果數值等於3600，則會截斷為最接近的小時。 | TruncTime(&lt;DATETIME>， &lt;NUMBER>) | TruncTime(&quot;2016-04-13 19:28:14&quot;， 3600) |
+| **TruncTime** | 將日期時間設為2000年1月1日，並根據指定的數值將剩餘的日期時間四捨五入至最接近的單位。如果數值等於60，則會截斷至最接近的分鐘。 如果數值等於3600，則會截斷為最接近的小時。 | TruncTime(&lt;DATETIME>， &lt;NUMBER>) | TruncTime(&quot;2016-04-13 19:28:14&quot;， 3600) |
 | **TruncQuarter** | 將日期時間截斷為最接近季度中的第一個日期。 | TruncQuarter(&lt;DATETIME>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | 將日期時間截斷為最接近年份中的第一個日期。 | TruncYear(&lt;DATETIME>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | 將日期時間截斷為最接近一週的星期日。 | TruncWeek(&lt;DATETIME>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
 
 <!-- 
-| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") | 
+| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") |
 -->
 
-<!-- | **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
+<!-- 
+| **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
 | **DaysAgoInt** | Calculates the number of days between the current date and the provided timestamp, and returns the value as an integer. | DaysAgoInt(&lt;DATETIME&gt;) | DaysAgoInt("2024-06-24 14:43:49") |
 | **MonthsAgo** | Calculates the number of months between the current date and the provided timestamp, and returns the value as a datetime. | MonthsAgo(&lt;DATETIME&gt;) | MonthsAgo("2024-06-24 14:43:49") |
-| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | -->
+| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | 
+-->
 
 
 <!-- 
@@ -245,7 +252,7 @@ Aggregate functions are not available. -->
 | ---- | ----------- | ------ | ------- |
 | **ConvertTimezone** | Converts the datetime from its timezone to the timezone of the external account. | ConvertTimezone(&lt;DATETIME&gt;) | ConvertTimezone("2019-12-25 15:30:00") |
 
- -->
+-->
 
 >[!TAB Snowflake]
 
@@ -287,21 +294,21 @@ Aggregate functions are not available. -->
 | **Oldest** | 傳回提供的兩個日期之間的最早日期。 | Oldest(&lt;DATETIME>， &lt;DATETIME>) | Oldest(&quot;2015-02-13 11:59:59&quot;， &quot;2016-04-13 19:28:14&quot;) |
 | **TruncDate** | 根據指定的數值，將日期時間截斷為最接近的單位。 如果數值等於60，則會截斷至最接近的分鐘。 如果數值等於3600，則會截斷為最接近的小時。 如果數值等於86400，則會截斷至最接近的天數。 否則，會截斷至最接近的秒數。 | TruncDate(&lt;DATETIME>， &lt;NUMBER>) | TruncDate(&quot;2016-04-13 19:28:14&quot;， 3600) |
 | **TruncDateTZ** | 根據指定的數值，將日期時間截斷為最接近的單位，並將日期時間設定為指定的時區。 如果數值等於60，則會截斷至最接近的分鐘。 如果數值等於3600，則會截斷為最接近的小時。 如果數值等於86400，則會截斷至最接近的天數。 | TruncDateTZ(&lt;DATETIME>， &lt;NUMBER>， &lt;TIMEZONE>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;， 3600， &quot;America/Los_Angeles&quot;) |
-| **TruncTime** | 將日期時間設為2000年1月1日，並根據給定的數值將剩餘的日期時間舍入至最接近的單位。如果數值等於60，則會截斷至最接近的分鐘。 如果數值等於3600，則會截斷為最接近的小時。 | TruncTime(&lt;DATETIME>， &lt;NUMBER>) | TruncTime(&quot;2016-04-13 19:28:14&quot;， 3600) |
+| **TruncTime** | 將日期時間設為2000年1月1日，並根據指定的數值將剩餘的日期時間四捨五入至最接近的單位。如果數值等於60，則會截斷至最接近的分鐘。 如果數值等於3600，則會截斷為最接近的小時。 | TruncTime(&lt;DATETIME>， &lt;NUMBER>) | TruncTime(&quot;2016-04-13 19:28:14&quot;， 3600) |
 | **TruncQuarter** | 將日期時間截斷為最接近季度中的第一個日期。 | TruncQuarter(&lt;DATETIME>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | 將日期時間截斷為最接近年份中的第一個日期。 | TruncYear(&lt;DATETIME>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | 將日期時間截斷為最接近一週的星期日。 | TruncWeek(&lt;DATETIME>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
 | **ConvertNTZ** | 將沒有時區的時間戳記轉換為具有時區的時間戳記。 附加的時區將是外部帳戶的時區。 | ConvertNTZ(&lt;DATETIME>) | ConvertNTZ(&quot;2024-06-24 14:43:49&quot;) |
 
 <!-- 
-| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") | 
+| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") |
 -->
 
 <!-- 
 | **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
 | **DaysAgoInt** | Calculates the number of days between the current date and the provided timestamp, and returns the value as an integer. | DaysAgoInt(&lt;DATETIME&gt;) | DaysAgoInt("2024-06-24 14:43:49") |
 | **MonthsAgo** | Calculates the number of months between the current date and the provided timestamp, and returns the value as a datetime. | MonthsAgo(&lt;DATETIME&gt;) | MonthsAgo("2024-06-24 14:43:49") |
-| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | 
+| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") |
 -->
 
 <!-- 
@@ -436,7 +443,7 @@ Geomarketing functions are not available.
 | **Floor** | Rounds down the provided number to the nearest integer. For example, if the provided number is 3.8, it will return 3. | Floor(&lt;NUMBER&gt;) | Floor(3.8) |
 | **Greatest** | Returns the larger number between the two provided numbers. | Greatest(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Greatest(1, 2) |
 | **Least** | Returns the smaller number between the two provided numbers. | Least(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Least (1,2) |
- -->
+-->
 
 <!-- 
 
@@ -468,7 +475,7 @@ Geomarketing functions are not available.
 
 Numeric functions are not available.
 
---->
+-->
 
 >[!TAB Snowflake]
 
@@ -496,7 +503,7 @@ Numeric functions are not available.
 | **ToInt64** | Converts the provided number to a 64-bit integer. | ToInt64(&lt;NUMBER&gt;) | ToInt64(493) |
 | **Trunc** | Truncates the provided number to the requested number of decimal places. | Trunc(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Trunc(36.9348934, 3) |
 
---->
+-->
 
 >[!ENDTABS]
 
@@ -515,7 +522,7 @@ Numeric functions are not available.
 | **Else** | 用作Case函式的一部分。 如果When運算式為false，可用來選擇其他選項。 | Else(&lt;VALUE>) | 否則（「否」） |
 | **Coalesce** | 傳回第一個非null值。 | Coalesce(&lt;VALUE>， &lt;VALUE>) | 合併(「」、「string」) |
 | **Decode** | 如果值相等，則傳回第一個選項。 如果值不相等，則傳回第二個選項。 | Decode(&lt;VALUE>， &lt;VALUE>， &lt;VALUE>， &lt;VALUE>) | Decode(1， 2， &quot;true&quot;， &quot;false&quot;) |
-| **GetEmailDomain** | 從提供的電子郵件地址中擷取網域。 | GetEmailDomain(&lt;STRING>) | GetEmailDomain(&quot;sample@example.com&quot;) |
+| **GetEmailDomain** | 從提供的電子郵件地址中擷取網域。 | GetEmailDomain(&lt;STRING>) | GetEmailDomain(&quot;`sample@example.com`&quot;) |
 | **Iif** | 若條件為true，則傳回第一個選項，若條件為false，則傳回第二個選項。 | Iif(&lt;CONDITION>， &lt;VALUE>， &lt;VALUE>) | Iif(10 &lt; 20， &quot;true&quot;， &quot;false&quot;) |
 | **IsEmptyString** | 如果字串為空，則傳回第一個選項。 否則，傳回第二個選項。 | IsEmptyString( &lt;STRING> ，&lt;VALUE>， &lt;VALUE>) | IsEmptyString(&quot;string&quot;， &quot;yes&quot;， &quot;no&quot;) |
 | **NewUUID** | 產生新的唯一UUID。 | NewUUID() | NewUUID() |
@@ -565,7 +572,7 @@ Numeric functions are not available.
 
 Other functions are not available.
 
---->
+-->
 
 >[!TAB Snowflake]
 
@@ -574,7 +581,7 @@ Other functions are not available.
 | **Case** | 如果運算式為true，則傳回第一個值。 否則，傳回第二個值。 | Case(When（&lt;運算式> &lt;值>）， Else（&lt;值>）) | Case(當(a > b， &quot;yes&quot;)， Else(&quot;no&quot;)) |
 | **When** | 用作Case函式的一部分。 用於檢查Case中的運算式。 | When（&lt;運算式> &lt;值>） | 當（a > b，「是」） |
 | **Else** | 用作Case函式的一部分。 如果When運算式為false，可用來選擇其他選項。 | Else(&lt;VALUE>) | 否則（「否」） |
-| **GetEmailDomain** | 從提供的電子郵件地址中擷取網域。 | GetEmailDomain(&lt;STRING>) | GetEmailDomain(&quot;sample@example.com&quot;) |
+| **GetEmailDomain** | 從提供的電子郵件地址中擷取網域。 | GetEmailDomain(&lt;STRING>) | GetEmailDomain(&quot;`sample@example.com`&quot;) |
 | **Iif** | 若條件為true，則傳回第一個選項，若條件為false，則傳回第二個選項。 | Iif(&lt;CONDITION>， &lt;VALUE>， &lt;VALUE>) | Iif(10 &lt; 20， &quot;true&quot;， &quot;false&quot;) |
 | **IsEmptyString** | 如果字串為空，則傳回第一個選項。 否則，傳回第二個選項。 | IsEmptyString( &lt;STRING> ，&lt;VALUE>， &lt;VALUE>) | IsEmptyString(&quot;string&quot;， &quot;yes&quot;， &quot;no&quot;) |
 | **ToBoolean** | 如果值為true，則傳回1。 如果值為false，則傳回0。 | ToBoolean(&lt;VALUE>) | ToBoolean(a=b) |
@@ -651,7 +658,7 @@ Other functions are not available.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") |
 | **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
 | **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
 | **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
@@ -671,7 +678,7 @@ Other functions are not available.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") |
 | **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
 | **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
 | **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
@@ -729,7 +736,7 @@ String functions are not available.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") |
 | **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
 | **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
 | **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
@@ -790,7 +797,7 @@ String functions are not available.
 
 Window functions are not available.
 
---->
+-->
 
 >[!TAB Snowflake]
 
