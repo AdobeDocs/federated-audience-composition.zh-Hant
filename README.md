@@ -1,8 +1,8 @@
 ---
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 99%
 
 ---
 # 貢獻文章
@@ -11,13 +11,13 @@ ht-degree: 100%
 
 ## Adobe 開放原始碼行為準則
 
-此專案採行 [Adobe 開放原始碼行為準則](code-of-conduct.md)或 [.NET Foundation 行為準則](https://dotnetfoundation.org/code-of-conduct)。如需詳細資訊，請參閱[貢獻](contributing.md)一文。
+此專案採行 [Adobe 開放原始碼行為準則](code-of-conduct.md)或 [.NET Foundation 行為準則](https://dotnetfoundation.org/code-of-conduct)。 如需詳細資訊，請參閱[貢獻](contributing.md)一文。
 
 ## 如何貢獻 Adobe 內容
 
-**如果您不是 Adobe 員工**，請提交外部社群貢獻。社群貢獻會匯入我們的內部系統，並在經過編輯後合併至公開存放庫中。然後，公開存放庫會與最新變更同步，並合併到私人存放庫中。
+**如果您不是 Adobe 員工**，請提交外部社群貢獻。 社群貢獻會匯入我們的內部系統，並在經過編輯後合併至公開存放庫中。 然後，公開存放庫會與最新變更同步，並合併到私人存放庫中。
 
-**如果您是 Adobe 員工**，可以直接向私人 [Adobe GitHub 存放庫](https://git.corp.adobe.com/AdobeDocs/)提交貢獻。如需詳細資訊，請參閱適用於 Adobe 員工的 Adobe Experience League 文章撰寫指南。
+**如果您是 Adobe 員工**，可以直接向私人 [Adobe GitHub 存放庫](https://git.corp.adobe.com/AdobeDocs/)提交貢獻。 如需詳細資訊，請參閱適用於 Adobe 員工的 Adobe Experience League 文章撰寫指南。
 
 ## 外部貢獻者
 
@@ -35,9 +35,9 @@ ht-degree: 100%
 
 ### 來自社群成員的重大變更或新主題
 
-如果您是 Adobe 社群的一員，並想要建立新主題或提交重大變更，請使用適用 Git 存放庫中的&#x200B;**問題**&#x200B;標籤來提交問題，與文件團隊展開對話。達成共識之後，您將與 Adobe 撰寫人員合作發布您的修訂內容。
+如果您是 Adobe 社群的一員，並想要建立新主題或提交重大變更，請使用適用 Git 存放庫中的&#x200B;**問題**&#x200B;標籤來提交問題，與文件團隊展開對話。 達成共識之後，您將與 Adobe 撰寫人員合作發布您的修訂內容。
 
-**注意：**&#x200B;如果您提交的提取請求內含對文件和程式碼範例的重大變更，您會在提取請求中看到一則訊息，要求您提交線上貢獻授權合約 (CLA)。您必須先填寫線上表單，我們才能審核您的提取請求。
+**注意：**&#x200B;如果您提交的提取請求內含對文件和程式碼範例的重大變更，您會在提取請求中看到一則訊息，要求您提交線上貢獻授權合約 (CLA)。 您必須先填寫線上表單，我們才能審核您的提取請求。
 
 ### 工具
 
@@ -51,10 +51,10 @@ ht-degree: 100%
 
 ## 為您的主題設定格式
 
-此存放庫中的所有文章都會使用 GitHub-Flavored Markdown。若您不熟悉 Markdown，請參閱：
+此存放庫中的所有文章都會使用 GitHub-Flavored Markdown。 若您不熟悉 Markdown，請參閱：
 
 * [Markdown 基本介紹](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [列印版 Markdown 速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [可列印的Markdown速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## 標籤
 
