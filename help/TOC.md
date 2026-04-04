@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 聯合客群構成
 title: Experience Platform 聯合客群構成文件
 breadcrumb-title: Experience Platform 聯合客群構成
-source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
+source-git-commit: 5784d7d29ac1e58b2c186c9c6fb714a33b11f764
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 100%
+source-wordcount: '112'
+ht-degree: 97%
 
 ---
 
@@ -42,4 +42,4 @@ ht-degree: 100%
    - [最新發行說明](./release-notes/latest.md)
    - [2024 年](./release-notes/2024.md)
    - [2025 版](./release-notes/2025.md)
-   - [搶鮮版發行說明](./release-notes/e-release-notes.md)
+   - {hide-from-toc}[發行前說明](./release-notes/e-release-notes.md)
