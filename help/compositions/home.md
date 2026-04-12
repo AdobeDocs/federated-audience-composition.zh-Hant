@@ -5,8 +5,8 @@ description: 學習如何開始構成
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 82%
+source-wordcount: '655'
+ht-degree: 84%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 82%
 >
 >若要存取作品，您需要以下權限之一：
 >
->-**管理聯合構成**
+>-**管理同盟組合**
 >-**檢視聯合構成**
 >
 >如需有關必要權限的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
 
-聯合客群構成可讓您建立構成，以便在其中利用視覺畫布中的各種活動來建立客群。在建立構成後，產生的客群會儲存到 Adobe Experience Platform 中，並且可以在 Experience Platform 目的地和 Adobe Journey Optimizer 中用來鎖定客戶。
+聯合客群構成可讓您建立構成，以便在其中利用視覺畫布中的各種活動來建立客群。 在建立構成後，產生的客群會儲存到 Adobe Experience Platform 中，並且可以在 Experience Platform 目的地和 Adobe Journey Optimizer 中用來鎖定客戶。
 
 ![聯合客群構成內顯示了一個構成工作流程範例。](assets/compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
@@ -30,7 +30,7 @@ ht-degree: 82%
 同盟對象構成中的構成由下列部分組成：
 
 - **[!UICONTROL 活動]**：活動是要執行的任務，在構成中以圖示表示。
-- **[!UICONTROL 轉變]**：轉變會將來源活動連結至目的地活動，並定義其順序。 轉換中包含的資訊會儲存在工作表內。 每個構成都使用數個工作表。 這些表格中傳送的資料可在構成生命週期中使用。
+- **[!UICONTROL 轉變]**：轉變會將來源活動連結到目標活動並定義其序列。 轉換中包含的資訊會儲存在工作表內。 每個構成都使用數個工作表。 這些表格中傳送的資料可在構成生命週期中使用。
 
 ## 存取和管理構成 {#access}
 
@@ -41,7 +41,7 @@ ht-degree: 82%
 
 您可以透過「**[!UICONTROL 客戶]**」區段內「**[!UICONTROL 聯合構成]**」標籤中的 Adobe Experience Platform「**[!UICONTROL 客群]**」選單來存取構成。
 
-在此畫面中，您可以建立新的構成，並存取現有的構成。您也可以選取現有構成名稱旁邊的 ![省略符號](/help/assets/icons/more.png) 按鈕，以複製或刪除該構成。
+在此畫面中，您可以建立新的構成，並存取現有的構成。 您也可以選取現有構成名稱旁邊的 ![省略符號](/help/assets/icons/more.png) 按鈕，以複製或刪除該構成。
 
 您還可以檢視有關構成的資訊，包括名稱、狀態、建立者和上次修改日期。
 
@@ -51,7 +51,7 @@ ht-degree: 82%
 | **[!UICONTROL 進行中]** | 構成已執行且正在執行中。 |
 | **[!UICONTROL 已停止]** | 構成已執行完成並停止。 |
 | **[!UICONTROL 已暫停]** | 構成已暫停執行。 |
-| **[!UICONTROL 錯誤]** | 構成執行期間遇到錯誤。若要檢視有關錯誤的更多資訊，請開啟該構成並存取記錄。 |
+| **[!UICONTROL 錯誤]** | 構成執行期間遇到錯誤。 若要檢視有關錯誤的更多資訊，請開啟該構成並存取記錄。 |
 
 您可以在[建立組合指南](./create-composition.md#monitor-logs)中瞭解如何開始或停止組合。
 
@@ -59,7 +59,7 @@ ht-degree: 82%
 
 若要縮小清單範圍，並找到您想要的構成，您可以搜尋清單，並依狀態或上次處理日期篩選構成。
 
-您也可以透過新增或移除欄來自訂清單。若要執行此操作，請選取「**[!UICONTROL 設定欄]**」按鈕，並新增或移除所需的輸出欄。
+您也可以透過新增或移除欄來自訂清單。 若要執行此操作，請選取「**[!UICONTROL 設定欄]**」按鈕，並新增或移除所需的輸出欄。
 
 ![顯示了一份您可以新增至構成瀏覽頁面的可用欄清單。](assets/compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
 
@@ -69,9 +69,9 @@ ht-degree: 82%
 
 ![構成畫布內醒目標示了「管理存取權」按鈕。](assets/compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
 
-「**[!UICONTROL 管理存取權]**」彈出視窗隨即顯示。在此頁面上，您可以將適用的存取權和資料治理標籤套用至您的構成。
+「**[!UICONTROL 管理存取權]**」彈出視窗隨即顯示。 在此頁面上，您可以將適用的存取權和資料治理標籤套用至您的構成。
 
-![「管理存取權」彈出視窗隨即顯示。這會顯示一份您可以套用至構成的所有可用標籤清單。](assets/compositions/manage-access.png){zoomable="yes"}{width="70%"}
+![「管理存取權」彈出視窗隨即顯示。 這會顯示一份您可以套用至構成的所有可用標籤清單。](assets/compositions/manage-access.png){zoomable="yes"}{width="70%"}
 
 | 標籤類型 | 說明 |
 | ---------- | ----------- |
@@ -88,4 +88,4 @@ ht-degree: 82%
 
 ## 後續步驟
 
-在閱讀本指南後，您已了解如何為您的構成存取、管理和建立存取標籤。如需有關將客群作為一個整體進行處理的詳細資訊，請參閱[客群指南](../start/audiences.md)。
+在閱讀本指南後，您已了解如何為您的構成存取、管理和建立存取標籤。 如需有關將客群作為一個整體進行處理的詳細資訊，請參閱[客群指南](../start/audiences.md)。
