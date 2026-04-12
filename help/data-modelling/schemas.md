@@ -52,7 +52,7 @@ ht-degree: 18%
 
 * 提供易記的名稱和說明，以簡化使用者的理解
 * 根據每個欄位的實際使用情況決定其可見性
-* 請選取其主要索引鍵，以根據[資料模型](../data-modelling/models.md#data-model-start)中的需要連結它們之間的結構描述
+* 請選取其主要索引鍵，以便根據[資料模型](../data-modelling/models.md#data-model-start)的需要連結它們之間的結構描述
 
 >[!CAUTION]
 >
@@ -62,9 +62,9 @@ ht-degree: 18%
 
 若要在Federated Audience Composition中建立結構描述，請在&#x200B;**[!UICONTROL Federated Data]**&#x200B;區段中選取&#x200B;**[!UICONTROL 模型]**。 在&#x200B;**[!UICONTROL 結構描述]**&#x200B;標籤中，選取&#x200B;**[!UICONTROL 建立結構描述]**。
 
-![在「同盟對象構成」結構描述區段中，「建立結構描述」按鈕會醒目提示。](assets/schemas/schema_create.png){zoomable="yes"}
+![「建立結構描述」按鈕在「同盟對象構成」結構描述區段中反白顯示。](assets/schemas/schema_create.png){zoomable="yes"}
 
-**[!UICONTROL 選取同盟資料庫]**&#x200B;彈出視窗會出現。 在此彈出視窗中，您可以選取[來源資料庫](/help/connections/home.md)，接著選取&#x200B;**[!UICONTROL 下一步]**。
+出現&#x200B;**[!UICONTROL 選取同盟資料庫]**&#x200B;彈出視窗。 在此彈出視窗上，您可以選取[來源資料庫](/help/connections/home.md)，然後選取&#x200B;**[!UICONTROL 下一步]**。
 
 
 ![](assets/schemas/schema_tables.png){zoomable="yes"}
@@ -81,7 +81,7 @@ ht-degree: 18%
 >
 >如果您啟用&#x200B;**[!UICONTROL 使用複合金鑰]**，但只選取一個要使用的金鑰，則會將該金鑰視為標準結構描述主要金鑰。
 
-此外，您可以建立由多個結構描述欄組成的索引鍵。 開啟&#x200B;**[!UICONTROL 使用複合金鑰]**，並標示您要用來作為複合金鑰的金鑰。
+此外，您可以建立由多個結構描述欄組成的索引鍵。 開啟&#x200B;**[!UICONTROL 使用複合金鑰]**，並標示您要用作複合金鑰的金鑰。
 
 ![](assets/schemas/composite-key.png){zoomable="yes"}
 
@@ -95,7 +95,7 @@ ht-degree: 18%
 
 ![](assets/schemas/schema_edit.png){zoomable="yes"}
 
-在&#x200B;**[!UICONTROL 編輯結構描述]**&#x200B;視窗中，您可以存取和設定與[建立結構描述](#schema-create)時相同的選項。
+在&#x200B;**[!UICONTROL 編輯結構描述]**&#x200B;視窗上，您可以存取和設定與[建立結構描述](#schema-create)時相同的選項。
 
 ![](assets/schemas/schema_edit_orders.png){zoomable="yes"}
 
@@ -113,7 +113,7 @@ ht-degree: 18%
 
 ## 重新整理結構描述 {#schema-refresh}
 
-可以更新、新增或移除同盟資料庫中的表格。 在這種情況下，您必須重新整理Adobe Experience Platform中的結構以符合最新變更。 若要執行此動作，請選取結構描述名稱旁的![三點圖示](/help/assets/icons/more.png)，接著選取&#x200B;**[!UICONTROL 重新整理結構描述]**。
+可以更新、新增或移除同盟資料庫中的表格。 在這種情況下，您必須重新整理Adobe Experience Platform中的結構以符合最新變更。 若要執行此動作，請選取結構描述名稱旁的![三點圖示](/help/assets/icons/more.png)，然後選取&#x200B;**[!UICONTROL 重新整理結構描述]**。
 
 您也可以在編輯時更新結構描述定義。
 
@@ -121,6 +121,6 @@ ht-degree: 18%
 
 ## 刪除結構描述 {#schema-delete}
 
-若要刪除結構描述，請選取![三點圖示](/help/assets/icons/more.png)，接著選取&#x200B;**[!UICONTROL 刪除]**。
+若要刪除結構描述，請選取![三點圖示](/help/assets/icons/more.png)，然後選取&#x200B;**[!UICONTROL 刪除]**。
 
 ![](assets/schemas/schema_delete.png){zoomable="yes"}
