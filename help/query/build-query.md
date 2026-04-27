@@ -3,9 +3,11 @@ audience: end-user
 title: 使用查詢建模器建置您的第一個查詢
 description: 瞭解如何在查詢建模器中建置您的第一個查詢
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
-source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+TQID: https://experienceleague.adobe.com/SJSO3icKYWUUDUZJsQhZfjjw6QjITphRIuRZpv-5394
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: 2084
 ht-degree: 35%
 
 ---
@@ -24,7 +26,7 @@ ht-degree: 35%
 
 * **群組運運算元** (AND、OR、EXCEPT)可讓您將圖表中的篩選元件群組在一起。 它們會在篩選元件之前新增到現有轉變上。 [瞭解如何使用運運算元](#filtering)
 
-  範例： *訂閱了「運動」電子報&#x200B;**和**&#x200B;的收件者，他們住在紐約&#x200B;**或**&#x200B;舊金山*。
+  範例： *訂閱了「運動」電子報&#x200B;**和**的收件者，他們住在紐約&#x200B;**或**舊金山*。
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 

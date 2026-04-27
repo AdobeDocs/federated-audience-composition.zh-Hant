@@ -2,10 +2,13 @@
 title: Adobe Experience Platform 聯合客群構成文件首頁
 description: 聯合客群構成文件
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
+TQID: https://experienceleague.adobe.com/LV-FlDaa90Z0V1dRxZV8452xrf6FsscjndNpIEjHeIY
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: 275
+ht-degree: 94%
 
 ---
 
@@ -13,7 +16,7 @@ ht-degree: 100%
 
 歡迎瀏覽 Adobe Experience Platform 聯合客群構成文件。
 
-Experience Platform 聯合客群構成可為 Adobe Real-Time CDP 和 Adobe Journey Optimizer 使用者提供兼具彈性與效率的資料管理能力。有了聯合客群構成，您可以使用行銷人員一看就懂的使用者介面存取您的企業資料倉儲，在 Adobe Experience Platform 工作流程中建置客群並使用資料集，且無需長期保存底層企業資料。這有助於您在存取 Adobe Experience 使用案例的資料倉儲時，減少資料搬運量。
+Experience Platform 聯合客群構成可為 Adobe Real-Time CDP 和 Adobe Journey Optimizer 使用者提供兼具彈性與效率的資料管理能力。 有了聯合客群構成，您可以使用行銷人員一看就懂的使用者介面存取您的企業資料倉儲，在 Adobe Experience Platform 工作流程中建置客群並使用資料集，且無需長期保存底層企業資料。 這有助於您在存取 Adobe Experience 使用案例的資料倉儲時，減少資料搬運量。
 
 >[!BEGINTABS]
 
@@ -31,7 +34,7 @@ Experience Platform 聯合客群構成可為 Adobe Real-Time CDP 和 Adobe Journ
 
 >[!TAB 構成客群]
 
-新增及設定活動 (分割、擴充、查詢等) 以建立構成和您的客群。
+新增和設定活動（分割、擴充、查詢等） 建置組合併建立您的對象。
 
 [![影像](assets/learn-more-button.svg)](compositions/home.md)
 

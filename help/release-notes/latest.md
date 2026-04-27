@@ -2,17 +2,18 @@
 title: 同盟對象構成發行說明
 description: 同盟對象構成的最新更新和發行說明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: d3a97b5887778f910ca8f09f7cb8fa99360a612c
+TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 8%
+source-wordcount: 442
+ht-degree: 13%
 
 ---
 
-
 # 發行說明
 
-[!DNL Federated Audience Composition]持續提供新功能、現有功能增強並修正錯誤。 所有變更都整合在這些發行說明中。[!DNL Federated Audience Composition] 原生內建於[!DNL Adobe Experience Platform]，並繼承其最新的創新和改進專案。 若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+[!DNL Federated Audience Composition]持續提供新功能、現有功能增強並修正錯誤。 所有變更都已整合在這些發行說明中。 [!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。 若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
 ## 2026年3月發行 {#fac-26-03}
 
@@ -54,7 +55,7 @@ ht-degree: 8%
 
 | Amazon Web Services (AWS)上Adobe Experience Platform客戶的可用性 |
 | --- |
-| 如果您的Experience Platform執行個體位於AWS，您現在可以使用同盟對象構成。 如需AWS上Experience Platform的詳細資訊，請閱讀[多雲端總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/multi-cloud)。 |
+| 如果您的Experience Platform執行個體位於AWS，您現在可以使用同盟對象構成。 如需AWS上Experience Platform的詳細資訊，請閱讀[多雲端總覽](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)。 |
 
 ### 改善 {#fac-26-01-improvements}
 
