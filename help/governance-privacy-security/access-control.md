@@ -2,10 +2,17 @@
 title: 同盟對象組合中的存取控制
 description: 瞭解如何在同盟受眾構成中管理使用者的資料存取。
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
+TQID: https://experienceleague.adobe.com/Ld1rXMaY21NGXSuPtCo2MbYZUubjJBJZedBFRJ7jsDc
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 80%
+source-wordcount: 631
+ht-degree: 81%
 
 ---
 
@@ -15,9 +22,9 @@ ht-degree: 80%
 
 ## 管理對沙箱的存取權 {#access-sandboxes}
 
-當您購買 Adobe Experience Platform 聯合客群構成時，系統會為當時的每個使用中沙箱建立產品設定檔。此產品設定檔是在 Admin Console 中的 **Adobe Experience Platform** 產品卡下方建立，並遵循以下命名慣例：`ACP_FAC - <<SandboxName>> - admin.`。若要存取特定沙箱的聯合客群構成，您必須將使用者新增至為該沙箱建立的產品設定檔中。
+當您購買 Adobe Experience Platform 聯合客群構成時，系統會為當時的每個使用中沙箱建立產品設定檔。 此產品設定檔是在 Admin Console 中的 **Adobe Experience Platform** 產品卡下方建立，並遵循以下命名慣例：`ACP_FAC - <<SandboxName>> - admin.`。若要存取特定沙箱的聯合客群構成，您必須將使用者新增至為該沙箱建立的產品設定檔中。
 
-例如，如果啟用名為「fac-test」的新沙箱，則會建立對應的產品設定檔「ACP_FAC - fac-test - admin」。為了使用此沙箱存取聯合客群構成，您必須將使用者新增至此產品設定檔。
+例如，如果啟用名為「fac-test」的新沙箱，則會建立對應的產品設定檔「ACP_FAC - fac-test - admin」。 為了使用此沙箱存取聯合客群構成，您必須將使用者新增至此產品設定檔。
 
 ## 管理對聯合客群構成的存取權
 
@@ -36,11 +43,11 @@ ht-degree: 80%
 
    ![](assets/access_fda_2.png)
 
-1. 新增使用者所需的權限。您可以新增以下權限以便存取聯合客群構成：
+1. 新增使用者所需的權限。 您可以新增以下權限以便存取聯合客群構成：
 
    | 權限 | 說明 |
    | ---------- | ----------- |
-   | 管理聯合資料 | 使用此權限來管理聯合客群構成的所有層面。此權限包含管理聯合資料庫、管理聯合結構描述、管理聯合資料模型和管理聯合構成。 |
+   | 管理聯合資料 | 使用此權限來管理聯合客群構成的所有層面。 此權限包含管理聯合資料庫、管理聯合結構描述、管理聯合資料模型和管理聯合構成。 |
    | 管理聯合資料庫 | 使用此權限來新增、檢視、更新和刪除您與聯合資料庫的連線。 |
    | 檢視聯合資料庫 | 使用此權限來檢視您與聯合資料庫的連線。 |
    | 管理聯合結構描述 | 使用此權限來建立、檢視、更新、刪除和刷新結構描述。 |
@@ -64,9 +71,9 @@ ht-degree: 80%
 
    ![](assets/access_fda_4.png)
 
-1. 輸入使用者的姓名或電子郵件地址，或從可用清單中進行選取。完成後，選取「**[!UICONTROL 儲存]**」。
+1. 輸入使用者的姓名或電子郵件地址，或從可用清單中進行選取。 完成後，選取「**[!UICONTROL 儲存]**」。
 
-或者，您可以根據使用者所需的權限，為其指派一個預先存在的角色。有關為使用者指派預先存在角色的更多資訊，請閱讀「[有關管理產品設定檔的使用者指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/users)」。
+或者，您可以根據使用者所需的權限，為其指派一個預先存在的角色。 有關為使用者指派預先存在角色的更多資訊，請閱讀「[有關管理產品設定檔的使用者指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/users)」。
 
 | 角色名稱 | 權限 |
 | --------- | ----------- |
@@ -74,7 +81,7 @@ ht-degree: 80%
 | FAC 構成管理員 | <ul><li>管理聯合構成</li></ul> |
 | FAC 管理員 | <ul><li>管理聯合資料</li></ul> |
 
-然後，使用者將會收到一封電子郵件，內含存取執行個體的指示。如果之前未建立使用者，請參閱[此文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users)。
+然後，使用者將會收到一封電子郵件，內含存取執行個體的指示。 如果之前未建立使用者，請參閱[此文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users)。
 
 ## 管理對特定組合的存取
 
