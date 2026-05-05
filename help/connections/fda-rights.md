@@ -3,14 +3,11 @@ title: 存取外部資料庫的許可權
 description: 瞭解您需要在每個資料庫引擎上存取和執行工作的許可權
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
 TQID: https://experienceleague.adobe.com/LI7H7b6iM3TAsPy00wDwNj3-D0Z7mIrH9MKW8g9QDsk
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 447
 ht-degree: 6%
 
 ---
@@ -29,21 +26,21 @@ ht-degree: 6%
 | **移除物件（表格、索引、函式、程式）** | 擁有物件 | 擁有物件或成為超級使用者 | 指派給服務帳戶的角色必須包含： `bigquery.jobs.create`、`bigquery.routines.delete`、`bigquery.tables.delete`和`bigquery.tables.deleteIndex`許可權 | 不適用 |
 | **監視執行** | 必要物件的`MONITOR`許可權 | 使用`EXPLAIN`命令不需要許可權 | `monitoring.viewer`角色 | `CAN_VIEW`許可權 |
 | **正在寫入資料** | `INSERT`和/或`UPDATE`許可權（視寫入作業而定） | `INSERT`和`UPDATE`許可權 | 指派給服務帳戶的角色必須包含： `bigquery.jobs.create`和`bigquery.tables.updateData` | `MODIFY`許可權 |
-| **正在將資料載入資料表** | 目標資料表許可權上的`CREATE STAGE ON SCHEMA`、`SELECT`和`INSERT` | `SELECT`和`INSERT`許可權 | 指派給服務帳戶的角色必須包含： `bigquery.jobs.create`、`bigquery.tables.getData`和`bigquery.tables.updateData` | `SELECT`和`MODIFY`許可權 |
+| **正在將資料載入資料表** | 目標資料表許可權上的`CREATE STAGE ON SCHEMA`、`Create file FORMATGRANT CREATE FILE FORMAT ON SCHEMA <SCHEMA> to ROLE <ROLE>` `SELECT`和`INSERT` | `SELECT`和`INSERT`許可權 | 指派給服務帳戶的角色必須包含： `bigquery.jobs.create`、`bigquery.tables.getData`和`bigquery.tables.updateData` | `SELECT`和`MODIFY`許可權 |
 | **正在存取使用者端資料** | `SELECT on (FUTURE) TABLE(S)`或`VIEW(S)`許可權 | `SELECT`許可權 | 指派給服務帳戶的角色必須包含： `bigquery.jobs.create`和`bigquery.tables.getData` （針對資料表或`bigquery.dataViewer`角色） | `SELECT`許可權 |
 | **存取中繼資料** | `SELECT on INFORMATION_SCHEMA SCHEMA`許可權 | `SELECT`許可權 | `bigquery.metadataViewer`角色 |  `SELECT on INFORMATION_SCHEMA SCHEMA`許可權 |
 
 
-|   | Microsoft Fabric | Azure Synapse Analytics | Vertica |
-|:-:|:-:|:-:|:-:|
-| **正在連線到遠端資料庫** | 讀取（預設）許可權 | `CONNECT`許可權 | 不需要許可權 |
-| **正在建立資料表** | `CREATE TABLE ON DATABASE` （倉儲）和`ALTER ON SCHEMA` | `CREATE TABLE`許可權 | `CREATE ON SCHEMA`許可權 |
-| **正在建立索引** | 不適用 | `ALTER`許可權 | 不適用 |
-| **正在建立函式** | 不適用 | `CREATE FUNCTION`許可權 | `CREATE ON SCHEMA`許可權 |
-| **正在建立程式** | `CREATE PROCEDURE ON DATABASE` （倉儲）和`ALTER ON SCHEMA` | `CREATE PROCEDURE`許可權 | `CREATE ON SCHEMA`許可權 |
-| **移除物件（表格、索引、函式、程式）** | `ALTER ON SCHEMA` | `ALTER`許可權 | 擁有物件或物件的`DROP`許可權 |
-| **監視執行** | Workspace貢獻者或以上許可權(`queryinsights.exec_requests_history`) | `CONTROL`許可權 | 使用`EXPLAIN`陳述式不需要許可權 |
-| **正在寫入資料** | `INSERT`和/或`UPDATE ON OBJECT` | `INSERT`和`UPDATE`許可權 | `INSERT`和`UPDATE`許可權 |
-| **正在將資料載入資料表** | `SELECT ON OBJECT` 和 `INSERT ON OBJECT` | `CREATE TABLE`、`EXECUTE`、`SELECT`、`INSERT`、`UPDATE`和`ALTER`許可權 | 資料表的`INSERT`許可權，結構描述的`USAGE`許可權 |
-| **正在存取使用者端資料** | `SELECT ON OBJECT` | `SELECT`許可權 | `SELECT`許可權 |
-| **存取中繼資料** | `SELECT ON INFORMATION_SCHEMA` | 不需要許可權來說明表格 | `USAGE ON SCHEMA`、`SELECT on TABLE`以及表格`v_catalog.columns`和`v_catalog.view_columns`的許可權 |
+|   | Microsoft Fabric | Azure Synapse Analytics | Vertica | Teradata |
+|:-:|:-:|:-:|:-:|:-:|
+| **正在連線到遠端資料庫** | 讀取（預設）許可權 | `CONNECT`許可權 | 不需要許可權 | `CONNECT`許可權 |
+| **正在建立資料表** | `CREATE TABLE ON DATABASE` （倉儲）和`ALTER ON SCHEMA` | `CREATE TABLE`許可權 | `CREATE ON SCHEMA`許可權 | `CREATE TABLE`或`TABLE`關鍵字 |
+| **正在建立索引** | 不適用 | `ALTER`許可權 | 不適用 | `CREATE INDEX`或`INDEX`關鍵字 |
+| **正在建立函式** | 不適用 | `CREATE FUNCTION`許可權 | `CREATE ON SCHEMA`許可權 | `CREATE FUNCTION`或`FUNCTION`關鍵字 |
+| **正在建立程式** | `CREATE PROCEDURE ON DATABASE` （倉儲）和`ALTER ON SCHEMA` | `CREATE PROCEDURE`許可權 | `CREATE ON SCHEMA`許可權 | `CREATE PROCEDURE`或`PROCEDURE`關鍵字 |
+| **移除物件（表格、索引、函式、程式）** | `ALTER ON SCHEMA` | `ALTER`許可權 | 擁有物件或物件的`DROP`許可權 | 物件型別或相關關鍵字上的`DROP` |
+| **監視執行** | Workspace貢獻者或以上許可權(`queryinsights.exec_requests_history`) | `CONTROL`許可權 | 使用`EXPLAIN`陳述式不需要許可權 | 使用`EXPLAIN`不需要額外的許可權 |
+| **正在寫入資料** | `INSERT`和/或`UPDATE ON OBJECT` | `INSERT`和`UPDATE`許可權 | `INSERT`和`UPDATE`許可權 | `INSERT`和`UPDATE`許可權 |
+| **正在將資料載入資料表** | `SELECT ON OBJECT` 和 `INSERT ON OBJECT` | `CREATE TABLE`、`EXECUTE`、`SELECT`、`INSERT`、`UPDATE`和`ALTER`許可權 | 資料表的`INSERT`許可權，結構描述的`USAGE`許可權 | `SELECT`和`INSERT` （例如`COPY TO`/`COPY FROM`） |
+| **正在存取使用者端資料** | `SELECT ON OBJECT` | `SELECT`許可權 | `SELECT`許可權 | `SELECT`許可權 |
+| **存取中繼資料** | `SELECT ON INFORMATION_SCHEMA` | 不需要許可權來說明表格 | `USAGE ON SCHEMA`、`SELECT on TABLE`以及表格`v_catalog.columns`和`v_catalog.view_columns`的許可權 | `SHOW`許可權 |

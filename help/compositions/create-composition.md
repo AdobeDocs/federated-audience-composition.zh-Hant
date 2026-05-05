@@ -4,9 +4,8 @@ title: 建立組合
 description: 瞭解如何建立組合
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
 source-wordcount: 1603
 ht-degree: 19%
@@ -73,6 +72,7 @@ ht-degree: 19%
 * **[!UICONTROL 暫停]/[!UICONTROL 繼續]**：暫停或繼續活動。 構成執行時，會在暫停的活動中暫停。 系統不會執行對應的任務，以及在相同路徑中跟隨著該任務的所有任務。
 * **[!UICONTROL 複製]**：複製活動以將其貼到構成中的其他位置。 若要這麼做，請選取轉變上的&#x200B;**+**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 貼上X活動]**。<!-- cannot copy multiple activities ? cannot paste in another composition?-->
 * 為選取的活動設定&#x200B;**[!UICONTROL 執行選項]**。 可用的執行選項包括：
+
   +++可用的執行選項
 
   **[!UICONTROL 屬性]**&#x200B;區段可讓您設定有關活動執行的一般設定：
@@ -88,6 +88,7 @@ ht-degree: 19%
   **[!UICONTROL 初始化指令碼]**&#x200B;區段可讓您初始化變數或修改活動屬性。 選取&#x200B;**[!UICONTROL 編輯程式碼]**&#x200B;按鈕，然後輸入要執行的程式碼片段。 當活動執行時，會呼叫指令碼。
 
   +++
+
 * **記錄檔與工作**：檢視所選活動的記錄檔與工作。
 
 ## 開始並監控您的構成 {#start-and-monitor}
