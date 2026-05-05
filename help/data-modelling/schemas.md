@@ -10,7 +10,7 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
 source-wordcount: 580
 ht-degree: 18%
@@ -72,7 +72,6 @@ ht-degree: 18%
 ![「建立結構描述」按鈕在「同盟對象構成」結構描述區段中反白顯示。](assets/schemas/schema_create.png){zoomable="yes"}
 
 出現&#x200B;**[!UICONTROL 選取同盟資料庫]**&#x200B;彈出視窗。 在此彈出視窗上，您可以選取[來源資料庫](/help/connections/home.md)，然後選取&#x200B;**[!UICONTROL 下一步]**。
-
 
 ![](assets/schemas/schema_tables.png){zoomable="yes"}
 

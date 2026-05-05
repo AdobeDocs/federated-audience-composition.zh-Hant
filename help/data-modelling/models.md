@@ -10,10 +10,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
-source-wordcount: 748
-ht-degree: 34%
+source-wordcount: 778
+ht-degree: 33%
 
 ---
 
@@ -32,11 +32,11 @@ ht-degree: 34%
 
 在「同盟對象構成」中，您可以直接在「畫布」檢視中建立和管理資料模型。 這包括新增方案和對象，以及根據您的使用案例定義它們之間的連結。
 
-深入瞭解[結構描述](../data-modelling/schemas.md#schema-start)和[對象](../start/audiences.md)。
+若要深入瞭解結構描述，請閱讀[結構描述概觀](../data-modelling/schemas.md)。 若要深入瞭解對象，請閱讀[使用對象指南](../start/audiences.md)。
 
 例如，您可以在下方看到資料模型的表示法：具有其名稱的表格以及它們之間的連結。
 
-![](assets/models/datamodel.png){zoomable="yes"}
+![資料模型的範例表示法，顯示資料表之間的資料表和連結。](assets/models/datamodel.png){zoomable="yes"}
 
 ## 建立資料模型 {#data-model-create}
 

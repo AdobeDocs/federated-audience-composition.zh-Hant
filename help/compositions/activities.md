@@ -6,7 +6,7 @@ exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
 ht-degree: 37%
@@ -207,6 +207,8 @@ ht-degree: 37%
 選擇主要集後，您可以設定&#x200B;**排除規則**。 您可以選取&#x200B;**依屬性比對**&#x200B;或&#x200B;**加入**。
 
 設定排除規則後，您也可以選取&#x200B;**產生補充**&#x200B;選項。 產生補充處理剩餘母體，並包含排除中所包含的資料&#x200B;**not**。 將向活動新增一個額外的出站轉變。
+
+>[!ENDTABS]
 
 +++
 
@@ -748,11 +750,11 @@ ht-degree: 37%
 
 選擇排程將在一個月中的哪一天執行後，您可以選取&#x200B;**預覽啟動時間**&#x200B;以檢查您撰寫的接下來的10個執行的排程。
 
->[!TAB Weekly]
+>[!TAB 每週]
 
-If you select **Weekly**, the composition is executed on the weekly frequency that is set. If you set the weekly frequency as a number larger than 1, you can also choose the date the execution starts from.
+如果您選取&#x200B;**每週**，構成會依設定的每週頻率執行。 如果將每週頻率設定為大於1的數字，您還可以選擇執行開始的日期。
 
-After choosing the evaluation frequency, you can choose how often the execution is run under the **Day of the month** section.
+選擇評估頻率後，您可以選擇在&#x200B;**月**&#x200B;日區段下執行的頻率。
 
 | 當月日期 | 說明 |
 | ---------------- | ----------- |
@@ -761,11 +763,11 @@ After choosing the evaluation frequency, you can choose how often the execution 
 
 選擇排程將在一個月中的哪一天執行後，您可以選取&#x200B;**預覽啟動時間**&#x200B;以檢查您撰寫的接下來的10個執行的排程。
 
->[!TAB Monthly]
+>[!TAB 每月]
 
-If you select **Monthly**, the composition is executed on the monthly frequency that is set. You can either set it to be every month or on certain months.
+如果您選取&#x200B;**每月**，構成會依設定的每月頻率執行。 您可以將其設為每月或特定月份。
 
-After choosing the monthly frequency, you can choose the **Day of the month** the execution is run.
+選擇每月頻率後，您可以選擇執行所在月份&#x200B;**的**&#x200B;天。
 
 | 當月日期 | 說明 |
 | ---------------- | ----------- |
