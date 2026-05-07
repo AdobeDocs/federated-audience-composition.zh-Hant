@@ -4,8 +4,7 @@ title: 活動概觀
 description: 瞭解同盟對象構成中可用的不同活動和轉變。
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
@@ -516,7 +515,7 @@ ht-degree: 37%
 
 >[!IMPORTANT]
 >
->如果選取的資料集&#x200B;**未**&#x200B;啟用更新插入，資料將會被&#x200B;**取代**。 若要瞭解如何為資料集啟用更新插入，請閱讀[啟用更新插入指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/enable-upsert)。
+>如果選取的資料集&#x200B;**未**&#x200B;啟用更新插入，資料將會被&#x200B;**取代**。 若要瞭解如何為資料集啟用更新插入，請閱讀[啟用更新插入指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)。
 
 將&#x200B;**[!UICONTROL 儲存欄位]**&#x200B;活動新增至撰寫後，您可以為該活動加上標籤，並選取您要使用的Adobe Experience Platform結構描述。 此結構描述可以是標準結構描述或關聯結構描述。
 
