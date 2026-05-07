@@ -8,7 +8,7 @@ product_v2:
 source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
 workflow-type: tm+mt
 source-wordcount: 545
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 11%
 
   若要進一步瞭解如何搭配Snowflake使用未加密的金鑰，請參閱[連線總覽](/help/connections/home.md)。
 
-## 2026年3月發行 {#fac-26-03}
+## 2026 年 3 月發行版本 {#fac-26-03}
 
 3月發行的Federated Audience Composition支援下列功能：
 
@@ -50,7 +50,7 @@ ht-degree: 11%
 | --- |
 | 您現在可以向AI助理詢問有關同盟受眾構成中操作深入分析的問題。 支援的區域包括連線、結構描述和資料模型。 此發行版本不支援&#x200B;**同盟組合**。 如需有關同盟對象構成中AI助理的詳細資訊，請閱讀[AI助理概述](/help/start/ai-assistant.md)。 |
 
-## 2026年2月發行 {#fac-26-02}
+## 2026 年 2 月版 {#fac-26-02}
 
 2月版的Federated Audience Composition支援下列功能：
 
@@ -64,7 +64,7 @@ ht-degree: 11%
 | --- |
 | 您現在可以使用服務主要驗證或使用OAuth 2.0，以資料庫連線至同盟對象構成。 如需建立連線的詳細資訊，請參閱[連線總覽](../connections/home.md#create)。 |
 
-## 2026年1月發行 {#fac-26-01}
+## 2026 年 1 月版 {#fac-26-01}
 
 1月發行的Federated Audience Composition支援下列新功能和改善：
 

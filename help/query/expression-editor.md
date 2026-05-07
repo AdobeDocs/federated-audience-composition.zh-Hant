@@ -272,12 +272,12 @@ Aggregate functions are not available.
 | **SubDays** | 將指定的天數減去提供的日期時間。 | SubDays(&lt;DATETIME>， &lt;NUMBER>) | SubDays(&quot;2019-12-25 15:30:00&quot;， 10) |
 | **SubHours** | 將指定的小時數減去提供的日期時間。 | SubHours(&lt;DATETIME>， &lt;NUMBER>) | SubHours(&quot;2019-12-25 15:30:00&quot;， 3) |
 | **SubMinutes** | 將指定的分鐘數減去提供的日期時間。 | SubMinutes(&lt;DATETIME>， &lt;NUMBER>) | SubMinutes(&quot;2019-12-25 15:30:00&quot;， 32) |
-| **SubSeconds** | AdSubtractsds the specified number of seconds to the provided datetime. | SubSeconds(&lt;DATETIME>， &lt;NUMBER>) | SubSeconds(&quot;2019-12-25 15:30:00&quot;， 37) |
+| **SubSeconds** | AdSubtracts會將指定的秒數減去提供的日期時間。 | SubSeconds(&lt;DATETIME>， &lt;NUMBER>) | SubSeconds(&quot;2019-12-25 15:30:00&quot;， 37) |
 | **年** | 從指定的datetime物件中擷取年份。 | Year(&lt;DATETIME>) | 年(&quot;2019-12-15 15:30:00&quot;) |
 | **Month** | 從指定的datetime物件中擷取月份。 | Month(&lt;DATETIME>) | 月份(&quot;2019-12-15 15:30:00&quot;) |
 | **Day** | 從指定的datetime物件中擷取日。 | Day(&lt;DATETIME>) | Day(&quot;2019-12-15 15:30:00&quot;) |
 | **DayOfYear** | 從指定的datetime物件中擷取一年中的第幾天。 例如，如果提供的日期時間是2月2日，則會傳回33。 | DayOfYear(&lt;DATETIME>) | DayOfYear(&quot;2019-12-15 15:30:00&quot;) |
-| **WeekDay** | Extracts the day of the week from the given datetime object, as a number from 1 to 7, with 1 representing Sunday. | Year(&lt;DATETIME>) | 年(&quot;2019-12-15 15:30:00&quot;) |
+| **WeekDay** | 從指定的datetime物件中擷取一週中的某天，數字從1到7,1代表星期日。 | Year(&lt;DATETIME>) | 年(&quot;2019-12-15 15:30:00&quot;) |
 | **Hour** | 從指定的datetime物件中擷取小時值。 | Year(&lt;DATETIME>) | 年(&quot;2019-12-15 15:30:00&quot;) |
 | **Minute** | 從指定的datetime物件中擷取分鐘值。 | Year(&lt;DATETIME>) | 年(&quot;2019-12-15 15:30:00&quot;) |
 | **Second** | 從指定的datetime物件中擷取第二個值。 | Year(&lt;DATETIME>) | 年(&quot;2019-12-15 15:30:00&quot;) |
@@ -635,15 +635,15 @@ Other functions are not available.
 | ---- | ----------- | ------ | ------- |
 | **AllNonNull2** | 接受兩個字串並檢查它們是否全部不是Null且不是空白。 | AllNonNull2(&lt;STRING>， &lt;STRING>) | AllNonNull2(&quot;， &quot;string2&quot;) |
 | **AllNonNull3** | 接受三個字串並檢查它們是否全部不是Null且不是空白 | AllNonNull3(&lt;STRING>， &lt;STRING>， &lt;STRING>) | AllNonNull3(&quot;， &quot;one&quot;， &quot;three&quot;) |
-| **Ascii** | 接受字串並傳回結果。 | Ascii(&lt;STRING>) | Ascii (&quot;foo&quot;) |
-| **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY>) | Char([65, 68, 79, 66, 69]) |
-| **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING>, &lt;SUBSTRING>) | Charindex (&quot;bar@example.com&quot;, &quot;@&quot;) |
-| **DataLength** | Returns the number of bytes in the string. | dataLength(&lt;STRING>) | dataLength(&quot;My string&quot;) |
-| **GetLine** | Return the requested line of the provided string. | GetLine(&lt;STRING>, &lt;NUMBER>) | GetLine(multilinestring, 5) |
-| **IfEquals** | Takes four strings and returns the third string if the first two strings are equal and returns the fourth string if the first two strings are not equal. | IfEquals(&lt;STRING>, &lt;STRING>, &lt;STRING>, &lt;STRING>) | IfEquals(&quot;a&quot;, &quot;a&quot;, &quot;yes&quot;, &quot;no&quot;) |
-| **IsMemoNull** | Returns 1 if the string is null, otherwise it returns 0. | IsMemoNull(&lt;STRING>) | IsMemoNull(&quot;hello&quot;) |
-| **JuxtWords** | Takes two strings and combines them into a single string. Spaces between the strings are added if required. | JuxtWords(&lt;STRING>, &lt;STRING>) | JuxtWords(&quot;Hello&quot;, &quot;World&quot;) |
-| **JuxtWords3** | Takes three strings and combines them into a single string. Spaces between the strings are added if required. | JuxtWords3(&lt;STRING>， &lt;STRING>， &lt;STRING>) | JuxtWords3(「Hello」、「New」、「World」) |
+| **Ascii** | 接受字串並傳回結果。 | Ascii(&lt;STRING>) | Ascii (「foo」) |
+| **Char** | 接受一系列Unicode程式碼點並傳回產生的字串。 | Char(&lt;ARRAY>) | 字元([65， 68， 79， 66， 69]) |
+| **Charindex** | 尋找指定子字串在主字串中的第一次出現。 | Charindex(&lt;STRING>， &lt;SUBSTRING>) | 字元索引(&quot;bar@example.com&quot;， &quot;@&quot;) |
+| **DataLength** | 傳回字串中的位元組數。 | dataLength(&lt;STRING>) | dataLength（「我的字串」） |
+| **GetLine** | 傳回所提供字串的請求行。 | GetLine(&lt;STRING>， &lt;NUMBER>) | GetLine(multilinestring， 5) |
+| **IfEquals** | 接受四個字串，如果前兩個字串相等，則傳回第三個字串，如果前兩個字串不相等，則傳回第四個字串。 | IfEquals(&lt;STRING>， &lt;STRING>， &lt;STRING>， &lt;STRING>) | IfEquals(&quot;a&quot;， &quot;a&quot;， &quot;yes&quot;， &quot;no&quot;) |
+| **IsMemoNull** | 如果字串為null，則傳回1，否則傳回0。 | IsMemoNull(&lt;STRING>) | IsMemoNull(&quot;hello&quot;) |
+| **JuxtWords** | 取用兩個字串並將它們合併為單一字串。 必要時，字串之間會新增空格。 | JuxtWords(&lt;STRING>， &lt;STRING>) | JuxtWords(&quot;Hello&quot;， &quot;World&quot;) |
+| **JuxtWords3** | 取用三個字串並將它們合併為單一字串。 必要時，字串之間會新增空格。 | JuxtWords3(&lt;STRING>， &lt;STRING>， &lt;STRING>) | JuxtWords3(「Hello」、「New」、「World」) |
 | **Left** | 採用字串並按指定傳回最左邊的字元。 | Left(&lt;STRING>， &lt;NUMBER>) | Left(「Substring」， 3) |
 | **Length** | 傳回字串的長度。 | Length(&lt;STRING>) | Length(&quot;MyString&quot;) |
 | **Md5Digest** | 將MD5雜湊字串轉換成其十六進位表示。 | Md5Digest(&lt;STRING>) | Md5Digest（「字串」） |
@@ -726,7 +726,7 @@ String functions are not available.
 | **Length** | 傳回字串的長度。 | Length(&lt;STRING>) | Length(&quot;MyString&quot;) |
 | **Line** | 從字串傳回指定的編號行。 | Line(&lt;STRING>， &lt;NUMBER>) | Line(multilinestring， 5) |
 | **Md5Digest** | 將MD5雜湊字串轉換成其十六進位表示。 | Md5Digest(&lt;STRING>) | Md5Digest（「字串」） |
-| **Replace** | Takes a string and replaces all instances of the substring with a replacement substring. | Replace(&lt;STRING>, &lt;STRING&amp;gt, &lt;STRING&amp;gt) | Replace(&quot;Captain Steve&quot;, &quot;Captain&quot;, &quot;Engineer&quot;) |
+| **Replace** | 採用字串並以取代子字串取代子字串的所有例項。 | Replace(&lt;STRING>， &lt;STRING&amp;gt， &lt;STRING&amp;gt) | Replace(「Captain Steve」、「Captain」、「Engineer」) |
 | **Right** | 採用字串並傳回指定的最右邊字元。 | Right(&lt;STRING>， &lt;NUMBER>) | 右（「子字串」，3） |
 | **Sha256Digest** | 將SHA256雜湊字串轉換為其十六進位表示。 | Sha256Digest(&lt;STRING>) | Sha256Digest（「字串」） |
 | **Sha512Digest** | 將SHA512雜湊字串轉換為其十六進位表示。 | Sha512Digest(&lt;STRING>) | Sha512Digest（「字串」） |
@@ -771,8 +771,8 @@ String functions are not available.
 
 | 名稱 | 說明 | 語法 | 範例 |
 | ---- | ----------- | ------ | ------- |
-| **RowNum** | Returns a sequence of rows based on the table partition and the sorting sequence. | RowNum(PartitionBy(&lt;EXPRESSION>), OrderBy(&lt;EXPRESSION>)) | RowNum(PartitionBy(division), OrderBy(time)) |
-| **PartitionBy** | Separates the input rows into different partitions, based on the expression given. | PartitionBy(&lt;EXPRESSION>) | PartitionBy（除法） |
+| **RowNum** | 根據表格分割和排序順序傳回資料列順序。 | rownum(PartitionBy(&lt;EXPRESSION>)， OrderBy(&lt;EXPRESSION>)) | RowNum(PartitionBy(division)， OrderBy(time)) |
+| **PartitionBy** | 根據給定的運算式將輸入列分隔成不同的分割區。 | PartitionBy(&lt;EXPRESSION>) | PartitionBy（除法） |
 | **OrderBy** | 排序分割結果。 | OrderBy(&lt;EXPRESSION>) | OrderBy(age) |
 | **Desc** | 可讓您的OrderBy依遞減順序排序，而非遞增順序。 | Desc(OrderBy(&lt;EXPRESSION>)) | Desc(OrderBy(age)) |
 
