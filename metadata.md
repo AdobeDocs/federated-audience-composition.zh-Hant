@@ -1,20 +1,22 @@
 ---
 cloud: Experience Cloud
 solution: Experience Cloud
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/federated-audience-composition.zh-Hant
 index: true
-source-git-commit: 5c67619fd99763608a1794c75eacc0c80100ef79
+source-git-commit: 886ec67750791aecbb40b611d3d149b81d5bd9e7
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 55%
+source-wordcount: 70
+ht-degree: 74%
 
 ---
 
 
-# 內部專用中繼資料
+# 僅限內部使用的中繼資料
 
-metadata.md 檔案包含存放庫層級的中繼資料，會將以上資料傳遞至存放庫中的使用者指南 TOC.md 檔案。 若您想針對任何使用者指南，變更 metadata.md 的內容，請開啟任何 TOC.md 檔案，就能變更資料。
+metadata.md 檔案包含存放庫層級的中繼資料，會將這些資料傳遞至存放庫中的使用者指南 TOC.md 檔案。 如果您想變更任何使用者指南的 metadata.md 內容，請在任何 TOC.md 檔案中進行變更。
 
-請參閱[中繼資料](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html)，以取得&#x200B;**解決方案**、**產品**&#x200B;和&#x200B;**型別**&#x200B;的有效值清單。
+請參閱[中繼資料](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html)，方便取得&#x200B;**解決方案**、**產品**&#x200B;和&#x200B;**類型**&#x200B;的有效數值清單。
