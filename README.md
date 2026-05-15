@@ -1,8 +1,8 @@
 ---
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 # 貢獻文章
@@ -54,7 +54,7 @@ ht-degree: 99%
 此存放庫中的所有文章都會使用 GitHub-Flavored Markdown。 若您不熟悉 Markdown，請參閱：
 
 * [Markdown 基本介紹](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [可列印的Markdown速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [可列印的 Markdown 速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## 標籤
 
