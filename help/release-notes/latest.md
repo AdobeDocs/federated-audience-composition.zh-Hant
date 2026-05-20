@@ -5,16 +5,24 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
+source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 13%
+source-wordcount: 671
+ht-degree: 12%
 
 ---
 
 # 發行說明
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能增強並修正錯誤。 所有變更都已整合在這些發行說明中。 [!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。 若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+
+## 2026年5月發行 {#fac-26-05}
+
+5月發行的Federated Audience Composition支援下列功能：
+
+| Google Big Query的工作負載識別同盟(WIF)驗證 |
+| --- |
+| 您現在可以使用WIF驗證連線到Google Big Query。 如需使用WIF驗證連線的詳細資訊，請參閱[連線總覽](/help/connections/home.md#wif-configuration)。 |
 
 ## 2026年4月發行 {#fac-26-04}
 
@@ -25,6 +33,16 @@ ht-degree: 13%
 | 新聯結器 — Teradata |
 | --- |
 | Teradata聯結器現在可與同盟對象構成搭配使用。 您可以使用Teradata聯結器來建立對象和擴充對象使用案例。 如需Teradata聯結器的詳細資訊，請閱讀[連線總覽](/help/connections/home.md)。 |
+
+### 改善 {#fac-26-05-improvements}
+
+此版本隨附下列改善專案。
+
+- **在Adobe Journey Optimizer讀取對象歷程中使用同盟對象構成對象的多實體鎖定目標**
+
+  您現在可以在Journey Optimizer讀取對象歷程中善用FAC對象屬性當作補充識別碼。 這可讓您在多個實體（例如帳戶或訂閱層級）啟用對象。
+
+  如需詳細資訊，請參閱歷程指南[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的使用補充識別碼。
 
 ### 改善 {#fac-26-04-improvements}
 
