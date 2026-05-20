@@ -3,7 +3,8 @@ title: 同盟對象構成發行說明
 description: 同盟對象構成的最新更新和發行說明。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
 workflow-type: tm+mt
 source-wordcount: 671
@@ -41,7 +42,7 @@ ht-degree: 12%
 
   您現在可以在Journey Optimizer讀取對象歷程中善用FAC對象屬性當作補充識別碼。 這可讓您在多個實體（例如帳戶或訂閱層級）啟用對象。
 
-  如需詳細資訊，請參閱歷程指南](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的[使用補充識別碼。
+  如需詳細資訊，請參閱歷程指南[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的使用補充識別碼。
 
 ### 改善 {#fac-26-04-improvements}
 
