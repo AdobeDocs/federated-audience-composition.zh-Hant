@@ -3,14 +3,11 @@ title: 存取外部資料庫的許可權
 description: 瞭解您需要在每個資料庫引擎上存取和執行工作的許可權
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
 TQID: https://experienceleague.adobe.com/LI7H7b6iM3TAsPy00wDwNj3-D0Z7mIrH9MKW8g9QDsk
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 2f08e668fafcde9df941313f912c5cb2037ef691
 workflow-type: tm+mt
-source-wordcount: 447
+source-wordcount: 445
 ht-degree: 6%
 
 ---
@@ -30,8 +27,8 @@ ht-degree: 6%
 | **監視執行** | 必要物件的`MONITOR`許可權 | 使用`EXPLAIN`命令不需要許可權 | `monitoring.viewer`角色 | `CAN_VIEW`許可權 |
 | **正在寫入資料** | `INSERT`和/或`UPDATE`許可權（視寫入作業而定） | `INSERT`和`UPDATE`許可權 | 指派給服務帳戶的角色必須包含： `bigquery.jobs.create`和`bigquery.tables.updateData` | `MODIFY`許可權 |
 | **正在將資料載入資料表** | 目標資料表許可權上的`CREATE STAGE ON SCHEMA`、`Create file FORMATGRANT CREATE FILE FORMAT ON SCHEMA <SCHEMA> to ROLE <ROLE>` `SELECT`和`INSERT` | `SELECT`和`INSERT`許可權 | 指派給服務帳戶的角色必須包含： `bigquery.jobs.create`、`bigquery.tables.getData`和`bigquery.tables.updateData` | `SELECT`和`MODIFY`許可權 |
-| **正在存取使用者端資料** | `SELECT on (FUTURE) TABLE(S)`或`VIEW(S)`許可權 | `SELECT`許可權 | 指派給服務帳戶的角色必須包含： `bigquery.jobs.create`和`bigquery.tables.getData` （針對資料表或`bigquery.dataViewer`角色） | `SELECT`許可權 |
-| **存取中繼資料** | `SELECT on INFORMATION_SCHEMA SCHEMA`許可權 | `SELECT`許可權 | `bigquery.metadataViewer`角色 |  `SELECT on INFORMATION_SCHEMA SCHEMA`許可權 |
+| **正在存取使用者端資料** | `SELECT on (FUTURE) TABLE(S)`或`VIEW(S)`許可權 | `SELECT`許可權 | 指派給服務帳戶的角色必須包含： `bigquery.jobs.create`、`bigquery.readsessions.create`和`bigquery.tables.getData` （針對資料表或`bigquery.dataViewer`角色） | `SELECT`許可權 |
+| **正在存取中繼資料** | `SELECT on INFORMATION_SCHEMA SCHEMA`許可權 | `SELECT`許可權 | `bigquery.metadataViewer`角色 |  `SELECT on INFORMATION_SCHEMA SCHEMA`許可權 |
 
 
 |   | Microsoft Fabric | Azure Synapse Analytics | Vertica | Teradata |
