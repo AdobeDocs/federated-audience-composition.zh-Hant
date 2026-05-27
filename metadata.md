@@ -1,13 +1,13 @@
 ---
 cloud: Experience Cloud
 solution: Experience Cloud
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+usetq: true
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/federated-audience-composition.zh-Hant
+git-repo: https://github.com/AdobeDocs/federated-audience-composition.en
 index: true
-source-git-commit: 886ec67750791aecbb40b611d3d149b81d5bd9e7
+source-git-commit: 5b83f5cd91ba01a72397ff7c8c0597998a25090c
 workflow-type: tm+mt
 source-wordcount: 70
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# 僅限內部使用的中繼資料
+# 內部專用中繼資料
 
 metadata.md 檔案包含存放庫層級的中繼資料，會將這些資料傳遞至存放庫中的使用者指南 TOC.md 檔案。 如果您想變更任何使用者指南的 metadata.md 內容，請在任何 TOC.md 檔案中進行變更。
 
