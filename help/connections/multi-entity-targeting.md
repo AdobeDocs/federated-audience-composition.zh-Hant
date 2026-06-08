@@ -56,5 +56,5 @@ ht-degree: 3%
 
 ## 後續步驟 {#next-steps}
 
-閱讀本指南後，您現在瞭解如何在Journey Optimizer歷程中使用同盟對象構成對象的補充識別碼。 如需有關使用補充歷程的詳細資訊，請參閱歷程指南](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的[使用補充識別碼。
+閱讀本指南後，您現在瞭解如何在Journey Optimizer歷程中使用同盟對象構成對象的補充識別碼。 如需有關使用補充歷程的詳細資訊，請參閱歷程指南[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的使用補充識別碼。
 
