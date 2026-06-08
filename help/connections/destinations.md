@@ -44,7 +44,7 @@ Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地*
 
 在&#x200B;**[!UICONTROL 警示]**&#x200B;區段中，您可以啟用警示以接收有關您目的地之資料流狀態的通知。 其中包括資料流執行延遲、執行失敗、執行成功、執行開始和啟動略過的警示。
 
-如需警示的詳細資訊，請參閱Adobe Experience Platform關於使用UI[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}訂閱目的地警示的檔案。
+如需警示的詳細資訊，請參閱Adobe Experience Platform關於使用UI[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/alerts){target="_blank"}訂閱目的地警示的檔案。
 
 ![顯示目的地可用的警示。](assets/destinations/alerts.png)
 
@@ -70,8 +70,8 @@ Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地*
 >
 >如需如何設定排程和檔案名稱的詳細資訊，請閱讀Adobe Experience Platform檔案的下列區段：
 >
->* [排程對象匯出](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
->* [設定檔案名稱](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+>* [排程對象匯出](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+>* [設定檔案名稱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
 在&#x200B;**[!UICONTROL 對應]**&#x200B;步驟中，選取要為對象匯出的屬性和身分欄位。
 
@@ -79,7 +79,7 @@ Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地*
 >
 >啟用至目的地時，您&#x200B;**無法**&#x200B;使用系統產生的資料行。 選取系統產生的欄會導致發生錯誤。
 
-如需詳細資訊，請參閱Adobe Experience Platform檔案中的[對應區段](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}。
+如需詳細資訊，請參閱Adobe Experience Platform檔案中的[對應區段](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}。
 
 ![顯示對應屬性頁面。](assets/destinations/attributes.png)
 
