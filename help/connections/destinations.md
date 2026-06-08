@@ -4,14 +4,11 @@ title: 使用外部資料擴充 Adobe Experience Platform 客群
 description: 瞭解如何使用同盟受眾構成目的地，以同盟資料庫中的資料精進及豐富Adobe Experience Platform受眾。
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 TQID: https://experienceleague.adobe.com/g32ycFuhXFq68NmBJjunWZT3m4JpmL108bhMSs-4EYc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6e722691fb7d8487e452bfe5301f8c38243222d2
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ce79e1b9216ca69020155978ac84f29577c5ff8d
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 774
 ht-degree: 5%
 
 ---
@@ -44,7 +41,7 @@ Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地*
 
 在&#x200B;**[!UICONTROL 警示]**&#x200B;區段中，您可以啟用警示以接收有關您目的地之資料流狀態的通知。 其中包括資料流執行延遲、執行失敗、執行成功、執行開始和啟動略過的警示。
 
-如需警示的詳細資訊，請參閱Adobe Experience Platform關於使用UI[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/alerts){target="_blank"}訂閱目的地警示的檔案。
+如需警示的詳細資訊，請參閱Adobe Experience Platform關於使用UI](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}訂閱目的地警示的檔案[。
 
 ![顯示目的地可用的警示。](assets/destinations/alerts.png)
 
@@ -70,16 +67,16 @@ Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地*
 >
 >如需如何設定排程和檔案名稱的詳細資訊，請閱讀Adobe Experience Platform檔案的下列區段：
 >
->* [排程對象匯出](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
->* [設定檔案名稱](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+>* [排程對象匯出](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+>* [設定檔案名稱](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
 在&#x200B;**[!UICONTROL 對應]**&#x200B;步驟中，選取要為對象匯出的屬性和身分欄位。
 
 >[!IMPORTANT]
 >
->啟用目的地時，您&#x200B;**無法**&#x200B;使用系統產生的資料行。 選取系統產生的欄會導致啟用失敗。
+>啟用至目的地時，您&#x200B;**無法**&#x200B;使用系統產生的資料行。 選取系統產生的欄會導致發生錯誤。
 
-如需詳細資訊，請參閱Adobe Experience Platform檔案中的[對應區段](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}。
+如需詳細資訊，請參閱Adobe Experience Platform檔案中的[對應區段](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}。
 
 ![顯示對應屬性頁面。](assets/destinations/attributes.png)
 
