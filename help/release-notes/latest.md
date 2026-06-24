@@ -5,9 +5,9 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 02d8690a6e20c22ddd67afc4899830ccd2f03da9
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: 671
+source-wordcount: 726
 ht-degree: 12%
 
 ---
@@ -16,13 +16,21 @@ ht-degree: 12%
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能增強並修正錯誤。 所有變更都已整合在這些發行說明中。 [!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。 若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
+## 2026年6月發行 {#fac-26-06}
+
+6月發行的Federated Audience Composition支援下列功能：
+
+| Google [!DNL BigQuery]的REST API聯結器具有[!DNL Apigee]閘道支援 |
+| --- |
+| 您現在可以使用REST API聯結器連線至Google [!DNL BigQuery]，並可以選擇在使用服務帳戶驗證時透過[!DNL Apigee]閘道路由您的連線。 如需使用[!DNL Apigee]連線的詳細資訊，請參閱[連線總覽](/help/connections/home.md#apigee)。 |
+
 ## 2026年5月發行 {#fac-26-05}
 
 5月發行的Federated Audience Composition支援下列功能：
 
-| Google Big Query的工作負載識別同盟(WIF)驗證 |
+| Google [!DNL BigQuery]的工作負載識別同盟(WIF)驗證 |
 | --- |
-| 您現在可以使用WIF驗證連線到Google Big Query。 如需使用WIF驗證連線的詳細資訊，請參閱[連線總覽](/help/connections/home.md#wif-configuration)。 |
+| 您現在可以使用WIF驗證連線到Google [!DNL BigQuery]。 如需使用WIF驗證連線的詳細資訊，請參閱[連線總覽](/help/connections/home.md#wif-configuration)。 |
 
 ### 改善 {#fac-26-05-improvements}
 
@@ -34,7 +42,7 @@ ht-degree: 12%
 
   如需詳細資訊，請參閱歷程指南[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的使用補充識別碼。
 
-## 2026年4月發行 {#fac-26-04}
+## 2026 年 4 月版 {#fac-26-04}
 
 4月發行的Federated Audience Composition支援下列功能和改善：
 
