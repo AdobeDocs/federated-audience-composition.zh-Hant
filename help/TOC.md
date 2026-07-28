@@ -2,7 +2,7 @@
 user-guide-title: Experience Platform 聯合客群構成
 title: Experience Platform 聯合客群構成文件
 breadcrumb-title: Experience Platform 聯合客群構成
-source-git-commit: 8f33ab9a8461e36282d115ea49d93f403ee65c5c
+source-git-commit: f31a9799fecd72b0fccf84f5656b0ee8a6e7df92
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 97%
@@ -15,32 +15,32 @@ ht-degree: 97%
 - [Experience Platform 聯合客群構成文件](landing.md)
 - [聯合客群構成概觀](./overview.md)
 - 開始使用聯合客群構成 {#start}
-   - [先決條件和護欄](start/access-prerequisites.md)
-   - [使用客群](start/audiences.md)
-   - [使用 AI 助理](start/ai-assistant.md)
+  - [先決條件和護欄](start/access-prerequisites.md)
+  - [使用客群](start/audiences.md)
+  - [使用 AI 助理](start/ai-assistant.md)
 - 治理、隱私權、安全性 {#governance-privacy-security}
-   - [概觀](./governance-privacy-security/home.md)
-   - [存取控制](governance-privacy-security/access-control.md)
+  - [概觀](./governance-privacy-security/home.md)
+  - [存取控制](governance-privacy-security/access-control.md)
 - 連線 {#connections}
-   - [連線概觀](connections/home.md)
-   - [資料存取權限矩陣](connections/fda-rights.md)
-   - [使用外部資料擴充 Adobe Experience Platform 客群](connections/destinations.md)
-   - [多實體目標定位](connections/multi-entity-targeting.md)
+  - [連線概觀](connections/home.md)
+  - [資料存取權限矩陣](connections/fda-rights.md)
+  - [使用外部資料擴充 Adobe Experience Platform 客群](connections/destinations.md)
+  - [多實體目標定位](connections/multi-entity-targeting.md)
 - 資料模型與結構描述 {#models}
-   - [結構描述概觀](data-modelling/schemas.md)
-   - [資料模型概觀](data-modelling/models.md)
+  - [結構描述概觀](data-modelling/schemas.md)
+  - [資料模型概觀](data-modelling/models.md)
 - 構成 {#compositions}
-   - [構成概觀](compositions/home.md)
-   - [建立構成](compositions/create-composition.md)
-   - [活動概觀](compositions/activities.md)
+  - [構成概觀](compositions/home.md)
+  - [建立構成](compositions/create-composition.md)
+  - [活動概觀](compositions/activities.md)
 - 查詢建模工具 {#query-database}
-   - [查詢建模工具概觀](query/home.md)
-   - [建置查詢](query/build-query.md)
-   - [編輯運算式](query/expression-editor.md)
+  - [查詢建模工具概觀](query/home.md)
+  - [建置查詢](query/build-query.md)
+  - [編輯運算式](query/expression-editor.md)
 - [稽核軌跡](admin/audit-trail.md)
 - [常見問題](./faq.md)
 - 發行說明 {#release-notes}
-   - [最新發行說明](./release-notes/latest.md)
-   - [2024 年](./release-notes/2024.md)
-   - [2025 版](./release-notes/2025.md)
-   - {hide-from-toc}[預發行說明](./release-notes/e-release-notes.md)
+  - [最新發行說明](./release-notes/latest.md)
+  - [2025 版](./release-notes/2025.md)
+  - [2024 年](./release-notes/2024.md)
+  - {hide-from-toc}[預發行說明](./release-notes/e-release-notes.md)
