@@ -30,7 +30,7 @@ ht-degree: 11%
 
 - **在歷程模擬中支援同盟對象組合對象**
 
-  歷程模擬現在可讓您先測試使用同盟對象構成對象建立的歷程，然後再使用模擬使用者發佈。 如需詳細資訊，請參閱[開始使用歷程模擬指南](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)。
+  歷程模擬現在可讓您先測試使用同盟對象構成對象建立的歷程，然後再使用模擬使用者發佈。 如需詳細資訊，請參閱[開始使用歷程模擬指南](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)。
 
 ## 2026 年 6 月版 {#fac-26-06}
 
@@ -118,7 +118,7 @@ ht-degree: 11%
 
 | Amazon Web Services (AWS)上Adobe Experience Platform客戶的可用性 |
 | --- |
-| 如果您的Experience Platform執行個體位於AWS，您現在可以使用同盟對象構成。 如需AWS上Experience Platform的詳細資訊，請閱讀[多雲端總覽](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)。 |
+| 如果您的Experience Platform執行個體位於AWS，您現在可以使用同盟對象構成。 如需AWS上Experience Platform的詳細資訊，請閱讀[多雲端總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/multi-cloud)。 |
 
 ### 改善 {#fac-26-01-improvements}
 
