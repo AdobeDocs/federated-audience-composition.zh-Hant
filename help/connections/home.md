@@ -12,9 +12,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 906ea4119d9a1f2ddf5829cc8d53598ba620bbcc
+source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
 workflow-type: tm+mt
-source-wordcount: 3976
+source-wordcount: 3992
 ht-degree: 8%
 
 ---
@@ -25,13 +25,30 @@ ht-degree: 8%
 >
 >若要存取連線，您需要下列其中一個許可權：
 >
->-**管理同盟資料庫-**&#x200B;檢視同盟資料庫&#x200B;**
+>-**管理同盟資料庫**
+>-**檢視同盟資料庫**
 >
 >如需有關必要權限的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
 
 Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立及擴充對象，並將對象匯入至Adobe Experience Platform。
 
 ## 支援的資料庫 {#supported-databases}
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_privatekey"
+>title="私密金鑰"
+>abstract="暫時的空白內容。"
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_keyfilepath"
+>title="金鑰檔案路徑"
+>abstract="暫時的空白內容。"
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_serverip"
+>title="伺服器 IP"
+>abstract="暫時的空白內容。"
+
 
 若要使用同盟資料庫和Adobe Experience Platform，您必須先建立兩個來源之間的連線。 透過同盟對象構成，您可以連線至下列資料庫。
 
@@ -401,9 +418,9 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 設定Google Cloud Platform設定前，您需要下列值：
 
 - AWS帳戶ID
-   - 請聯絡您的Adobe代表以取得此值。
+  - 請聯絡您的Adobe代表以取得此值。
 - AWS IAM角色名稱
-   - AWS IAM角色名稱遵循後續格式： `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+  - AWS IAM角色名稱遵循後續格式： `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
 
 在Google Cloud Console的&#x200B;**IAM與管理員區段**&#x200B;中，建立&#x200B;**工作負載識別集區**。 這可讓您組織和管理外部身分。
 
@@ -449,7 +466,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | Proxy名稱 | 您的Proxy名稱。 這個值&#x200B;**只能**&#x200B;包含英數字元、破折號(`-`)或底線(`_`)。 |
 | 基底路徑 | 顯示API Proxy主機位址的URI片段。 此基底路徑以Proxy名稱為基礎，且&#x200B;**必須**&#x200B;是唯一的。 |
 | 說明 | API Proxy的選擇性說明。 |
-| Target | API Proxy叫用的後端服務的URL （包括HTTP或HTTPS）。 |
+| 目標 | API Proxy叫用的後端服務的URL （包括HTTP或HTTPS）。 |
 
 針對同盟對象構成，為Google BigQuery聯結器使用的&#x200B;**每個**&#x200B;端點建立Proxy端點規則，如下所示：
 
