@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->若要搭配[!DNL Snowflake]使用私人連線，您&#x200B;**必須**&#x200B;至少在[!DNL Snowflake]上的Business Critical層或更高。 如需與[!DNL Snowflake]的私人連線詳細資訊，請參閱Snowflake檔案](https://docs.snowflake.com/en/user-guide/private-connectivity-inbound)中的[私人連線指南。
+>若要搭配[!DNL Snowflake]使用私人連線，您&#x200B;**必須**&#x200B;至少在[!DNL Snowflake]上的Business Critical層或更高。 如需與[!DNL Snowflake]的私人連線詳細資訊，請參閱Snowflake檔案[&#128279;](https://docs.snowflake.com/en/user-guide/private-connectivity-inbound)中的私人連線指南。
 
 與[!DNL Snowflake]搭配使用私人連線視您[!DNL Snowflake]執行個體所在的雲端提供者而定。
 
