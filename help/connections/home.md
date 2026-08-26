@@ -4,18 +4,13 @@ title: 建立和管理與同盟資料庫的連線
 description: 瞭解如何建立和管理與同盟資料庫的連線
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
 workflow-type: tm+mt
-source-wordcount: 3992
-ht-degree: 8%
+source-wordcount: 3987
+ht-degree: 7%
 
 ---
 
@@ -74,7 +69,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 
 >[!NOTE]
 >
->若要使用私人連結或VPN來要求安全連線，您&#x200B;**必須**&#x200B;已授權Privacy and Security Shield或Healthcare Shield。
+>若要使用PrivacyLink或VPN要求安全連線，您&#x200B;**必須**&#x200B;已授權Privacy and Security Shield或Healthcare Shield。
 
 連線屬性彈出視窗會出現。 您可以為連線命名，並選取要建立的資料庫型別。
 
@@ -90,7 +85,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 >
 >僅支援Amazon Redshift AWS、Amazon Redshift Spectrum和Amazon Redshift Serverless。
 >
->此外，也支援透過私人連結安全存取您的外部Amazon Redshift資料倉儲。
+>此外，也支援透過PrivateLink安全存取您的外部Amazon Redshift資料倉儲。
 
 選取Amazon Redshift後，您可以新增下列詳細資料：
 
@@ -116,7 +111,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | 帳戶 | Azure應用程式註冊的應用程式識別碼（**使用者端識別碼**）。 |
 | 密碼 | Azure應用程式的&#x200B;**使用者端密碼**&#x200B;值。 |
 | 資料庫 | 資料庫的名稱。 若在伺服器名稱中指定此專案，此欄位可保留空白。 |
-| 選項 | 連線的其他選項。 對於Azure Synapse Analytics，您可以指定聯結器支援的驗證型別。 目前，同盟對象構成支援`ActiveDirectoryMSI`。 如需連線字串的詳細資訊，請參閱Microsoft檔案[&#128279;](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}中的連線字串範例區段。 |
+| 選項 | 連線的其他選項。 對於Azure Synapse Analytics，您可以指定聯結器支援的驗證型別。 目前，同盟對象構成支援`ActiveDirectoryMSI`。 如需連線字串的詳細資訊，請參閱Microsoft檔案](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}中的[連線字串範例區段。 |
 
 或者，您也可以使用服務主體驗證，安全地設定您的Azure Synapse Analytics連線。 您應該使用服務主體驗證來進行生產等級的整合以及自動化案例。
 
@@ -162,7 +157,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 
 >[!NOTE]
 >
->支援透過私人連結，安全地存取外部 Databricks 資料倉儲。 這包括透過私人連結與託管在 Amazon Web Services (AWS) 上的 Databricks 資料庫建立安全連線，以及透過 VPN 與託管在 Microsoft Azure 上的 Databricks 資料庫建立安全連線。 請聯絡您的 Adobe 代表，以取得設定安全存取的協助。
+>支援透過PrivateLink安全存取您的外部Databricks資料倉儲。 這包括透過PrivateLink與Amazon Web Services (AWS)上託管的Databricks資料庫的安全連線，以及透過VPN與Microsoft Azure上託管的Databricks資料庫的安全連線。 請聯絡您的 Adobe 代表，以取得設定安全存取的協助。
 
 選取「資料庫」後，您可以選擇連線至同盟對象構成時要使用的驗證方法。
 
@@ -194,8 +189,8 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 
 | 欄位 | 說明 |
 | ----- | ----------- |
-| HTTP 路徑 | 叢集或倉儲的路徑。 如需有關路徑的詳細資訊，請參閱連線詳細資料[&#128279;](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}的Databricks檔案。 |
-| 目錄 | Databricks目錄的名稱。 如需有關資料庫中目錄的詳細資訊，請閱讀有關目錄[&#128279;](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}的資料庫檔案 |
+| HTTP 路徑 | 叢集或倉儲的路徑。 如需有關路徑的詳細資訊，請參閱連線詳細資料](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}的[Databricks檔案。 |
+| 目錄 | Databricks目錄的名稱。 如需有關資料庫中目錄的詳細資訊，請閱讀有關目錄](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}的[資料庫檔案 |
 | 工作結構描述 | 用於工作表的資料庫綱要名稱。 <br/><br/>**注意：**&#x200B;只要您擁有連線至此結構描述所需的許可權，就可以使用資料庫中的&#x200B;**any**&#x200B;結構描述，包括用於暫時資料處理的結構描述。 但是，當使用相同資料庫連線多個沙箱時，**必須**&#x200B;使用不同的工作結構描述。 |
 | 選項 | 連線的其他選項。 下表列出可用的選項。 |
 
@@ -267,8 +262,8 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | 欄位 | 說明 |
 | ----- | ----------- |
 | 伺服器 | Microsoft光纖伺服器的URL。 |
-| 應用程式ID | Microsoft光纖的應用程式ID。 如需應用程式ID的詳細資訊，請參閱應用程式設定[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}的Microsoft Fabric檔案。 |
-| 用戶端密碼 | 應用程式的使用者端密碼。 如需有關使用者端密碼的詳細資訊，請參閱應用程式設定[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}的Microsoft光纖檔案。 |
+| 應用程式ID | Microsoft光纖的應用程式ID。 如需應用程式ID的詳細資訊，請參閱應用程式設定](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}的[Microsoft Fabric檔案。 |
+| 用戶端密碼 | 應用程式的使用者端密碼。 如需有關使用者端密碼的詳細資訊，請參閱應用程式設定](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}的[Microsoft光纖檔案。 |
 | 選項 | 連線的其他選項。 下表列出可用的選項。 |
 
 對於Microsoft Fabric，您可以設定下列其他選項：
@@ -295,7 +290,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 
 >[!NOTE]
 >
->支援透過私人連結，安全地存取外部 Snowflake 資料倉儲。 請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 或 Azure 上，並且與您的聯合客群構成環境位於同一區域。 請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。
+>支援透過PrivateLink安全存取外部Snowflake資料倉儲。 請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 或 Azure 上，並且與您的聯合客群構成環境位於同一區域。 請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。
 
 選取Snowflake後，您可以選擇連線至同盟對象構成時要使用的驗證方法。
 
@@ -344,9 +339,9 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | 選項 | 說明 |
 | ------- | ----------- |
 | workschema | 用於工作表的資料庫綱要名稱。 |
-| TimeZoneName | 要使用的時區名稱。 此值代表`TIMEZONE`工作階段引數。 依預設，系統會使用系統時區。 如需時區的詳細資訊，請參閱時區[&#128279;](https://docs.snowflake.com/en/sql-reference/parameters#timezone){target="_blank"}的Snowflake檔案。 |
-| WeekStart | 您希望一週開始的日期。 此值代表`WEEK_START`工作階段引數。 如需周開始的詳細資訊，請參閱周開始引數[&#128279;](https://docs.snowflake.com/en/sql-reference/parameters#week-start){target="_blank"}的Snowflake檔案 |
-| UseCachedResult | 布林值，判斷是否將使用Snowflake的快取結果。 此值代表`USE_CACHED_RESULTS`工作階段引數。 預設情況下，此值會設為true。 如需此引數的詳細資訊，請參閱有關持續結果[&#128279;](https://docs.snowflake.com/en/user-guide/querying-persisted-results){target="_blank"}的Snowflake檔案。 |
+| TimeZoneName | 要使用的時區名稱。 此值代表`TIMEZONE`工作階段引數。 依預設，系統會使用系統時區。 如需時區的詳細資訊，請參閱時區](https://docs.snowflake.com/en/sql-reference/parameters#timezone){target="_blank"}的[Snowflake檔案。 |
+| WeekStart | 您希望一週開始的日期。 此值代表`WEEK_START`工作階段引數。 如需周開始的詳細資訊，請參閱周開始引數](https://docs.snowflake.com/en/sql-reference/parameters#week-start){target="_blank"}的[Snowflake檔案 |
+| UseCachedResult | 布林值，判斷是否將使用Snowflake的快取結果。 此值代表`USE_CACHED_RESULTS`工作階段引數。 預設情況下，此值會設為true。 如需此引數的詳細資訊，請參閱有關持續結果](https://docs.snowflake.com/en/user-guide/querying-persisted-results){target="_blank"}的[Snowflake檔案。 |
 | bulkThreads | 用於Snowflake大量載入器的執行緒數量。 新增的執行緒越多，大量載入的效能就越好。 預設情況下，此值設為1。 |
 | chunkSize | 每個大量載入器區塊的檔案大小。 與更多執行緒同時使用時，您可以改善大量載入的效能。 預設情況下，此值會設為128 MB。 如需區塊大小的詳細資訊，請閱讀有關準備資料檔案的[Snowflake檔案](https://docs.snowflake.com/en/user-guide/data-load-considerations-prepare){target="_blank"}。 |
 | StageName | 預先布建的內部預備環境名稱。 這可用於大量載入，而非建立新的臨時階段。 |
