@@ -12,10 +12,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
+source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
 workflow-type: tm+mt
-source-wordcount: 3992
-ht-degree: 8%
+source-wordcount: 3987
+ht-degree: 7%
 
 ---
 
@@ -74,7 +74,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 
 >[!NOTE]
 >
->若要使用私人連結或VPN來要求安全連線，您&#x200B;**必須**&#x200B;已授權Privacy and Security Shield或Healthcare Shield。
+>若要使用PrivacyLink或VPN要求安全連線，您&#x200B;**必須**&#x200B;已授權Privacy and Security Shield或Healthcare Shield。
 
 連線屬性彈出視窗會出現。 您可以為連線命名，並選取要建立的資料庫型別。
 
@@ -90,7 +90,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 >
 >僅支援Amazon Redshift AWS、Amazon Redshift Spectrum和Amazon Redshift Serverless。
 >
->此外，也支援透過私人連結安全存取您的外部Amazon Redshift資料倉儲。
+>此外，也支援透過PrivateLink安全存取您的外部Amazon Redshift資料倉儲。
 
 選取Amazon Redshift後，您可以新增下列詳細資料：
 
@@ -162,7 +162,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 
 >[!NOTE]
 >
->支援透過私人連結，安全地存取外部 Databricks 資料倉儲。 這包括透過私人連結與託管在 Amazon Web Services (AWS) 上的 Databricks 資料庫建立安全連線，以及透過 VPN 與託管在 Microsoft Azure 上的 Databricks 資料庫建立安全連線。 請聯絡您的 Adobe 代表，以取得設定安全存取的協助。
+>支援透過PrivateLink安全存取您的外部Databricks資料倉儲。 這包括透過PrivateLink與Amazon Web Services (AWS)上託管的Databricks資料庫的安全連線，以及透過VPN與Microsoft Azure上託管的Databricks資料庫的安全連線。 請聯絡您的 Adobe 代表，以取得設定安全存取的協助。
 
 選取「資料庫」後，您可以選擇連線至同盟對象構成時要使用的驗證方法。
 
@@ -295,7 +295,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 
 >[!NOTE]
 >
->支援透過私人連結，安全地存取外部 Snowflake 資料倉儲。 請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 或 Azure 上，並且與您的聯合客群構成環境位於同一區域。 請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。
+>支援透過PrivateLink安全存取外部Snowflake資料倉儲。 請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 或 Azure 上，並且與您的聯合客群構成環境位於同一區域。 請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。
 
 選取Snowflake後，您可以選擇連線至同盟對象構成時要使用的驗證方法。
 

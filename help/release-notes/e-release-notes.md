@@ -13,10 +13,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 87b5c0ce27eef85fe7eb6a06df903a5701ecd83f
 workflow-type: tm+mt
-source-wordcount: 1174
-ht-degree: 97%
+source-wordcount: 1191
+ht-degree: 90%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 97%
 
 * **Snowflake 安全連線**
 
-  透過此一新版本，聯合客群構成現在支援使用私人連結連線至託管在 Microsoft Azure 上的 Amazon Redshift 資料庫連線。 [了解更多](../connections/home.md#amazon-redshift)
+  透過此新版本，同盟對象構成支援到Microsoft Azure上代管的Amazon Redshift資料庫的安全PrivateLink連線。 [了解更多](../connections/home.md#amazon-redshift)
 
 ## 2025 年 3 月發行版本 {#fac-25-3}
 
@@ -113,8 +113,8 @@ ht-degree: 97%
 
 * **Databricks 連線**
 
-  透過此一新版本，聯合客群構成現在支援透過私人連結進行 Databricks 資料庫連線，
-這包括透過私人連結與託管在 Amazon Web Services (AWS) 上的 Databricks 資料庫建立安全連線，以及透過 VPN 與託管在 Microsoft Azure 上的 Databricks 資料庫建立安全連線。 [了解更多](../connections/home.md#databricks)
+  透過此新版本，同盟對象構成現在支援Databricks資料庫連線的PrivateLink連線。
+  這包括透過PrivateLink與Amazon Web Services (AWS)上託管的Databricks資料庫的安全連線，以及透過VPN與Microsoft Azure上託管的Databricks資料庫的安全連線。 [了解更多](../connections/home.md#databricks)
 
 * **為 B2B CDP 客戶提供支援**
 
@@ -122,7 +122,7 @@ ht-degree: 97%
 
 * **Snowflake 安全連線**
 
-  透過此一新版本，聯合客群構成現在支援使用私人連結連線至託管在 Microsoft Azure 上的 Snowflake 資料庫連線。 [了解更多](../connections/home.md#snowflake)
+  透過此新版本，同盟對象構成可支援與Microsoft Azure上託管的Snowflake資料庫之間的安全PrivateLink連線。 [了解更多](../connections/home.md#snowflake)
 
 ## 2025 年 2 月發行版本 {#fac-25-2}
 
@@ -171,7 +171,7 @@ ht-degree: 97%
 
 * **支援透過 AWS PrivateLink 安全地存取 Snowflake**
 
-  現在支援透過私人連結，安全地存取外部 Snowflake 資料倉儲。 請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 上，並且與您的聯合客群構成環境位於同一區域。 請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。 [了解更多](../connections/home.md#snowflake)
+  現在支援透過PrivateLink安全存取外部Snowflake資料倉儲。 請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 上，並且與您的聯合客群構成環境位於同一區域。 請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。 [了解更多](../connections/home.md#snowflake)
 
 * **Amazon Redshift Serverless 支援**
 
