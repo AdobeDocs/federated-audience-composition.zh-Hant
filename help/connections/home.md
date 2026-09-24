@@ -6,19 +6,22 @@ exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
+    internal-label: Privacy
+source-git-commit: 401985f058e47cf4970065ec06c9b9cfba7d71a1
 workflow-type: tm+mt
-source-wordcount: 3987
+source-wordcount: '3999'
 ht-degree: 7%
-
 ---
-
 # 建立連線 {#connections-fdb}
 
 >[!AVAILABILITY]
@@ -45,10 +48,9 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 >abstract="暫時的空白內容。"
 
 >[!CONTEXTUALHELP]
->id="platform_sources_snowflake_serverip"
+>id="platform_sources_serverip"
 >title="伺服器 IP"
->abstract="暫時的空白內容。"
-
+>abstract="為了連線到資料庫而需要列入允許清單的IP位址。"
 
 若要使用同盟資料庫和Adobe Experience Platform，您必須先建立兩個來源之間的連線。 透過同盟對象構成，您可以連線至下列資料庫。
 
