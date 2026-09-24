@@ -1,8 +1,7 @@
 ---
 audience: end-user
-title: 建立和管理與同盟資料庫的連線
-description: 瞭解如何建立和管理與同盟資料庫的連線
-exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
+title: 在Experience Platform UI中建立和管理與Federated資料庫的連線
+description: 瞭解如何在Experience Platform UI中建立和管理與Federated資料庫的連線。
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -17,15 +16,18 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-touch: edit
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
-source-wordcount: '3969'
+source-wordcount: '4385'
 ht-degree: 7%
 ---
-# 建立連線 {#connections-fdb}
+# 在Experience Platform UI中建立連線
 
 >[!AVAILABILITY]
+>
+>新的統一連線體驗僅適用於特定客戶。 如需詳細資訊，請聯絡Adobe客戶服務。
+>
+>如果您沒有新連線體驗的存取權，請閱讀[連線概觀](./home.md)。
 >
 >若要存取連線，您需要下列其中一個許可權：
 >
@@ -38,11 +40,21 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 
 ## 支援的資料庫 {#supported-databases}
 
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_privatekey"
+>title="私密金鑰"
+>abstract="暫時的空白內容。"
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_keyfilepath"
+>title="金鑰檔案路徑"
+>abstract="暫時的空白內容。"
+
 若要使用同盟資料庫和Adobe Experience Platform，您必須先建立兩個來源之間的連線。 透過同盟對象構成，您可以連線至下列資料庫。
 
 - Amazon Redshift
 - Azure Synapse Analytics
-- Databricks
+- 資料磚
 - Google BigQuery
 - Microsoft Fabric
 - Oracle
@@ -52,23 +64,34 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 
 ## 建立連線 {#create}
 
-若要建立連線，請在同盟資料區段中選取&#x200B;**[!UICONTROL 同盟資料庫]**。
+>[!CONTEXTUALHELP]
+>id="platform_sources_serverip"
+>title="伺服器 IP"
+>abstract="為了連線到資料庫而需要列入允許清單的IP位址。"
 
-![左側導覽中會反白顯示[同盟資料庫]按鈕。](assets/home/select-federated.png){zoomable="yes" width="70%" align="center"}
+若要建立連線，請在&#x200B;**[!UICONTROL 連線]**&#x200B;區段中選取&#x200B;**[!UICONTROL 來源]**。
 
-便會顯示「同盟資料庫」段落。 選取&#x200B;**[!UICONTROL 新增同盟資料庫]**&#x200B;以建立連線。
+「來源」目錄隨即顯示。 選取&#x200B;**[!UICONTROL 同盟資料]**&#x200B;以檢視貴組織可用的同盟資料庫清單。
 
-![「加入同盟資料庫」按鈕在「同盟資料庫」顯示頁面中反白顯示。](assets/home/add-federated.png){zoomable="yes" width="70%" align="center"}
+![來源目錄中的Federated Data區段已反白顯示。](/help/connections/assets/integrated/federated-data-sources.png)
+
+選取同盟資料庫型別後，如果您要建立新連線，請選取&#x200B;**[!UICONTROL 設定]**，如果您使用現有連線，請選取&#x200B;**[!UICONTROL 新增資料]**。
+
+連線帳戶頁面隨即顯示。 您可以使用&#x200B;**現有**&#x200B;帳戶或建立&#x200B;**新**&#x200B;帳戶。
+
+### 現有帳戶 {#existing-account}
+
+如果您選取&#x200B;**[!UICONTROL 現有帳戶]**，您可以選擇先前建立的其中一個來源連線。
+
+![顯示現有帳戶區段的範例。](/help/connections/assets/integrated/existing-account.png)
 
 >[!NOTE]
 >
->若要使用PrivacyLink或VPN要求安全連線，您&#x200B;**必須**&#x200B;已授權Privacy and Security Shield或Healthcare Shield。
+>若要使用私人連結或VPN來要求安全連線，您&#x200B;**必須**&#x200B;已授權Privacy and Security Shield或Healthcare Shield。
 
-連線屬性彈出視窗會出現。 您可以為連線命名，並選取要建立的資料庫型別。
+### 新帳戶 {#new-account}
 
-![顯示同盟資料庫型別。](assets/home/select-type.png){zoomable="yes" width="70%" align="center"}
-
-選取型別後，**[!UICONTROL 詳細資料]**&#x200B;區段就會顯示。 此區段會根據先前選擇的資料庫型別而有所不同。
+如果您選取&#x200B;**[!UICONTROL 新帳戶]**，則會顯示連線詳細資訊頁面。 您可以在此頁面設定連線的詳細資訊，包括帳戶名稱、說明和帳戶驗證詳細資訊。 帳戶驗證區段會根據先前選擇的資料庫型別而有所不同。
 
 >[!BEGINTABS]
 
@@ -78,7 +101,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 >
 >僅支援Amazon Redshift AWS、Amazon Redshift Spectrum和Amazon Redshift Serverless。
 >
->此外，也支援透過PrivateLink安全存取您的外部Amazon Redshift資料倉儲。
+>此外，也支援透過私人連結安全存取您的外部Amazon Redshift資料倉儲。
 
 選取Amazon Redshift後，您可以新增下列詳細資料：
 
@@ -146,52 +169,52 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | 資料庫 | 資料庫的名稱。 若在伺服器名稱中指定此專案，此欄位可保留空白。 |
 | 選項 | 連線的其他選項。 若要使用服務主體驗證，您必須設定`Authentication="ActiveDirectoryServicePrincipal"`。 |
 
->[!TAB 資料庫]
+>[!TAB 資料磚]
 
 >[!NOTE]
 >
->支援透過PrivateLink安全存取您的外部Databricks資料倉儲。 這包括透過PrivateLink與Amazon Web Services (AWS)上託管的Databricks資料庫的安全連線，以及透過VPN與Microsoft Azure上託管的Databricks資料庫的安全連線。 請聯絡您的 Adobe 代表，以取得設定安全存取的協助。
+>支援透過私人連結安全存取您的外部DataBricks資料倉儲。 這包括通過私人連結與Amazon Web Services (AWS)上託管的DataBricks資料庫的安全連線，以及透過VPN與Microsoft Azure上託管的DataBricks資料庫的安全連線。 請聯絡您的 Adobe 代表，以取得設定安全存取的協助。
 
-選取「資料庫」後，您可以選擇連線至同盟對象構成時要使用的驗證方法。
+選取DataBricks後，您可以選擇連線至同盟對象構成時要使用的驗證方法。
 
-如果您選取&#x200B;**帳戶/密碼驗證**，您可以新增下列登入詳細資料：
-
-| 欄位 | 說明 |
-| ----- | ----------- |
-| 伺服器 | Databricks伺服器的名稱。 |
-| 密碼 | Databricks伺服器的存取權杖。 如需有關這個值的詳細資訊，請參閱有關個人存取權杖的[Databricks檔案](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}。 |
-
-如果您選取&#x200B;**服務主體驗證**，您可以新增下列詳細資料：
+如果您選取&#x200B;**[!UICONTROL 基本驗證]**，您可以新增下列登入詳細資料：
 
 | 欄位 | 說明 |
 | ----- | ----------- |
-| 伺服器 | Databricks伺服器的名稱。 |
-| 用戶端 ID | 來自您Databricks伺服器的使用者端ID。 此欄位的作用就像專案的使用者名稱。 |
-| 使用者端密碼 | 來自您Databricks伺服器的使用者端密碼。 此欄位的作用就像專案的密碼。 |
+| 伺服器 | DataBricks伺服器的名稱。 |
+| 密碼 | DataBricks伺服器的存取權杖。 如需有關這個值的詳細資訊，請閱讀有關個人存取權杖](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}的[DataBricks檔案。 |
 
-如果您選取&#x200B;**OAuth 2.0**，可以新增下列詳細資料：
+如果您選取&#x200B;**[!UICONTROL OAuth2驗證代碼]**，您可以新增下列詳細資料：
 
 | 欄位 | 說明 |
 | ----- | ----------- |
-| 伺服器 | Databricks伺服器的名稱。 |
-| 用戶端 ID | 來自您Databricks伺服器的使用者端ID。 此欄位在OAuth 2.0驗證期間用於識別應用程式，並像是您專案的使用者名稱。 |
-| 使用者端密碼 | 來自您Databricks伺服器的使用者端密碼。 此機密認證會與使用者端ID一起核發，並作為您專案的密碼。 |
-| 存取範圍 | 預先填入的資訊會列出您的Databriks伺服器中OAuth權杖授權的範圍。 |
+| 伺服器 | DataBricks伺服器的名稱。 |
+| 用戶端 ID | DataBricks伺服器的使用者端ID。 此欄位在OAuth 2.0驗證期間用於識別應用程式，並像是您專案的使用者名稱。 |
+| 使用者端密碼 | DataBricks伺服器的使用者端密碼。 此機密認證會與使用者端ID一起核發，並作為您專案的密碼。 |
+| 存取範圍 | 預先填入的資訊會列出您的OAuth權杖在您的DataBricks伺服器中獲授權的範圍。 |
+
+如果您選取&#x200B;**[!UICONTROL 服務主體驗證]**，您可以新增下列詳細資料：
+
+| 欄位 | 說明 |
+| ----- | ----------- |
+| 伺服器 | DataBricks伺服器的名稱。 |
+| 用戶端 ID | DataBricks伺服器的使用者端ID。 此欄位的作用就像專案的使用者名稱。 |
+| 使用者端密碼 | DataBricks伺服器的使用者端密碼。 此欄位的作用就像專案的密碼。 |
 
 輸入登入詳細資訊後，您可以新增下列資訊：
 
 | 欄位 | 說明 |
 | ----- | ----------- |
-| HTTP 路徑 | 叢集或倉儲的路徑。 如需有關路徑的詳細資訊，請參閱連線詳細資料](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}的[Databricks檔案。 |
-| 目錄 | Databricks目錄的名稱。 如需有關資料庫中目錄的詳細資訊，請閱讀有關目錄](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}的[資料庫檔案 |
+| HTTP 路徑 | 叢集或倉儲的路徑。 如需有關路徑的詳細資訊，請閱讀有關連線詳細資料](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}的[DataBricks檔案。 |
+| 目錄 | DataBricks目錄的名稱。 如需有關DataBricks中目錄的詳細資訊，請閱讀有關目錄](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}的[DataBricks檔案 |
 | 工作結構描述 | 用於工作表的資料庫綱要名稱。 <br/><br/>**注意：**&#x200B;只要您擁有連線至此結構描述所需的許可權，就可以使用資料庫中的&#x200B;**any**&#x200B;結構描述，包括用於暫時資料處理的結構描述。 但是，當使用相同資料庫連線多個沙箱時，**必須**&#x200B;使用不同的工作結構描述。 |
 | 選項 | 連線的其他選項。 下表列出可用的選項。 |
 
-若為「資料庫」，您可以設定下列其他選項：
+對於DataBricks，您可以設定下列其他選項：
 
 | 選項 | 說明 |
 | ------- | ----------- |
-| TimeZoneName | 要使用的時區名稱。 此值代表`TIMEZONE`工作階段引數。 如需時區的詳細資訊，請閱讀[時區](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}的Databricks檔案。 |
+| TimeZoneName | 要使用的時區名稱。 此值代表`TIMEZONE`工作階段引數。 如需時區的詳細資訊，請閱讀[時區](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}的DataBricks檔案。 |
 
 >[!TAB Google BigQuery]
 
@@ -201,13 +224,13 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 
 選取Google BigQuery後，您可以選擇在與同盟對象構成連線時要使用的驗證方法。
 
-如果您選取&#x200B;**[!UICONTROL 帳戶/密碼驗證]**，您可以新增下列登入資訊：
+如果您選取&#x200B;**[!UICONTROL 基本驗證]**，可以新增下列登入資訊：
 
 | 欄位 | 說明 |
 | ----- | ----------- |
 | 服務帳戶 | 您的服務帳戶的電子郵件地址。 如需詳細資訊，請參閱[Google雲端服務帳戶檔案](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}。 |
 
-如果您選取&#x200B;**[!UICONTROL OAuth 2.0]**，可以新增下列登入資訊：
+如果您選取&#x200B;**[!UICONTROL OAuth2授權代碼]**，您可以新增下列登入資訊：
 
 >[!NOTE]
 >
@@ -221,7 +244,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 
 選取&#x200B;**[!UICONTROL 登入]**&#x200B;以完成您的驗證。
 
-若您選取&#x200B;**[!UICONTROL WIF]**，您就不&#x200B;**需要**&#x200B;提供任何登入資訊。 不過，您&#x200B;**必須**&#x200B;將使用者端程式庫組態新增為&#x200B;**[!UICONTROL 金鑰檔案路徑]**。 如需使用者端程式庫組態的詳細資訊，請閱讀[Google BigQuery （工作負荷識別同盟）組態區段](#wif-configuration)。
+若您選取&#x200B;**[!UICONTROL WIF]**，您就不&#x200B;**需要**&#x200B;提供任何登入資訊。 不過，您&#x200B;**必須**&#x200B;將使用者端程式庫組態新增為&#x200B;**[!UICONTROL 組態檔路徑]**。 如需使用者端程式庫組態的詳細資訊，請閱讀[Google BigQuery （工作負荷識別同盟）組態區段](#wif-configuration)。
 
 輸入您的登入詳細資訊後，您可以新增以下詳細資訊：
 
@@ -229,9 +252,9 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | ----- | ----------- |
 | 專案 | 專案的ID。 如需詳細資訊，請閱讀[Google Cloud專案檔案](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}。 |
 | 資料集 | 資料集的名稱。 如需詳細資訊，請參閱[Google Cloud資料集檔案](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}。 |
-| 金鑰檔案路徑 | 連線到伺服器的金鑰檔案。 僅支援`json`個檔案。 |
+| 設定檔案路徑 | 到伺服器的組態檔。 僅支援`json`個檔案。 |
 | Google貯體位置 | Google貯體的位置。 只有在構成中使用&#x200B;**變更維度**&#x200B;活動時，才需要新增此欄位。 如需詳細資訊，請參閱[Google雲端儲存貯體位置檔案](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}。 |
-| 使用REST API聯結器 | 可讓您使用REST API聯結器的切換。 若您使用帳戶/密碼驗證，則此選項僅&#x200B;**可用**。 |
+| 使用REST API聯結器 | 可讓您使用REST API聯結器的切換。 如果您使用基本驗證，則此選項僅&#x200B;**可用**。 |
 | 選項 | 連線的其他選項。 下表列出可用的選項。 |
 
 若為Google BigQuery，您可以設定下列其他選項：
@@ -283,11 +306,11 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 
 >[!NOTE]
 >
->支援透過PrivateLink安全存取外部Snowflake資料倉儲。 請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 或 Azure 上，並且與您的聯合客群構成環境位於同一區域。 請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。
+>支援透過私人連結，安全地存取外部 Snowflake 資料倉儲。 請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 或 Azure 上，並且與您的聯合客群構成環境位於同一區域。 請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。
 
 選取Snowflake後，您可以選擇連線至同盟對象構成時要使用的驗證方法。
 
-如果您選取&#x200B;**[!UICONTROL 帳戶/密碼驗證]**，您可以新增下列登入資訊：
+如果您選取&#x200B;**[!UICONTROL 基本驗證]**，可以新增下列登入資訊：
 
 | 欄位 | 說明 |
 | ----- | ----------- |
@@ -295,7 +318,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | 使用者 | 帳戶的使用者名稱。 |
 | 密碼 | 帳戶的密碼。 |
 
-或者，您也可以提供私密金鑰，而不提供密碼。 如果您新增私密金鑰，需要提供下列資訊：
+如果您選取&#x200B;**[!UICONTROL 金鑰組驗證]**，可以新增下列登入資訊：
 
 | 欄位 | 說明 |
 | ----- | ----------- |
@@ -304,7 +327,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | 私密金鑰 | 帳戶的私密金鑰。 僅支援`.pem`個檔案。 |
 | 密碼 | （選用）帳戶的密碼。 |
 
-如果您選取&#x200B;**[!UICONTROL OAuth 2.0]**，可以新增下列登入資訊：
+如果您選取&#x200B;**[!UICONTROL OAuth2授權代碼]**，您可以新增下列登入資訊：
 
 >[!NOTE]
 >
@@ -324,7 +347,8 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | ----- | ----------- |
 | 資料庫 | 資料庫的名稱。 若在伺服器名稱中指定此專案，此欄位可保留空白。 |
 | 工作結構描述 | 用於工作表的資料庫綱要名稱。 <br/><br/>**注意：**&#x200B;只要您擁有連線至此結構描述所需的許可權，就可以使用資料庫中的&#x200B;**any**&#x200B;結構描述，包括用於暫時資料處理的結構描述。 但是，當使用相同資料庫連線多個沙箱時，**必須**&#x200B;使用不同的工作結構描述。 |
-| 私密金鑰 | 資料庫連線的私密金鑰。 您可以從本機系統上傳`.pem`檔案。 |
+| 私密金鑰 | Snowflake帳戶的Base64編碼私密金鑰。 您可以產生加密或未加密的私密金鑰。 如果您使用加密的私密金鑰，則在對Experience Platform進行驗證時，也必須提供私密金鑰複雜密碼。 如需詳細資訊，請參閱[擷取Snowflake私密金鑰](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)的指南。 |
+| 私密金鑰密碼短語 | 私密金鑰複雜密碼是附加的安全性層級，在使用加密的私密金鑰進行驗證時必須使用此層級。 如果您使用未加密的私密金鑰，則不需要提供複雜密碼。 |
 | 選項 | 連線的其他選項。 下表列出可用的選項。 |
 
 若為Snowflake，您可以設定下列其他選項：
@@ -395,7 +419,39 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | 伺服器 IP | 顯示需要列入允許清單才能連線到資料庫之IP位址的彈出視窗。 |
 | 測試連線 | 可讓您驗證您的設定詳細資料。 |
 
-您現在可以選取&#x200B;**[!UICONTROL 部署功能]**，然後選取&#x200B;**[!UICONTROL 新增]**，以完成同盟資料庫與Experience Platform之間的連線。
+您現在可以選取&#x200B;**[!UICONTROL 連線至來源]**&#x200B;來設定資料庫連線的結構描述詳細資料。
+
+## 結構描述選擇 {#schema-selection}
+
+**[!UICONTROL 結構描述選擇]**&#x200B;頁面就會顯示。 您可以在此頁面定義同盟資料庫連線的綱要。
+
+![[新增資料表]按鈕在[新增資料]畫面中反白顯示。](/help/data-modelling/assets/integrated/select-add-table.png)
+
+如需設定結構描述詳細資料的詳細資訊，請參閱[結構描述指南](/help/data-modelling/schemas-integrated.md)。
+
+選擇您的結構描述後，選取&#x200B;**[!UICONTROL 下一步]**&#x200B;以繼續。
+
+## 檢閱 {#review}
+
+**[!UICONTROL 檢閱]**&#x200B;頁面隨即顯示。 您可以在此頁面複查同盟資料庫連線的詳細資訊。 如果詳細資料看起來正確，請選取&#x200B;**[!UICONTROL 完成]**&#x200B;以建立連線。
+
+![顯示[檢閱]頁面。 此頁面顯示連線詳細資料和結構描述資訊。](/help/connections/assets/integrated/review.png)
+
+已建立連線。 出現快顯視窗，要求您&#x200B;**[!UICONTROL 檢視結構描述]**&#x200B;或&#x200B;**[!UICONTROL 建立關係]**。 如果您選取&#x200B;**[!UICONTROL 檢視結構描述]**，則會顯示[結構描述瀏覽](/help/data-modelling/schemas-integrated.md#edit-a-schema)頁面。 如果您選取&#x200B;**[!UICONTROL 建立關係]**，則會顯示[實體圖表](/help/data-modelling/schemas-integrated.md#edit-relationships)頁面。
+
+## 編輯連線 {#edit-connection}
+
+如果您需要編輯來源連線的登入詳細資料，請選取&#x200B;**[!UICONTROL 來源]**，然後選取&#x200B;**[!UICONTROL 帳戶]**。
+
+![[帳戶]按鈕已反白顯示，顯示來源帳戶瀏覽頁面。](/help/connections/assets/integrated/select-accounts.png)
+
+來源聯結器瀏覽頁面隨即顯示。 尋找要更新的來源聯結器，選取![三個點](/help/assets/icons/more.png)，然後選取&#x200B;**[!UICONTROL 編輯詳細資料]**。
+
+![[編輯詳細資料]按鈕已反白顯示。](/help/connections/assets/integrated/select-edit-details.png)
+
+**[!UICONTROL 編輯帳戶詳細資料]**&#x200B;彈出視窗即會顯示。 在此彈出視窗上，您可以更新同盟資料庫來源連線的詳細資料。
+
+![顯示[編輯帳戶詳細資料]彈出視窗。](/help/connections/assets/integrated/edit-account-details.png)
 
 ## 附錄 {#appendix}
 
