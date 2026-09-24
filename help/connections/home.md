@@ -118,7 +118,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | 帳戶 | Azure應用程式註冊的應用程式識別碼（**使用者端識別碼**）。 |
 | 密碼 | Azure應用程式的&#x200B;**使用者端密碼**&#x200B;值。 |
 | 資料庫 | 資料庫的名稱。 若在伺服器名稱中指定此專案，此欄位可保留空白。 |
-| 選項 | 連線的其他選項。 對於Azure Synapse Analytics，您可以指定聯結器支援的驗證型別。 目前，同盟對象構成支援`ActiveDirectoryMSI`。 如需連線字串的詳細資訊，請參閱Microsoft檔案](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}中的[連線字串範例區段。 |
+| 選項 | 連線的其他選項。 對於Azure Synapse Analytics，您可以指定聯結器支援的驗證型別。 目前，同盟對象構成支援`ActiveDirectoryMSI`。 如需連線字串的詳細資訊，請參閱Microsoft檔案[&#128279;](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}中的連線字串範例區段。 |
 
 或者，您也可以使用服務主體驗證，安全地設定您的Azure Synapse Analytics連線。 您應該使用服務主體驗證來進行生產等級的整合以及自動化案例。
 
@@ -196,8 +196,8 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 
 | 欄位 | 說明 |
 | ----- | ----------- |
-| HTTP 路徑 | 叢集或倉儲的路徑。 如需有關路徑的詳細資訊，請參閱連線詳細資料](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}的[Databricks檔案。 |
-| 目錄 | Databricks目錄的名稱。 如需有關資料庫中目錄的詳細資訊，請閱讀有關目錄](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}的[資料庫檔案 |
+| HTTP 路徑 | 叢集或倉儲的路徑。 如需有關路徑的詳細資訊，請參閱連線詳細資料[&#128279;](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}的Databricks檔案。 |
+| 目錄 | Databricks目錄的名稱。 如需有關資料庫中目錄的詳細資訊，請閱讀有關目錄[&#128279;](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}的資料庫檔案 |
 | 工作結構描述 | 用於工作表的資料庫綱要名稱。 <br/><br/>**注意：**&#x200B;只要您擁有連線至此結構描述所需的許可權，就可以使用資料庫中的&#x200B;**any**&#x200B;結構描述，包括用於暫時資料處理的結構描述。 但是，當使用相同資料庫連線多個沙箱時，**必須**&#x200B;使用不同的工作結構描述。 |
 | 選項 | 連線的其他選項。 下表列出可用的選項。 |
 
@@ -269,8 +269,8 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | 欄位 | 說明 |
 | ----- | ----------- |
 | 伺服器 | Microsoft光纖伺服器的URL。 |
-| 應用程式ID | Microsoft光纖的應用程式ID。 如需應用程式ID的詳細資訊，請參閱應用程式設定](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}的[Microsoft Fabric檔案。 |
-| 用戶端密碼 | 應用程式的使用者端密碼。 如需有關使用者端密碼的詳細資訊，請參閱應用程式設定](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}的[Microsoft光纖檔案。 |
+| 應用程式ID | Microsoft光纖的應用程式ID。 如需應用程式ID的詳細資訊，請參閱應用程式設定[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}的Microsoft Fabric檔案。 |
+| 用戶端密碼 | 應用程式的使用者端密碼。 如需有關使用者端密碼的詳細資訊，請參閱應用程式設定[&#128279;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}的Microsoft光纖檔案。 |
 | 選項 | 連線的其他選項。 下表列出可用的選項。 |
 
 對於Microsoft Fabric，您可以設定下列其他選項：
@@ -346,9 +346,9 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | 選項 | 說明 |
 | ------- | ----------- |
 | workschema | 用於工作表的資料庫綱要名稱。 |
-| TimeZoneName | 要使用的時區名稱。 此值代表`TIMEZONE`工作階段引數。 依預設，系統會使用系統時區。 如需時區的詳細資訊，請參閱時區](https://docs.snowflake.com/en/sql-reference/parameters#timezone){target="_blank"}的[Snowflake檔案。 |
-| WeekStart | 您希望一週開始的日期。 此值代表`WEEK_START`工作階段引數。 如需周開始的詳細資訊，請參閱周開始引數](https://docs.snowflake.com/en/sql-reference/parameters#week-start){target="_blank"}的[Snowflake檔案 |
-| UseCachedResult | 布林值，判斷是否將使用Snowflake的快取結果。 此值代表`USE_CACHED_RESULTS`工作階段引數。 預設情況下，此值會設為true。 如需此引數的詳細資訊，請參閱有關持續結果](https://docs.snowflake.com/en/user-guide/querying-persisted-results){target="_blank"}的[Snowflake檔案。 |
+| TimeZoneName | 要使用的時區名稱。 此值代表`TIMEZONE`工作階段引數。 依預設，系統會使用系統時區。 如需時區的詳細資訊，請參閱時區[&#128279;](https://docs.snowflake.com/en/sql-reference/parameters#timezone){target="_blank"}的Snowflake檔案。 |
+| WeekStart | 您希望一週開始的日期。 此值代表`WEEK_START`工作階段引數。 如需周開始的詳細資訊，請參閱周開始引數[&#128279;](https://docs.snowflake.com/en/sql-reference/parameters#week-start){target="_blank"}的Snowflake檔案 |
+| UseCachedResult | 布林值，判斷是否將使用Snowflake的快取結果。 此值代表`USE_CACHED_RESULTS`工作階段引數。 預設情況下，此值會設為true。 如需此引數的詳細資訊，請參閱有關持續結果[&#128279;](https://docs.snowflake.com/en/user-guide/querying-persisted-results){target="_blank"}的Snowflake檔案。 |
 | bulkThreads | 用於Snowflake大量載入器的執行緒數量。 新增的執行緒越多，大量載入的效能就越好。 預設情況下，此值設為1。 |
 | chunkSize | 每個大量載入器區塊的檔案大小。 與更多執行緒同時使用時，您可以改善大量載入的效能。 預設情況下，此值會設為128 MB。 如需區塊大小的詳細資訊，請閱讀有關準備資料檔案的[Snowflake檔案](https://docs.snowflake.com/en/user-guide/data-load-considerations-prepare){target="_blank"}。 |
 | StageName | 預先布建的內部預備環境名稱。 這可用於大量載入，而非建立新的臨時階段。 |
