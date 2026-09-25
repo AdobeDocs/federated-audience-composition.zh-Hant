@@ -14,9 +14,9 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 401985f058e47cf4970065ec06c9b9cfba7d71a1
+source-git-commit: ded8d299cabcdc0a5bd387db64e895ae65cd3b55
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '580'
 ht-degree: 18%
 ---
 # 結構描述概觀 {#schemas}
@@ -29,11 +29,6 @@ ht-degree: 18%
 >-**檢視同盟結構描述**
 >
 >如需有關必要權限的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
-
->[!CONTEXTUALHELP]
->id="platform_schemas_manageconfiguration"
->title="管理設定"
->abstract="暫時的空白內容。"
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -73,11 +68,6 @@ ht-degree: 18%
 >使用相同的資料庫連線多個沙箱時，必須使用不同的工作結構描述。
 
 ## 建立結構描述 {#schema-create}
-
->[!CONTEXTUALHELP]
->id="platform_schemas_primarycompositekey"
->title="複合索引鍵"
->abstract="由多個結構描述欄組成的結構描述索引鍵。 標示要用作複合索引鍵的欄。"
 
 若要在Federated Audience Composition中建立結構描述，請在&#x200B;**[!UICONTROL Federated Data]**&#x200B;區段中選取&#x200B;**[!UICONTROL 模型]**。 在&#x200B;**[!UICONTROL 結構描述]**&#x200B;標籤中，選取&#x200B;**[!UICONTROL 建立結構描述]**。
 
