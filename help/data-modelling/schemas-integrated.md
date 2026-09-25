@@ -99,7 +99,7 @@ ht-degree: 3%
 
 ![[編輯結構描述]按鈕已反白顯示。](/help/data-modelling/assets/integrated/edit-schema.png)
 
-在&#x200B;**[!UICONTROL 編輯結構描述]**&#x200B;視窗上，您可以看到結構描述編輯器。 如需有關使用結構描述編輯器的詳細資訊，請閱讀[結構描述UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#customize-schema)。
+在&#x200B;**[!UICONTROL 編輯結構描述]**&#x200B;視窗上，您可以看到結構描述編輯器。 如需有關使用結構描述編輯器的詳細資訊，請閱讀[結構描述UI指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/resources/schemas#customize-schema)。
 
 ![顯示結構描述編輯器。](/help/data-modelling/assets/integrated/schema-editor.png)
 
