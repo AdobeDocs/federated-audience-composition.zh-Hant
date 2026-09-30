@@ -67,7 +67,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 >[!CONTEXTUALHELP]
 >id="platform_sources_serverip"
 >title="伺服器 IP"
->abstract="為了連線到資料庫而需要列入允許清單的IP位址。"
+>abstract="需要將這些 IP 位址加入允許清單才能連線到資料庫。"
 
 若要建立連線，請在&#x200B;**[!UICONTROL 連線]**&#x200B;區段中選取&#x200B;**[!UICONTROL 來源]**。
 

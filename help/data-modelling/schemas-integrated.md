@@ -16,7 +16,7 @@ topic_v2:
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 3%
+ht-degree: 6%
 ---
 # 結構描述概觀 {#schemas}
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="platform_schemas_primarycompositekey"
 >title="複合索引鍵"
->abstract="由多個結構描述欄組成的結構描述索引鍵。 標示要用作複合索引鍵的欄。"
+>abstract="由多個結構描述欄組成的結構描述索引鍵。 標記您要使用作為複合索引鍵的欄。"
 
 選擇同盟資料庫後，您現在可以定義架構。 **[!UICONTROL 新增資料]**&#x200B;畫面隨即顯示。 您可以在此頁面選取&#x200B;**[!UICONTROL 新增資料表]**，以選擇要新增至結構描述的資料表。
 
