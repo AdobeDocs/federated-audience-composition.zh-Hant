@@ -5,18 +5,21 @@ exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
 TQID: https://experienceleague.adobe.com/j-KXucjaZa4dNSjg5POqxh7KOSUHG5CnBkBLFA6rPVs
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: ht
-source-wordcount: 651
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+workflow-type: tm+mt
+source-wordcount: '651'
 ht-degree: 100%
-
 ---
-
 # AI 助理概觀 {#ai-assistant}
 
 AI 助理是一項使用者介面功能，旨在協助您導覽和了解 Adobe 概念。 您可以使用 AI 助理，更深入了解 Adobe Experience Cloud 中多個產品的產品知識使用案例，包括聯合客群構成。
@@ -29,13 +32,13 @@ AI 助理是一項使用者介面功能，旨在協助您導覽和了解 Adobe �
 
 ## 存取權 {#access}
 
-若要存取 AI 助理，請在頂端列上選取 ![AI 助理圖示](/help/start/assets/ai-assistant/icon.png)。AI 助理會顯示在畫面的右側區段。 您可以選取 ![深入影像替代文字](assets/do-not-localize/Smock_FullScreen_18_N.svg "展開圖示")，以展開「AI 助理」視窗。
+若要存取 AI 助理，請在頂端列上選取 ![AI 助理圖示](/help/start/assets/ai-assistant/icon.png)。 AI 助理會顯示在畫面的右側。 您可以選取 ![深入影像替代文字](assets/do-not-localize/Smock_FullScreen_18_N.svg "展開圖示")，以展開「AI 助理」視窗。
 
 ![AI 助理圖示會反白標示，並顯示如何存取 AI 助理。](/help/start/assets/ai-assistant/access.png)
 
 ## 使用 AI 助理 {#using}
 
-在開啟 AI 助理後，請在畫面底部的欄位中輸入您的問題，然後按 Enter 鍵。隨即會顯示您問題的答案。您可以使用「拇指向上」或「拇指向下」按鈕來評價答案。
+在開啟 AI 助理後，請在畫面底部的欄位中輸入您的問題，然後按 Enter 鍵。 隨即會顯示您問題的答案。 您可以使用「拇指向上」或「拇指向下」按鈕來評價答案。
 
 ![顯示 AI 助理中的問題和答案範例。](/help/start/assets/ai-assistant/sample-question-answer.png)
 
@@ -54,22 +57,22 @@ AI 助理是一項使用者介面功能，旨在協助您導覽和了解 Adobe �
 
 ## 建立客群 {#create-audience}
 
-您可以使用 AI 助理，以自然語言提示建立聯合客群構成。當您使用 AI 助理建立客群時，AI 助理會根據您的提示產生計劃，並使用 AI 驅動的自動化在瀏覽器中執行。
+您可以使用 AI 助理，以自然語言提示建立聯合客群構成。 當您使用 AI 助理建立客群時，AI 助理會根據您的提示產生計劃，並使用 AI 驅動的自動化在瀏覽器中執行。
 
 例如，如果您要求 AI 助理「使用結構描述 CUSTOMERS_Table，為生活在英國的客戶建立聯合客群」，則 AI 助理將會規劃建立客群所要執行的計劃，包括以下步驟：導覽至「聯合構成」頁面、代理將如何建立構成，以及在完成後儲存客群。
 
 ![顯示問題和回答範例。](/help/start/assets/ai-assistant/ask-create.png)
 
-如果計劃看起來正確，您可以選取「**[!UICONTROL 執行]**」，讓代理完成其自動化。代理將在瀏覽器中自主地執行在「聯合客群構成」使用者介面中建立您請求之構成的步驟。如果您在任何時候想要停止自動化，請選取「**[!UICONTROL 停止]**」。
+如果計劃看起來正確，您可以選取「**[!UICONTROL 執行]**」，讓代理完成其自動化。 代理將在瀏覽器中自主地執行在「聯合客群構成」使用者介面中建立您請求之構成的步驟。 如果您在任何時候想要停止自動化，請選取「**[!UICONTROL 停止]**」。
 
 ![計劃已執行，代理正在自主地執行該計劃。](/help/start/assets/ai-assistant/execute-plan.png)
 
 目前，客群建立技能可支援下列附加功能：
 
 - 排程器
-   - 您可以建立按定期排程執行的聯合構成。支援的值包括&#x200B;**一次**&#x200B;和&#x200B;**每日**。
+  - 您可以建立按定期排程執行的聯合構成。 支援的值包括&#x200B;**一次**&#x200B;和&#x200B;**每日**。
 - 重複資料刪除
-   - 您可以在資料調和期間，刪除重複的聯合資料記錄
+  - 您可以在資料調和期間，刪除重複的聯合資料記錄
 
 ## 後續步驟
 

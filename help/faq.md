@@ -5,16 +5,17 @@ exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 TQID: https://experienceleague.adobe.com/Wd6WnteenqEV9ZEBs4-tgD8aRSSO1SwtEB4EetSUac4
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 975
+source-wordcount: '981'
 ht-degree: 75%
-
 ---
-
 # 常見問題 {#faq}
 
 以下是有關 Adobe Experience Platform 聯合客群構成的常見問題清單。 [此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/faq){target="_blank"}也提供 Adobe Experience Platform Segmentation Service 的全球常見問題。
@@ -23,7 +24,7 @@ ht-degree: 75%
 
 +++ 回答
 
-聯合客群構成需要 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer Prime 或 Ultimate 套件。 您還需要購買聯合客群構成。
+聯合客群構成需要 Adobe Real-Time Customer Data Platform 和 Adobe Journey Optimizer Prime 或 Ultimate 套件。 您還需要購買聯合客群構成。
 
 為了使用聯合客群構成，您必須將每位使用者新增至為每個沙箱建立的特定輪廓中。 如需詳細資訊，請參閱[存取聯合客群構成](./start/access-prerequisites.md)頁面。
 
@@ -56,7 +57,7 @@ ht-degree: 75%
 
 +++
 
-### 我是否可以使用聯邦客群構成存取我的整個資料庫？
+### 我是否可以使用聯合客群構成存取我的整個資料庫？
 
 +++ 回答
 
@@ -80,7 +81,7 @@ ht-degree: 75%
 
 +++ 回答
 
-沒有，聯合客群構成只會儲存中繼資料 (結構描述)， 不會傳輸任何客戶資料。<!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
+沒有，聯合客群構成只會儲存後設資料 (結構描述的說明)。 不會傳輸任何客戶資料。<!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
@@ -88,16 +89,16 @@ ht-degree: 75%
 
 +++ 回答
 
-聯合客群構成不會保留這類資料的實體副本。 您可以在構成中設定頻率，以定義這類資料的重新整理頻率。 Adobe Experience Platform 儲存生成客群資料的時間，不會超過執行客戶使用案例或動作所需的時間。
+聯合客群構成不會保留這類資料的實體副本。 頻率會在構成中設定，以定義這類資料的重新整理頻率。 Adobe Experience Platform 儲存生成客群資料的時間，不會超過執行客戶使用案例或動作所需的時間。
 
 例如：
 
 * 在客群建立的案例中，客群會在您的倉儲中建立，而您可以使用聯合客群構成執行其他構成任務和資料操作，然後再透過 Adobe Experience Platform 客群入口網站發佈產生的客群和相關屬性。 客群定義和相關屬性會轉移到 Adobe Experience Platform。
-請注意，外部產生的客群目前的資料過期時間為 30 天。 此資料過期時間有助於減少組織內部儲存的過量資料。 資料過期後，關聯的資料集仍會在資料集庫存中顯示，但您無法啟動客群，且用戶輪廓計數會顯示為零。 若要了解更多資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}。
+請注意，外部產生的客群目前的資料過期時間為 30 天。 此資料過期時間有助於減少組織內部儲存的過量資料。 資料過期後，關聯的資料集仍會在資料集庫存中顯示，但您無法啟動客群，且輪廓計數會顯示為零。 若要了解更多資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}。
 
 * 客群擴充案例會以現有的 Adobe Experience Platform 客群做為起點。 這裡可以考慮兩種情況：
-   1. 從聯合資料倉儲引入額外的客群承載屬性：在此情況下，新增的額外屬性將會成為此客群定義的一部分。 外部產生的客群資料過期時間同樣是 30 天，與上述相同。
-   1. 您可以根據資料倉儲中的額外屬性，微調現有的 Adobe Experience Platform 客群。<!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
+  1. 從聯合資料倉儲引入額外的客群承載屬性：在此情況下，新增的額外屬性將會成為此客群定義的一部分。 外部產生的客群資料過期時間同樣是 30 天，與上述相同。
+  1. 您可以根據資料倉儲中的額外屬性，微調現有的 Adobe Experience Platform 客群。<!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 ## 如果用於建立對象和擴充對象使用案例模式的資料沒有持續存在，如何暫時儲存？

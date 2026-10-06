@@ -6,13 +6,12 @@ exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
 TQID: https://experienceleague.adobe.com/SJSO3icKYWUUDUZJsQhZfjjw6QjITphRIuRZpv-5394
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 2084
+source-wordcount: '2084'
 ht-degree: 35%
-
 ---
-
 # 建置您的第一個查詢 {#build-query}
 
 若要開始建立查詢，請根據您要執行的動作，從您選擇的位置存取查詢建模器。 「查詢建模工具」會以空白畫布開啟。 選取&#x200B;**+**&#x200B;按鈕以設定查詢的第一個節點。
@@ -27,7 +26,7 @@ ht-degree: 35%
 
 * **群組運運算元** (AND、OR、EXCEPT)可讓您將圖表中的篩選元件群組在一起。 它們會在篩選元件之前新增到現有轉變上。 [瞭解如何使用運運算元](#filtering)
 
-  範例： *訂閱了「運動」電子報&#x200B;**和**&#x200B;的收件者，他們住在紐約&#x200B;**或**&#x200B;舊金山*。
+  範例： *訂閱了「運動」電子報&#x200B;**和**的收件者，他們住在紐約&#x200B;**或**舊金山*。
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -70,14 +69,14 @@ ht-degree: 35%
    | 大於或等於 | 傳回等於或大於輸入值的所有值。 | 年齡(@age)大於或等於&#39;30&#39;</strong>，將會傳回年齡在30歲或以上的所有收件者。 |
    | 小於或等於 | 傳回等於或小於輸入值的所有值。 | 年齡(@age)小於或等於&#39;60&#39;</strong>，將會傳回年齡在60歲或以下的所有收件者。 |
    | 包含在 | 傳回指定值中包含的結果。 這些值必須以逗號分隔。 | 出生日期(@birthDate)包含在「12/10/1979,12/10/1984」中，將傳回這些日期之間出生的收件者。 |
-   | 不在 | 其運作方式與「包含於」運算子類似。 在此，我們要根據輸入的值排除收件者。 | 出生日期 (@birthDate) 不包含在「12/10/1979,12/10/1984」中。 和上一個範例不同，系統不會傳回這些日期內出生的收件者。 |
+   | 不在 | 其運作方式與「包含於」運算子類似。 在此，我們要根據輸入的值排除收件者。 | 出生日期 (@birthDate) 不在 &#39;12/10/1979,12/10/1984&#39; 之中。 和上一個範例不同，系統不會傳回這些日期內出生的收件者。 |
    | 是空的 | 在此案例中，我們要尋找的結果符合第二個「值」欄中的空白值。 | 行動電話 (@mobilePhone) 是空的會傳回所有沒有行動電話號碼的收件者。 |
    | 不是空的 | 其運作方式與「是空的」運算子相反。 不需要在第二個「值」欄中輸入資料。 | 電子郵件 (@email) 不是空的。 |
    | 開始於 | 傳回以輸入值開頭的結果。 | 帳戶號碼 (@account) 以「32010」開頭。 |
    | 開頭不是 | 傳回不是以輸入值開頭的結果 | 帳戶# (@account)的開頭不是「20」 |
    | 包含 | 傳回至少包含輸入值的結果。 | 包含&#39;mail&#39;</strong>的電子郵件網域(@domain)將傳回包含&#39;mail&#39;的所有網域名稱。 所以也會傳回&#39;gmail.com&#39;網域。 |
    | 不包含 | 傳回不包含輸入值的結果。 | 電子郵件網域(@domain)不包含&#39;vo&#39;</strong>。 在此情況下，將不會傳回包含&#39;vo&#39;的網域名稱。 &#39;voila.fr&#39;網域名稱不會出現在結果中。 |
-   | 類似 | Like與Contains運運算元非常類似。 它可讓您在值中插入%萬用字元。 | 姓氏 (@lastName) 類似「Jon%s」。 在此處，萬一運運算元忘了&#39;n&#39;與&#39;s&#39;之間的遺漏字母，萬一使用萬用字元作為&quot;joker&quot;來尋找名稱&quot;Jones&quot;。 |
+   | 類似 | Like與Contains運運算元非常類似。 它可讓您在值中插入%萬用字元。 | 姓氏 (@lastName) 類似 &#39;Jon%s&#39;。 在此處，萬一運運算元忘了&#39;n&#39;與&#39;s&#39;之間的遺漏字母，萬一使用萬用字元作為&quot;joker&quot;來尋找名稱&quot;Jones&quot;。 |
    | 不類似 | Like與Contains運運算元非常類似。 它可讓您在值中插入%萬用字元。 | 姓氏 (@lastName) 不類似「Smi%h」。 在此，將不會傳回姓氏為&#39;Smi%h&#39;的收件者。 |
 
    +++
@@ -150,7 +149,7 @@ ht-degree: 35%
 
    ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
-### 選取對象 {#audiences}
+### 選取客群 {#audiences}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_selectaudience"

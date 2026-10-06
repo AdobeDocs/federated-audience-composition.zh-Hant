@@ -6,13 +6,12 @@ exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1603
+source-wordcount: '1603'
 ht-degree: 19%
-
 ---
-
 # 建立構成
 
 聯合客群構成可讓您建立構成，以便在其中利用視覺畫布中的各種活動來建立客群。 在建立構成後，產生的客群會儲存到 Adobe Experience Platform 中，並且可以在 Experience Platform 目的地和 Adobe Journey Optimizer 中用來鎖定客戶。
@@ -78,11 +77,11 @@ ht-degree: 19%
 
   **[!UICONTROL 屬性]**&#x200B;區段可讓您設定有關活動執行的一般設定：
 
-   * **[!UICONTROL 執行]**：定義啟動時要執行的動作。
-   * **[!UICONTROL 最長執行期間]**：指定期間，例如&quot;30s&quot;或&quot;1h&quot;。 如果活動在指定的持續時間過後仍未完成，則會觸發警報。 這不會影響組成功能的方式。
-   * **[!UICONTROL 時區]**：選取活動的時區。 同盟對象構成可讓您在同一例項上管理多個國家/地區之間的時間差異。 套用的設定會在建立執行個體時進行設定。
-   * **[!UICONTROL 相似性]**：強制構成活動在特定電腦上執行。 若要這麼做，您必須為相關活動指定一或多個相關性。
-   * **[!UICONTROL 行為]**：定義使用非同步工作時要遵循的程式。
+  * **[!UICONTROL 執行]**：定義啟動時要執行的動作。
+  * **[!UICONTROL 最長執行期間]**：指定期間，例如&quot;30s&quot;或&quot;1h&quot;。 如果活動在指定的持續時間過後仍未完成，則會觸發警報。 這不會影響組成功能的方式。
+  * **[!UICONTROL 時區]**：選取活動的時區。 同盟對象構成可讓您在同一例項上管理多個國家/地區之間的時間差異。 套用的設定會在建立執行個體時進行設定。
+  * **[!UICONTROL 相似性]**：強制構成活動在特定電腦上執行。 若要這麼做，您必須為相關活動指定一或多個相關性。
+  * **[!UICONTROL 行為]**：定義使用非同步工作時要遵循的程式。
 
   **[!UICONTROL 錯誤管理]**&#x200B;區段可讓您指定活動發生錯誤時要執行的動作。
 
@@ -92,7 +91,7 @@ ht-degree: 19%
 
 * **記錄檔與工作**：檢視所選活動的記錄檔與工作。
 
-## 開始並監控您的構成 {#start-and-monitor}
+## 開始並監視您的構成 {#start-and-monitor}
 
 將活動新增至構成後，即可開始構成執行。 若要開始撰寫，請選取畫面右上角的&#x200B;**[!UICONTROL 開始]**&#x200B;按鈕。
 
@@ -163,12 +162,12 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_segmentation"
 >title="構成分段"
->abstract="依預設，只保留最後一次執行構成的工作表。 您可以啟用此選項以保留工作表格用於測試目的。 它必須&#x200B;**僅**&#x200B;在開發或中繼環境中使用。 絕不能在生產環境中進行檢查。"
+>abstract="依預設，只保留最後一次執行構成的工作表。 您可以啟用此選項以保留工作表格用於測試目的。 它必須&#x200B;**僅**&#x200B;在開發或中繼環境中使用。 絕不能在生產環境中勾選此選項。"
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_error"
 >title="錯誤管理設定"
->abstract="在此區段中，您可以定義執行期間應如何管理錯誤。 您可以選擇暫停流程、忽略一定數量的錯誤，或是停止構成執行。"
+>abstract="在此區段中，您可以定義執行期間應如何管理錯誤。 您可以選擇暫停流程、忽略一定數量的錯誤，或停止構成的執行。"
 
 存取構成時，您可以存取進階設定，以讓您定義構成在發生錯誤時的行為方式。
 

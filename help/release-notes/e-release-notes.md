@@ -7,19 +7,23 @@ exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 TQID: https://experienceleague.adobe.com/0EDM9gSVZCkdKfhZihxhJJL2TZyGxv1Hvm1azjaPUAA
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 87b5c0ce27eef85fe7eb6a06df903a5701ecd83f
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1191
+source-wordcount: '1191'
 ht-degree: 90%
-
 ---
-
 # 版本注意事項 {#rn-new}
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能增強並修正錯誤。 所有變更都已整合在這些發行說明中。 [!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。 若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
@@ -68,7 +72,7 @@ ht-degree: 90%
 
 * **AI 助理**
 
-  AI 助理是一項使用者介面功能，旨在協助您導覽和了解 Adobe 的概念，並獲取指定環境的運作洞察。 其適用於 Adobe Experience Cloud 的多項產品，包括聯合客群構成。 [了解更多](../start/audiences.md)
+  AI 助理是一項使用者介面功能，旨在協助您導覽和了解 Adobe 的概念，並獲取您特定環境的運作洞察。 其適用於 Adobe Experience Cloud 的多項產品，包括聯合客群構成。 [了解更多](../start/audiences.md)
 
 * **資料模型名稱**
 
@@ -171,7 +175,7 @@ ht-degree: 90%
 
 * **支援透過 AWS PrivateLink 安全地存取 Snowflake**
 
-  現在支援透過PrivateLink安全存取外部Snowflake資料倉儲。 請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 上，並且與您的聯合客群構成環境位於同一區域。 請聯絡您的 Adobe 代表，協助您設定 Snowflake 帳戶的安全存取權。 [了解更多](../connections/home.md#snowflake)
+  現在支援透過PrivateLink安全存取外部Snowflake資料倉儲。 請注意，您的 Snowflake 帳戶必須託管在 Amazon Web Services (AWS) 上，並且與您的聯合客群構成環境位於同一區域。 請聯絡您的 Adobe 代表，以協助您設定 Snowflake 帳戶的安全存取權。 [了解更多](../connections/home.md#snowflake)
 
 * **Amazon Redshift Serverless 支援**
 
@@ -193,7 +197,7 @@ ht-degree: 90%
 
 聯合客群構成讓企業能夠用靈活存取更多企業資料倉儲，使用關鍵企業資料集來構成客群，並提升品牌主導的即時體驗。 使用此新方法，身為 [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/home){target="_blank"} 和/或 [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"} 使用者，您可以直接聯合現有資料倉儲中的客群資料，擴充在一個系統中的 Adobe Experience Platform 客群。
 
-市場上有越來越多企業希望能夠靈活地使用倉儲資料集來構成客群，而聯合客群構成滿足了這樣的需求。 企業能夠藉此減少資料移動，同時讓行銷團隊能夠使用關鍵客群資料來滿足使用案例要求及提升個人化體驗。
+市場上有越來越多企業希望能夠靈活地使用倉儲資料集來構成客群，而聯合客群構成滿足了這樣的需求。 企業能夠藉此減少資料移動，同時讓行銷團隊能夠使用關鍵客群資料來滿足使用案例要求，並支援個人化體驗。
 
 若要了解更多有關聯合客群構成功能的資訊，請參閱[此頁面](../overview.md)和[常見問題](../faq.md)。
 

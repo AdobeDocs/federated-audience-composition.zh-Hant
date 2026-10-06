@@ -5,17 +5,19 @@ exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
 TQID: https://experienceleague.adobe.com/f9H56k6sIfCskuaO1yhHcETFFqLnfufpP2riTT-iGAg
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1286
+source-wordcount: '1286'
 ht-degree: 79%
-
 ---
-
 # 資料控管、隱私權和安全性
 
 >[!IMPORTANT]
@@ -48,9 +50,9 @@ Federated Audience Composition提供數種服務和工具，可讓您遵守業�
 
 由於同盟對象構成&#x200B;**不會**&#x200B;儲存任何資料倉儲的任何客戶資料，因此您可以使用Adobe Experience Platform Privacy Service來遵守資料主體和資料刪除請求。
 
-例如，當您使用構成畫布中的儲存活動區塊建立客群時，產生的客群將作為外部客群儲存在 Experience Platform 的資料湖中。 此外部客群是以其身分欄位和身分命名空間加以標記。 因此，您可以使用隱私權服務來存取和刪除具有外部客群的輪廓。
+例如，當您使用構成畫布中的儲存活動區塊建立客群時，產生的客群將作為外部客群儲存在 Experience Platform 的資料湖中。 此外部客群是以其身分識別欄位和身分識別命名空間加以標記。 因此，您可以使用隱私權服務來存取和刪除具有外部客群的輪廓。
 
-或者，在使用構成畫布中的儲存輪廓活動建立輪廓擴充後，產生的擴充將作為啟用輪廓的結構描述和啟用輪廓的資料集儲存在 Experience Platform 中。 此擴充資料是以身分欄位和身分命名空間加以標記。 因此，您可以使用隱私權服務來存取和清理這些輪廓。
+或者，在使用構成畫布中的儲存輪廓活動建立輪廓擴充後，產生的擴充將作為啟用輪廓的結構描述和啟用輪廓的資料集儲存在 Experience Platform 中。 此擴充資料是以身分識別欄位和身分識別命名空間加以標記。 因此，您可以使用隱私權服務來存取和清理這些輪廓。
 
 如需關於隱私權服務的詳細資訊，請詳閱[隱私權服務概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/home){target="_blank"}。
 
@@ -66,7 +68,7 @@ Federated Audience Composition提供數種服務和工具，可讓您遵守業�
 
 例如，當您使用構成畫布中的儲存活動區塊建立客群時，產生的客群將作為外部客群儲存在 Experience Platform 的資料湖中。 Experience Platform 在啟動期間自動支援同意驗證。 如需更多資訊，請詳閱[分段服務常見問題](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/faq#consent){target="_blank"}。
 
-或者，在使用構成畫布中的儲存輪廓活動建立輪廓擴充後，產生的擴充將作為啟用輪廓的結構描述和啟用輪廓的資料集儲存在 Experience Platform 中。 如果是現有輪廓，可用的同意屬性會在啟動期間自動生效。 如果是新輪廓，在輪廓提取期間提供的同意屬性將在啟動期間自動生效。 如需將同意套用於輪廓的詳細資訊，請詳閱[同意和偏好設定欄位群組指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}。
+或者，在使用構成畫布中的儲存輪廓活動建立輪廓擴充後，產生的擴充將作為啟用輪廓的結構描述和啟用輪廓的資料集儲存在 Experience Platform 中。 如果是現有輪廓，可用的同意屬性會在啟動期間自動生效。 如果是新輪廓，在輪廓攝取期間提供的同意屬性將在啟用期間自動生效。 如需將同意套用於輪廓的詳細資訊，請詳閱[同意和偏好設定欄位群組指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}。
 
 如需套用同意的詳細資訊，請詳閱[管理原則 UI 指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}。
 
@@ -108,7 +110,7 @@ Federated Audience Composition提供數種服務和工具，可讓您遵守業�
 
 ### 存取控制 {#access-control}
 
-您可以在欄位和角色層級控制對聯合客群構成的存取。 您可以使用這些存取控制來強制施行資料治理原則，限制敏感資訊的曝露，並將存取權與使用者職責相符。
+您可以在欄位和角色層級控制對聯合客群構成的存取。 您可以使用這些存取控制來強制施行資料治理原則，限制敏感資訊的曝露，並使存取權與使用者職責相符。
 
 如需同盟對象構成中存取控制的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md){target="_blank"}。
 
