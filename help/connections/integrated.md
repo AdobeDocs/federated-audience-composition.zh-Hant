@@ -347,7 +347,7 @@ Experience Platform同盟對象構成可讓您從協力廠商資料倉儲建立�
 | ----- | ----------- |
 | 資料庫 | 資料庫的名稱。 若在伺服器名稱中指定此專案，此欄位可保留空白。 |
 | 工作結構描述 | 用於工作表的資料庫綱要名稱。 <br/><br/>**注意：**&#x200B;只要您擁有連線至此結構描述所需的許可權，就可以使用資料庫中的&#x200B;**any**&#x200B;結構描述，包括用於暫時資料處理的結構描述。 但是，當使用相同資料庫連線多個沙箱時，**必須**&#x200B;使用不同的工作結構描述。 |
-| 私密金鑰 | Snowflake帳戶的Base64編碼私密金鑰。 您可以產生加密或未加密的私密金鑰。 如果您使用加密的私密金鑰，則在對Experience Platform進行驗證時，也必須提供私密金鑰複雜密碼。 如需詳細資訊，請參閱[擷取Snowflake私密金鑰](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)的指南。 |
+| 私密金鑰 | Snowflake帳戶的Base64編碼私密金鑰。 您可以產生加密或未加密的私密金鑰。 如果您使用加密的私密金鑰，則在對Experience Platform進行驗證時，也必須提供私密金鑰複雜密碼。 如需詳細資訊，請參閱[擷取Snowflake私密金鑰](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/databases/snowflake)的指南。 |
 | 私密金鑰密碼短語 | 私密金鑰複雜密碼是附加的安全性層級，在使用加密的私密金鑰進行驗證時必須使用此層級。 如果您使用未加密的私密金鑰，則不需要提供複雜密碼。 |
 | 選項 | 連線的其他選項。 下表列出可用的選項。 |
 
