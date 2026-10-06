@@ -55,7 +55,7 @@ ht-degree: 11%
 
   您現在可以在Journey Optimizer讀取對象歷程中善用FAC對象屬性當作補充識別碼。 這可讓您在多個實體（例如帳戶或訂閱層級）啟用對象。
 
-  如需詳細資訊，請參閱歷程指南](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的[使用補充識別碼。
+  如需詳細資訊，請參閱歷程指南[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的使用補充識別碼。
 
 ## 2026 年 4 月版 {#fac-26-04}
 

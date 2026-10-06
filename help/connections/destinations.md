@@ -45,7 +45,7 @@ Adobe Experience Platform允許使用&#x200B;**Adobe同盟對象組合目的地*
 
 在&#x200B;**[!UICONTROL 警示]**&#x200B;區段中，您可以啟用警示以接收有關您目的地之資料流狀態的通知。 其中包括資料流執行延遲、執行失敗、執行成功、執行開始和啟動略過的警示。
 
-如需警示的詳細資訊，請參閱Adobe Experience Platform關於使用UI](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}訂閱目的地警示的檔案[。
+如需警示的詳細資訊，請參閱Adobe Experience Platform關於使用UI[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}訂閱目的地警示的檔案。
 
 ![顯示目的地可用的警示。](assets/destinations/alerts.png)
 
