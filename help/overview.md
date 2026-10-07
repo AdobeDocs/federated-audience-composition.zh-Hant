@@ -5,19 +5,23 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 TQID: https://experienceleague.adobe.com/eYN6lkQ52Ic2r-G3k3JXq89leFOBdx6VPvZKQNLcE7Y
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1280
+source-wordcount: '1280'
 ht-degree: 55%
-
 ---
-
 # 聯合客群構成概觀
 
 同盟對象構成可讓您從協力廠商資料倉儲建立及擴充對象，並將對象匯入至Adobe Experience Platform。 這可提供簡單而強大的解決方案，讓您直接在Adobe Real-Time Customer Data Platform或Adobe Journey Optimizer等下游服務中連線企業資料倉儲，並對資料倉儲的表格執行查詢。 因此，您可以存取儲存在資料倉儲和雲端儲存平台（例如Amazon Redshift和Azure Synapse Analytics）的客戶資料。
@@ -41,13 +45,13 @@ ht-degree: 55%
 聯合客群構成支援&#x200B;**三個**&#x200B;使用案例類別：客群建立、客群擴充和客戶輪廓擴充。
 
 * **對象建立**：您可以從資料倉儲建立對象，並將這些對象組成至Experience Platform，以便透過行銷人員友善的拖放使用者介面用於Real-Time CDP或Journey Optimizer。 如此，您便可以查詢資料倉儲，而無需複製敏感的底層資料或複製現有資料。
-   * **例如：**&#x200B;使用倉儲中的歷史交易資料來建立由高價值過往購買者組成的客群，而無需將這些交易複製到 Experience Platform 中。
+  * **例如：**&#x200B;使用倉儲中的歷史交易資料來建立由高價值過往購買者組成的客群，而無需將這些交易複製到 Experience Platform 中。
 
 * **對象擴充**：您可以使用資料倉儲中的其他資料集，並將此資訊覆蓋對象，在Experience Platform中為現有對象新增更多詳細資料，而完全無須將基礎資料複製到Experience Platform。 透過客群擴充，您便可以使用擴充的客群來提供更好的個人化。
-   * **例如：**&#x200B;利用由高價值過往購買者組成的聯合客群構成客群來擴充由購物車捨棄者組成的 Experience Platform 客群，以提供有針對性的優惠。
+  * **例如：**&#x200B;利用由高價值過往購買者組成的聯合客群構成客群來擴充由購物車捨棄者組成的 Experience Platform 客群，以提供有針對性的優惠。
 
 * **設定檔擴充**：您可以從資料倉儲中選取個別客戶屬性，以增強Experience Platform設定檔。 透過將聯合資料新增至這些輪廓，您便可以更好地支援由傳入客戶訊號所觸發的即時體驗。
-   * **例如：**&#x200B;利用聯合客群中的資訊來擴充 Experience Platform 輪廓。 對於屬於高價值過往購買者聯合客群的網站訪客，您現在可以利用他們的網站上行為所觸發的針對性優惠來向他們推銷。
+  * **例如：**&#x200B;利用聯合客群中的資訊來擴充 Experience Platform 輪廓。 對於屬於高價值過往購買者聯合客群的網站訪客，您現在可以利用他們的網站上行為所觸發的針對性優惠來向他們推銷。
 
 ![圖表](assets/overview/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
@@ -65,7 +69,7 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 
 3. **轉換您的資料**：套用資料操作技術來修改資料元素的格式、結構或值，使其相容或適用於特定的分析或應用程式。
 
-4. **組成您的對象**：建立、協調和建立對象。 如需構成對象的詳細資訊，請閱讀[構成概觀](./compositions/home.md)。 您也可以透過 Adobe Experience Platform Audience Portal 和目標系統，更新或重複使用現有的客群。 若要了解更多資訊，請參閱[此頁面](./connections/destinations.md)
+4. **組成您的對象**：建立、協調和建立對象。 如需構成對象的詳細資訊，請閱讀[構成概觀](./compositions/home.md)。 您也可以透過 Adobe Experience Platform Audience portal 和目標系統，更新或重複使用現有的客群。 若要了解更多資訊，請參閱[此頁面](./connections/destinations.md)
 
 >[!NOTE]
 >
@@ -145,5 +149,5 @@ Adobe 聯合客群構成可讓您直接從資料庫建立和更新 Adobe Experie
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
 >title="選取目標市場選擇維度"
->abstract="您可以透過目標選擇維度定義操作的目標群體：收件者、合約受益人、操作者、訂閱者等。預設情況下，對於電子郵件和 SMS，目標是從內建的「收件者」表格中所選取。 對於推播通知，預設目標市場選擇維度是訂閱者應用程式。"
+>abstract="您可以透過目標選擇維度定義操作的目標群體：收件者、合約受益人、操作者、訂閱者等。預設情況下，對於電子郵件和 SMS，目標是從內建的「收件者」表格中所選取。 對於推播通知，預設目標維度是訂閱者應用程式。"
 

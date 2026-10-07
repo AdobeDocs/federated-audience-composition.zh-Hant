@@ -6,17 +6,19 @@ exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 TQID: https://experienceleague.adobe.com/-SzMG0wJnEcqFJPJZqBWKD8y22d4Z525Obe5CnyhcfE
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 655
+source-wordcount: '655'
 ht-degree: 84%
-
 ---
-
 # 組合概述
 
 >[!AVAILABILITY]
@@ -28,7 +30,7 @@ ht-degree: 84%
 >
 >如需有關必要權限的詳細資訊，請參閱[存取控制指南](/help/governance-privacy-security/access-control.md)。
 
-聯合客群構成可讓您建立構成，以便在其中利用視覺畫布中的各種活動來建立客群。 在建立構成後，產生的客群會儲存到 Adobe Experience Platform 中，並且可以在 Experience Platform 目的地和 Adobe Journey Optimizer 中用來鎖定客戶。
+聯合客群構成可讓您建立構成，以便在其中善用視覺畫布中的各種活動來建立客群。 在建立構成後，產生的客群會儲存到 Adobe Experience Platform 中，並且可以在 Experience Platform 目的地和 Adobe Journey Optimizer 中用來鎖定客戶。
 
 ![聯合客群構成內顯示了一個構成工作流程範例。](assets/compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
@@ -56,7 +58,7 @@ ht-degree: 84%
 | ------ | ----------- |
 | **[!UICONTROL 草稿]** | 構成已建立並儲存。 |
 | **[!UICONTROL 進行中]** | 構成已執行且正在執行中。 |
-| **[!UICONTROL 已停止]** | 構成已執行完成並停止。 |
+| **[!UICONTROL 已停止]** | 構成執行已完成，並已停止。 |
 | **[!UICONTROL 已暫停]** | 構成已暫停執行。 |
 | **[!UICONTROL 錯誤]** | 構成執行期間遇到錯誤。 若要檢視有關錯誤的更多資訊，請開啟該構成並存取記錄。 |
 
@@ -95,4 +97,4 @@ ht-degree: 84%
 
 ## 後續步驟
 
-在閱讀本指南後，您已了解如何為您的構成存取、管理和建立存取標籤。 如需有關將客群作為一個整體進行處理的詳細資訊，請參閱[客群指南](../start/audiences.md)。
+在閱讀本指南後，您已了解如何存取和管理您的構成，以及為其建立存取標籤。 如需有關將客群作為一個整體進行處理的詳細資訊，請參閱[客群指南](../start/audiences.md)。

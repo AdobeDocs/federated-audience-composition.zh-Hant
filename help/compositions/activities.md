@@ -6,13 +6,12 @@ exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 5478
+source-wordcount: '5478'
 ht-degree: 37%
-
 ---
-
 # 活動概觀
 
 在Federated Audience Composition中，您可以新增有助於定義對象的活動和轉變。
@@ -148,7 +147,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
 >title="選取要組合的集合"
->abstract="在「**要加入的集合**」一節中，從傳入轉變中選取「**主要集合**」。 這是從中排除元素的集。 其他集會先設定相符的元素，然後才會從主要集予以排除。"
+>abstract="在「**要加入的集合**」一節中，從傳入轉變中選取「**主要集合**」。 這是排除元素所依據的集合。 其他集會先設定相符的元素，然後才會從主要集予以排除。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
@@ -262,7 +261,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="擴充活動"
->abstract="「**擴充活動**」可讓您使用資料庫中的其他資訊來增強目標資料。 這通常會用於分段活動之後的構成。"
+>abstract="「**擴充活動**」可讓您使用資料庫中的其他資訊來增強目標資料。 這通常會用於細分活動之後的構成。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
@@ -272,7 +271,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_simplejoin"
 >title="連結定義"
->abstract="在工作表資料和同盟資料庫之間建立連結。"
+>abstract="在工作表格資料和聯合資料庫之間建立連結。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_reconciliation"
@@ -385,8 +384,8 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
->title="儲存一個對象"
->abstract="使用此活動從構成中的群體運算上游建立新的客群。 建立的對象將新增至對象清單中，並可透過「**對象**」選單使用。"
+>title="儲存一個客群"
+>abstract="使用此活動，根據構成中上游計算出的群體建立新的客群。 建立的對象將新增至對象清單中，並可透過「**對象**」選單使用。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -436,7 +435,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset"
 >title="儲存欄位"
->abstract="儲存欄位活動讓您透過整合外部倉儲的資料，使 Experience Platform 結構描述更為多元，並讓您可以運用額外的屬性來增強 Experience Platform 結構描述。 "
+>abstract="儲存欄位活動可讓您透過聯合來自外部倉儲的資料，使用額外屬性豐富 Experience Platform 結構描述。 "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
@@ -627,7 +626,7 @@ ht-degree: 37%
 建立篩選條件後，即可套用下列其他規則：
 
 - **啟用限制**：限制允許分割成子集的設定檔數目。 您可以設定為母體的數字或百分比。
-   - 如果啟用限制，您也可以根據特定設定檔屬性來排名選取的設定檔。 開啟&#x200B;**啟用排序**，您可以依遞增或遞減順序排序屬性。
+  - 如果啟用限制，您也可以根據特定設定檔屬性來排名選取的設定檔。 開啟&#x200B;**啟用排序**，您可以依遞增或遞減順序排序屬性。
 - **略過空的轉變**：如果傳入的母體是空的，則停用轉變。
 
 現在，子集已設定完畢，您可以再設定幾個其他選項。
