@@ -3,9 +3,9 @@ user-guide-title: Experience Platform 聯合客群構成
 title: Experience Platform 聯合客群構成文件
 breadcrumb-title: Experience Platform 聯合客群構成
 source-git-commit: aafa842b00c7c283953badf68171c151558ece5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '128'
-ht-degree: 87%
+ht-degree: 100%
 ---
 
 # Experience Platform 聯合客群構成文件 {#using}
@@ -21,14 +21,14 @@ ht-degree: 87%
   - [存取控制](governance-privacy-security/access-control.md)
 - 連線 {#connections}
   - [連線概觀](connections/home.md)
-  - [新增 — Experience Platform中的Source連線](connections/integrated.md)
+  - [新增 - Experience Platform 中的來源連線](connections/integrated.md)
   - [資料存取權限矩陣](connections/fda-rights.md)
   - [使用外部資料擴充 Adobe Experience Platform 客群](connections/destinations.md)
-  - [多實體目標定位](connections/multi-entity-targeting.md)
+  - [多實體目標選擇](connections/multi-entity-targeting.md)
   - [私人連線](connections/private-connection.md)
 - 資料模型與結構描述 {#models}
   - [結構描述概觀](data-modelling/schemas.md)
-  - [新增 — Experience Platform中的結構描述](data-modelling/schemas-integrated.md)
+  - [新增 - Experience Platform 中的結構描述](data-modelling/schemas-integrated.md)
   - [資料模型概觀](data-modelling/models.md)
 - 構成 {#compositions}
   - [構成概觀](compositions/home.md)
