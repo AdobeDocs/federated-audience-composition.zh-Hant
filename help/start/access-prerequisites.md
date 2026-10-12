@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # 先決條件和護欄 {#fac-access}
 
@@ -64,7 +64,7 @@ ht-degree: 95%
 
    ![](assets/sandbox_2.png)
 
-如果您想在另一個沙箱上使用同盟對象構成，請聯絡Adobe客戶服務以請求沙箱切換。
+如果您想在另一個沙箱上使用聯合客群構成，請聯絡 Adobe 客戶服務以請求沙箱切換。
 
 ## 權限 {#permissions}
 
