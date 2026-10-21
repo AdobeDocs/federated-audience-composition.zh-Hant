@@ -69,7 +69,7 @@ ht-degree: 59%
 | ------ | ----------- |
 | **[!UICONTROL 重複]** | 複製選取的構成。 |
 | **[!UICONTROL 刪除]** | 刪除選取的構成。 |
-| **[!UICONTROL 新增到封裝]** | 在沙箱之間移動構成。 如需有關此功能的詳細資訊，請閱讀[沙箱工具手冊](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)。 |
+| **[!UICONTROL 新增到封裝]** | 在沙箱之間移動構成。 如需有關此功能的詳細資訊，請閱讀[沙箱工具手冊](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/ui/sandbox-tooling)。 |
 
 若要縮小清單範圍，並找到您想要的構成，您可以搜尋清單，並依狀態或上次處理日期篩選構成。
 
