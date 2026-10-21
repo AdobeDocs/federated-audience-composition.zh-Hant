@@ -14,10 +14,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 84%
+source-wordcount: '765'
+ht-degree: 59%
 ---
 # 組合概述
 
@@ -32,7 +32,7 @@ ht-degree: 84%
 
 聯合客群構成可讓您建立構成，以便在其中善用視覺畫布中的各種活動來建立客群。 在建立構成後，產生的客群會儲存到 Adobe Experience Platform 中，並且可以在 Experience Platform 目的地和 Adobe Journey Optimizer 中用來鎖定客戶。
 
-![聯合客群構成內顯示了一個構成工作流程範例。](assets/compositions/composition-example.png){zoomable="yes"}{width="70%"}
+![聯合客群構成內顯示了一個構成工作流程範例。](/help/compositions/assets/home/composition-example.png){zoomable="yes"}{width="70%"}
 
 ## 組合元件 {#components}
 
@@ -50,37 +50,42 @@ ht-degree: 84%
 
 您可以透過「**[!UICONTROL 客戶]**」區段內「**[!UICONTROL 聯合構成]**」標籤中的 Adobe Experience Platform「**[!UICONTROL 客群]**」選單來存取構成。
 
-在此畫面中，您可以建立新的構成，並存取現有的構成。 您也可以選取現有構成名稱旁邊的 ![省略符號](/help/assets/icons/more.png) 按鈕，以複製或刪除該構成。
+![已反白顯示Federated Compositions和Audiences按鈕，顯示如何存取Federated Compositions區段。](/help/compositions/assets/home/access-fac-compositions.png){zoomable="yes"}{width="70%"}
 
-您還可以檢視有關構成的資訊，包括名稱、狀態、建立者和上次修改日期。
+在此畫面中，您可以檢視關於構成和建立新構成的資訊。
 
-| 狀態 | 說明 |
+![已顯示同盟組合清單。](/help/compositions/assets/home/composition-list.png){zoomable="yes"}{width="70%"}
+
+| 欄位 | 說明 |
+| ----- | ----------- |
+| **[!UICONTROL 名稱]** | 構成的名稱。 如果您選取構成，可以編輯構成。 如需建立和編輯構成的相關資訊，請參閱[建立構成指南](/help/compositions/create-composition.md)。 |
+| **[!UICONTROL 狀態]** | 構成狀態。 可能的值包括[!UICONTROL 草稿]、[!UICONTROL 進行中]、[!UICONTROL 已停止]、[!UICONTROL 已暫停]和[!UICONTROL 錯誤]。 <ul><li>**[!UICONTROL 草稿]**：已建立並儲存構成。</li><li>**[!UICONTROL 進行中]**：構成已經執行，目前正在執行。</li><li>**[!UICONTROL 已停止]**：構成執行已完成並已停止。</li><li>**[!UICONTROL 已暫停]**：構成執行已暫停。</li><li>**[!UICONTROL 錯誤]**：構成執行發生錯誤。 若要檢視有關錯誤的更多資訊，請開啟該構成並存取記錄。</li></ul> 若要瞭解如何開始或停止組合，請閱讀[建立組合指南](./create-composition.md#monitor-logs)。 |
+| **[!UICONTROL 建立者：]** | 建立構成之人員的姓名和電子郵件地址。 |
+| **[!UICONTROL 已修改]** | 上次更新構成時的日期和時間。 |
+
+您也可以選取組合名稱旁邊的![省略符號](/help/assets/icons/more.png)按鈕，對組合執行快速動作。
+
+| 動作 | 說明 |
 | ------ | ----------- |
-| **[!UICONTROL 草稿]** | 構成已建立並儲存。 |
-| **[!UICONTROL 進行中]** | 構成已執行且正在執行中。 |
-| **[!UICONTROL 已停止]** | 構成執行已完成，並已停止。 |
-| **[!UICONTROL 已暫停]** | 構成已暫停執行。 |
-| **[!UICONTROL 錯誤]** | 構成執行期間遇到錯誤。 若要檢視有關錯誤的更多資訊，請開啟該構成並存取記錄。 |
-
-您可以在[建立組合指南](./create-composition.md#monitor-logs)中瞭解如何開始或停止組合。
-
-![顯示了一份可用的構成清單。](assets/compositions/compositions-list.png){zoomable="yes"}{width="70%"}
+| **[!UICONTROL 重複]** | 複製選取的構成。 |
+| **[!UICONTROL 刪除]** | 刪除選取的構成。 |
+| **[!UICONTROL 新增到封裝]** | 在沙箱之間移動構成。 如需有關此功能的詳細資訊，請閱讀[沙箱工具手冊](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/ui/sandbox-tooling)。 |
 
 若要縮小清單範圍，並找到您想要的構成，您可以搜尋清單，並依狀態或上次處理日期篩選構成。
 
 您也可以透過新增或移除欄來自訂清單。 若要執行此操作，請選取「**[!UICONTROL 設定欄]**」按鈕，並新增或移除所需的輸出欄。
 
-![顯示了一份您可以新增至構成瀏覽頁面的可用欄清單。](assets/compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
+![顯示了一份您可以新增至構成瀏覽頁面的可用欄清單。](/help/compositions/assets/home/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### 套用存取標籤 {#access-labels}
 
 若要將存取標籤套用至特定構成，請選取該構成，然後選取「**[!UICONTROL 管理存取權]**」。
 
-![構成畫布內醒目標示了「管理存取權」按鈕。](assets/compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
+![構成畫布內醒目標示了「管理存取權」按鈕。](/help/compositions/assets/home/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 「**[!UICONTROL 管理存取權]**」彈出視窗隨即顯示。 在此頁面上，您可以將適用的存取權和資料治理標籤套用至您的構成。
 
-![「管理存取權」彈出視窗隨即顯示。 這會顯示一份您可以套用至構成的所有可用標籤清單。](assets/compositions/manage-access.png){zoomable="yes"}{width="70%"}
+![「管理存取權」彈出視窗隨即顯示。 這會顯示一份您可以套用至構成的所有可用標籤清單。](/help/compositions/assets/home/manage-access.png){zoomable="yes"}{width="70%"}
 
 | 標籤類型 | 說明 |
 | ---------- | ----------- |
