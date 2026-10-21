@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '5478'
+source-wordcount: '5480'
 ht-degree: 37%
 ---
 # 活動概觀
@@ -215,7 +215,7 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
->title="用於識別重複資料的欄位"
+>title="用於識別重複項目的欄位"
 >abstract="在&#x200B;**[!UICONTROL 用於識別重複項目的欄位]**&#x200B;區段，選取「**[!UICONTROL 新增屬性]**」按鈕，指定可允許識別重複之相同值的欄位，例如：電子郵件地址、名字、姓氏等。欄位的排序方式讓您能夠指定優先處理的欄位。"
 
 >[!CONTEXTUALHELP]
@@ -426,7 +426,7 @@ ht-degree: 37%
 
 新增對應後，您可以選取主要身分和名稱空間，以識別資料庫中的目標設定檔。 主要身分欄位用於識別設定檔，而身分名稱空間會作為識別身分的金鑰。
 
-此外，您可以設定對象的資料有效期。 資料到期日決定對象會籍到期的天數。 資料有效期的範圍可以是1到90天。 預設情況下，此值設定為30。
+此外，您可以設定對象的資料有效期。 資料到期日決定對象會籍到期的天數。 資料到期日可介於1到3650天（10年）之間。 預設情況下，此值設定為30。
 
 +++
 
@@ -515,7 +515,7 @@ ht-degree: 37%
 
 >[!IMPORTANT]
 >
->如果選取的資料集&#x200B;**未**&#x200B;啟用更新插入，資料將會被&#x200B;**取代**。 若要瞭解如何為資料集啟用更新插入，請閱讀[啟用更新插入指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/enable-upsert)。
+>如果選取的資料集&#x200B;**未**&#x200B;啟用更新插入，資料將會被&#x200B;**取代**。 若要瞭解如何為資料集啟用更新插入，請閱讀[啟用更新插入指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)。
 
 將&#x200B;**[!UICONTROL 儲存欄位]**&#x200B;活動新增至撰寫後，您可以為該活動加上標籤，並選取您要使用的Adobe Experience Platform結構描述。 此結構描述可以是標準結構描述或關聯結構描述。
 

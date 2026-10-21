@@ -6,14 +6,34 @@ TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 11%
+source-wordcount: '973'
+ht-degree: 9%
 ---
 # 發行說明
 
 [!DNL Federated Audience Composition]持續提供新功能、現有功能增強並修正錯誤。 所有變更都已整合在這些發行說明中。 [!DNL Federated Audience Composition] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。 若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+
+## 2026年9月發行 {#fac-26-09}
+
+9月發行的Federated Audience Composition支援下列功能：
+
+| 適用於同盟連線和結構描述的全新統一體驗 |
+| --- |
+| 您現在可以直接在Adobe Experience Platform UI中存取同盟連線和結構描述。 若要瞭解如何建立同盟連線，請參閱Experience Platform UI指南中的[建立連線](/help/connections/integrated.md)。 若要瞭解如何建立方案，請閱讀[方案概覽](/help/data-modelling/schemas-integrated.md)。 |
+
+| 同盟對象構成對象的沙箱工具支援 |
+| --- |
+| 您現在可以使用Experience Platform沙箱工具功能，將同盟對象構成對象從一個沙箱移至另一個沙箱。 如需使用沙箱工具的詳細資訊，請閱讀[沙箱工具指南](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)。 |
+
+### 改善 {#fac-26-09-improvements}
+
+此版本隨附下列改善專案。
+
+- 同盟對象組合對象的&#x200B;**資料到期日增加**
+
+  同盟對象構成對象的資料到期日現在已增加到3650天（10年）。
 
 ## 2026 年 7 月版 {#fac-26-07}
 
@@ -29,7 +49,7 @@ ht-degree: 11%
 
 - **在歷程模擬中支援同盟對象組合對象**
 
-  歷程模擬現在可讓您先測試使用同盟對象構成對象建立的歷程，然後再使用模擬使用者發佈。 如需詳細資訊，請參閱[開始使用歷程模擬指南](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)。
+  歷程模擬現在可讓您先測試使用同盟對象構成對象建立的歷程，然後再使用模擬使用者發佈。 如需詳細資訊，請參閱[開始使用歷程模擬指南](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)。
 
 ## 2026 年 6 月版 {#fac-26-06}
 
@@ -55,7 +75,7 @@ ht-degree: 11%
 
   您現在可以在Journey Optimizer讀取對象歷程中善用FAC對象屬性當作補充識別碼。 這可讓您在多個實體（例如帳戶或訂閱層級）啟用對象。
 
-  如需詳細資訊，請參閱歷程指南[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的使用補充識別碼。
+  如需詳細資訊，請參閱歷程指南](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)中的[使用補充識別碼。
 
 ## 2026 年 4 月版 {#fac-26-04}
 
@@ -117,7 +137,7 @@ ht-degree: 11%
 
 | Amazon Web Services (AWS)上Adobe Experience Platform客戶的可用性 |
 | --- |
-| 如果您的Experience Platform執行個體位於AWS，您現在可以使用同盟對象構成。 如需AWS上Experience Platform的詳細資訊，請閱讀[多雲端總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/multi-cloud)。 |
+| 如果您的Experience Platform執行個體位於AWS，您現在可以使用同盟對象構成。 如需AWS上Experience Platform的詳細資訊，請閱讀[多雲端總覽](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)。 |
 
 ### 改善 {#fac-26-01-improvements}
 
