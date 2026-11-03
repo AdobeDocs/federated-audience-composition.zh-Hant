@@ -100,8 +100,8 @@ ht-degree: 2%
 請勿套用至URL、檔案名稱、目錄名稱、程式碼區塊、縮寫或辭彙
 在不翻譯資料庫中。
 
-在連結文字中，移除標籤括弧： `[Adobe](https://www.adobe.com)`，而不是
-`[[!DNL Adobe]](https://www.adobe.com)`.
+在連結文字中，移除標籤括弧： `[Adobe](https://www.adobe.com/tw)`，而不是
+`[[!DNL Adobe]](https://www.adobe.com/tw)`.
 
 ### `[!UICONTROL Label]`： UI控制項
 
@@ -362,7 +362,7 @@ call to action。 請勿以產品名稱開頭或逐字複製第一段落。
 >id="platform_destinations_activate_filename"
 >title="Configure file name"
 >abstract="For file-based destinations, a unique file name is generated per segment. Use the file name editor to create and edit a unique file name or keep the default name."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations.html#file-names" text="Learn more in documentation"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations.html?lang=zh-Hant#file-names" text="Learn more in documentation"
 ```
 
 必要欄位： `id`、`title`、`abstract`。 其他專案皆為選用。
