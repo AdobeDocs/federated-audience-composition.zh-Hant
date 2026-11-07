@@ -143,4 +143,4 @@ ht-degree: 33%
 
 透過此影片瞭解如何建立資料模型：
 
->[!VIDEO](https://video.tv.adobe.com/v/3432020)
+>[!VIDEO](https://video.tv.adobe.com/v/3507571?captions=chi_hant)
