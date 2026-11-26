@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: cff08ca99aa0f02eb593ae2891bc43a42c8fdc0e
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 100%
+ht-degree: 97%
 ---
 # 先決條件和護欄 {#fac-access}
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 ## 沙箱
 
-購買聯合客群構成後，您有權使用兩個沙箱。 若有任何額外的沙箱佈建請求，請聯絡您的 Adobe 代表。
+購買同盟對象構成時，您有權使用五個沙箱。 若有任何額外的沙箱佈建請求，請聯絡您的 Adobe 代表。
 
 若要檢視使用中的聯合客群構成沙箱清單，請依照下列步驟操作：
 
